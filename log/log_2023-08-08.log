@@ -1,0 +1,3 @@
+2023-08-08 11:20:57.610 | DEBUG    | __main__:post:94 - 2023-08-08 11:20:57 发起post请求:模拟xendit1付款成功
+2023-08-08 11:20:57.610 | DEBUG    | __main__:post:95 - 2023-08-08 11:20:57 请求时的入参: /pay/award?accountHolderName=test&accountNumber=081382826301&amount=10000&bankCode=DANA&currency=IDR&description=TestPayout&merchantId=100119&orderNo=TestOrderNo_1691464857609&productId=2023&version=1.0&sign=71395e6e2f6f16fd00c186c3559fdba9
+2023-08-08 11:20:59.555 | DEBUG    | __main__:post:99 - 2023-08-08 11:20:59 接口返回值: {'code': '88001', 'msg': 'chargeId can not be blank'}

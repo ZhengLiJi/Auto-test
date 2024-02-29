@@ -1,0 +1,5 @@
+"Status","Name","Duration in ms","Description"
+"passed","results.history.api.create_order.test_testrade.Test_Case_Order#test_xendit_sit_create_order","2240",""
+"broken","lib.api.create_order.test_testrade.Test_Case_Order#test_xendit_sit_create_order","3",""
+"passed","results.history.api.create_order.test_testrade.Test_Case_Order#test_xendit_sit_create_order","2205",""
+"broken","lib.api.create_order.test_testrade.Test_Case_Order#test_xendit_sit_create_order","8",""

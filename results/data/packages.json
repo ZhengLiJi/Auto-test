@@ -1,0 +1,61 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "lib.api.create_order.test_testrade",
+    "children" : [ {
+      "name" : "xendit各支付方式监控",
+      "uid" : "298cb472678747b8",
+      "parentUid" : "0a2d9facfc632d00b169857250e1e1cf",
+      "status" : "broken",
+      "time" : {
+        "start" : 1709111397653,
+        "stop" : 1709111397661,
+        "duration" : 8
+      },
+      "flaky" : true,
+      "parameters" : [ "10000", "'IDR'", "100119", "3", "'0888888881'", "'97fa79f073c7c5e3c97b00b50b156eaa'", "2023" ]
+    }, {
+      "name" : "xendit各支付方式监控",
+      "uid" : "93c666a9a06ce926",
+      "parentUid" : "0a2d9facfc632d00b169857250e1e1cf",
+      "status" : "broken",
+      "time" : {
+        "start" : 1709111397767,
+        "stop" : 1709111397770,
+        "duration" : 3
+      },
+      "flaky" : true,
+      "parameters" : [ "10000", "'IDR'", "100119", "4", "'0888888881'", "'97fa79f073c7c5e3c97b00b50b156eaa'", "2023" ]
+    } ],
+    "uid" : "lib.api.create_order.test_testrade"
+  }, {
+    "name" : "results.history.api.create_order.test_testrade",
+    "children" : [ {
+      "name" : "xendit各支付方式监控",
+      "uid" : "85ac7d4fab6bf4ca",
+      "parentUid" : "dc675a9aad4f17bf4fd9ba223196ead6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1709111744892,
+        "stop" : 1709111747097,
+        "duration" : 2205
+      },
+      "flaky" : false,
+      "parameters" : [ "10000", "'IDR'", "100119", "3", "'0888888881'", "'97fa79f073c7c5e3c97b00b50b156eaa'", "2023" ]
+    }, {
+      "name" : "xendit各支付方式监控",
+      "uid" : "f6af2a1f86988773",
+      "parentUid" : "dc675a9aad4f17bf4fd9ba223196ead6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1709111747106,
+        "stop" : 1709111749346,
+        "duration" : 2240
+      },
+      "flaky" : false,
+      "parameters" : [ "10000", "'IDR'", "100119", "4", "'0888888881'", "'97fa79f073c7c5e3c97b00b50b156eaa'", "2023" ]
+    } ],
+    "uid" : "results.history.api.create_order.test_testrade"
+  } ]
+}

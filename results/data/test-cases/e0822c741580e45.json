@@ -1,0 +1,90 @@
+{
+  "uid" : "e0822c741580e45",
+  "name" : "xendit各支付方式监控",
+  "fullName" : "lib.api.create_order.test_testrade.Test_Case_Order#test_xendit_sit_create_order",
+  "historyId" : "559666e7a567b6493d05ad7d128578fa",
+  "time" : {
+    "start" : 1709111297190,
+    "stop" : 1709111299253,
+    "duration" : 2063
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "c3fe962e6631a327",
+      "name" : "stderr",
+      "source" : "c3fe962e6631a327.txt",
+      "type" : "text/plain",
+      "size" : 1098
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "lib.api.create_order"
+  }, {
+    "name" : "suite",
+    "value" : "test_testrade"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_Case_Order"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-QH40KOLE"
+  }, {
+    "name" : "thread",
+    "value" : "9948-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "lib.api.create_order.test_testrade"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "amount",
+    "value" : "10000"
+  }, {
+    "name" : "currency",
+    "value" : "'IDR'"
+  }, {
+    "name" : "merchant_id",
+    "value" : "100119"
+  }, {
+    "name" : "pay_channel",
+    "value" : "4"
+  }, {
+    "name" : "phone_number",
+    "value" : "'0888888881'"
+  }, {
+    "name" : "private_key",
+    "value" : "'97fa79f073c7c5e3c97b00b50b156eaa'"
+  }, {
+    "name" : "product_id",
+    "value" : "2023"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e0822c741580e45.json",
+  "parameterValues" : [ "10000", "'IDR'", "100119", "4", "'0888888881'", "'97fa79f073c7c5e3c97b00b50b156eaa'", "2023" ]
+}

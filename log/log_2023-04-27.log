@@ -1,0 +1,6 @@
+2023-04-27 16:38:22.590 | DEBUG    | lib.create_order1:post:95 - 2023-04-27 16:38:22 发起post请求:下单
+2023-04-27 16:38:22.591 | DEBUG    | lib.create_order1:post:96 - 2023-04-27 16:38:22 请求时的入参: /pay/createOrder?amount=&currency=&expectPayCodeType=0&merchantId=&orderNo=TestOrderNo_1682584702590&payChannel=&payerName=test&payerPhone=&productId=&subject=TestSubject&version=1.0&sign=d1dfdda5efdf8188a20b1690da6cb568
+2023-04-27 16:38:24.177 | DEBUG    | lib.create_order1:post:100 - 2023-04-27 16:38:24 接口返回值: {'code': '88001', 'msg': 'amount can not be blank'}
+2023-04-27 16:39:06.870 | DEBUG    | lib.create_order1:post:95 - 2023-04-27 16:39:06 发起post请求:下单
+2023-04-27 16:39:06.870 | DEBUG    | lib.create_order1:post:96 - 2023-04-27 16:39:06 请求时的入参: /pay/createOrder?amount=20110&currency=IDR&expectPayCodeType=0&merchantId=100119&orderNo=TestOrderNo_1682584746871&payChannel=5&payerName=test&payerPhone=081382826301&productId=2023&subject=TestSubject&version=1.0&sign=8e0a821b99d72ec4c530d8899f7da13c
+2023-04-27 16:39:08.391 | DEBUG    | lib.create_order1:post:100 - 2023-04-27 16:39:08 接口返回值: {'code': '88011', 'msg': 'this channel is not supported yet', 'sign': 'e5ecde88e5c47f010ffd43aa30f7c64e'}

@@ -1,0 +1,80 @@
+{
+  "f2cbeb567c0fdb1843ccd0ffa42a66e5" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f6af2a1f86988773",
+      "status" : "passed",
+      "time" : {
+        "start" : 1709111747106,
+        "stop" : 1709111749346,
+        "duration" : 2240
+      }
+    } ]
+  },
+  "62185c47ee7b9cff4680b7a8d61dc303" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "298cb472678747b8",
+      "status" : "broken",
+      "statusDetails" : "requests.exceptions.ProxyError: HTTPSConnectionPool(host='sit.tikipay.co', port=443): Max retries exceeded with url: /pay/createOrder?amount=10000&currency=IDR&expectPayCodeType=0&merchantId=100119&orderNo=TestOrderNo_1709111397654&payChannel=3&payerName=test&payerPhone=0888888881&productId=2023&subject=TestSubject&version=1.0&sign=b1279810efeb2b9387ae4d6c03f2f1e2 (Caused by ProxyError('Unable to connect to proxy', SSLError(SSLError(\"bad handshake: SysCallError(-1, 'Unexpected EOF')\"))))",
+      "time" : {
+        "start" : 1709111397653,
+        "stop" : 1709111397661,
+        "duration" : 8
+      }
+    } ]
+  },
+  "559666e7a567b6493d05ad7d128578fa" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "93c666a9a06ce926",
+      "status" : "broken",
+      "statusDetails" : "requests.exceptions.ProxyError: HTTPSConnectionPool(host='sit.tikipay.co', port=443): Max retries exceeded with url: /pay/createOrder?amount=10000&currency=IDR&expectPayCodeType=0&merchantId=100119&orderNo=TestOrderNo_1709111397767&payChannel=4&payerName=test&payerPhone=0888888881&productId=2023&subject=TestSubject&version=1.0&sign=09025c2d8179686de38a1aa2c4495a68 (Caused by ProxyError('Unable to connect to proxy', SSLError(SSLError(\"bad handshake: SysCallError(-1, 'Unexpected EOF')\"))))",
+      "time" : {
+        "start" : 1709111397767,
+        "stop" : 1709111397770,
+        "duration" : 3
+      }
+    } ]
+  },
+  "be4b598c02d54151223999ecfef49e9f" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "85ac7d4fab6bf4ca",
+      "status" : "passed",
+      "time" : {
+        "start" : 1709111744892,
+        "stop" : 1709111747097,
+        "duration" : 2205
+      }
+    } ]
+  }
+}

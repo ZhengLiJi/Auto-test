@@ -1,0 +1,79 @@
+2023-08-10 12:19:43.898 | DEBUG    | __main__:post:58 - 2023-08-10 12:19:43 发起post请求:模拟xendit1付款成功
+2023-08-10 12:19:43.899 | DEBUG    | __main__:post:59 - 2023-08-10 12:19:43 请求时的入参: /pay/payout?paramssign=sign
+2023-08-10 12:19:46.174 | DEBUG    | __main__:post:58 - 2023-08-10 12:19:46 发起post请求:模拟xendit1付款成功
+2023-08-10 12:19:46.175 | DEBUG    | __main__:post:59 - 2023-08-10 12:19:46 请求时的入参: /pay/payout?paramssign=sign
+2023-08-10 12:19:47.842 | DEBUG    | __main__:post:63 - 2023-08-10 12:19:47 接口返回值: {'code': '88070', 'msg': 'merchant permission is not supported'}
+2023-08-10 12:22:29.336 | DEBUG    | __main__:post:58 - 2023-08-10 12:22:29 发起post请求:模拟xendit1付款成功
+2023-08-10 12:22:29.337 | DEBUG    | __main__:post:59 - 2023-08-10 12:22:29 请求时的入参: /pay/payout?paramssign=sign
+2023-08-10 12:22:30.970 | DEBUG    | __main__:post:63 - 2023-08-10 12:22:30 接口返回值: {'code': '88070', 'msg': 'merchant permission is not supported'}
+2023-08-10 12:23:37.517 | DEBUG    | __main__:post:58 - 2023-08-10 12:23:37 发起post请求:模拟xendit1付款成功
+2023-08-10 12:23:37.517 | DEBUG    | __main__:post:59 - 2023-08-10 12:23:37 请求时的入参: /pay/payout?paramssign=sign
+2023-08-10 12:23:39.215 | DEBUG    | __main__:post:63 - 2023-08-10 12:23:39 接口返回值: {'code': '88070', 'msg': 'merchant permission is not supported'}
+2023-08-10 12:23:44.498 | DEBUG    | __main__:post:58 - 2023-08-10 12:23:44 发起post请求:模拟xendit1付款成功
+2023-08-10 12:23:44.498 | DEBUG    | __main__:post:59 - 2023-08-10 12:23:44 请求时的入参: /pay/payout?paramssign=sign
+2023-08-10 12:23:46.135 | DEBUG    | __main__:post:63 - 2023-08-10 12:23:46 接口返回值: {'code': '88070', 'msg': 'merchant permission is not supported'}
+2023-08-10 12:29:10.697 | DEBUG    | __main__:post:58 - 2023-08-10 12:29:10 发起post请求:模拟xendit1付款成功
+2023-08-10 12:29:10.697 | DEBUG    | __main__:post:59 - 2023-08-10 12:29:10 请求时的入参: /pay/payout?paramssign=sign
+2023-08-10 12:29:12.351 | DEBUG    | __main__:post:63 - 2023-08-10 12:29:12 接口返回值: {'code': '88070', 'msg': 'merchant permission is not supported'}
+2023-08-10 14:28:16.711 | DEBUG    | __main__:post:58 - 2023-08-10 14:28:16 发起post请求:模拟xendit1付款成功
+2023-08-10 14:28:30.729 | DEBUG    | __main__:post:58 - 2023-08-10 14:28:30 发起post请求:模拟xendit1付款成功
+2023-08-10 14:28:44.127 | DEBUG    | __main__:post:58 - 2023-08-10 14:28:44 发起post请求:模拟xendit1付款成功
+2023-08-10 14:28:44.127 | DEBUG    | __main__:post:59 - 2023-08-10 14:28:44 请求时的入参: /pay/payout?paramssign=sign
+2023-08-10 14:28:45.955 | DEBUG    | __main__:post:63 - 2023-08-10 14:28:45 接口返回值: {'code': '88070', 'msg': 'merchant permission is not supported'}
+2023-08-10 14:31:56.731 | DEBUG    | __main__:post:57 - 2023-08-10 14:31:56 发起post请求:模拟xendit1付款成功
+2023-08-10 14:31:56.731 | DEBUG    | __main__:post:58 - 2023-08-10 14:31:56 请求时的入参: /pay/payout?paramssign=sign
+2023-08-10 14:31:58.293 | DEBUG    | __main__:post:62 - 2023-08-10 14:31:58 接口返回值: {'code': '88070', 'msg': 'merchant permission is not supported'}
+2023-08-10 14:32:21.653 | DEBUG    | __main__:post:57 - 2023-08-10 14:32:21 发起post请求:模拟xendit1付款成功
+2023-08-10 14:32:21.653 | DEBUG    | __main__:post:58 - 2023-08-10 14:32:21 请求时的入参: /pay/payout?paramssign=sign
+2023-08-10 14:32:23.204 | DEBUG    | __main__:post:62 - 2023-08-10 14:32:23 接口返回值: {'code': '88070', 'msg': 'merchant permission is not supported'}
+2023-08-10 14:32:59.392 | DEBUG    | __main__:post:57 - 2023-08-10 14:32:59 发起post请求:模拟xendit1付款成功
+2023-08-10 14:32:59.392 | DEBUG    | __main__:post:58 - 2023-08-10 14:32:59 请求时的入参: /pay/createOrder?paramssign=sign
+2023-08-10 14:33:01.102 | DEBUG    | __main__:post:62 - 2023-08-10 14:33:01 接口返回值: {'code': '88001', 'msg': 'amount can not be blank'}
+2023-08-10 14:37:03.520 | DEBUG    | __main__:post:57 - 2023-08-10 14:37:03 发起post请求:模拟xendit1付款成功
+2023-08-10 14:37:03.521 | DEBUG    | __main__:post:58 - 2023-08-10 14:37:03 请求时的入参: /pay/createOrder?paramssign=sign
+2023-08-10 14:37:05.110 | DEBUG    | __main__:post:62 - 2023-08-10 14:37:05 接口返回值: {'code': '88001', 'msg': 'amount can not be blank'}
+2023-08-10 14:38:01.828 | DEBUG    | __main__:post:57 - 2023-08-10 14:38:01 发起post请求:模拟xendit1付款成功
+2023-08-10 14:38:01.828 | DEBUG    | __main__:post:58 - 2023-08-10 14:38:01 请求时的入参: /pay/createOrder?currency=IDR&merchantId=100119&orderNo=TestOrderNo_1691649481&productId=202397fa79f073c7c5e3c97b00b50b156eaasign=sign
+2023-08-10 14:38:03.401 | DEBUG    | __main__:post:62 - 2023-08-10 14:38:03 接口返回值: {'code': '88001', 'msg': 'Failed to convert property value of type \'java.lang.String\' to required type \'java.lang.Integer\' for property \'productId\'; nested exception is java.lang.NumberFormatException: For input string: "202397fa79f073c7c5e3c97b00b50b156eaasign=sign"'}
+2023-08-10 14:38:34.604 | DEBUG    | __main__:post:57 - 2023-08-10 14:38:34 发起post请求:模拟xendit1付款成功
+2023-08-10 14:38:34.605 | DEBUG    | __main__:post:58 - 2023-08-10 14:38:34 请求时的入参: /pay/createOrder?currency=IDR&merchantId=100119&orderNo=TestOrderNo_1691649514&productId=202397fa79f073c7c5e3c97b00b50b156eaa
+2023-08-10 14:38:36.225 | DEBUG    | __main__:post:62 - 2023-08-10 14:38:36 接口返回值: {'code': '88001', 'msg': 'Failed to convert property value of type \'java.lang.String\' to required type \'java.lang.Integer\' for property \'productId\'; nested exception is java.lang.NumberFormatException: For input string: "202397fa79f073c7c5e3c97b00b50b156eaasign=sign"'}
+2023-08-10 14:45:02.640 | DEBUG    | __main__:post:94 - 2023-08-10 14:45:02 发起post请求:模拟xendit1付款成功
+2023-08-10 14:45:02.640 | DEBUG    | __main__:post:95 - 2023-08-10 14:45:02 请求时的入参: /pay/payout?accountHolderName=test&accountNumber=081382826301&amount=10000&bankCode=DANA&currency=IDR&description=TestPayout&merchantId=100119&orderNo=TestOrderNo_1691649902641&productId=2023&version=1.0&sign=0e98a235d698d92dd6e0d4f77a2dcf6f
+2023-08-10 14:45:06.200 | DEBUG    | __main__:post:99 - 2023-08-10 14:45:06 接口返回值: {'code': '200', 'msg': 'SUCCESS', 'sign': '88317741c64b853aee6c148b2443ecd9', 'orderNo': 'TestOrderNo_1691649902641', 'tradeNo': '10042023081013450542300012', 'orderAmount': 10000.0, 'totalAmount': 10000.0, 'fee': 0}
+2023-08-10 14:46:22.107 | DEBUG    | __main__:post:57 - 2023-08-10 14:46:22 发起post请求:模拟xendit1付款成功
+2023-08-10 14:46:22.108 | DEBUG    | __main__:post:58 - 2023-08-10 14:46:22 请求时的入参: /pay/createOrder?currency=IDR&merchantId=100119&orderNo=TestOrderNo_1691649982&productId=2023
+2023-08-10 14:46:24.959 | DEBUG    | __main__:post:62 - 2023-08-10 14:46:24 接口返回值: {'code': '88001', 'msg': 'Failed to convert property value of type \'java.lang.String\' to required type \'java.lang.Integer\' for property \'productId\'; nested exception is java.lang.NumberFormatException: For input string: "2023sign=sign"'}
+2023-08-10 14:49:11.251 | DEBUG    | __main__:post:59 - 2023-08-10 14:49:11 发起post请求:模拟xendit1付款成功
+2023-08-10 14:49:11.251 | DEBUG    | __main__:post:60 - 2023-08-10 14:49:11 请求时的入参: /pay/createOrder?currency=IDR&merchantId=100119&orderNo=TestOrderNo_1691650151&productId=2023e5b90791e25a10b97c768b5c5fd89631
+2023-08-10 14:49:12.847 | DEBUG    | __main__:post:64 - 2023-08-10 14:49:12 接口返回值: {'code': '88001', 'msg': 'Failed to convert property value of type \'java.lang.String\' to required type \'java.lang.Integer\' for property \'productId\'; nested exception is java.lang.NumberFormatException: For input string: "2023sign=sign"'}
+2023-08-10 14:50:16.020 | DEBUG    | __main__:post:59 - 2023-08-10 14:50:16 发起post请求:模拟xendit1付款成功
+2023-08-10 14:50:16.020 | DEBUG    | __main__:post:60 - 2023-08-10 14:50:16 请求时的入参: /pay/createOrder?currency=IDR&merchantId=100119&orderNo=TestOrderNo_1691650216&productId=2023sign=4de1c2f3d609833589f1c56dc57dee06
+2023-08-10 14:50:17.648 | DEBUG    | __main__:post:64 - 2023-08-10 14:50:17 接口返回值: {'code': '88001', 'msg': 'Failed to convert property value of type \'java.lang.String\' to required type \'java.lang.Integer\' for property \'productId\'; nested exception is java.lang.NumberFormatException: For input string: "2023sign=sign"'}
+2023-08-10 14:51:03.913 | DEBUG    | __main__:post:59 - 2023-08-10 14:51:03 发起post请求:模拟xendit1付款成功
+2023-08-10 14:51:03.914 | DEBUG    | __main__:post:60 - 2023-08-10 14:51:03 请求时的入参: /pay/createOrder?currency=IDR&merchantId=100119&orderNo=TestOrderNo_1691650263&productId=2023&sign=8e0b4487ca7c30cbfbb31b9c21a985e3
+2023-08-10 14:51:05.550 | DEBUG    | __main__:post:64 - 2023-08-10 14:51:05 接口返回值: {'code': '88001', 'msg': 'Failed to convert property value of type \'java.lang.String\' to required type \'java.lang.Integer\' for property \'productId\'; nested exception is java.lang.NumberFormatException: For input string: "2023sign=sign"'}
+2023-08-10 14:51:42.389 | DEBUG    | __main__:post:59 - 2023-08-10 14:51:42 发起post请求:模拟xendit1付款成功
+2023-08-10 14:51:42.390 | DEBUG    | __main__:post:60 - 2023-08-10 14:51:42 请求时的入参: /pay/createOrder?amount=10000&currency=IDR&expectPayCodeType=0&merchantId=100119&orderNo=&params=params&payChannel=17&payerName=test&payerPhone=081382826301&productId=2023&subject=TestSubject&version=1.0&sign=23490df50c17fe74281edc16dbfcf485
+2023-08-10 14:51:45.038 | DEBUG    | __main__:post:64 - 2023-08-10 14:51:45 接口返回值: {'code': '88001', 'msg': 'length of orderNo field is too long'}
+2023-08-10 14:52:31.113 | DEBUG    | __main__:post:59 - 2023-08-10 14:52:31 发起post请求:模拟xendit1付款成功
+2023-08-10 14:52:31.113 | DEBUG    | __main__:post:60 - 2023-08-10 14:52:31 请求时的入参: /pay/createOrder?amount=10000&currency=IDR&expectPayCodeType=0&merchantId=100119&orderNo=&payChannel=17&payerName=test&payerPhone=081382826301&productId=2023&subject=TestSubject&version=1.0&sign=d7b8d5461769f0726080141ecbd41030
+2023-08-10 14:52:32.776 | DEBUG    | __main__:post:64 - 2023-08-10 14:52:32 接口返回值: {'code': '88001', 'msg': 'length of orderNo field is too long'}
+2023-08-10 15:08:08.451 | DEBUG    | __main__:post:56 - 2023-08-10 15:08:08 发起post请求:模拟xendit1付款成功
+2023-08-10 15:08:08.452 | DEBUG    | __main__:post:57 - 2023-08-10 15:08:08 请求时的入参: /pay/createOrder?amount=10000&currency=IDR&expectPayCodeType=0&merchantId=100119&orderNo=TestOrderNo_1691651288&params=amount=10000&currency=IDR&expectPayCodeType=0&merchantId=100119&orderNo=TestOrderNo_1691651288&payChannel=17&payerName=test&payerPhone=081382826301&productId=2023&subject=TestSubject&version=1.0&payChannel=17&payerName=test&payerPhone=081382826301&productId=2023&subject=TestSubject&version=1.0&sign=84c68b7e2e08d3f26483d4bfe7b12f46
+2023-08-10 15:09:40.942 | DEBUG    | __main__:post:56 - 2023-08-10 15:09:40 发起post请求:模拟xendit1付款成功
+2023-08-10 15:09:40.942 | DEBUG    | __main__:post:57 - 2023-08-10 15:09:40 请求时的入参: /pay/createOrder?amount=10000&currency=IDR&expectPayCodeType=0&merchantId=100119&orderNo=TestOrderNo_1691651380&params=amount=10000&currency=IDR&expectPayCodeType=0&merchantId=100119&orderNo=TestOrderNo_1691651380&payChannel=17&payerName=test&payerPhone=081382826301&productId=2023&subject=TestSubject&version=1.0&payChannel=17&payerName=test&payerPhone=081382826301&productId=2023&subject=TestSubject&version=1.0&sign=4b2f711c8151d81bce9b8ba928a9c758
+2023-08-10 15:09:43.183 | DEBUG    | __main__:post:61 - 2023-08-10 15:09:43 接口返回值: {'code': '88001', 'msg': 'length of currency field is too long'}
+2023-08-10 15:12:38.979 | DEBUG    | __main__:post:56 - 2023-08-10 15:12:38 发起post请求:模拟xendit1付款成功
+2023-08-10 15:12:38.979 | DEBUG    | __main__:post:57 - 2023-08-10 15:12:38 请求时的入参: /pay/createOrder?amount=10000&currency=IDR&expectPayCodeType=0&merchantId=100119&orderNo=TestOrderNo_1691651558&params=amount=10000&currency=IDR&expectPayCodeType=0&merchantId=100119&orderNo=TestOrderNo_1691651558&payChannel=17&payerName=test&payerPhone=081382826301&productId=2023&subject=TestSubject&version=1.0&payChannel=17&payerName=test&payerPhone=081382826301&productId=2023&subject=TestSubject&version=1.0&sign=fc93072c37dda5b19979cdebe3cc9066
+2023-08-10 15:12:41.911 | DEBUG    | __main__:post:61 - 2023-08-10 15:12:41 接口返回值: {'code': '88001', 'msg': 'length of currency field is too long'}
+2023-08-10 15:32:21.761 | DEBUG    | __main__:post:57 - 2023-08-10 15:32:21 发起post请求:模拟xendit1付款成功
+2023-08-10 15:35:57.369 | DEBUG    | __main__:post:59 - 2023-08-10 15:35:57 发起post请求:模拟xendit1付款成功
+2023-08-10 15:35:57.369 | DEBUG    | __main__:post:60 - 2023-08-10 15:35:57 请求时的入参: /pay/createOrder?amount=10000&currency=IDR&expectPayCodeType=0&merchantId=100119&orderNo=TestOrderNo_1691652957&payChannel=17&payerName=test&payerPhone=081382826301&productId=2023&subject=TestSubject&version=1.0&sign=56b5c4c1e8e128e6ef0b45f4295f0bfb
+2023-08-10 15:35:59.206 | DEBUG    | __main__:post:64 - 2023-08-10 15:35:59 接口返回值: {'code': '88015', 'msg': 'sign of the message is wrong'}
+2023-08-10 15:42:30.266 | DEBUG    | __main__:post:59 - 2023-08-10 15:42:30 发起post请求:模拟xendit1付款成功
+2023-08-10 15:42:30.266 | DEBUG    | __main__:post:60 - 2023-08-10 15:42:30 请求时的入参: /pay/createOrder?amount=10000&currency=IDR&expectPayCodeType=0&merchantId=100119&orderNo=TestOrderNo_1691653350&payChannel=17&payerName=test&payerPhone=081382826301&productId=2023&subject=TestSubject&version=1.0&sign=fde1ab9cb94a0011de79420071507b17
+2023-08-10 15:42:31.949 | DEBUG    | __main__:post:64 - 2023-08-10 15:42:31 接口返回值: {'code': '88015', 'msg': 'sign of the message is wrong'}
+2023-08-10 16:33:39.467 | DEBUG    | __main__:post:59 - 2023-08-10 16:33:39 发起post请求:模拟xendit1付款成功
+2023-08-10 16:33:39.468 | DEBUG    | __main__:post:60 - 2023-08-10 16:33:39 请求时的入参: /pay/createOrder?amount=10000&currency=IDR&expectPayCodeType=0&merchantId=100119&orderNo=TestOrderNo_1691656419&parmas=None&payChannel=17&payerName=test&payerPhone=081382826301&productId=2023&subject=TestSubject&version=1.0&sign=c7917b314ad8422803337a53b6a25d06
+2023-08-10 16:33:41.306 | DEBUG    | __main__:post:64 - 2023-08-10 16:33:41 接口返回值: {'code': '88015', 'msg': 'sign of the message is wrong'}

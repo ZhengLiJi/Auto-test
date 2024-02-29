@@ -1,0 +1,77 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "lib.api.create_order",
+    "children" : [ {
+      "name" : "test_testrade",
+      "children" : [ {
+        "name" : "Test_Case_Order",
+        "children" : [ {
+          "name" : "xendit各支付方式监控",
+          "uid" : "298cb472678747b8",
+          "parentUid" : "858a3444ad7b0a51520d2b1f3b4d501c",
+          "status" : "broken",
+          "time" : {
+            "start" : 1709111397653,
+            "stop" : 1709111397661,
+            "duration" : 8
+          },
+          "flaky" : true,
+          "parameters" : [ "10000", "'IDR'", "100119", "3", "'0888888881'", "'97fa79f073c7c5e3c97b00b50b156eaa'", "2023" ]
+        }, {
+          "name" : "xendit各支付方式监控",
+          "uid" : "93c666a9a06ce926",
+          "parentUid" : "858a3444ad7b0a51520d2b1f3b4d501c",
+          "status" : "broken",
+          "time" : {
+            "start" : 1709111397767,
+            "stop" : 1709111397770,
+            "duration" : 3
+          },
+          "flaky" : true,
+          "parameters" : [ "10000", "'IDR'", "100119", "4", "'0888888881'", "'97fa79f073c7c5e3c97b00b50b156eaa'", "2023" ]
+        } ],
+        "uid" : "858a3444ad7b0a51520d2b1f3b4d501c"
+      } ],
+      "uid" : "0a205a8db97438c836004d2ed6a71d97"
+    } ],
+    "uid" : "60731c2ea2e34f00e144261c9bfa2eec"
+  }, {
+    "name" : "results.history.api.create_order",
+    "children" : [ {
+      "name" : "test_testrade",
+      "children" : [ {
+        "name" : "Test_Case_Order",
+        "children" : [ {
+          "name" : "xendit各支付方式监控",
+          "uid" : "85ac7d4fab6bf4ca",
+          "parentUid" : "ef6922053e70e4f866deee35d904147a",
+          "status" : "passed",
+          "time" : {
+            "start" : 1709111744892,
+            "stop" : 1709111747097,
+            "duration" : 2205
+          },
+          "flaky" : false,
+          "parameters" : [ "10000", "'IDR'", "100119", "3", "'0888888881'", "'97fa79f073c7c5e3c97b00b50b156eaa'", "2023" ]
+        }, {
+          "name" : "xendit各支付方式监控",
+          "uid" : "f6af2a1f86988773",
+          "parentUid" : "ef6922053e70e4f866deee35d904147a",
+          "status" : "passed",
+          "time" : {
+            "start" : 1709111747106,
+            "stop" : 1709111749346,
+            "duration" : 2240
+          },
+          "flaky" : false,
+          "parameters" : [ "10000", "'IDR'", "100119", "4", "'0888888881'", "'97fa79f073c7c5e3c97b00b50b156eaa'", "2023" ]
+        } ],
+        "uid" : "ef6922053e70e4f866deee35d904147a"
+      } ],
+      "uid" : "e2d4a0cd4376d85240fcd3b71026779b"
+    } ],
+    "uid" : "784b626f08cd00e9fa143e7c5c7cb26e"
+  } ]
+}
