@@ -7,16 +7,15 @@ faspay =  list(pay_channels[1:-1])
 print(xendit)
 xendit1_data = [
     {
-        'data': [
-             str(data[0]),
-            str(data[1]),
-            data[2],
-             str(data[3]),
-            "0888888881",
-            str(channel),
-            data[4]
-        ],
-        'result': 'success'
+
+            'merchantId': str(data[0]),
+            'productId': str(data[1]),
+            'currency': data[2],
+            'amount': str(data[3]),
+            'payerPhone':  "0888888881",
+            'payChannel': str(channel),
+            'privateKey': data[4]
+
     } for channel in xendit
 ]
 print(xendit1_data)

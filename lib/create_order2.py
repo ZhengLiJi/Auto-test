@@ -146,18 +146,9 @@ if __name__ == '__main__':
     # xendit_dana_1 = Test_create_order(100119, 2023, "IDR", 10000, '081382826301', 17,
     #                                   '97fa79f073c7c5e3c97b00b50b156eaa')
 
-    xendit_dana_2.setup(100119, 2023, "IDR", 10000, '081382826301', 17,
+    xendit_dana_2.create_order(100119, 2023, "IDR", 10000, '081382826301', 17,
                                       '97fa79f073c7c5e3c97b00b50b156eaa')
-    accsiiParams = xendit_dana_2.order_sign()
-    sign = xendit_dana_2.get_md5(accsiiParams)
-    # resp = xendit_dana_1.post_th(url="/pay/createOrder", data=xendit_dana_1.data['params'],
-                                 # desc='模拟xendit dana下单回调成功', expected_code=200)
-    #
-    # 指定预期状态码为 88012
-    resp = xendit_dana_2.post_test_merchant_fail(url="/pay/createOrder", data=xendit_dana_2.data['params'],
-                                 desc='模拟xendit dana下单回调成功' ,expected_code = '88012')
 
-    print(resp)
 
 
 
