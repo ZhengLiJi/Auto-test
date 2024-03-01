@@ -1,0 +1,135 @@
+{
+  "uid" : "92a7e58f349c6ed6",
+  "name" : "xendit1qudao",
+  "fullName" : "case.test_fas_pay.TestCreateOrder#test_create_order",
+  "historyId" : "ebb4e568c1c23c9f7190e292d4259dde",
+  "time" : {
+    "start" : 1709200922762,
+    "stop" : 1709200924273,
+    "duration" : 1511
+  },
+  "status" : "passed",
+  "flaky" : true,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "case"
+  }, {
+    "name" : "suite",
+    "value" : "test_fas_pay"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCreateOrder"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-QH40KOLE"
+  }, {
+    "name" : "thread",
+    "value" : "28044-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "case.test_fas_pay"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "data",
+    "value" : "{'merchantId': '100119', 'productId': '2023', 'currency': 'IDR', 'amount': '10000', 'payerPhone': '0888888881', 'payChannel': '1', 'privateKey': '97fa79f073c7c5e3c97b00b50b156eaa'}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "930e6b88e20797b0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1709200641208,
+        "stop" : 1709200642600,
+        "duration" : 1392
+      }
+    }, {
+      "uid" : "5c719ce1514418d6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1709200574952,
+        "stop" : 1709200576396,
+        "duration" : 1444
+      }
+    }, {
+      "uid" : "65a57c78ae97eeb3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1709200459945,
+        "stop" : 1709200461320,
+        "duration" : 1375
+      }
+    }, {
+      "uid" : "a44135d7584df9b6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1709200443153,
+        "stop" : 1709200444762,
+        "duration" : 1609
+      }
+    }, {
+      "uid" : "73391d98b4619357",
+      "status" : "broken",
+      "statusDetails" : "requests.exceptions.ProxyError: HTTPSConnectionPool(host='sit.tikipay.co', port=443): Max retries exceeded with url: /pay/createOrder?amount=10000&currency=IDR&expectPayCodeType=0&merchantId=100119&orderNo=TestOrderNo_1709200436239&payChannel=1&payerName=test&payerPhone=0888888881&productId=2023&subject=TestSubject&version=1.0&sign=1807eda4d1129677cea2f242d1f73f40 (Caused by ProxyError('Unable to connect to proxy', SSLError(SSLError(\"bad handshake: SysCallError(-1, 'Unexpected EOF')\"))))",
+      "time" : {
+        "start" : 1709200436239,
+        "stop" : 1709200436259,
+        "duration" : 20
+      }
+    }, {
+      "uid" : "f33da1b0f7922f61",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: 断言失败: 实际结果为 {'code': '200', 'msg': 'SUCCESS', 'sign': '2ae43badfe40f6bf39db0508e6532aa5', 'traceId': '1510ef2dd361489baec00663e10a650c', 'orderNo': 'TestOrderNo_1709199125352', 'tradeNo': '10012024022916320745000004', 'payCode': 'https://checkouttest.lipperpay.com/cardPay?orderInfo=wU3NFGwK4395KeELxFzSVftAPWe%2Fawqt6m6eTf%2BxuK5MejTIbhQkM7efbwXaCaZW5%2FLgv0j0jcNWBu0f08nwAmid0Hgwrr9dB1XbHkEgY1ulIqZ1cpO07fEVof%2FKhLBAWiTAscwhIFdVufKWq0mwknrlKH7n2TLHTOTrC7j%2F9TU%3D', 'payCodeType': '1', 'expireTime': '2024-03-01 16:32:07'}, 期望结果为 200\nassert {'code': '200', 'expireTime': '2024-03-01 16:32:07', 'msg': 'SUCCESS', 'orderNo': 'TestOrderNo_1709199125352', ...} == '200'",
+      "time" : {
+        "start" : 1709199125352,
+        "stop" : 1709199126765,
+        "duration" : 1413
+      }
+    }, {
+      "uid" : "96f7fd40ab50bb7b",
+      "status" : "broken",
+      "statusDetails" : "requests.exceptions.ProxyError: HTTPSConnectionPool(host='sit.tikipay.co', port=443): Max retries exceeded with url: /pay/createOrder?amount=10000&currency=IDR&expectPayCodeType=0&merchantId=100119&orderNo=TestOrderNo_1709199045293&payChannel=1&payerName=test&payerPhone=0888888881&productId=2023&subject=TestSubject&version=1.0&sign=bb7bae7f643bca97939b4a79fca6618e (Caused by ProxyError('Unable to connect to proxy', SSLError(SSLError(\"bad handshake: SysCallError(-1, 'Unexpected EOF')\"))))",
+      "time" : {
+        "start" : 1709199045292,
+        "stop" : 1709199045301,
+        "duration" : 9
+      }
+    }, {
+      "uid" : "29e80b7d1c11032f",
+      "status" : "broken",
+      "statusDetails" : "requests.exceptions.ProxyError: HTTPSConnectionPool(host='sit.tikipay.co', port=443): Max retries exceeded with url: /pay/createOrder?amount=10000&currency=IDR&expectPayCodeType=0&merchantId=100119&orderNo=TestOrderNo_1709199033460&payChannel=1&payerName=test&payerPhone=0888888881&productId=2023&subject=TestSubject&version=1.0&sign=dae35184c16bd023d3982dada91a01f2 (Caused by ProxyError('Unable to connect to proxy', SSLError(SSLError(\"bad handshake: SysCallError(-1, 'Unexpected EOF')\"))))",
+      "time" : {
+        "start" : 1709199033460,
+        "stop" : 1709199033468,
+        "duration" : 8
+      }
+    }, {
+      "uid" : "94d905cf1f2fb99f",
+      "status" : "broken",
+      "statusDetails" : "requests.exceptions.ProxyError: HTTPSConnectionPool(host='sit.tikipay.co', port=443): Max retries exceeded with url: /pay/createOrder?amount=10000&currency=IDR&expectPayCodeType=0&merchantId=100119&orderNo=TestOrderNo_1709198992739&payChannel=1&payerName=test&payerPhone=0888888881&productId=2023&subject=TestSubject&version=1.0&sign=620ad55862c031ef1bb50a18bcb5fec6 (Caused by ProxyError('Unable to connect to proxy', SSLError(SSLError(\"bad handshake: SysCallError(-1, 'Unexpected EOF')\"))))",
+      "time" : {
+        "start" : 1709198992739,
+        "stop" : 1709198992749,
+        "duration" : 10
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "92a7e58f349c6ed6.json",
+  "parameterValues" : [ "{'merchantId': '100119', 'productId': '2023', 'currency': 'IDR', 'amount': '10000', 'payerPhone': '0888888881', 'payChannel': '1', 'privateKey': '97fa79f073c7c5e3c97b00b50b156eaa'}" ]
+}

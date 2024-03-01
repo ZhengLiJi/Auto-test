@@ -1,6 +1,7 @@
 import allure
 import pytest
-
+import time
+import os
 from lib.create_order2 import CreateOrder
 from case_data.idr_data import xendit1_data
 
@@ -33,8 +34,13 @@ class TestCreateOrder:
                                                     payChannel, privateKey)
 
         # 执行断言，比如检查返回结果是否符合预期
-        # assert result == data['expected_result']  # 根据实际情况替换为你期望的结果
-        return result
+        assert result.get('code') == '200', f"断言失败: 实际结果为 {result.get('code')}, 期望结果为 '200'"
+
+
 
 if __name__ == '__main__':
-    pytest.main()
+
+    pytest.main(["-vs", '--alluredir', 'D:/Tiki/results'])
+
+    # 生成allure报告
+    os.system("allure generate D:/Tiki/results -o D:/Tiki/reports --clean")

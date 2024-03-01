@@ -1,0 +1,237 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "requests.exceptions.ProxyError: HTTPSConnectionPool(host='sit.tikipay.co', port=443): Max retries exceeded with url: /pay/createOrder?amount=10000&currency=IDR&expectPayCodeType=0&merchantId=100119&orderNo=TestOrderNo_1709199045425&payChannel=3&payerName=test&payerPhone=0888888881&productId=2023&subject=TestSubject&version=1.0&sign=d15083b770057a17683722fcd59f83a7 (Caused by ProxyError('Unable to connect to proxy', SSLError(SSLError(\"bad handshake: SysCallError(-1, 'Unexpected EOF')\"))))",
+      "children" : [ {
+        "name" : "xendit1qudao",
+        "uid" : "e98acc3ef4d34909",
+        "parentUid" : "c8566659723250fa0b47b96e4df1f5e9",
+        "status" : "broken",
+        "time" : {
+          "start" : 1709199045425,
+          "stop" : 1709199045428,
+          "duration" : 3
+        },
+        "flaky" : true,
+        "parameters" : [ "{'merchantId': '100119', 'productId': '2023', 'currency': 'IDR', 'amount': '10000', 'payerPhone': '0888888881', 'payChannel': '3', 'privateKey': '97fa79f073c7c5e3c97b00b50b156eaa'}" ]
+      } ],
+      "uid" : "c8566659723250fa0b47b96e4df1f5e9"
+    }, {
+      "name" : "requests.exceptions.ProxyError: HTTPSConnectionPool(host='sit.tikipay.co', port=443): Max retries exceeded with url: /pay/createOrder?amount=10000&currency=IDR&expectPayCodeType=0&merchantId=100119&orderNo=TestOrderNo_1709199045479&payChannel=4&payerName=test&payerPhone=0888888881&productId=2023&subject=TestSubject&version=1.0&sign=74495b11d6305354121abee79402ede6 (Caused by ProxyError('Unable to connect to proxy', SSLError(SSLError(\"bad handshake: SysCallError(-1, 'Unexpected EOF')\"))))",
+      "children" : [ {
+        "name" : "xendit1qudao",
+        "uid" : "ece8102b4f842835",
+        "parentUid" : "8339aa2181ad9f3c3ecc6970d6375588",
+        "status" : "broken",
+        "time" : {
+          "start" : 1709199045479,
+          "stop" : 1709199045483,
+          "duration" : 4
+        },
+        "flaky" : true,
+        "parameters" : [ "{'merchantId': '100119', 'productId': '2023', 'currency': 'IDR', 'amount': '10000', 'payerPhone': '0888888881', 'payChannel': '4', 'privateKey': '97fa79f073c7c5e3c97b00b50b156eaa'}" ]
+      } ],
+      "uid" : "8339aa2181ad9f3c3ecc6970d6375588"
+    }, {
+      "name" : "requests.exceptions.ProxyError: HTTPSConnectionPool(host='sit.tikipay.co', port=443): Max retries exceeded with url: /pay/createOrder?amount=10000&currency=IDR&expectPayCodeType=0&merchantId=100119&orderNo=TestOrderNo_1709199045543&payChannel=5&payerName=test&payerPhone=0888888881&productId=2023&subject=TestSubject&version=1.0&sign=0590f148e0eb91bf8fc20a4b9df010cf (Caused by ProxyError('Unable to connect to proxy', SSLError(SSLError(\"bad handshake: SysCallError(-1, 'Unexpected EOF')\"))))",
+      "children" : [ {
+        "name" : "xendit1qudao",
+        "uid" : "e6585e3216cb5b59",
+        "parentUid" : "786123629d72a59cda3bb513f0479478",
+        "status" : "broken",
+        "time" : {
+          "start" : 1709199045543,
+          "stop" : 1709199045548,
+          "duration" : 5
+        },
+        "flaky" : true,
+        "parameters" : [ "{'merchantId': '100119', 'productId': '2023', 'currency': 'IDR', 'amount': '10000', 'payerPhone': '0888888881', 'payChannel': '5', 'privateKey': '97fa79f073c7c5e3c97b00b50b156eaa'}" ]
+      } ],
+      "uid" : "786123629d72a59cda3bb513f0479478"
+    }, {
+      "name" : "requests.exceptions.ProxyError: HTTPSConnectionPool(host='sit.tikipay.co', port=443): Max retries exceeded with url: /pay/createOrder?amount=10000&currency=IDR&expectPayCodeType=0&merchantId=100119&orderNo=TestOrderNo_1709199045611&payChannel=6&payerName=test&payerPhone=0888888881&productId=2023&subject=TestSubject&version=1.0&sign=04be3e5b3e25fe6a5fffa5f2b1ad44db (Caused by ProxyError('Unable to connect to proxy', SSLError(SSLError(\"bad handshake: SysCallError(-1, 'Unexpected EOF')\"))))",
+      "children" : [ {
+        "name" : "xendit1qudao",
+        "uid" : "f948d83f06bfe9e",
+        "parentUid" : "4f4679e4b0af26e664dababc3d5f878c",
+        "status" : "broken",
+        "time" : {
+          "start" : 1709199045611,
+          "stop" : 1709199045614,
+          "duration" : 3
+        },
+        "flaky" : true,
+        "parameters" : [ "{'merchantId': '100119', 'productId': '2023', 'currency': 'IDR', 'amount': '10000', 'payerPhone': '0888888881', 'payChannel': '6', 'privateKey': '97fa79f073c7c5e3c97b00b50b156eaa'}" ]
+      } ],
+      "uid" : "4f4679e4b0af26e664dababc3d5f878c"
+    }, {
+      "name" : "requests.exceptions.ProxyError: HTTPSConnectionPool(host='sit.tikipay.co', port=443): Max retries exceeded with url: /pay/createOrder?amount=10000&currency=IDR&expectPayCodeType=0&merchantId=100119&orderNo=TestOrderNo_1709199045684&payChannel=8&payerName=test&payerPhone=0888888881&productId=2023&subject=TestSubject&version=1.0&sign=e3f8b6ffa105b2d4fcd5f6ae96a95ed1 (Caused by ProxyError('Unable to connect to proxy', SSLError(SSLError(\"bad handshake: SysCallError(-1, 'Unexpected EOF')\"))))",
+      "children" : [ {
+        "name" : "xendit1qudao",
+        "uid" : "fb34b1f7564263a5",
+        "parentUid" : "a2d98057e4cd35ea3a48203477aad55b",
+        "status" : "broken",
+        "time" : {
+          "start" : 1709199045684,
+          "stop" : 1709199045688,
+          "duration" : 4
+        },
+        "flaky" : true,
+        "parameters" : [ "{'merchantId': '100119', 'productId': '2023', 'currency': 'IDR', 'amount': '10000', 'payerPhone': '0888888881', 'payChannel': '8', 'privateKey': '97fa79f073c7c5e3c97b00b50b156eaa'}" ]
+      } ],
+      "uid" : "a2d98057e4cd35ea3a48203477aad55b"
+    }, {
+      "name" : "requests.exceptions.ProxyError: HTTPSConnectionPool(host='sit.tikipay.co', port=443): Max retries exceeded with url: /pay/createOrder?amount=10000&currency=IDR&expectPayCodeType=0&merchantId=100119&orderNo=TestOrderNo_1709199045741&payChannel=9&payerName=test&payerPhone=0888888881&productId=2023&subject=TestSubject&version=1.0&sign=2c365d3b334abf86b7ea871dbc95cdcc (Caused by ProxyError('Unable to connect to proxy', SSLError(SSLError(\"bad handshake: SysCallError(-1, 'Unexpected EOF')\"))))",
+      "children" : [ {
+        "name" : "xendit1qudao",
+        "uid" : "84c6e5331c036f9b",
+        "parentUid" : "755c82eab29068a4b733c308d5adb8a9",
+        "status" : "broken",
+        "time" : {
+          "start" : 1709199045740,
+          "stop" : 1709199045745,
+          "duration" : 5
+        },
+        "flaky" : true,
+        "parameters" : [ "{'merchantId': '100119', 'productId': '2023', 'currency': 'IDR', 'amount': '10000', 'payerPhone': '0888888881', 'payChannel': '9', 'privateKey': '97fa79f073c7c5e3c97b00b50b156eaa'}" ]
+      } ],
+      "uid" : "755c82eab29068a4b733c308d5adb8a9"
+    }, {
+      "name" : "requests.exceptions.ProxyError: HTTPSConnectionPool(host='sit.tikipay.co', port=443): Max retries exceeded with url: /pay/createOrder?amount=10000&currency=IDR&expectPayCodeType=0&merchantId=100119&orderNo=TestOrderNo_1709199045824&payChannel=12&payerName=test&payerPhone=0888888881&productId=2023&subject=TestSubject&version=1.0&sign=8478cb29f734550b7fa14885f48b6b37 (Caused by ProxyError('Unable to connect to proxy', SSLError(SSLError(\"bad handshake: SysCallError(-1, 'Unexpected EOF')\"))))",
+      "children" : [ {
+        "name" : "xendit1qudao",
+        "uid" : "69d32f4fc67a3d42",
+        "parentUid" : "32de776d2cc22e24f2520e907f9f7791",
+        "status" : "broken",
+        "time" : {
+          "start" : 1709199045823,
+          "stop" : 1709199045847,
+          "duration" : 24
+        },
+        "flaky" : true,
+        "parameters" : [ "{'merchantId': '100119', 'productId': '2023', 'currency': 'IDR', 'amount': '10000', 'payerPhone': '0888888881', 'payChannel': '12', 'privateKey': '97fa79f073c7c5e3c97b00b50b156eaa'}" ]
+      } ],
+      "uid" : "32de776d2cc22e24f2520e907f9f7791"
+    }, {
+      "name" : "requests.exceptions.ProxyError: HTTPSConnectionPool(host='sit.tikipay.co', port=443): Max retries exceeded with url: /pay/createOrder?amount=10000&currency=IDR&expectPayCodeType=0&merchantId=100119&orderNo=TestOrderNo_1709199045964&payChannel=15&payerName=test&payerPhone=0888888881&productId=2023&subject=TestSubject&version=1.0&sign=dc5cb6f026088a055e50509b761d4b18 (Caused by ProxyError('Unable to connect to proxy', SSLError(SSLError(\"bad handshake: SysCallError(-1, 'Unexpected EOF')\"))))",
+      "children" : [ {
+        "name" : "xendit1qudao",
+        "uid" : "3f63cea12553eb7f",
+        "parentUid" : "68c0d898ca344a0457a632ba91c0f23d",
+        "status" : "broken",
+        "time" : {
+          "start" : 1709199045964,
+          "stop" : 1709199045968,
+          "duration" : 4
+        },
+        "flaky" : true,
+        "parameters" : [ "{'merchantId': '100119', 'productId': '2023', 'currency': 'IDR', 'amount': '10000', 'payerPhone': '0888888881', 'payChannel': '15', 'privateKey': '97fa79f073c7c5e3c97b00b50b156eaa'}" ]
+      } ],
+      "uid" : "68c0d898ca344a0457a632ba91c0f23d"
+    }, {
+      "name" : "requests.exceptions.ProxyError: HTTPSConnectionPool(host='sit.tikipay.co', port=443): Max retries exceeded with url: /pay/createOrder?amount=10000&currency=IDR&expectPayCodeType=0&merchantId=100119&orderNo=TestOrderNo_1709199046038&payChannel=16&payerName=test&payerPhone=0888888881&productId=2023&subject=TestSubject&version=1.0&sign=f0a7d23dee8ed361015abc0e8d9313b0 (Caused by ProxyError('Unable to connect to proxy', SSLError(SSLError(\"bad handshake: SysCallError(-1, 'Unexpected EOF')\"))))",
+      "children" : [ {
+        "name" : "xendit1qudao",
+        "uid" : "ea39a1f4ac4085c8",
+        "parentUid" : "00de5d6c77f275e3d9a26511b571b016",
+        "status" : "broken",
+        "time" : {
+          "start" : 1709199046038,
+          "stop" : 1709199046042,
+          "duration" : 4
+        },
+        "flaky" : true,
+        "parameters" : [ "{'merchantId': '100119', 'productId': '2023', 'currency': 'IDR', 'amount': '10000', 'payerPhone': '0888888881', 'payChannel': '16', 'privateKey': '97fa79f073c7c5e3c97b00b50b156eaa'}" ]
+      } ],
+      "uid" : "00de5d6c77f275e3d9a26511b571b016"
+    }, {
+      "name" : "requests.exceptions.ProxyError: HTTPSConnectionPool(host='sit.tikipay.co', port=443): Max retries exceeded with url: /pay/createOrder?amount=10000&currency=IDR&expectPayCodeType=0&merchantId=100119&orderNo=TestOrderNo_1709199046102&payChannel=17&payerName=test&payerPhone=0888888881&productId=2023&subject=TestSubject&version=1.0&sign=e3c9a520931480a93f6aaa81ab3e497f (Caused by ProxyError('Unable to connect to proxy', SSLError(SSLError(\"bad handshake: SysCallError(-1, 'Unexpected EOF')\"))))",
+      "children" : [ {
+        "name" : "xendit1qudao",
+        "uid" : "8219b6162322ba1f",
+        "parentUid" : "7163a970c8373346f4f43c275f3b80b9",
+        "status" : "broken",
+        "time" : {
+          "start" : 1709199046102,
+          "stop" : 1709199046105,
+          "duration" : 3
+        },
+        "flaky" : true,
+        "parameters" : [ "{'merchantId': '100119', 'productId': '2023', 'currency': 'IDR', 'amount': '10000', 'payerPhone': '0888888881', 'payChannel': '17', 'privateKey': '97fa79f073c7c5e3c97b00b50b156eaa'}" ]
+      } ],
+      "uid" : "7163a970c8373346f4f43c275f3b80b9"
+    }, {
+      "name" : "requests.exceptions.ProxyError: HTTPSConnectionPool(host='sit.tikipay.co', port=443): Max retries exceeded with url: /pay/createOrder?amount=10000&currency=IDR&expectPayCodeType=0&merchantId=100119&orderNo=TestOrderNo_1709199046161&payChannel=18&payerName=test&payerPhone=0888888881&productId=2023&subject=TestSubject&version=1.0&sign=c36ffb02aecf3037d5f6495d50408500 (Caused by ProxyError('Unable to connect to proxy', SSLError(SSLError(\"bad handshake: SysCallError(-1, 'Unexpected EOF')\"))))",
+      "children" : [ {
+        "name" : "xendit1qudao",
+        "uid" : "c92ec3c4e027b8e9",
+        "parentUid" : "63d208a57d00bf62516f2a4b9b07ba4c",
+        "status" : "broken",
+        "time" : {
+          "start" : 1709199046161,
+          "stop" : 1709199046164,
+          "duration" : 3
+        },
+        "flaky" : true,
+        "parameters" : [ "{'merchantId': '100119', 'productId': '2023', 'currency': 'IDR', 'amount': '10000', 'payerPhone': '0888888881', 'payChannel': '18', 'privateKey': '97fa79f073c7c5e3c97b00b50b156eaa'}" ]
+      } ],
+      "uid" : "63d208a57d00bf62516f2a4b9b07ba4c"
+    }, {
+      "name" : "requests.exceptions.ProxyError: HTTPSConnectionPool(host='sit.tikipay.co', port=443): Max retries exceeded with url: /pay/createOrder?amount=10000&currency=IDR&expectPayCodeType=0&merchantId=100119&orderNo=TestOrderNo_1709199046224&payChannel=19&payerName=test&payerPhone=0888888881&productId=2023&subject=TestSubject&version=1.0&sign=a3e24bab4acc40b42f4c22fb5379d934 (Caused by ProxyError('Unable to connect to proxy', SSLError(SSLError(\"bad handshake: SysCallError(-1, 'Unexpected EOF')\"))))",
+      "children" : [ {
+        "name" : "xendit1qudao",
+        "uid" : "15cdc316fbee45a8",
+        "parentUid" : "ed6a0bea75bfdbe7c4bb3e9d4e75a50c",
+        "status" : "broken",
+        "time" : {
+          "start" : 1709199046224,
+          "stop" : 1709199046228,
+          "duration" : 4
+        },
+        "flaky" : true,
+        "parameters" : [ "{'merchantId': '100119', 'productId': '2023', 'currency': 'IDR', 'amount': '10000', 'payerPhone': '0888888881', 'payChannel': '19', 'privateKey': '97fa79f073c7c5e3c97b00b50b156eaa'}" ]
+      } ],
+      "uid" : "ed6a0bea75bfdbe7c4bb3e9d4e75a50c"
+    }, {
+      "name" : "requests.exceptions.ProxyError: HTTPSConnectionPool(host='sit.tikipay.co', port=443): Max retries exceeded with url: /pay/createOrder?amount=10000&currency=IDR&expectPayCodeType=0&merchantId=100119&orderNo=TestOrderNo_1709199046283&payChannel=38&payerName=test&payerPhone=0888888881&productId=2023&subject=TestSubject&version=1.0&sign=a1b5c76e5f734696a14284289ad3e3d9 (Caused by ProxyError('Unable to connect to proxy', SSLError(SSLError(\"bad handshake: SysCallError(-1, 'Unexpected EOF')\"))))",
+      "children" : [ {
+        "name" : "xendit1qudao",
+        "uid" : "2d8027e515e4c4b6",
+        "parentUid" : "e5bb2165add8e5997d3e78021b1931d5",
+        "status" : "broken",
+        "time" : {
+          "start" : 1709199046283,
+          "stop" : 1709199046286,
+          "duration" : 3
+        },
+        "flaky" : true,
+        "parameters" : [ "{'merchantId': '100119', 'productId': '2023', 'currency': 'IDR', 'amount': '10000', 'payerPhone': '0888888881', 'payChannel': '38', 'privateKey': '97fa79f073c7c5e3c97b00b50b156eaa'}" ]
+      } ],
+      "uid" : "e5bb2165add8e5997d3e78021b1931d5"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  }, {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: 断言失败: 实际结果为 88011, 期望结果为 '200'\nassert '88011' == '200'\n  - 200\n  + 88011",
+      "children" : [ {
+        "name" : "xendit1qudao",
+        "uid" : "63200e1f5ba9c92a",
+        "parentUid" : "0589f17a8a28ae2aa6d29788695f337a",
+        "status" : "failed",
+        "time" : {
+          "start" : 1709200924278,
+          "stop" : 1709200925702,
+          "duration" : 1424
+        },
+        "flaky" : true,
+        "parameters" : [ "{'merchantId': '100119', 'productId': '2023', 'currency': 'IDR', 'amount': '10000', 'payerPhone': '0888888881', 'payChannel': '2', 'privateKey': '97fa79f073c7c5e3c97b00b50b156eaa'}" ]
+      } ],
+      "uid" : "0589f17a8a28ae2aa6d29788695f337a"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

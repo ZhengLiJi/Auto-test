@@ -1,0 +1,581 @@
+{
+  "fd231b1cb9a22e84415fd182ee03671a" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f948d83f06bfe9e",
+      "status" : "broken",
+      "statusDetails" : "requests.exceptions.ProxyError: HTTPSConnectionPool(host='sit.tikipay.co', port=443): Max retries exceeded with url: /pay/createOrder?amount=10000&currency=IDR&expectPayCodeType=0&merchantId=100119&orderNo=TestOrderNo_1709199045611&payChannel=6&payerName=test&payerPhone=0888888881&productId=2023&subject=TestSubject&version=1.0&sign=04be3e5b3e25fe6a5fffa5f2b1ad44db (Caused by ProxyError('Unable to connect to proxy', SSLError(SSLError(\"bad handshake: SysCallError(-1, 'Unexpected EOF')\"))))",
+      "time" : {
+        "start" : 1709199045611,
+        "stop" : 1709199045614,
+        "duration" : 3
+      }
+    } ]
+  },
+  "ebb4e568c1c23c9f7190e292d4259dde" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "92a7e58f349c6ed6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1709200922762,
+        "stop" : 1709200924273,
+        "duration" : 1511
+      }
+    } ]
+  },
+  "070a8fcd6670114e7da0565ca2960475" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "fd4aaf950ee9861f",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: 断言失败: 实际结果为 {'code': '200', 'msg': 'SUCCESS', 'sign': '339110b4daef7a0d16053df6999aac65', 'traceId': 'da1bac76d7d146e18e2b7adebbab0c3e', 'orderNo': 'TestOrderNo_1709198737984', 'tradeNo': '10012024022916254011600009', 'payCode': '262159999709984', 'payCodeType': '0', 'expireTime': '2024-03-01 09:07:20'}, 期望结果为 200\nassert {'code': '200', 'expireTime': '2024-03-01 09:07:20', 'msg': 'SUCCESS', 'orderNo': 'TestOrderNo_1709198737984', ...} == '200'",
+      "time" : {
+        "start" : 1709198737983,
+        "stop" : 1709198739943,
+        "duration" : 1960
+      }
+    } ]
+  },
+  "3e6d81880abd97a5fe72de56d4693239" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c2a3bb352158615d",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: 断言失败: 实际结果为 {'code': '200', 'msg': 'SUCCESS', 'sign': 'ac4b2c3820c71ba7b5baf2bcd0416bf2', 'traceId': 'fa1bf4df2ffd4c27b6cb24af519f8646', 'orderNo': 'TestOrderNo_1709198747693', 'tradeNo': '10012024022916254981600005', 'payCode': 'https://checkouttest.lipperpay.com/mock?orderInfo=PkKE5VRzA2NqiSDiRdeoWSGiOdvu5Q6%2FEMR9zSsNeu03q2BKgUnokEWPpEwKp4GQ53REbrRfIjPu2FcD7k4PPw%3D%3D', 'payCodeType': '1', 'expireTime': '2024-02-29 17:25:49'}, 期望结果为 200\nassert {'code': '200', 'expireTime': '2024-02-29 17:25:49', 'msg': 'SUCCESS', 'orderNo': 'TestOrderNo_1709198747693', ...} == '200'",
+      "time" : {
+        "start" : 1709198747693,
+        "stop" : 1709198749892,
+        "duration" : 2199
+      }
+    } ]
+  },
+  "694279a41ba5f15135c349396e7ee324" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "84c6e5331c036f9b",
+      "status" : "broken",
+      "statusDetails" : "requests.exceptions.ProxyError: HTTPSConnectionPool(host='sit.tikipay.co', port=443): Max retries exceeded with url: /pay/createOrder?amount=10000&currency=IDR&expectPayCodeType=0&merchantId=100119&orderNo=TestOrderNo_1709199045741&payChannel=9&payerName=test&payerPhone=0888888881&productId=2023&subject=TestSubject&version=1.0&sign=2c365d3b334abf86b7ea871dbc95cdcc (Caused by ProxyError('Unable to connect to proxy', SSLError(SSLError(\"bad handshake: SysCallError(-1, 'Unexpected EOF')\"))))",
+      "time" : {
+        "start" : 1709199045740,
+        "stop" : 1709199045745,
+        "duration" : 5
+      }
+    } ]
+  },
+  "ea8f920d0b3dbda987170d053b4e1ba0" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e6585e3216cb5b59",
+      "status" : "broken",
+      "statusDetails" : "requests.exceptions.ProxyError: HTTPSConnectionPool(host='sit.tikipay.co', port=443): Max retries exceeded with url: /pay/createOrder?amount=10000&currency=IDR&expectPayCodeType=0&merchantId=100119&orderNo=TestOrderNo_1709199045543&payChannel=5&payerName=test&payerPhone=0888888881&productId=2023&subject=TestSubject&version=1.0&sign=0590f148e0eb91bf8fc20a4b9df010cf (Caused by ProxyError('Unable to connect to proxy', SSLError(SSLError(\"bad handshake: SysCallError(-1, 'Unexpected EOF')\"))))",
+      "time" : {
+        "start" : 1709199045543,
+        "stop" : 1709199045548,
+        "duration" : 5
+      }
+    } ]
+  },
+  "aeb2b2c72d35eeba671cdb988bcfa60f" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "3081b1aeaa4f946e",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: 断言失败: 实际结果为 {'code': '88011', 'msg': 'this channel is not supported yet', 'sign': '6775b22428dd1d1b81e87ae72d24071e', 'traceId': '144506c1b4164584b6e631fe4ec34c42'}, 期望结果为 200\nassert {'code': '88011', 'msg': 'this channel is not supported yet', 'sign': '6775b22428dd1d1b81e87ae72d24071e', 'traceId': '144506c1b4164584b6e631fe4ec34c42'} == '200'",
+      "time" : {
+        "start" : 1709198734671,
+        "stop" : 1709198736048,
+        "duration" : 1377
+      }
+    } ]
+  },
+  "7651c24fc9311bc37d7caef6a52f1d8a" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "89c198ba5b213639",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: 断言失败: 实际结果为 {'code': '200', 'msg': 'SUCCESS', 'sign': '54dbd8de5af859da4c3c578311dad841', 'traceId': 'ab185620203d4cf3ba15ef487c044cce', 'orderNo': 'TestOrderNo_1709198732682', 'tradeNo': '10012024022916253427700007', 'payCode': '700707760000014316', 'payCodeType': '0', 'expireTime': '2024-03-01 09:07:14'}, 期望结果为 200\nassert {'code': '200', 'expireTime': '2024-03-01 09:07:14', 'msg': 'SUCCESS', 'orderNo': 'TestOrderNo_1709198732682', ...} == '200'",
+      "time" : {
+        "start" : 1709198732682,
+        "stop" : 1709198734666,
+        "duration" : 1984
+      }
+    } ]
+  },
+  "5f3f2ba5c06d738b8c769fbbd6f680eb" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "1f521f021c16ee8e",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: 断言失败: 实际结果为 {'code': '200', 'msg': 'SUCCESS', 'sign': '9b7a67af9575606e446567967caf5381', 'traceId': 'ef8f2f09a35a4d29a1aff2a7374af795', 'orderNo': 'TestOrderNo_1709198746615', 'tradeNo': '10012024022916254815700005', 'payCode': 'https://checkouttest.lipperpay.com/mock?orderInfo=PkKE5VRzA2NqiSDiRdeoWSGiOdvu5Q6%2FEMR9zSsNeu0k68et4PHwgc9BE6sb7q4J53REbrRfIjPu2FcD7k4PPw%3D%3D', 'payCodeType': '1', 'expireTime': '2024-02-29 17:25:48'}, 期望结果为 200\nassert {'code': '200', 'expireTime': '2024-02-29 17:25:48', 'msg': 'SUCCESS', 'orderNo': 'TestOrderNo_1709198746615', ...} == '200'",
+      "time" : {
+        "start" : 1709198746615,
+        "stop" : 1709198747690,
+        "duration" : 1075
+      }
+    } ]
+  },
+  "802bf41d6d9fe149f112e3be9e5503a0" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "15cdc316fbee45a8",
+      "status" : "broken",
+      "statusDetails" : "requests.exceptions.ProxyError: HTTPSConnectionPool(host='sit.tikipay.co', port=443): Max retries exceeded with url: /pay/createOrder?amount=10000&currency=IDR&expectPayCodeType=0&merchantId=100119&orderNo=TestOrderNo_1709199046224&payChannel=19&payerName=test&payerPhone=0888888881&productId=2023&subject=TestSubject&version=1.0&sign=a3e24bab4acc40b42f4c22fb5379d934 (Caused by ProxyError('Unable to connect to proxy', SSLError(SSLError(\"bad handshake: SysCallError(-1, 'Unexpected EOF')\"))))",
+      "time" : {
+        "start" : 1709199046224,
+        "stop" : 1709199046228,
+        "duration" : 4
+      }
+    } ]
+  },
+  "19606022eaeff1a5910db30e1804287d" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ece8102b4f842835",
+      "status" : "broken",
+      "statusDetails" : "requests.exceptions.ProxyError: HTTPSConnectionPool(host='sit.tikipay.co', port=443): Max retries exceeded with url: /pay/createOrder?amount=10000&currency=IDR&expectPayCodeType=0&merchantId=100119&orderNo=TestOrderNo_1709199045479&payChannel=4&payerName=test&payerPhone=0888888881&productId=2023&subject=TestSubject&version=1.0&sign=74495b11d6305354121abee79402ede6 (Caused by ProxyError('Unable to connect to proxy', SSLError(SSLError(\"bad handshake: SysCallError(-1, 'Unexpected EOF')\"))))",
+      "time" : {
+        "start" : 1709199045479,
+        "stop" : 1709199045483,
+        "duration" : 4
+      }
+    } ]
+  },
+  "78a22fa9561f2dfcea1d829e887e2813" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e98acc3ef4d34909",
+      "status" : "broken",
+      "statusDetails" : "requests.exceptions.ProxyError: HTTPSConnectionPool(host='sit.tikipay.co', port=443): Max retries exceeded with url: /pay/createOrder?amount=10000&currency=IDR&expectPayCodeType=0&merchantId=100119&orderNo=TestOrderNo_1709199045425&payChannel=3&payerName=test&payerPhone=0888888881&productId=2023&subject=TestSubject&version=1.0&sign=d15083b770057a17683722fcd59f83a7 (Caused by ProxyError('Unable to connect to proxy', SSLError(SSLError(\"bad handshake: SysCallError(-1, 'Unexpected EOF')\"))))",
+      "time" : {
+        "start" : 1709199045425,
+        "stop" : 1709199045428,
+        "duration" : 3
+      }
+    } ]
+  },
+  "bf5d71f3e0209d54d2ef350a0eba3443" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f8449f0e97482195",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: 断言失败: 实际结果为 {'code': '88011', 'msg': 'this channel is not supported yet', 'sign': '17016db68182f7b42a919c91fd418050', 'traceId': '2e1a55d4fff343958a5818d4ff20692e'}, 期望结果为 200\nassert {'code': '88011', 'msg': 'this channel is not supported yet', 'sign': '17016db68182f7b42a919c91fd418050', 'traceId': '2e1a55d4fff343958a5818d4ff20692e'} == '200'",
+      "time" : {
+        "start" : 1709198749895,
+        "stop" : 1709198751281,
+        "duration" : 1386
+      }
+    } ]
+  },
+  "211971bace0ca914d15c8dc5c596a3fd" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "63200e1f5ba9c92a",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: 断言失败: 实际结果为 88011, 期望结果为 '200'\nassert '88011' == '200'\n  - 200\n  + 88011",
+      "time" : {
+        "start" : 1709200924278,
+        "stop" : 1709200925702,
+        "duration" : 1424
+      }
+    } ]
+  },
+  "f8d7aa0b2fee96990913a966e3589d8a" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "36cb5ce9640da6d2",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: 断言失败: 实际结果为 {'code': '200', 'msg': 'SUCCESS', 'sign': 'e449e4c1c95219441ecea9bdba6a31b1', 'traceId': '60fc712f5e9747ad931ab7fb1db8d466', 'orderNo': 'TestOrderNo_1709198745123', 'tradeNo': '10012024022916254720900005', 'payCode': 'https://checkouttest.lipperpay.com/mock?orderInfo=PkKE5VRzA2NqiSDiRdeoWSGiOdvu5Q6%2FEMR9zSsNeu378fa5uuLFUv5w3pbsahv053REbrRfIjPu2FcD7k4PPw%3D%3D', 'payCodeType': '1', 'expireTime': '2024-02-29 17:25:47'}, 期望结果为 200\nassert {'code': '200', 'expireTime': '2024-02-29 17:25:47', 'msg': 'SUCCESS', 'orderNo': 'TestOrderNo_1709198745123', ...} == '200'",
+      "time" : {
+        "start" : 1709198745123,
+        "stop" : 1709198746612,
+        "duration" : 1489
+      }
+    } ]
+  },
+  "3b279e1f5bf0a2192b32ae2ec585e852" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ed21b9d04fa5095f",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: 断言失败: 实际结果为 {'code': '200', 'msg': 'SUCCESS', 'sign': '0dc9d288c4d02210a6c532487b68b75a', 'traceId': '86d95cd8aba4481f958e991b4a202035', 'orderNo': 'TestOrderNo_1709198727579', 'tradeNo': '10012024022916252989400006', 'payCode': 'https://checkouttest.lipperpay.com/cardPay?orderInfo=wU3NFGwK4395KeELxFzSVftAPWe%2Fawqt6m6eTf%2BxuK5MejTIbhQkM7efbwXaCaZWC2FtTDChOYwWZB%2F5EDrcAnOMC9kL%2BwjKRznf0%2BXbpeYnm9vkSdLp%2BE1NDPRimzrWl7XmMjYuayD4TUVL3AqOWHrlKH7n2TLHTOTrC7j%2F9TU%3D', 'payCodeType': '1', 'expireTime': '2024-03-01 16:25:29'}, 期望结果为 200\nassert {'code': '200', 'expireTime': '2024-03-01 16:25:29', 'msg': 'SUCCESS', 'orderNo': 'TestOrderNo_1709198727579', ...} == '200'",
+      "time" : {
+        "start" : 1709198727578,
+        "stop" : 1709198729186,
+        "duration" : 1608
+      }
+    } ]
+  },
+  "2c5d7dd1c613cfb8f7fd3c82272b068a" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "2d8027e515e4c4b6",
+      "status" : "broken",
+      "statusDetails" : "requests.exceptions.ProxyError: HTTPSConnectionPool(host='sit.tikipay.co', port=443): Max retries exceeded with url: /pay/createOrder?amount=10000&currency=IDR&expectPayCodeType=0&merchantId=100119&orderNo=TestOrderNo_1709199046283&payChannel=38&payerName=test&payerPhone=0888888881&productId=2023&subject=TestSubject&version=1.0&sign=a1b5c76e5f734696a14284289ad3e3d9 (Caused by ProxyError('Unable to connect to proxy', SSLError(SSLError(\"bad handshake: SysCallError(-1, 'Unexpected EOF')\"))))",
+      "time" : {
+        "start" : 1709199046283,
+        "stop" : 1709199046286,
+        "duration" : 3
+      }
+    } ]
+  },
+  "975196bbd341993f91d42908a1a149e3" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "5bc20acbd3c61243",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: 断言失败: 实际结果为 {'code': '200', 'msg': 'SUCCESS', 'sign': 'b3da763af6d3cde5ddc810b96a95bfb4', 'traceId': '7308f7be009e41488c341cf545721de1', 'orderNo': 'TestOrderNo_1709198729190', 'tradeNo': '10012024022916253078900005', 'payCode': '82149999865249', 'payCodeType': '0', 'expireTime': '2024-03-01 09:07:10'}, 期望结果为 200\nassert {'code': '200', 'expireTime': '2024-03-01 09:07:10', 'msg': 'SUCCESS', 'orderNo': 'TestOrderNo_1709198729190', ...} == '200'",
+      "time" : {
+        "start" : 1709198729190,
+        "stop" : 1709198730685,
+        "duration" : 1495
+      }
+    } ]
+  },
+  "c93a4176e159f28a8324879e448399e4" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "391b0eb9b5d0af15",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: 断言失败: 实际结果为 {'code': '200', 'msg': 'SUCCESS', 'sign': '36930d25a9b587ca5ccf12cb9144b705', 'traceId': '7a607d4e54694e2cb367e8bad08f6b6c', 'orderNo': 'TestOrderNo_1709198743213', 'tradeNo': '10012024022916254532900003', 'payCode': '00020101021226570011ID.DANA.WWW011893600915000159613002090015961300303UME51380014ID.CO.QRIS.WWW02090015961300303UME5204653153033605405100005802ID5907Tikipay6013JAKARTA PUSAT610510110626301112Rswje7tLQQ60440011ID.DANA.WWW0425MER202401255812806738765363044BF1', 'payCodeType': '1', 'expireTime': '2024-02-29 17:25:45'}, 期望结果为 200\nassert {'code': '200', 'expireTime': '2024-02-29 17:25:45', 'msg': 'SUCCESS', 'orderNo': 'TestOrderNo_1709198743213', ...} == '200'",
+      "time" : {
+        "start" : 1709198743213,
+        "stop" : 1709198745119,
+        "duration" : 1906
+      }
+    } ]
+  },
+  "0bff5f8e3ac9365d25e1b3a87f276675" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "976e7fe4c9b40eb1",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: 断言失败: 实际结果为 {'code': '200', 'msg': 'SUCCESS', 'sign': '35f52cd18b4d6b80c19cd7d6b91ec03f', 'traceId': '65b081e905c643d1a34004627e9bb097', 'orderNo': 'TestOrderNo_1709198730689', 'tradeNo': '10012024022916253279800004', 'payCode': '8808999962952962', 'payCodeType': '0', 'expireTime': '2024-03-01 09:07:12'}, 期望结果为 200\nassert {'code': '200', 'expireTime': '2024-03-01 09:07:12', 'msg': 'SUCCESS', 'orderNo': 'TestOrderNo_1709198730689', ...} == '200'",
+      "time" : {
+        "start" : 1709198730689,
+        "stop" : 1709198732676,
+        "duration" : 1987
+      }
+    } ]
+  },
+  "c97a35eb873f7620389f271981260426" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "39d4949c7a122097",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: 断言失败: 实际结果为 {'code': '200', 'msg': 'SUCCESS', 'sign': 'e844a4e4d14c28b4c842498bc76ad1ff', 'traceId': 'd3c7e1f5d1e942ef8ee761d12c634d70', 'orderNo': 'TestOrderNo_1709198736051', 'tradeNo': '10012024022916253818200005', 'payCode': '889089999818932', 'payCodeType': '0', 'expireTime': '2024-03-01 09:07:18'}, 期望结果为 200\nassert {'code': '200', 'expireTime': '2024-03-01 09:07:18', 'msg': 'SUCCESS', 'orderNo': 'TestOrderNo_1709198736051', ...} == '200'",
+      "time" : {
+        "start" : 1709198736050,
+        "stop" : 1709198737977,
+        "duration" : 1927
+      }
+    } ]
+  },
+  "ec47f8124628cac92e47db0e1b022e76" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "483084eced9fc05b",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: 断言失败: 实际结果为 {'code': '200', 'msg': 'SUCCESS', 'sign': '35e79354e4b92b8ef9e5b4763e92a359', 'traceId': '9fd6f4f8bd2644b8b60ed32f08c1aab5', 'orderNo': 'TestOrderNo_1709198741755', 'tradeNo': '10012024022916254389200002', 'payCode': 'https://checkouttest.lipperpay.com/newWalletPay?orderInfo=wU3NFGwK4395KeELxFzSVfIUOLJ8eyjkmh%2BrAesa2li4Js31nEpVhIobBooXqtitRGpMqXSoPCueuC8JTiY8ZfgsM3UZ2SS5%2F%2BF1QkhdPpAhguagHBQ3%2FLkgwuQoPnnLlSlpMW2%2Bd8Lpw4HdwFtT5EN4QKbjhAXs3VIQQ0YguXA%3D', 'payCodeType': '1', 'expireTime': '2024-02-29 17:25:43'}, 期望结果为 200\nassert {'code': '200', 'expireTime': '2024-02-29 17:25:43', 'msg': 'SUCCESS', 'orderNo': 'TestOrderNo_1709198741755', ...} == '200'",
+      "time" : {
+        "start" : 1709198741755,
+        "stop" : 1709198743208,
+        "duration" : 1453
+      }
+    } ]
+  },
+  "2e9282a7bff293dc0b6eb0fdcd4ad574" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c92ec3c4e027b8e9",
+      "status" : "broken",
+      "statusDetails" : "requests.exceptions.ProxyError: HTTPSConnectionPool(host='sit.tikipay.co', port=443): Max retries exceeded with url: /pay/createOrder?amount=10000&currency=IDR&expectPayCodeType=0&merchantId=100119&orderNo=TestOrderNo_1709199046161&payChannel=18&payerName=test&payerPhone=0888888881&productId=2023&subject=TestSubject&version=1.0&sign=c36ffb02aecf3037d5f6495d50408500 (Caused by ProxyError('Unable to connect to proxy', SSLError(SSLError(\"bad handshake: SysCallError(-1, 'Unexpected EOF')\"))))",
+      "time" : {
+        "start" : 1709199046161,
+        "stop" : 1709199046164,
+        "duration" : 3
+      }
+    } ]
+  },
+  "14ecac4ff509aa52bebab6d78da75f20" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ea39a1f4ac4085c8",
+      "status" : "broken",
+      "statusDetails" : "requests.exceptions.ProxyError: HTTPSConnectionPool(host='sit.tikipay.co', port=443): Max retries exceeded with url: /pay/createOrder?amount=10000&currency=IDR&expectPayCodeType=0&merchantId=100119&orderNo=TestOrderNo_1709199046038&payChannel=16&payerName=test&payerPhone=0888888881&productId=2023&subject=TestSubject&version=1.0&sign=f0a7d23dee8ed361015abc0e8d9313b0 (Caused by ProxyError('Unable to connect to proxy', SSLError(SSLError(\"bad handshake: SysCallError(-1, 'Unexpected EOF')\"))))",
+      "time" : {
+        "start" : 1709199046038,
+        "stop" : 1709199046042,
+        "duration" : 4
+      }
+    } ]
+  },
+  "26b5293aa6a8a5240fd8ac6a02a83f25" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "8219b6162322ba1f",
+      "status" : "broken",
+      "statusDetails" : "requests.exceptions.ProxyError: HTTPSConnectionPool(host='sit.tikipay.co', port=443): Max retries exceeded with url: /pay/createOrder?amount=10000&currency=IDR&expectPayCodeType=0&merchantId=100119&orderNo=TestOrderNo_1709199046102&payChannel=17&payerName=test&payerPhone=0888888881&productId=2023&subject=TestSubject&version=1.0&sign=e3c9a520931480a93f6aaa81ab3e497f (Caused by ProxyError('Unable to connect to proxy', SSLError(SSLError(\"bad handshake: SysCallError(-1, 'Unexpected EOF')\"))))",
+      "time" : {
+        "start" : 1709199046102,
+        "stop" : 1709199046105,
+        "duration" : 3
+      }
+    } ]
+  },
+  "35d69b37eb7ee4d2aa46bff7fe4d11e7" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "69d32f4fc67a3d42",
+      "status" : "broken",
+      "statusDetails" : "requests.exceptions.ProxyError: HTTPSConnectionPool(host='sit.tikipay.co', port=443): Max retries exceeded with url: /pay/createOrder?amount=10000&currency=IDR&expectPayCodeType=0&merchantId=100119&orderNo=TestOrderNo_1709199045824&payChannel=12&payerName=test&payerPhone=0888888881&productId=2023&subject=TestSubject&version=1.0&sign=8478cb29f734550b7fa14885f48b6b37 (Caused by ProxyError('Unable to connect to proxy', SSLError(SSLError(\"bad handshake: SysCallError(-1, 'Unexpected EOF')\"))))",
+      "time" : {
+        "start" : 1709199045823,
+        "stop" : 1709199045847,
+        "duration" : 24
+      }
+    } ]
+  },
+  "6717494da3f0615b0f99873a054a9fc1" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "fb34b1f7564263a5",
+      "status" : "broken",
+      "statusDetails" : "requests.exceptions.ProxyError: HTTPSConnectionPool(host='sit.tikipay.co', port=443): Max retries exceeded with url: /pay/createOrder?amount=10000&currency=IDR&expectPayCodeType=0&merchantId=100119&orderNo=TestOrderNo_1709199045684&payChannel=8&payerName=test&payerPhone=0888888881&productId=2023&subject=TestSubject&version=1.0&sign=e3f8b6ffa105b2d4fcd5f6ae96a95ed1 (Caused by ProxyError('Unable to connect to proxy', SSLError(SSLError(\"bad handshake: SysCallError(-1, 'Unexpected EOF')\"))))",
+      "time" : {
+        "start" : 1709199045684,
+        "stop" : 1709199045688,
+        "duration" : 4
+      }
+    } ]
+  },
+  "836ec9445d3b3b5365b1ee7c757d8f35" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "3f63cea12553eb7f",
+      "status" : "broken",
+      "statusDetails" : "requests.exceptions.ProxyError: HTTPSConnectionPool(host='sit.tikipay.co', port=443): Max retries exceeded with url: /pay/createOrder?amount=10000&currency=IDR&expectPayCodeType=0&merchantId=100119&orderNo=TestOrderNo_1709199045964&payChannel=15&payerName=test&payerPhone=0888888881&productId=2023&subject=TestSubject&version=1.0&sign=dc5cb6f026088a055e50509b761d4b18 (Caused by ProxyError('Unable to connect to proxy', SSLError(SSLError(\"bad handshake: SysCallError(-1, 'Unexpected EOF')\"))))",
+      "time" : {
+        "start" : 1709199045964,
+        "stop" : 1709199045968,
+        "duration" : 4
+      }
+    } ]
+  },
+  "fc34bca2421e4af2f299006458a7c26c" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ffaaf28714fca794",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: 断言失败: 实际结果为 {'code': '88005', 'msg': 'channel process error, please try again', 'sign': '9e2117a0cb7243919f5e176e838fd04c', 'traceId': '432a07deb8664580bb78db5393931447'}, 期望结果为 200\nassert {'code': '88005', 'msg': 'channel process error, please try again', 'sign': '9e2117a0cb7243919f5e176e838fd04c', 'traceId': '432a07deb8664580bb78db5393931447'} == '200'",
+      "time" : {
+        "start" : 1709198739948,
+        "stop" : 1709198741751,
+        "duration" : 1803
+      }
+    } ]
+  }
+}

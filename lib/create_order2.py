@@ -43,11 +43,11 @@ class CreateOrder(BaseUtils):
     def construct_url(self, base_url, url, data):
         return f"{base_url}{url}?{data}sign={self.data['sign']}"
 
-    def assert_code_equals(self, response, expected_code):
+    # def assert_code_equals(self, response, expected_code):
+    #
+    #     assert response['code'] == expected_code, f"code码不是'{expected_code}', 实际值为: {response['code']}"
 
-        assert response['code'] == expected_code, f"code码不是'{expected_code}', 实际值为: {response['code']}"
-
-    def post_request(self, base_url, url, data, desc, expected_code = '200'):
+    def post_request(self, base_url, url, data, desc):
         full_url = self.construct_url(base_url, url, data)
         self.log.debug(f"{self.time.date_time_s()} 发起post请求:{desc}")
         self.log.debug(f"{self.time.date_time_s()} 请求时的入参: {full_url}")
@@ -56,8 +56,7 @@ class CreateOrder(BaseUtils):
             res.raise_for_status()
             response_json = res.json()
             self.log.debug(f"接口返回值: {response_json}")
-            if expected_code is not None:
-                self.assert_code_equals(response_json,expected_code)
+
             return response_json
         except Exception as e:
             self.log.error(f"请求异常: {e}")
@@ -136,7 +135,7 @@ class CreateOrder(BaseUtils):
         url = '/pay/createOrder'
         # 发起请求
         res = data.post_dtest(url=url, data=data.data['params'],
-                              desc='模拟xendit dana下单成功', expected_code='200')
+                              desc='模拟xendit dana下单成功')
         return res
 
 

@@ -1,0 +1,66 @@
+{
+  "uid" : "ffaaf28714fca794",
+  "name" : "xendit1qudao",
+  "fullName" : "test_fas_pay.TestCreateOrder#test_create_order",
+  "historyId" : "fc34bca2421e4af2f299006458a7c26c",
+  "time" : {
+    "start" : 1709198739948,
+    "stop" : 1709198741751,
+    "duration" : 1803
+  },
+  "status" : "skipped",
+  "statusMessage" : "Skipped: 断言失败: 实际结果为 {'code': '88005', 'msg': 'channel process error, please try again', 'sign': '9e2117a0cb7243919f5e176e838fd04c', 'traceId': '432a07deb8664580bb78db5393931447'}, 期望结果为 200\nassert {'code': '88005', 'msg': 'channel process error, please try again', 'sign': '9e2117a0cb7243919f5e176e838fd04c', 'traceId': '432a07deb8664580bb78db5393931447'} == '200'",
+  "statusTrace" : "('D:\\\\Tiki\\\\case\\\\test_fas_pay.py', 42, \"Skipped: 断言失败: 实际结果为 {'code': '88005', 'msg': 'channel process error, please try again', 'sign': '9e2117a0cb7243919f5e176e838fd04c', 'traceId': '432a07deb8664580bb78db5393931447'}, 期望结果为 200\\nassert {'code': '88005', 'msg': 'channel process error, please try again', 'sign': '9e2117a0cb7243919f5e176e838fd04c', 'traceId': '432a07deb8664580bb78db5393931447'} == '200'\")",
+  "flaky" : true,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "test_fas_pay"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCreateOrder"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-QH40KOLE"
+  }, {
+    "name" : "thread",
+    "value" : "7904-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_fas_pay"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "data",
+    "value" : "{'merchantId': '100119', 'productId': '2023', 'currency': 'IDR', 'amount': '10000', 'payerPhone': '0888888881', 'payChannel': '12', 'privateKey': '97fa79f073c7c5e3c97b00b50b156eaa'}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "c8fb00d8368508a5",
+      "status" : "broken",
+      "statusDetails" : "requests.exceptions.ProxyError: HTTPSConnectionPool(host='sit.tikipay.co', port=443): Max retries exceeded with url: /pay/createOrder?amount=10000&currency=IDR&expectPayCodeType=0&merchantId=100119&orderNo=TestOrderNo_1709198718016&payChannel=12&payerName=test&payerPhone=0888888881&productId=2023&subject=TestSubject&version=1.0&sign=e3d42f794aec90423cd80e2938ad85bd (Caused by ProxyError('Unable to connect to proxy', SSLError(SSLError(\"bad handshake: SysCallError(-1, 'Unexpected EOF')\"))))",
+      "time" : {
+        "start" : 1709198718015,
+        "stop" : 1709198718020,
+        "duration" : 5
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ffaaf28714fca794.json",
+  "parameterValues" : [ "{'merchantId': '100119', 'productId': '2023', 'currency': 'IDR', 'amount': '10000', 'payerPhone': '0888888881', 'payChannel': '12', 'privateKey': '97fa79f073c7c5e3c97b00b50b156eaa'}" ]
+}
