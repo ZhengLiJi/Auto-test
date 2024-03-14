@@ -91,12 +91,10 @@ class GetTime:
             ftr: 格式
 
         Returns:
-
         """
         time_local = time.localtime(int(expire_time))
         dt = time.strftime(ftr, time_local)
         return dt
-
     # staticmethod静态方法只是名义是的归属类管理，不能使用类变量和实例变量，是类的工具包
     @staticmethod
     def get_s_timestamp():
@@ -105,8 +103,6 @@ class GetTime:
         """
         time_stamp = int(round(time.time()))
         return str(time_stamp)
-
-
 
     @staticmethod
     def now_milliseconds():

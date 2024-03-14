@@ -1,5 +1,7 @@
 # -*- coding: utf-8 -*-
-from   lib.base_utils import BaseUtils
+import time
+
+from   lib.base_utils import BaseUtils as bb
 
 
 idr_data = (100119, 2023, "IDR", 10000, "97fa79f073c7c5e3c97b00b50b156eaa", 1.0, )
@@ -31,6 +33,7 @@ pay_channels = {
 
     'luquido': (60, 61, 77, 78, 79, 80, 81),
     'luquido_mx': (81, 82, 83)
+
 }
 
 code_data = [200, 88005, 88011, 88002, 88003, 88004, 88010, 88012, 88014, 88015, 88021, 88022, 88023, 88024, 88025, 88026, 88032]
@@ -40,7 +43,7 @@ code_data = [200, 88005, 88011, 88002, 88003, 88004, 88010, 88012, 88014, 88015,
 
 """监控各渠道的支付下单data"""
 # print(xendit)
-def generate_data(channel, payer_phone, data, code):
+def generate_data(channel, payer_phone, data,privateKey, code,msg,):
     return {
         'merchantId': str(data[0]),
         'productId': str(data[1]),
@@ -48,18 +51,20 @@ def generate_data(channel, payer_phone, data, code):
         'amount': str(data[3]),
         'payerPhone': payer_phone,
         'payChannel': str(channel),
-        'privateKey': data[-2]
-
-
-    },code
-
-xendit1_data = [generate_data(channel, "0888888881", idr_data, '200') for channel in pay_channels['xendit']]
-# print(xendit1_data)
-# # xendit2_data = [generate_data(channel, "0888888882", idr_data) for channel in xendit]
+               'version': 1.0,
+               'expectPayCodeType': 0,
+               'subject': 'TestSubject',
+               'payerName': 'test',
+           }, privateKey, code, msg
+    # xendit1_data = [generate_data(channel, pay_channels['xendit']['phone'], idr_data) for channel in pay_channels['xendit']['channels']]
+    #
+xendit1_data =[({'merchantId': '100119', 'productId': '2023', 'currency': 'IDR', 'amount': '10000', 'payerPhone': '0888888881', 'payChannel': '1', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}, '97fa79f073c7c5e3c97b00b50b156eaa', '200', 'SUCCESS'), ({'merchantId': '100119', 'productId': '2023', 'currency': 'IDR', 'amount': '10000', 'payerPhone': '0888888881', 'payChannel': '3', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}, '97fa79f073c7c5e3c97b00b50b156eaa', '200', 'SUCCESS')]
+print(xendit1_data)
+# xendit2_data = [generate_data(channel, "0888888882", idr_data) for channel in xendit]
 # # xendit3_data = [generate_data(channel, "0888888883", idr_data) for channel in xendit]
 # # xendit5_data = [generate_data(channel, "0888888889", idr_data) for channel in xendit]
 # faspay_data = [generate_data(channel, "0888888885", idr_data) for channel in pay_channels['faspay']]
-oy_data = [generate_data(channel, "0888888886", idr_data,200) for channel in pay_channels["oy"]]
+# oy_data = [generate_data(channel, "0888888886", idr_data,200) for channel in pay_channels["oy"]]
 # gv_data = [generate_data(channel, "0888888888", idr_data) for channel in pay_channels["gv"]]
 # dana_data = [generate_data(channel, "0888888893", idr_data) for channel in pay_channels["dana"]]
 # mpi_data = [generate_data(channel, "0888888892", idr_data) for channel in pay_channels["mpi"]]
@@ -80,27 +85,3 @@ oy_data = [generate_data(channel, "0888888886", idr_data,200) for channel in pay
 """监控各渠道的支付下单data"""
 # # 存储生成的数据列表
 # generated_data = {}
-#
-#
-# error_data= [({
-#                   'merchantId': '100119',
-#                   'productId': '2023',
-#                   'currency': 'IDR',
-#                   'amount': '10000',
-#                   'payerPhone': '0888888881',
-#                   'payChannel': '1',
-#                   'privateKey': '97fa79f073c7c5e3c97b00b50b156eaa'
-#               },200),
-# ({
-#                   'merchantId': '100119',
-#                   'productId': '2023',
-#                   'currency': 'IDR',
-#                   'amount': '10000',
-#                   'payerPhone': '0888888881',
-#                   'payChannel': '1',
-#                   'privateKey': '97fa79f073c7c5e3c97b00b50b156eaa'
-#               },200),
-#
-#
-# ]
-# print(error_data)

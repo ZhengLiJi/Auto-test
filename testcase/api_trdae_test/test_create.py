@@ -1,14 +1,10 @@
 import allure
-import pytest
-import time
 import os
 from api.trade import Trade
-from case_data.order_data  import *
-
-
-# 你的Test_create_order就是父类 case层不应该加上api的请求逻辑和参数拼接， 需要的是直接把参数给接口，然后拿返回，再判断你这次组装的 {符合你业务的数据} 【返回的结果】是否符合你的 [预期值]
-# 比如你的ovo_success 你的业务数据 = '100119', '2023', "IDR", '20110', '081382826304', '15', '97fa79f073c7c5e3c97b00b50b156eaa' 返回的结果就是result assert就是把实际结果和你的预期进行判断
-import pytest
+from lib.settings.logger import log
+from lib.settings.get_time import GetTime
+from case_data.api_data.idr_data import *
+from case_data.api_data.order_data import *
 
 import pytest
 # from create_order_file import CreateOrder
@@ -17,53 +13,48 @@ import pytest
 class TestCreate:
     def setup_class(self):
         self.xxx = Trade()
+        self.log = log
+        self.time = GetTime()
 
-    def perform_order_test(self, data, privateKey, expected_code, expected_msg=None, expected_type=None):
+    def perform_order_test(self, data, privateKey, expected_code, expected_msg=None, expected_type=None, orderNo=None):
+        if orderNo is not None and 'orderNo' not in data:
+            # 如果 orderNo 存在且 data 中没有 orderNo 字段，则将 orderNo 添加到 data 中
+            data['orderNo'] = orderNo
+        elif 'orderNo' not in data:
+            data['orderNo'] = 'TestOrderNo_' + self.time.get_timestamp()
         result = self.xxx.create(data,privateKey)
         try:
             assert result.get('code') == expected_code and (
                     (expected_msg and result.get('msg') == expected_msg) or
                     (expected_type and result.get('type') == expected_type)
             ), (
-                f"断言失败: 实际结果为 {result.get('code')}, "
+                f"断言失败: 实际结果为 {result.get('code')},{result.get('msg') or result.get('type')} "
                 f"期望结果为 {expected_code}. {expected_msg or expected_type}"
             )
         except AssertionError as e:
-            print(f"断言失败: {e}")
+            raise AssertionError(f"{e}")
 
     # @allure.story("xendit渠道")
     # @allure.title('xendit渠道下单')
-    # @pytest.mark.parametrize("data, privateKey,expected_code", xendit1_data)
+    # @pytest.mark.parametrize("data, privateKey,expected_code,expected_msg", xendit1_data)
     # def test_xendit(self, data, privateKey, expected_code, expected_msg):
     #     self.perform_order_test(data, privateKey, expected_code, expected_msg)
 
     @allure.story("下单接口异常case合计")
-    def test_createorder_error(self):
-        for data, privateKey, expected_code, expected_msg, title in error_data:
-            allure.dynamic.title(f"下单接口 - {title}")  # 设置标题
-            self.perform_order_test(data, privateKey, expected_code, expected_msg)
-
-
-
-
-
-
-
-
-    # @allure.story("OY渠道")
-    # @allure.title('OY渠道下单')
-    # @pytest.mark.parametrize("data, expected_code", oy_data)
-    # # @pytest.fixture
-    # def oy_test(self, create_order_oy, data, expected_code):
-    #     TestCreate().perform_order_test(create_order_oy, data, expected_code)
+    @pytest.mark.parametrize("data, privateKey, expected_code, expected_msg, title", create_order_data)
+    @pytest.mark.xfail     #断言失败则跳过
+    def test_createorder_error(self,data, privateKey, expected_code, expected_msg, title):
+            allure.dynamic.title(f"{title}")
+            response = self.perform_order_test(data, privateKey, expected_code, expected_msg)
+            print(response)
 
 
 
 if __name__ == '__main__':
-    # if os.path.exists("D:/Tiki/results"):
-    #     os.system("rm -r D:/Tiki/results")
+    if os.path.exists("D:/Tiki/results"):
+        os.system("rm -r D:/Tiki/results")
 
     pytest.main(["-vs", '--alluredir', 'D:/Tiki/results'])
 
     # 生成allure报告
-    os.system("allure generate D:/Tiki/results -o D:/Tiki/results/reports --clean")
+    os.system("allure generate D:/Tiki/results -o D:/Tiki/reports --clean")

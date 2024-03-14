@@ -2,6 +2,7 @@ from lib.settings.logger import log
 from lib.settings.get_time import GetTime
 from lib.settings.random_utils import Random
 from lib.settings.verify import Verify
+from lib.settings.sgin import Sign
 
 
 class BaseUtils:
@@ -28,6 +29,12 @@ class BaseUtils:
         if self._have.get("verify") is None:
             self._have['verify'] = Verify()
         return self._have['verify']
+
+    @property
+    def sign(self):
+        if self._have.get("sign") is None:
+            self._have['sign'] = Sign()
+        return self._have['sign']
 
 if __name__ == '__main__':
     a = BaseUtils()

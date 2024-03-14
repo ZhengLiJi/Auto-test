@@ -1,0 +1,37 @@
+
+
+#
+order_fail_qurest_data:
+  query_balance:
+    'merchantId': '100119'
+    'productId': '2023'
+    'currency': 'IDR'
+  create_order_data:
+    'merchantId': '100119',
+    'productId': '2023',
+    'currency': 'IDR',
+    'amount': '10110',
+    'payChannel': '17',
+    'version': 1.0,
+    'expectPayCodeType': 0,
+    'subject': 'TestSubject',
+    'payerName': 'test'
+
+  query_order_data:
+    'merchantId': '100119',
+    'productId': '2023',
+    'currency': 'IDR',
+    'version': '1.0',
+    'orderType': '0'
+  query_balance2:
+    'merchantId': '100119',
+    'productId': '2023',
+    'currency': 'IDR'
+  privateKey:
+    '97fa79f073c7c5e3c97b00b50b156eaa'
+
+
+
+
+
+
