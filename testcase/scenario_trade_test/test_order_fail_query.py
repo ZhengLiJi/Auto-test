@@ -10,9 +10,10 @@ from api.trade import Trade
 from case_data.scenario_data.scenario import *
 from lib.settings.get_time import GetTime
 from lib.settings.logger import log
+from common.mysql import MysqlDb
 
-@allure.epic("针对收款业务场景的测试")
-@allure.feature("下单成功，支付失败")
+@allure.epic("针对trade业务场景的测试")
+@allure.feature("收款业务")
 class TestOrderFailQurest:
     def setup_class(self):
         self.trade = Trade()

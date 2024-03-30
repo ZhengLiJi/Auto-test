@@ -1,0 +1,1685 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: 支付渠道不符合预期，实际值为 7\nassert 7 == 11",
+      "children" : [ {
+        "name" : "单个支付方式的金额区间-路由为oy",
+        "uid" : "f7c3e2f249338ad8",
+        "parentUid" : "d94fde8a989589c0abbc73f76307d395",
+        "status" : "failed",
+        "time" : {
+          "start" : 1710833390085,
+          "stop" : 1710833392141,
+          "duration" : 2056
+        },
+        "flaky" : false,
+        "parameters" : [ "{'merchantId': '88888', 'productId': '1099', 'currency': 'IDR', 'amount': '5000', 'payChannel': '18', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}", "11", "'akiki29dk39dlove0329djustin'", "'单个支付方式的金额区间-路由为oy'" ]
+      } ],
+      "uid" : "d94fde8a989589c0abbc73f76307d395"
+    }, {
+      "name" : "AssertionError: 预期状态码为 200，实际状态码为 88011\nassert '88011' == '200'\n  - 200\n  + 88011",
+      "children" : [ {
+        "name" : "单个商户的金额区间-xendit2",
+        "uid" : "d092b16dcda37783",
+        "parentUid" : "82f3d866b3b423ea9b5d7cb14063e613",
+        "status" : "failed",
+        "time" : {
+          "start" : 1710833394196,
+          "stop" : 1710833395589,
+          "duration" : 1393
+        },
+        "flaky" : false,
+        "parameters" : [ "{'merchantId': '100119', 'productId': '2023', 'currency': 'IDR', 'amount': '20008', 'payChannel': '16', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}", "10", "'97fa79f073c7c5e3c97b00b50b156eaa'", "'单个商户的金额区间-xendit2'" ]
+      }, {
+        "name" : "xendit2",
+        "uid" : "8c91fc69983f767f",
+        "parentUid" : "82f3d866b3b423ea9b5d7cb14063e613",
+        "status" : "failed",
+        "time" : {
+          "start" : 1710833545409,
+          "stop" : 1710833546834,
+          "duration" : 1425
+        },
+        "flaky" : false,
+        "parameters" : [ "{'merchantId': '100119', 'productId': '2023', 'currency': 'IDR', 'amount': '10000', 'payerPhone': '0888888882', 'payChannel': '1', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}", "10", "'97fa79f073c7c5e3c97b00b50b156eaa'", "'xendit2'" ]
+      }, {
+        "name" : "xendit3",
+        "uid" : "8b54af99f0dccae0",
+        "parentUid" : "82f3d866b3b423ea9b5d7cb14063e613",
+        "status" : "failed",
+        "time" : {
+          "start" : 1710833547002,
+          "stop" : 1710833548437,
+          "duration" : 1435
+        },
+        "flaky" : false,
+        "parameters" : [ "{'merchantId': '100119', 'productId': '2023', 'currency': 'IDR', 'amount': '10000', 'payerPhone': '0888888883', 'payChannel': '1', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}", "13", "'97fa79f073c7c5e3c97b00b50b156eaa'", "'xendit3'" ]
+      }, {
+        "name" : "gv",
+        "uid" : "29bb545bb9c2e1bb",
+        "parentUid" : "82f3d866b3b423ea9b5d7cb14063e613",
+        "status" : "failed",
+        "time" : {
+          "start" : 1710833553366,
+          "stop" : 1710833554792,
+          "duration" : 1426
+        },
+        "flaky" : false,
+        "parameters" : [ "{'merchantId': '100119', 'productId': '2023', 'currency': 'IDR', 'amount': '10000', 'payerPhone': '0888888888', 'payChannel': '15', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}", "15", "'97fa79f073c7c5e3c97b00b50b156eaa'", "'gv'" ]
+      }, {
+        "name" : "xendit5",
+        "uid" : "97b6c190b70d2ec3",
+        "parentUid" : "82f3d866b3b423ea9b5d7cb14063e613",
+        "status" : "failed",
+        "time" : {
+          "start" : 1710833554807,
+          "stop" : 1710833556250,
+          "duration" : 1443
+        },
+        "flaky" : false,
+        "parameters" : [ "{'merchantId': '100119', 'productId': '2023', 'currency': 'IDR', 'amount': '10000', 'payerPhone': '0888888889', 'payChannel': '17', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}", "22", "'97fa79f073c7c5e3c97b00b50b156eaa'", "'xendit5'" ]
+      }, {
+        "name" : "gv",
+        "uid" : "a47f3c2056423130",
+        "parentUid" : "82f3d866b3b423ea9b5d7cb14063e613",
+        "status" : "failed",
+        "time" : {
+          "start" : 1711088126899,
+          "stop" : 1711088128335,
+          "duration" : 1436
+        },
+        "flaky" : false,
+        "parameters" : [ "{'merchantId': '100119', 'productId': '2023', 'currency': 'IDR', 'amount': '10000', 'payerPhone': '0888888888', 'payChannel': '15', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}", "'15'", "'97fa79f073c7c5e3c97b00b50b156eaa'", "'gv'" ]
+      }, {
+        "name" : "xendit5",
+        "uid" : "e2d3a4c4f05c4ca7",
+        "parentUid" : "82f3d866b3b423ea9b5d7cb14063e613",
+        "status" : "failed",
+        "time" : {
+          "start" : 1711088128351,
+          "stop" : 1711088129733,
+          "duration" : 1382
+        },
+        "flaky" : false,
+        "parameters" : [ "{'merchantId': '100119', 'productId': '2023', 'currency': 'IDR', 'amount': '10000', 'payerPhone': '0888888889', 'payChannel': '17', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}", "'22'", "'97fa79f073c7c5e3c97b00b50b156eaa'", "'xendit5'" ]
+      }, {
+        "name" : "mpi",
+        "uid" : "24450198fc76a590",
+        "parentUid" : "82f3d866b3b423ea9b5d7cb14063e613",
+        "status" : "failed",
+        "time" : {
+          "start" : 1711615543724,
+          "stop" : 1711615545635,
+          "duration" : 1911
+        },
+        "flaky" : false,
+        "parameters" : [ "{'merchantId': '100119', 'productId': '2023', 'currency': 'IDR', 'amount': '10000', 'accountNumber': '0888888881', 'bankCode': 'DANA', 'version': 1.0, 'description': 'test', 'accountHolderName': 'user_mpi'}", "12", "'97fa79f073c7c5e3c97b00b50b156eaa'", "'mpi'" ]
+      } ],
+      "uid" : "82f3d866b3b423ea9b5d7cb14063e613"
+    }, {
+      "name" : "AssertionError: 预期状态码为 200，实际状态码为 88005\nassert '88005' == '200'\n  - 200\n  + 88005",
+      "children" : [ {
+        "name" : "mcpay",
+        "uid" : "cc0806134b3c7e94",
+        "parentUid" : "9b3a5bdbba240d2fa95fe4bdc5368b96",
+        "status" : "failed",
+        "time" : {
+          "start" : 1710833556265,
+          "stop" : 1710833557810,
+          "duration" : 1545
+        },
+        "flaky" : false,
+        "parameters" : [ "{'merchantId': '100119', 'productId': '2023', 'currency': 'IDR', 'amount': '15000', 'payerPhone': '081806708607', 'payChannel': '4', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}", "3", "'97fa79f073c7c5e3c97b00b50b156eaa'", "'mcpay'" ]
+      }, {
+        "name" : "mcpay",
+        "uid" : "3062ba48e764d2a1",
+        "parentUid" : "9b3a5bdbba240d2fa95fe4bdc5368b96",
+        "status" : "failed",
+        "time" : {
+          "start" : 1710928729649,
+          "stop" : 1710928731214,
+          "duration" : 1565
+        },
+        "flaky" : false,
+        "parameters" : [ "{'merchantId': '100119', 'productId': '2023', 'currency': 'IDR', 'amount': '15000', 'payerPhone': '081806708607', 'payChannel': '4', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}", "3", "'4'", "'97fa79f073c7c5e3c97b00b50b156eaa'", "'mcpay'" ]
+      }, {
+        "name" : "mcpay",
+        "uid" : "6357028fcb55abfa",
+        "parentUid" : "9b3a5bdbba240d2fa95fe4bdc5368b96",
+        "status" : "failed",
+        "time" : {
+          "start" : 1710929081895,
+          "stop" : 1710929083513,
+          "duration" : 1618
+        },
+        "flaky" : false,
+        "parameters" : [ "{'merchantId': '100119', 'productId': '2023', 'currency': 'IDR', 'amount': '15000', 'payerPhone': '081806708607', 'payChannel': '4', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}", "3", "'4'", "'97fa79f073c7c5e3c97b00b50b156eaa'", "'mcpay'" ]
+      }, {
+        "name" : "mcpay",
+        "uid" : "6bb3fe30cfa63d71",
+        "parentUid" : "9b3a5bdbba240d2fa95fe4bdc5368b96",
+        "status" : "failed",
+        "time" : {
+          "start" : 1710929136975,
+          "stop" : 1710929138518,
+          "duration" : 1543
+        },
+        "flaky" : false,
+        "parameters" : [ "{'merchantId': '100119', 'productId': '2023', 'currency': 'IDR', 'amount': '15000', 'payerPhone': '081806708607', 'payChannel': '4', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}", "3", "'4'", "'97fa79f073c7c5e3c97b00b50b156eaa'", "'mcpay'" ]
+      }, {
+        "name" : "mcpay",
+        "uid" : "62d8e6f9460c35c0",
+        "parentUid" : "9b3a5bdbba240d2fa95fe4bdc5368b96",
+        "status" : "failed",
+        "time" : {
+          "start" : 1710929203380,
+          "stop" : 1710929204922,
+          "duration" : 1542
+        },
+        "flaky" : false,
+        "parameters" : [ "{'merchantId': '100119', 'productId': '2023', 'currency': 'IDR', 'amount': '15000', 'payerPhone': '081806708607', 'payChannel': '4', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}", "3", "'4'", "'97fa79f073c7c5e3c97b00b50b156eaa'", "'mcpay'" ]
+      }, {
+        "name" : "mcpay",
+        "uid" : "ecfd8e596daad640",
+        "parentUid" : "9b3a5bdbba240d2fa95fe4bdc5368b96",
+        "status" : "failed",
+        "time" : {
+          "start" : 1710929386193,
+          "stop" : 1710929387891,
+          "duration" : 1698
+        },
+        "flaky" : false,
+        "parameters" : [ "{'merchantId': '100119', 'productId': '2023', 'currency': 'IDR', 'amount': '15000', 'payerPhone': '081806708607', 'payChannel': '4', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}", "3", "'4'", "'97fa79f073c7c5e3c97b00b50b156eaa'", "'mcpay'" ]
+      }, {
+        "name" : "mcpay",
+        "uid" : "af4a6f6bdb38b20a",
+        "parentUid" : "9b3a5bdbba240d2fa95fe4bdc5368b96",
+        "status" : "failed",
+        "time" : {
+          "start" : 1710930544909,
+          "stop" : 1710930546693,
+          "duration" : 1784
+        },
+        "flaky" : false,
+        "parameters" : [ "{'merchantId': '100119', 'productId': '2023', 'currency': 'IDR', 'amount': '15000', 'payerPhone': '081806708607', 'payChannel': '4', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}", "3", "'4'", "'97fa79f073c7c5e3c97b00b50b156eaa'", "'mcpay'" ]
+      }, {
+        "name" : "mcpay",
+        "uid" : "8592af7428f86f8",
+        "parentUid" : "9b3a5bdbba240d2fa95fe4bdc5368b96",
+        "status" : "failed",
+        "time" : {
+          "start" : 1710930729737,
+          "stop" : 1710930731292,
+          "duration" : 1555
+        },
+        "flaky" : false,
+        "parameters" : [ "{'merchantId': '100119', 'productId': '2023', 'currency': 'IDR', 'amount': '15000', 'payerPhone': '081806708607', 'payChannel': '4', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}", "3", "'4'", "'97fa79f073c7c5e3c97b00b50b156eaa'", "'mcpay'" ]
+      }, {
+        "name" : "mcpay",
+        "uid" : "528190cdd04907ef",
+        "parentUid" : "9b3a5bdbba240d2fa95fe4bdc5368b96",
+        "status" : "failed",
+        "time" : {
+          "start" : 1710930817662,
+          "stop" : 1710930819195,
+          "duration" : 1533
+        },
+        "flaky" : false,
+        "parameters" : [ "{'merchantId': '100119', 'productId': '2023', 'currency': 'IDR', 'amount': '15000', 'payerPhone': '081806708607', 'payChannel': '4', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}", "3", "'4'", "'97fa79f073c7c5e3c97b00b50b156eaa'", "'mcpay'" ]
+      }, {
+        "name" : "mcpay",
+        "uid" : "2ab50c7266c8aed3",
+        "parentUid" : "9b3a5bdbba240d2fa95fe4bdc5368b96",
+        "status" : "failed",
+        "time" : {
+          "start" : 1710930914956,
+          "stop" : 1710930916690,
+          "duration" : 1734
+        },
+        "flaky" : false,
+        "parameters" : [ "{'merchantId': '100119', 'productId': '2023', 'currency': 'IDR', 'amount': '15000', 'payerPhone': '081806708607', 'payChannel': '4', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}", "'4'", "3", "'97fa79f073c7c5e3c97b00b50b156eaa'", "'mcpay'" ]
+      }, {
+        "name" : "mcpay",
+        "uid" : "1e7dd1cdb5d6a0ca",
+        "parentUid" : "9b3a5bdbba240d2fa95fe4bdc5368b96",
+        "status" : "failed",
+        "time" : {
+          "start" : 1710931345182,
+          "stop" : 1710931346788,
+          "duration" : 1606
+        },
+        "flaky" : false,
+        "parameters" : [ "{'merchantId': '100119', 'productId': '2023', 'currency': 'IDR', 'amount': '15000', 'payerPhone': '081806708607', 'payChannel': '4', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}", "'4'", "3", "'97fa79f073c7c5e3c97b00b50b156eaa'", "'mcpay'" ]
+      }, {
+        "name" : "mcpay",
+        "uid" : "c889b7a01bc9f09e",
+        "parentUid" : "9b3a5bdbba240d2fa95fe4bdc5368b96",
+        "status" : "failed",
+        "time" : {
+          "start" : 1711088129746,
+          "stop" : 1711088131304,
+          "duration" : 1558
+        },
+        "flaky" : false,
+        "parameters" : [ "{'merchantId': '100119', 'productId': '2023', 'currency': 'IDR', 'amount': '15000', 'payerPhone': '081806708607', 'payChannel': '4', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}", "'3'", "'97fa79f073c7c5e3c97b00b50b156eaa'", "'mcpay'" ]
+      }, {
+        "name" : "dana",
+        "uid" : "4e8b5f7bfc700318",
+        "parentUid" : "9b3a5bdbba240d2fa95fe4bdc5368b96",
+        "status" : "failed",
+        "time" : {
+          "start" : 1711615549959,
+          "stop" : 1711615551547,
+          "duration" : 1588
+        },
+        "flaky" : false,
+        "parameters" : [ "{'merchantId': '100119', 'productId': '2023', 'currency': 'IDR', 'amount': '10000', 'accountNumber': '0888888881', 'bankCode': 'DANA', 'version': 1.0, 'description': 'test', 'accountHolderName': 'user_dana'}", "24", "'97fa79f073c7c5e3c97b00b50b156eaa'", "'dana'" ]
+      } ],
+      "uid" : "9b3a5bdbba240d2fa95fe4bdc5368b96"
+    }, {
+      "name" : "AssertionError: 支付渠道不符合预期，实际值为 12\nassert 12 == 24",
+      "children" : [ {
+        "name" : "DANA",
+        "uid" : "b355fe11224a9116",
+        "parentUid" : "660590a7aa057f99227776d2971b92ad",
+        "status" : "failed",
+        "time" : {
+          "start" : 1710833559785,
+          "stop" : 1710833561715,
+          "duration" : 1930
+        },
+        "flaky" : false,
+        "parameters" : [ "{'merchantId': '100119', 'productId': '2023', 'currency': 'IDR', 'amount': '10000', 'payerPhone': '0888888892', 'payChannel': '17', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}", "24", "'97fa79f073c7c5e3c97b00b50b156eaa'", "'DANA'" ]
+      } ],
+      "uid" : "660590a7aa057f99227776d2971b92ad"
+    }, {
+      "name" : "AssertionError: assert '11' == '00'\n  - 00\n  + 11",
+      "children" : [ {
+        "name" : "创建支付成功订单",
+        "uid" : "e4bb778c32abda28",
+        "parentUid" : "b9a21678c717f4cbbf6274dc98aab479",
+        "status" : "failed",
+        "time" : {
+          "start" : 1710834066528,
+          "stop" : 1710834070992,
+          "duration" : 4464
+        },
+        "flaky" : false,
+        "parameters" : [ "({'merchantId': '100119', 'productId': '2023', 'currency': 'IDR', 'sign': '6507565dca7bb9f318a7a8ce79410b3a'}, {'merchantId': '100119', 'productId': '2023', 'currency': 'IDR', 'amount': '10000', 'payChannel': '17', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test', 'orderNo': 'TestOrderNo_1710834062087', 'sign': 'decb52b15c7257cc8c7f6e745f604aaa'}, {'merchantId': '100119', 'productId': '2023', 'currency': 'IDR', 'version': '1.0', 'orderType': '0', 'tradeNo': '10012024031914410200600001', 'sign': '484784ce8ec0f86b039daad33b4e55c6'}, {'merchantId': '100119', 'productId': '2023', 'currency': 'IDR', 'sign': '6507565dca7bb9f318a7a8ce79410b3a'}, '97fa79f073c7c5e3c97b00b50b156eaa')" ]
+      } ],
+      "uid" : "b9a21678c717f4cbbf6274dc98aab479"
+    }, {
+      "name" : "AssertionError: 支付渠道不符合预期，实际值为 7\nassert 7 == '17'",
+      "children" : [ {
+        "name" : "xendit",
+        "uid" : "1a88582429d92f14",
+        "parentUid" : "640a28248cd18daa9985f6c868cf3ea7",
+        "status" : "failed",
+        "time" : {
+          "start" : 1710930727296,
+          "stop" : 1710930729555,
+          "duration" : 2259
+        },
+        "flaky" : false,
+        "parameters" : [ "{'merchantId': '100119', 'productId': '2023', 'currency': 'IDR', 'amount': '10000', 'payerPhone': '0888888881', 'payChannel': '17', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}", "7", "'17'", "'97fa79f073c7c5e3c97b00b50b156eaa'", "'xendit'" ]
+      }, {
+        "name" : "xendit",
+        "uid" : "9ff3280494b7213f",
+        "parentUid" : "640a28248cd18daa9985f6c868cf3ea7",
+        "status" : "failed",
+        "time" : {
+          "start" : 1710930815340,
+          "stop" : 1710930817484,
+          "duration" : 2144
+        },
+        "flaky" : false,
+        "parameters" : [ "{'merchantId': '100119', 'productId': '2023', 'currency': 'IDR', 'amount': '10000', 'payerPhone': '0888888881', 'payChannel': '17', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}", "7", "'17'", "'97fa79f073c7c5e3c97b00b50b156eaa'", "'xendit'" ]
+      } ],
+      "uid" : "640a28248cd18daa9985f6c868cf3ea7"
+    }, {
+      "name" : "AssertionError: 没有返回dana支付方式的链接\nassert ('https://m.dana.id' in 'https://checkouttest.lipperpay.com/mock?orderInfo=PkKE5VRzA2NqiSDiRdeoWbXf4hoqZHXoOtoLayTq1rilzjG346WAS94kyrRD7kjR53REbrRfIjPu2FcD7k4PPw%3D%3D' or 'https://link.dana.id' in 'https://checkouttest.lipperpay.com/mock?orderInfo=PkKE5VRzA2NqiSDiRdeoWbXf4hoqZHXoOtoLayTq1rilzjG346WAS94kyrRD7kjR53REbrRfIjPu2FcD7k4PPw%3D%3D')\n +  where 'https://checkouttest.lipperpay.com/mock?orderInfo=PkKE5VRzA2NqiSDiRdeoWbXf4hoqZHXoOtoLayTq1rilzjG346WAS94kyrRD7kjR53REbrRfIjPu2FcD7k4PPw%3D%3D' = <built-in method get of dict object at 0x0000021C09E6ACC0>('payCode')\n +    where <built-in method get of dict object at 0x0000021C09E6ACC0> = {'code': '200', 'expireTime': '2024-03-20 18:35:14', 'msg': 'SUCCESS', 'orderNo': 'TestOrderNo_1710930912808', ...}.get\n +  and   'https://checkouttest.lipperpay.com/mock?orderInfo=PkKE5VRzA2NqiSDiRdeoWbXf4hoqZHXoOtoLayTq1rilzjG346WAS94kyrRD7kjR53REbrRfIjPu2FcD7k4PPw%3D%3D' = <built-in method get of dict object at 0x0000021C09E6ACC0>('payCode')\n +    where <built-in method get of dict object at 0x0000021C09E6ACC0> = {'code': '200', 'expireTime': '2024-03-20 18:35:14', 'msg': 'SUCCESS', 'orderNo': 'TestOrderNo_1710930912808', ...}.get",
+      "children" : [ {
+        "name" : "xendit",
+        "uid" : "756f2a6558fee23f",
+        "parentUid" : "98b5a286a2b81305ad00480eb3d445d6",
+        "status" : "failed",
+        "time" : {
+          "start" : 1710930912808,
+          "stop" : 1710930914780,
+          "duration" : 1972
+        },
+        "flaky" : false,
+        "parameters" : [ "{'merchantId': '100119', 'productId': '2023', 'currency': 'IDR', 'amount': '10000', 'payerPhone': '0888888881', 'payChannel': '17', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}", "'17'", "7", "'97fa79f073c7c5e3c97b00b50b156eaa'", "'xendit'" ]
+      } ],
+      "uid" : "98b5a286a2b81305ad00480eb3d445d6"
+    }, {
+      "name" : "AssertionError: 支付渠道不符合预期，实际值为 7\nassert 7 == '7'",
+      "children" : [ {
+        "name" : "xendit",
+        "uid" : "be9dd16098d1ea27",
+        "parentUid" : "faf337588e7ca93202dc2cbc00f61c94",
+        "status" : "failed",
+        "time" : {
+          "start" : 1711088115708,
+          "stop" : 1711088118022,
+          "duration" : 2314
+        },
+        "flaky" : false,
+        "parameters" : [ "{'merchantId': '100119', 'productId': '2023', 'currency': 'IDR', 'amount': '10000', 'payerPhone': '0888888881', 'payChannel': '17', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}", "'7'", "'97fa79f073c7c5e3c97b00b50b156eaa'", "'xendit'" ]
+      } ],
+      "uid" : "faf337588e7ca93202dc2cbc00f61c94"
+    }, {
+      "name" : "AssertionError: 支付渠道不符合预期，实际值为 10\nassert 10 == '10'",
+      "children" : [ {
+        "name" : "xendit2",
+        "uid" : "4712f7d67cf26ce2",
+        "parentUid" : "3b3c7d0c40301e047fa175ed296208fd",
+        "status" : "failed",
+        "time" : {
+          "start" : 1711088118125,
+          "stop" : 1711088120254,
+          "duration" : 2129
+        },
+        "flaky" : false,
+        "parameters" : [ "{'merchantId': '100119', 'productId': '2023', 'currency': 'IDR', 'amount': '10000', 'payerPhone': '0888888882', 'payChannel': '17', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}", "'10'", "'97fa79f073c7c5e3c97b00b50b156eaa'", "'xendit2'" ]
+      } ],
+      "uid" : "3b3c7d0c40301e047fa175ed296208fd"
+    }, {
+      "name" : "AssertionError: 支付渠道不符合预期，实际值为 13\nassert 13 == '13'",
+      "children" : [ {
+        "name" : "xendit3",
+        "uid" : "8aefe46baa410a03",
+        "parentUid" : "81cf668dc183ada4eed48e9f36c3860b",
+        "status" : "failed",
+        "time" : {
+          "start" : 1711088120266,
+          "stop" : 1711088122400,
+          "duration" : 2134
+        },
+        "flaky" : false,
+        "parameters" : [ "{'merchantId': '100119', 'productId': '2023', 'currency': 'IDR', 'amount': '10000', 'payerPhone': '0888888883', 'payChannel': '17', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}", "'13'", "'97fa79f073c7c5e3c97b00b50b156eaa'", "'xendit3'" ]
+      } ],
+      "uid" : "81cf668dc183ada4eed48e9f36c3860b"
+    }, {
+      "name" : "AssertionError: 支付渠道不符合预期，实际值为 14\nassert 14 == '14'",
+      "children" : [ {
+        "name" : "faspay",
+        "uid" : "27ac58c93411768",
+        "parentUid" : "46b24796b7ffdb5a0236af17d3e16089",
+        "status" : "failed",
+        "time" : {
+          "start" : 1711088122416,
+          "stop" : 1711088124694,
+          "duration" : 2278
+        },
+        "flaky" : false,
+        "parameters" : [ "{'merchantId': '100119', 'productId': '2023', 'currency': 'IDR', 'amount': '10000', 'payerPhone': '0888888885', 'payChannel': '3', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}", "'14'", "'97fa79f073c7c5e3c97b00b50b156eaa'", "'faspay'" ]
+      } ],
+      "uid" : "46b24796b7ffdb5a0236af17d3e16089"
+    }, {
+      "name" : "AssertionError: 支付渠道不符合预期，实际值为 11\nassert 11 == '11'",
+      "children" : [ {
+        "name" : "oy",
+        "uid" : "8ba6dcc31a81c540",
+        "parentUid" : "5f792df85b4e65edaad71c4b8938b8e0",
+        "status" : "failed",
+        "time" : {
+          "start" : 1711088124705,
+          "stop" : 1711088126888,
+          "duration" : 2183
+        },
+        "flaky" : false,
+        "parameters" : [ "{'merchantId': '100119', 'productId': '2023', 'currency': 'IDR', 'amount': '10000', 'payerPhone': '0888888886', 'payChannel': '17', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}", "'11'", "'97fa79f073c7c5e3c97b00b50b156eaa'", "'oy'" ]
+      } ],
+      "uid" : "5f792df85b4e65edaad71c4b8938b8e0"
+    }, {
+      "name" : "AssertionError: 支付渠道不符合预期，实际值为 12\nassert 12 == '12'",
+      "children" : [ {
+        "name" : "MPI",
+        "uid" : "c63bf3dc7e82c095",
+        "parentUid" : "f00333b76e9b2417aecbc10834d3582b",
+        "status" : "failed",
+        "time" : {
+          "start" : 1711088131315,
+          "stop" : 1711088132663,
+          "duration" : 1348
+        },
+        "flaky" : false,
+        "parameters" : [ "{'merchantId': '100119', 'productId': '2023', 'currency': 'IDR', 'amount': '10000', 'payerPhone': '0888888892', 'payChannel': '17', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}", "'12'", "'97fa79f073c7c5e3c97b00b50b156eaa'", "'MPI'" ]
+      } ],
+      "uid" : "f00333b76e9b2417aecbc10834d3582b"
+    }, {
+      "name" : "AssertionError: 支付渠道不符合预期，实际值为 12\nassert 12 == '24'",
+      "children" : [ {
+        "name" : "DANA",
+        "uid" : "2d62a3504c508fe1",
+        "parentUid" : "62e5c93b860741b6445d1444cfa390a0",
+        "status" : "failed",
+        "time" : {
+          "start" : 1711088132674,
+          "stop" : 1711088134525,
+          "duration" : 1851
+        },
+        "flaky" : false,
+        "parameters" : [ "{'merchantId': '100119', 'productId': '2023', 'currency': 'IDR', 'amount': '10000', 'payerPhone': '0888888892', 'payChannel': '17', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}", "'24'", "'97fa79f073c7c5e3c97b00b50b156eaa'", "'DANA'" ]
+      } ],
+      "uid" : "62e5c93b860741b6445d1444cfa390a0"
+    }, {
+      "name" : "AssertionError: 费率不符合预期，实际值为 20.00\nassert Decimal('20.00') == 30",
+      "children" : [ {
+        "name" : "商户比例收费及渠道比例收费",
+        "uid" : "5df803f2d7ab432",
+        "parentUid" : "9e530993576665ab2b9c4b3a322fd5cd",
+        "status" : "failed",
+        "time" : {
+          "start" : 1711093933507,
+          "stop" : 1711093935944,
+          "duration" : 2437
+        },
+        "flaky" : false,
+        "parameters" : [ "15", "{'merchantId': '88888', 'productId': '1099', 'currency': 'IDR', 'amount': '1000', 'payerPhone': '0888888881', 'payChannel': '17', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}", "30", "'akiki29dk39dlove0329djustin'", "'商户比例收费及渠道比例收费'" ]
+      }, {
+        "name" : "商户比例收费及渠道比例收费",
+        "uid" : "1ac7ba4977b048a4",
+        "parentUid" : "9e530993576665ab2b9c4b3a322fd5cd",
+        "status" : "failed",
+        "time" : {
+          "start" : 1711094050632,
+          "stop" : 1711094053393,
+          "duration" : 2761
+        },
+        "flaky" : false,
+        "parameters" : [ "15", "{'merchantId': '88888', 'productId': '1099', 'currency': 'IDR', 'amount': '1000', 'payerPhone': '0888888881', 'payChannel': '17', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}", "30", "'akiki29dk39dlove0329djustin'", "'商户比例收费及渠道比例收费'" ]
+      } ],
+      "uid" : "9e530993576665ab2b9c4b3a322fd5cd"
+    }, {
+      "name" : "AssertionError: 费率不符合预期，实际值为 1500.00\nassert Decimal('1500.00') == 1111",
+      "children" : [ {
+        "name" : "商户基础费率及渠道基础费率",
+        "uid" : "565741d2c7b6ff7d",
+        "parentUid" : "b50e17f7313fbb777d3a9a41ac89d764",
+        "status" : "failed",
+        "time" : {
+          "start" : 1711093936050,
+          "stop" : 1711093939904,
+          "duration" : 3854
+        },
+        "flaky" : false,
+        "parameters" : [ "1500", "{'merchantId': '88888', 'productId': '1099', 'currency': 'IDR', 'amount': '1000', 'payerPhone': '0888888881', 'payChannel': '4', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}", "1111", "'akiki29dk39dlove0329djustin'", "'商户基础费率及渠道基础费率'" ]
+      } ],
+      "uid" : "b50e17f7313fbb777d3a9a41ac89d764"
+    }, {
+      "name" : "AssertionError: 支付渠道不符合预期，实际值为 11\nassert 11 == 7",
+      "children" : [ {
+        "name" : "xendit",
+        "uid" : "bb1fdb724dfdabca",
+        "parentUid" : "d9123b25d2886167ec787565231602ca",
+        "status" : "failed",
+        "time" : {
+          "start" : 1711615541265,
+          "stop" : 1711615543619,
+          "duration" : 2354
+        },
+        "flaky" : false,
+        "parameters" : [ "{'merchantId': '100119', 'productId': '2023', 'currency': 'IDR', 'amount': '10000', 'accountNumber': '0888888881', 'bankCode': 'DANA', 'version': 1.0, 'description': 'test', 'accountHolderName': 'user_xendit'}", "7", "'97fa79f073c7c5e3c97b00b50b156eaa'", "'xendit'" ]
+      } ],
+      "uid" : "d9123b25d2886167ec787565231602ca"
+    }, {
+      "name" : "AssertionError: 预期状态码为 200，实际状态码为 88056\nassert '88056' == '200'\n  - 200\n  + 88056",
+      "children" : [ {
+        "name" : "gv",
+        "uid" : "3be709efeb31ea72",
+        "parentUid" : "8df030e514a395a0a08d12c1a6264dbe",
+        "status" : "failed",
+        "time" : {
+          "start" : 1711615545650,
+          "stop" : 1711615547680,
+          "duration" : 2030
+        },
+        "flaky" : false,
+        "parameters" : [ "{'merchantId': '100119', 'productId': '2023', 'currency': 'IDR', 'amount': '10000', 'accountNumber': '0888888881', 'bankCode': 'DANA', 'version': 1.0, 'description': 'test', 'accountHolderName': 'user_gv'}", "15", "'97fa79f073c7c5e3c97b00b50b156eaa'", "'gv'" ]
+      } ],
+      "uid" : "8df030e514a395a0a08d12c1a6264dbe"
+    }, {
+      "name" : "AssertionError: 预期状态码为 200，实际状态码为 88027\nassert '88027' == '200'\n  - 200\n  + 88027",
+      "children" : [ {
+        "name" : "faspay",
+        "uid" : "d97b5684c4aca307",
+        "parentUid" : "50912565daa25ceee42e09920b299b87",
+        "status" : "failed",
+        "time" : {
+          "start" : 1711615547690,
+          "stop" : 1711615549947,
+          "duration" : 2257
+        },
+        "flaky" : false,
+        "parameters" : [ "{'merchantId': '100119', 'productId': '2023', 'currency': 'IDR', 'amount': '10000', 'accountNumber': '0888888881', 'bankCode': 'DANA', 'version': 1.0, 'description': 'test', 'accountHolderName': 'user_faspay'}", "14", "'97fa79f073c7c5e3c97b00b50b156eaa'", "'faspay'" ]
+      } ],
+      "uid" : "50912565daa25ceee42e09920b299b87"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  }, {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "TypeError: 'builtin_function_or_method' object is not subscriptable",
+      "children" : [ {
+        "name" : "xendit",
+        "uid" : "ff6fdbb0c08e166a",
+        "parentUid" : "b6ddbc0715e1511b3e2e55d699cbf9e7",
+        "status" : "broken",
+        "time" : {
+          "start" : 1710928727400,
+          "stop" : 1710928729473,
+          "duration" : 2073
+        },
+        "flaky" : false,
+        "parameters" : [ "{'merchantId': '100119', 'productId': '2023', 'currency': 'IDR', 'amount': '10000', 'payerPhone': '0888888881', 'payChannel': '17', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}", "7", "'17'", "'97fa79f073c7c5e3c97b00b50b156eaa'", "'xendit'" ]
+      }, {
+        "name" : "xendit",
+        "uid" : "466ed9bed1ba7db3",
+        "parentUid" : "b6ddbc0715e1511b3e2e55d699cbf9e7",
+        "status" : "broken",
+        "time" : {
+          "start" : 1710929079723,
+          "stop" : 1710929081502,
+          "duration" : 1779
+        },
+        "flaky" : false,
+        "parameters" : [ "{'merchantId': '100119', 'productId': '2023', 'currency': 'IDR', 'amount': '10000', 'payerPhone': '0888888881', 'payChannel': '17', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}", "7", "'17'", "'97fa79f073c7c5e3c97b00b50b156eaa'", "'xendit'" ]
+      }, {
+        "name" : "xendit",
+        "uid" : "1f0441778a09bd94",
+        "parentUid" : "b6ddbc0715e1511b3e2e55d699cbf9e7",
+        "status" : "broken",
+        "time" : {
+          "start" : 1710929134878,
+          "stop" : 1710929136608,
+          "duration" : 1730
+        },
+        "flaky" : false,
+        "parameters" : [ "{'merchantId': '100119', 'productId': '2023', 'currency': 'IDR', 'amount': '10000', 'payerPhone': '0888888881', 'payChannel': '17', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}", "7", "'17'", "'97fa79f073c7c5e3c97b00b50b156eaa'", "'xendit'" ]
+      }, {
+        "name" : "xendit",
+        "uid" : "28aefdb8251d2da0",
+        "parentUid" : "b6ddbc0715e1511b3e2e55d699cbf9e7",
+        "status" : "broken",
+        "time" : {
+          "start" : 1710929201283,
+          "stop" : 1710929203197,
+          "duration" : 1914
+        },
+        "flaky" : false,
+        "parameters" : [ "{'merchantId': '100119', 'productId': '2023', 'currency': 'IDR', 'amount': '10000', 'payerPhone': '0888888881', 'payChannel': '17', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}", "7", "'17'", "'97fa79f073c7c5e3c97b00b50b156eaa'", "'xendit'" ]
+      }, {
+        "name" : "xendit",
+        "uid" : "82e1ca3f62cceefa",
+        "parentUid" : "b6ddbc0715e1511b3e2e55d699cbf9e7",
+        "status" : "broken",
+        "time" : {
+          "start" : 1710929384266,
+          "stop" : 1710929386022,
+          "duration" : 1756
+        },
+        "flaky" : false,
+        "parameters" : [ "{'merchantId': '100119', 'productId': '2023', 'currency': 'IDR', 'amount': '10000', 'payerPhone': '0888888881', 'payChannel': '17', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}", "7", "'17'", "'97fa79f073c7c5e3c97b00b50b156eaa'", "'xendit'" ]
+      }, {
+        "name" : "xendit",
+        "uid" : "c571522b6aa67641",
+        "parentUid" : "b6ddbc0715e1511b3e2e55d699cbf9e7",
+        "status" : "broken",
+        "time" : {
+          "start" : 1710930542782,
+          "stop" : 1710930544722,
+          "duration" : 1940
+        },
+        "flaky" : false,
+        "parameters" : [ "{'merchantId': '100119', 'productId': '2023', 'currency': 'IDR', 'amount': '10000', 'payerPhone': '0888888881', 'payChannel': '17', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}", "7", "'17'", "'97fa79f073c7c5e3c97b00b50b156eaa'", "'xendit'" ]
+      } ],
+      "uid" : "b6ddbc0715e1511b3e2e55d699cbf9e7"
+    }, {
+      "name" : "requests.exceptions.ProxyError: HTTPSConnectionPool(host='sit.tikipay.co', port=443): Max retries exceeded with url: /pay/createOrder?amount=10000&currency=IDR&expectPayCodeType=0&merchantId=100119&orderNo=TestOrderNo_1710929066044&payChannel=17&payerName=test&payerPhone=0888888881&productId=2023&subject=TestSubject&version=1.0&sign=6e53e44fba3ff5e95856934a081b6760 (Caused by ProxyError('Unable to connect to proxy', SSLError(SSLError(\"bad handshake: SysCallError(-1, 'Unexpected EOF')\"))))",
+      "children" : [ {
+        "name" : "xendit",
+        "uid" : "a1afcbe195533e5b",
+        "parentUid" : "6d13f20e746131630517054e69f13984",
+        "status" : "broken",
+        "time" : {
+          "start" : 1710929066043,
+          "stop" : 1710929066066,
+          "duration" : 23
+        },
+        "flaky" : false,
+        "parameters" : [ "{'merchantId': '100119', 'productId': '2023', 'currency': 'IDR', 'amount': '10000', 'payerPhone': '0888888881', 'payChannel': '17', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}", "7", "'17'", "'97fa79f073c7c5e3c97b00b50b156eaa'", "'xendit'" ]
+      } ],
+      "uid" : "6d13f20e746131630517054e69f13984"
+    }, {
+      "name" : "requests.exceptions.ProxyError: HTTPSConnectionPool(host='sit.tikipay.co', port=443): Max retries exceeded with url: /pay/createOrder?amount=15000&currency=IDR&expectPayCodeType=0&merchantId=100119&orderNo=TestOrderNo_1710929066719&payChannel=4&payerName=test&payerPhone=081806708607&productId=2023&subject=TestSubject&version=1.0&sign=105ab1f11f65d832713bfde4e8bcbc7a (Caused by ProxyError('Unable to connect to proxy', SSLError(SSLError(\"bad handshake: SysCallError(-1, 'Unexpected EOF')\"))))",
+      "children" : [ {
+        "name" : "mcpay",
+        "uid" : "a065d37e5c1337cf",
+        "parentUid" : "910c0b8fb755e130d3836294873539c4",
+        "status" : "broken",
+        "time" : {
+          "start" : 1710929066719,
+          "stop" : 1710929066731,
+          "duration" : 12
+        },
+        "flaky" : false,
+        "parameters" : [ "{'merchantId': '100119', 'productId': '2023', 'currency': 'IDR', 'amount': '15000', 'payerPhone': '081806708607', 'payChannel': '4', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}", "3", "'4'", "'97fa79f073c7c5e3c97b00b50b156eaa'", "'mcpay'" ]
+      } ],
+      "uid" : "910c0b8fb755e130d3836294873539c4"
+    }, {
+      "name" : "requests.exceptions.ProxyError: HTTPSConnectionPool(host='sit.tikipay.co', port=443): Max retries exceeded with url: /pay/createOrder?amount=10000&currency=IDR&expectPayCodeType=0&merchantId=100119&orderNo=TestOrderNo_1710929613096&payChannel=17&payerName=test&payerPhone=0888888881&productId=2023&subject=TestSubject&version=1.0&sign=28f882375c6b3f126e04dc64fed407f0 (Caused by ProxyError('Unable to connect to proxy', SSLError(SSLError(\"bad handshake: SysCallError(-1, 'Unexpected EOF')\"))))",
+      "children" : [ {
+        "name" : "xendit",
+        "uid" : "9d273f5c0ccb410a",
+        "parentUid" : "a64bf7ab885de2e589b549b366213629",
+        "status" : "broken",
+        "time" : {
+          "start" : 1710929613096,
+          "stop" : 1710929613115,
+          "duration" : 19
+        },
+        "flaky" : false,
+        "parameters" : [ "{'merchantId': '100119', 'productId': '2023', 'currency': 'IDR', 'amount': '10000', 'payerPhone': '0888888881', 'payChannel': '17', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}", "7", "'17'", "'97fa79f073c7c5e3c97b00b50b156eaa'", "'xendit'" ]
+      } ],
+      "uid" : "a64bf7ab885de2e589b549b366213629"
+    }, {
+      "name" : "requests.exceptions.ProxyError: HTTPSConnectionPool(host='sit.tikipay.co', port=443): Max retries exceeded with url: /pay/createOrder?amount=15000&currency=IDR&expectPayCodeType=0&merchantId=100119&orderNo=TestOrderNo_1710929613724&payChannel=4&payerName=test&payerPhone=081806708607&productId=2023&subject=TestSubject&version=1.0&sign=0ddda274f11f5ff077941731e02af6c3 (Caused by ProxyError('Unable to connect to proxy', SSLError(SSLError(\"bad handshake: SysCallError(-1, 'Unexpected EOF')\"))))",
+      "children" : [ {
+        "name" : "mcpay",
+        "uid" : "4cdb5208041a5daa",
+        "parentUid" : "fbf9b3692846826c40cba20549dc67e9",
+        "status" : "broken",
+        "time" : {
+          "start" : 1710929613723,
+          "stop" : 1710929613735,
+          "duration" : 12
+        },
+        "flaky" : false,
+        "parameters" : [ "{'merchantId': '100119', 'productId': '2023', 'currency': 'IDR', 'amount': '15000', 'payerPhone': '081806708607', 'payChannel': '4', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}", "3", "'4'", "'97fa79f073c7c5e3c97b00b50b156eaa'", "'mcpay'" ]
+      } ],
+      "uid" : "fbf9b3692846826c40cba20549dc67e9"
+    }, {
+      "name" : "requests.exceptions.ProxyError: HTTPSConnectionPool(host='sit.tikipay.co', port=443): Max retries exceeded with url: /pay/createOrder?amount=10000&currency=IDR&expectPayCodeType=0&merchantId=100119&orderNo=TestOrderNo_1710929638927&payChannel=17&payerName=test&payerPhone=0888888881&productId=2023&subject=TestSubject&version=1.0&sign=c2c5f0dfd4c3b2b0465d2471072307b0 (Caused by ProxyError('Unable to connect to proxy', SSLError(SSLError(\"bad handshake: SysCallError(-1, 'Unexpected EOF')\"))))",
+      "children" : [ {
+        "name" : "xendit",
+        "uid" : "295294650d5ebf9f",
+        "parentUid" : "b9dd96bdd2d7439107fc928553a9af24",
+        "status" : "broken",
+        "time" : {
+          "start" : 1710929638926,
+          "stop" : 1710929638947,
+          "duration" : 21
+        },
+        "flaky" : false,
+        "parameters" : [ "{'merchantId': '100119', 'productId': '2023', 'currency': 'IDR', 'amount': '10000', 'payerPhone': '0888888881', 'payChannel': '17', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}", "7", "'17'", "'97fa79f073c7c5e3c97b00b50b156eaa'", "'xendit'" ]
+      } ],
+      "uid" : "b9dd96bdd2d7439107fc928553a9af24"
+    }, {
+      "name" : "requests.exceptions.ProxyError: HTTPSConnectionPool(host='sit.tikipay.co', port=443): Max retries exceeded with url: /pay/createOrder?amount=15000&currency=IDR&expectPayCodeType=0&merchantId=100119&orderNo=TestOrderNo_1710929639607&payChannel=4&payerName=test&payerPhone=081806708607&productId=2023&subject=TestSubject&version=1.0&sign=1ed16234a7d053f241a257835560ad58 (Caused by ProxyError('Unable to connect to proxy', SSLError(SSLError(\"bad handshake: SysCallError(-1, 'Unexpected EOF')\"))))",
+      "children" : [ {
+        "name" : "mcpay",
+        "uid" : "5dd928d4d5546ba0",
+        "parentUid" : "dc50e6ccd01f72df9c87be201168477c",
+        "status" : "broken",
+        "time" : {
+          "start" : 1710929639607,
+          "stop" : 1710929639617,
+          "duration" : 10
+        },
+        "flaky" : false,
+        "parameters" : [ "{'merchantId': '100119', 'productId': '2023', 'currency': 'IDR', 'amount': '15000', 'payerPhone': '081806708607', 'payChannel': '4', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}", "3", "'4'", "'97fa79f073c7c5e3c97b00b50b156eaa'", "'mcpay'" ]
+      } ],
+      "uid" : "dc50e6ccd01f72df9c87be201168477c"
+    }, {
+      "name" : "requests.exceptions.ProxyError: HTTPSConnectionPool(host='sit.tikipay.co', port=443): Max retries exceeded with url: /pay/createOrder?amount=10000&currency=IDR&expectPayCodeType=0&merchantId=100119&orderNo=TestOrderNo_1710929807102&payChannel=17&payerName=test&payerPhone=0888888881&productId=2023&subject=TestSubject&version=1.0&sign=45cdf41b5cbc3d9770469858db3402bc (Caused by ProxyError('Unable to connect to proxy', SSLError(SSLError(\"bad handshake: SysCallError(-1, 'Unexpected EOF')\"))))",
+      "children" : [ {
+        "name" : "xendit",
+        "uid" : "8e8710d8dbe3d966",
+        "parentUid" : "8b0d0af54f7a51ccdc9e9549e0de3184",
+        "status" : "broken",
+        "time" : {
+          "start" : 1710929807102,
+          "stop" : 1710929807123,
+          "duration" : 21
+        },
+        "flaky" : false,
+        "parameters" : [ "{'merchantId': '100119', 'productId': '2023', 'currency': 'IDR', 'amount': '10000', 'payerPhone': '0888888881', 'payChannel': '17', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}", "7", "'17'", "'97fa79f073c7c5e3c97b00b50b156eaa'", "'xendit'" ]
+      } ],
+      "uid" : "8b0d0af54f7a51ccdc9e9549e0de3184"
+    }, {
+      "name" : "requests.exceptions.ProxyError: HTTPSConnectionPool(host='sit.tikipay.co', port=443): Max retries exceeded with url: /pay/createOrder?amount=15000&currency=IDR&expectPayCodeType=0&merchantId=100119&orderNo=TestOrderNo_1710929807783&payChannel=4&payerName=test&payerPhone=081806708607&productId=2023&subject=TestSubject&version=1.0&sign=23d37a9694f4c58239d77a06a3f3a5fa (Caused by ProxyError('Unable to connect to proxy', SSLError(SSLError(\"bad handshake: SysCallError(-1, 'Unexpected EOF')\"))))",
+      "children" : [ {
+        "name" : "mcpay",
+        "uid" : "b0f22bf87d4c8688",
+        "parentUid" : "e1a080acf8a5ee656fbc28d046bd3822",
+        "status" : "broken",
+        "time" : {
+          "start" : 1710929807783,
+          "stop" : 1710929807796,
+          "duration" : 13
+        },
+        "flaky" : false,
+        "parameters" : [ "{'merchantId': '100119', 'productId': '2023', 'currency': 'IDR', 'amount': '15000', 'payerPhone': '081806708607', 'payChannel': '4', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}", "3", "'4'", "'97fa79f073c7c5e3c97b00b50b156eaa'", "'mcpay'" ]
+      } ],
+      "uid" : "e1a080acf8a5ee656fbc28d046bd3822"
+    }, {
+      "name" : "requests.exceptions.ProxyError: HTTPSConnectionPool(host='sit.tikipay.co', port=443): Max retries exceeded with url: /pay/createOrder?amount=10000&currency=IDR&expectPayCodeType=0&merchantId=100119&orderNo=TestOrderNo_1710930096331&payChannel=17&payerName=test&payerPhone=0888888881&productId=2023&subject=TestSubject&version=1.0&sign=e26cb8653c02fc65c31e664e8ba6116f (Caused by ProxyError('Unable to connect to proxy', SSLError(SSLError(\"bad handshake: SysCallError(-1, 'Unexpected EOF')\"))))",
+      "children" : [ {
+        "name" : "xendit",
+        "uid" : "a50f060fa494721b",
+        "parentUid" : "7f086ade762e2160cf5223fe81836b44",
+        "status" : "broken",
+        "time" : {
+          "start" : 1710930096330,
+          "stop" : 1710930096351,
+          "duration" : 21
+        },
+        "flaky" : false,
+        "parameters" : [ "{'merchantId': '100119', 'productId': '2023', 'currency': 'IDR', 'amount': '10000', 'payerPhone': '0888888881', 'payChannel': '17', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}", "7", "'17'", "'97fa79f073c7c5e3c97b00b50b156eaa'", "'xendit'" ]
+      } ],
+      "uid" : "7f086ade762e2160cf5223fe81836b44"
+    }, {
+      "name" : "requests.exceptions.ProxyError: HTTPSConnectionPool(host='sit.tikipay.co', port=443): Max retries exceeded with url: /pay/createOrder?amount=15000&currency=IDR&expectPayCodeType=0&merchantId=100119&orderNo=TestOrderNo_1710930097015&payChannel=4&payerName=test&payerPhone=081806708607&productId=2023&subject=TestSubject&version=1.0&sign=8b6b954a2aba0ae1b63842108db35a8c (Caused by ProxyError('Unable to connect to proxy', SSLError(SSLError(\"bad handshake: SysCallError(-1, 'Unexpected EOF')\"))))",
+      "children" : [ {
+        "name" : "mcpay",
+        "uid" : "b42fe540fb83a16",
+        "parentUid" : "17973c2dc83a3fd40194a647d6370f1f",
+        "status" : "broken",
+        "time" : {
+          "start" : 1710930097014,
+          "stop" : 1710930097027,
+          "duration" : 13
+        },
+        "flaky" : false,
+        "parameters" : [ "{'merchantId': '100119', 'productId': '2023', 'currency': 'IDR', 'amount': '15000', 'payerPhone': '081806708607', 'payChannel': '4', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}", "3", "'4'", "'97fa79f073c7c5e3c97b00b50b156eaa'", "'mcpay'" ]
+      } ],
+      "uid" : "17973c2dc83a3fd40194a647d6370f1f"
+    }, {
+      "name" : "requests.exceptions.ProxyError: HTTPSConnectionPool(host='sit.tikipay.co', port=443): Max retries exceeded with url: /pay/createOrder?amount=10000&currency=IDR&expectPayCodeType=0&merchantId=100119&orderNo=TestOrderNo_1710930182369&payChannel=17&payerName=test&payerPhone=0888888881&productId=2023&subject=TestSubject&version=1.0&sign=c5b87f997f392089eb88b34af489cc2c (Caused by ProxyError('Unable to connect to proxy', SSLError(SSLError(\"bad handshake: SysCallError(-1, 'Unexpected EOF')\"))))",
+      "children" : [ {
+        "name" : "xendit",
+        "uid" : "7d8bfa760af168d6",
+        "parentUid" : "978bc2b43a3aa837883679be9dada2ef",
+        "status" : "broken",
+        "time" : {
+          "start" : 1710930182369,
+          "stop" : 1710930182392,
+          "duration" : 23
+        },
+        "flaky" : false,
+        "parameters" : [ "{'merchantId': '100119', 'productId': '2023', 'currency': 'IDR', 'amount': '10000', 'payerPhone': '0888888881', 'payChannel': '17', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}", "7", "'17'", "'97fa79f073c7c5e3c97b00b50b156eaa'", "'xendit'" ]
+      } ],
+      "uid" : "978bc2b43a3aa837883679be9dada2ef"
+    }, {
+      "name" : "requests.exceptions.ProxyError: HTTPSConnectionPool(host='sit.tikipay.co', port=443): Max retries exceeded with url: /pay/createOrder?amount=15000&currency=IDR&expectPayCodeType=0&merchantId=100119&orderNo=TestOrderNo_1710930183044&payChannel=4&payerName=test&payerPhone=081806708607&productId=2023&subject=TestSubject&version=1.0&sign=9513cb1a1c38ccac760acda1d667ea50 (Caused by ProxyError('Unable to connect to proxy', SSLError(SSLError(\"bad handshake: SysCallError(-1, 'Unexpected EOF')\"))))",
+      "children" : [ {
+        "name" : "mcpay",
+        "uid" : "434da1e62212fdb2",
+        "parentUid" : "cf0a4076d9302ebfe56ee6328053f8b0",
+        "status" : "broken",
+        "time" : {
+          "start" : 1710930183044,
+          "stop" : 1710930183056,
+          "duration" : 12
+        },
+        "flaky" : false,
+        "parameters" : [ "{'merchantId': '100119', 'productId': '2023', 'currency': 'IDR', 'amount': '15000', 'payerPhone': '081806708607', 'payChannel': '4', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}", "3", "'4'", "'97fa79f073c7c5e3c97b00b50b156eaa'", "'mcpay'" ]
+      } ],
+      "uid" : "cf0a4076d9302ebfe56ee6328053f8b0"
+    }, {
+      "name" : "requests.exceptions.ProxyError: HTTPSConnectionPool(host='sit.tikipay.co', port=443): Max retries exceeded with url: /pay/createOrder?amount=10000&currency=IDR&expectPayCodeType=0&merchantId=100119&orderNo=TestOrderNo_1710930338550&payChannel=17&payerName=test&payerPhone=0888888881&productId=2023&subject=TestSubject&version=1.0&sign=16d60fa38134bee57d8d6b7df1403bb9 (Caused by ProxyError('Unable to connect to proxy', SSLError(SSLError(\"bad handshake: SysCallError(-1, 'Unexpected EOF')\"))))",
+      "children" : [ {
+        "name" : "xendit",
+        "uid" : "d188f2ac66c73bb",
+        "parentUid" : "bd11a0abc17587ae7e8101a030b31226",
+        "status" : "broken",
+        "time" : {
+          "start" : 1710930338550,
+          "stop" : 1710930338570,
+          "duration" : 20
+        },
+        "flaky" : false,
+        "parameters" : [ "{'merchantId': '100119', 'productId': '2023', 'currency': 'IDR', 'amount': '10000', 'payerPhone': '0888888881', 'payChannel': '17', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}", "7", "'17'", "'97fa79f073c7c5e3c97b00b50b156eaa'", "'xendit'" ]
+      } ],
+      "uid" : "bd11a0abc17587ae7e8101a030b31226"
+    }, {
+      "name" : "requests.exceptions.ProxyError: HTTPSConnectionPool(host='sit.tikipay.co', port=443): Max retries exceeded with url: /pay/createOrder?amount=15000&currency=IDR&expectPayCodeType=0&merchantId=100119&orderNo=TestOrderNo_1710930339190&payChannel=4&payerName=test&payerPhone=081806708607&productId=2023&subject=TestSubject&version=1.0&sign=82daefd0cef7f0098f9487e96524b056 (Caused by ProxyError('Unable to connect to proxy', SSLError(SSLError(\"bad handshake: SysCallError(-1, 'Unexpected EOF')\"))))",
+      "children" : [ {
+        "name" : "mcpay",
+        "uid" : "3117a3995b5a4518",
+        "parentUid" : "233663e6a1105a0d85290bb27217b208",
+        "status" : "broken",
+        "time" : {
+          "start" : 1710930339189,
+          "stop" : 1710930339203,
+          "duration" : 14
+        },
+        "flaky" : false,
+        "parameters" : [ "{'merchantId': '100119', 'productId': '2023', 'currency': 'IDR', 'amount': '15000', 'payerPhone': '081806708607', 'payChannel': '4', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}", "3", "'4'", "'97fa79f073c7c5e3c97b00b50b156eaa'", "'mcpay'" ]
+      } ],
+      "uid" : "233663e6a1105a0d85290bb27217b208"
+    }, {
+      "name" : "requests.exceptions.ProxyError: HTTPSConnectionPool(host='sit.tikipay.co', port=443): Max retries exceeded with url: /pay/createOrder?amount=10000&currency=IDR&expectPayCodeType=0&merchantId=100119&orderNo=TestOrderNo_1710930717740&payChannel=17&payerName=test&payerPhone=0888888881&productId=2023&subject=TestSubject&version=1.0&sign=b7f7fe20c8abb1a09e169987727b6e35 (Caused by ProxyError('Unable to connect to proxy', SSLError(SSLError(\"bad handshake: SysCallError(-1, 'Unexpected EOF')\"))))",
+      "children" : [ {
+        "name" : "xendit",
+        "uid" : "accddff5c211d6cb",
+        "parentUid" : "1496bb7b45b946625b8c69734c189627",
+        "status" : "broken",
+        "time" : {
+          "start" : 1710930717740,
+          "stop" : 1710930717751,
+          "duration" : 11
+        },
+        "flaky" : false,
+        "parameters" : [ "{'merchantId': '100119', 'productId': '2023', 'currency': 'IDR', 'amount': '10000', 'payerPhone': '0888888881', 'payChannel': '17', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}", "7", "'17'", "'97fa79f073c7c5e3c97b00b50b156eaa'", "'xendit'" ]
+      } ],
+      "uid" : "1496bb7b45b946625b8c69734c189627"
+    }, {
+      "name" : "requests.exceptions.ProxyError: HTTPSConnectionPool(host='sit.tikipay.co', port=443): Max retries exceeded with url: /pay/createOrder?amount=15000&currency=IDR&expectPayCodeType=0&merchantId=100119&orderNo=TestOrderNo_1710930718014&payChannel=4&payerName=test&payerPhone=081806708607&productId=2023&subject=TestSubject&version=1.0&sign=cee6fdf669d48411c9f39b4cd3f52333 (Caused by ProxyError('Unable to connect to proxy', SSLError(SSLError(\"bad handshake: SysCallError(-1, 'Unexpected EOF')\"))))",
+      "children" : [ {
+        "name" : "mcpay",
+        "uid" : "1fa4ffde381492e0",
+        "parentUid" : "9f5df17059570f9dde94ca455a44ef80",
+        "status" : "broken",
+        "time" : {
+          "start" : 1710930718014,
+          "stop" : 1710930718021,
+          "duration" : 7
+        },
+        "flaky" : false,
+        "parameters" : [ "{'merchantId': '100119', 'productId': '2023', 'currency': 'IDR', 'amount': '15000', 'payerPhone': '081806708607', 'payChannel': '4', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}", "3", "'4'", "'97fa79f073c7c5e3c97b00b50b156eaa'", "'mcpay'" ]
+      } ],
+      "uid" : "9f5df17059570f9dde94ca455a44ef80"
+    }, {
+      "name" : "requests.exceptions.ProxyError: HTTPSConnectionPool(host='sit.tikipay.co', port=443): Max retries exceeded with url: /pay/createOrder?amount=10000&currency=IDR&expectPayCodeType=0&merchantId=100119&orderNo=TestOrderNo_1711088366931&payChannel=17&payerName=test&payerPhone=0888888881&productId=2023&subject=TestSubject&version=1.0&sign=f37fbd5bdd71424ea7fa02d5da714450 (Caused by ProxyError('Unable to connect to proxy', SSLError(SSLError(\"bad handshake: SysCallError(-1, 'Unexpected EOF')\"))))",
+      "children" : [ {
+        "name" : "xendit",
+        "uid" : "c16514c0b1dee258",
+        "parentUid" : "73c590675dd20dfb9fa715c07a963ea3",
+        "status" : "broken",
+        "time" : {
+          "start" : 1711088366931,
+          "stop" : 1711088366941,
+          "duration" : 10
+        },
+        "flaky" : false,
+        "parameters" : [ "{'merchantId': '100119', 'productId': '2023', 'currency': 'IDR', 'amount': '10000', 'payerPhone': '0888888881', 'payChannel': '17', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}", "7", "'97fa79f073c7c5e3c97b00b50b156eaa'", "'xendit'" ]
+      } ],
+      "uid" : "73c590675dd20dfb9fa715c07a963ea3"
+    }, {
+      "name" : "requests.exceptions.ProxyError: HTTPSConnectionPool(host='sit.tikipay.co', port=443): Max retries exceeded with url: /pay/createOrder?amount=10000&currency=IDR&expectPayCodeType=0&merchantId=100119&orderNo=TestOrderNo_1711088367081&payChannel=17&payerName=test&payerPhone=0888888882&productId=2023&subject=TestSubject&version=1.0&sign=745c4a07917c8ef5362114852ca5b291 (Caused by ProxyError('Unable to connect to proxy', SSLError(SSLError(\"bad handshake: SysCallError(-1, 'Unexpected EOF')\"))))",
+      "children" : [ {
+        "name" : "xendit2",
+        "uid" : "efb6fc317af6e56c",
+        "parentUid" : "2bf8fbc728c80c75ae5aceb90f6a47f6",
+        "status" : "broken",
+        "time" : {
+          "start" : 1711088367081,
+          "stop" : 1711088367085,
+          "duration" : 4
+        },
+        "flaky" : false,
+        "parameters" : [ "{'merchantId': '100119', 'productId': '2023', 'currency': 'IDR', 'amount': '10000', 'payerPhone': '0888888882', 'payChannel': '17', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}", "10", "'97fa79f073c7c5e3c97b00b50b156eaa'", "'xendit2'" ]
+      } ],
+      "uid" : "2bf8fbc728c80c75ae5aceb90f6a47f6"
+    }, {
+      "name" : "requests.exceptions.ProxyError: HTTPSConnectionPool(host='sit.tikipay.co', port=443): Max retries exceeded with url: /pay/createOrder?amount=10000&currency=IDR&expectPayCodeType=0&merchantId=100119&orderNo=TestOrderNo_1711088367132&payChannel=17&payerName=test&payerPhone=0888888883&productId=2023&subject=TestSubject&version=1.0&sign=cd666dd14a5bf56a1d9f65ae86a6e3a0 (Caused by ProxyError('Unable to connect to proxy', SSLError(SSLError(\"bad handshake: SysCallError(-1, 'Unexpected EOF')\"))))",
+      "children" : [ {
+        "name" : "xendit3",
+        "uid" : "baad400cd24167f",
+        "parentUid" : "9014a1c0aa26f8f67cf53fefc7d99c97",
+        "status" : "broken",
+        "time" : {
+          "start" : 1711088367132,
+          "stop" : 1711088367135,
+          "duration" : 3
+        },
+        "flaky" : false,
+        "parameters" : [ "{'merchantId': '100119', 'productId': '2023', 'currency': 'IDR', 'amount': '10000', 'payerPhone': '0888888883', 'payChannel': '17', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}", "13", "'97fa79f073c7c5e3c97b00b50b156eaa'", "'xendit3'" ]
+      } ],
+      "uid" : "9014a1c0aa26f8f67cf53fefc7d99c97"
+    }, {
+      "name" : "requests.exceptions.ProxyError: HTTPSConnectionPool(host='sit.tikipay.co', port=443): Max retries exceeded with url: /pay/createOrder?amount=10000&currency=IDR&expectPayCodeType=0&merchantId=100119&orderNo=TestOrderNo_1711088367182&payChannel=3&payerName=test&payerPhone=0888888885&productId=2023&subject=TestSubject&version=1.0&sign=246385b43eb89250461ab1d87661b7fa (Caused by ProxyError('Unable to connect to proxy', SSLError(SSLError(\"bad handshake: SysCallError(-1, 'Unexpected EOF')\"))))",
+      "children" : [ {
+        "name" : "faspay",
+        "uid" : "4ddad7bfcf41560b",
+        "parentUid" : "96592c11e1fe26236ac9ee6efc7c8532",
+        "status" : "broken",
+        "time" : {
+          "start" : 1711088367182,
+          "stop" : 1711088367189,
+          "duration" : 7
+        },
+        "flaky" : false,
+        "parameters" : [ "{'merchantId': '100119', 'productId': '2023', 'currency': 'IDR', 'amount': '10000', 'payerPhone': '0888888885', 'payChannel': '3', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}", "14", "'97fa79f073c7c5e3c97b00b50b156eaa'", "'faspay'" ]
+      } ],
+      "uid" : "96592c11e1fe26236ac9ee6efc7c8532"
+    }, {
+      "name" : "requests.exceptions.ProxyError: HTTPSConnectionPool(host='sit.tikipay.co', port=443): Max retries exceeded with url: /pay/createOrder?amount=10000&currency=IDR&expectPayCodeType=0&merchantId=100119&orderNo=TestOrderNo_1711088367240&payChannel=17&payerName=test&payerPhone=0888888886&productId=2023&subject=TestSubject&version=1.0&sign=bfde15c692f87420a610a5d3d968b8ed (Caused by ProxyError('Unable to connect to proxy', SSLError(SSLError(\"bad handshake: SysCallError(-1, 'Unexpected EOF')\"))))",
+      "children" : [ {
+        "name" : "oy",
+        "uid" : "a553700167e1f905",
+        "parentUid" : "ddcef305b574ab0878eeba1c1fa76e40",
+        "status" : "broken",
+        "time" : {
+          "start" : 1711088367240,
+          "stop" : 1711088367243,
+          "duration" : 3
+        },
+        "flaky" : false,
+        "parameters" : [ "{'merchantId': '100119', 'productId': '2023', 'currency': 'IDR', 'amount': '10000', 'payerPhone': '0888888886', 'payChannel': '17', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}", "11", "'97fa79f073c7c5e3c97b00b50b156eaa'", "'oy'" ]
+      } ],
+      "uid" : "ddcef305b574ab0878eeba1c1fa76e40"
+    }, {
+      "name" : "requests.exceptions.ProxyError: HTTPSConnectionPool(host='sit.tikipay.co', port=443): Max retries exceeded with url: /pay/createOrder?amount=10000&currency=IDR&expectPayCodeType=0&merchantId=100119&orderNo=TestOrderNo_1711088367306&payChannel=15&payerName=test&payerPhone=0888888888&productId=2023&subject=TestSubject&version=1.0&sign=641bc09f30c2358859a824364c42e4af (Caused by ProxyError('Unable to connect to proxy', SSLError(SSLError(\"bad handshake: SysCallError(-1, 'Unexpected EOF')\"))))",
+      "children" : [ {
+        "name" : "gv",
+        "uid" : "e2b56a4b45d4bc62",
+        "parentUid" : "505ade08307fc7ff52930fa957212801",
+        "status" : "broken",
+        "time" : {
+          "start" : 1711088367306,
+          "stop" : 1711088367310,
+          "duration" : 4
+        },
+        "flaky" : false,
+        "parameters" : [ "{'merchantId': '100119', 'productId': '2023', 'currency': 'IDR', 'amount': '10000', 'payerPhone': '0888888888', 'payChannel': '15', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}", "15", "'97fa79f073c7c5e3c97b00b50b156eaa'", "'gv'" ]
+      } ],
+      "uid" : "505ade08307fc7ff52930fa957212801"
+    }, {
+      "name" : "requests.exceptions.ProxyError: HTTPSConnectionPool(host='sit.tikipay.co', port=443): Max retries exceeded with url: /pay/createOrder?amount=10000&currency=IDR&expectPayCodeType=0&merchantId=100119&orderNo=TestOrderNo_1711088367354&payChannel=17&payerName=test&payerPhone=0888888889&productId=2023&subject=TestSubject&version=1.0&sign=9c001395fc0335daf867ba6f96a67913 (Caused by ProxyError('Unable to connect to proxy', SSLError(SSLError(\"bad handshake: SysCallError(-1, 'Unexpected EOF')\"))))",
+      "children" : [ {
+        "name" : "xendit5",
+        "uid" : "36f988b3222badd8",
+        "parentUid" : "2d91d91c23e2117435ac8a9ef208ff65",
+        "status" : "broken",
+        "time" : {
+          "start" : 1711088367354,
+          "stop" : 1711088367357,
+          "duration" : 3
+        },
+        "flaky" : false,
+        "parameters" : [ "{'merchantId': '100119', 'productId': '2023', 'currency': 'IDR', 'amount': '10000', 'payerPhone': '0888888889', 'payChannel': '17', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}", "22", "'97fa79f073c7c5e3c97b00b50b156eaa'", "'xendit5'" ]
+      } ],
+      "uid" : "2d91d91c23e2117435ac8a9ef208ff65"
+    }, {
+      "name" : "requests.exceptions.ProxyError: HTTPSConnectionPool(host='sit.tikipay.co', port=443): Max retries exceeded with url: /pay/createOrder?amount=15000&currency=IDR&expectPayCodeType=0&merchantId=100119&orderNo=TestOrderNo_1711088367408&payChannel=4&payerName=test&payerPhone=081806708607&productId=2023&subject=TestSubject&version=1.0&sign=9b8d1d4bffc2a1673d1b6b13197fe4c0 (Caused by ProxyError('Unable to connect to proxy', SSLError(SSLError(\"bad handshake: SysCallError(-1, 'Unexpected EOF')\"))))",
+      "children" : [ {
+        "name" : "mcpay",
+        "uid" : "1afbcce959d3d3e0",
+        "parentUid" : "b8c9e486eb456781f65d94e4a64090e4",
+        "status" : "broken",
+        "time" : {
+          "start" : 1711088367408,
+          "stop" : 1711088367412,
+          "duration" : 4
+        },
+        "flaky" : false,
+        "parameters" : [ "{'merchantId': '100119', 'productId': '2023', 'currency': 'IDR', 'amount': '15000', 'payerPhone': '081806708607', 'payChannel': '4', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}", "3", "'97fa79f073c7c5e3c97b00b50b156eaa'", "'mcpay'" ]
+      } ],
+      "uid" : "b8c9e486eb456781f65d94e4a64090e4"
+    }, {
+      "name" : "requests.exceptions.ProxyError: HTTPSConnectionPool(host='sit.tikipay.co', port=443): Max retries exceeded with url: /pay/createOrder?amount=10000&currency=IDR&expectPayCodeType=0&merchantId=100119&orderNo=TestOrderNo_1711088367469&payChannel=17&payerName=test&payerPhone=0888888892&productId=2023&subject=TestSubject&version=1.0&sign=b36221f475f0231011c9c6638511839d (Caused by ProxyError('Unable to connect to proxy', SSLError(SSLError(\"bad handshake: SysCallError(-1, 'Unexpected EOF')\"))))",
+      "children" : [ {
+        "name" : "MPI",
+        "uid" : "fc111e7d46739b0",
+        "parentUid" : "516964bf84a96c72d3531255a75ea88f",
+        "status" : "broken",
+        "time" : {
+          "start" : 1711088367469,
+          "stop" : 1711088367473,
+          "duration" : 4
+        },
+        "flaky" : false,
+        "parameters" : [ "{'merchantId': '100119', 'productId': '2023', 'currency': 'IDR', 'amount': '10000', 'payerPhone': '0888888892', 'payChannel': '17', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}", "12", "'97fa79f073c7c5e3c97b00b50b156eaa'", "'MPI'" ]
+      } ],
+      "uid" : "516964bf84a96c72d3531255a75ea88f"
+    }, {
+      "name" : "requests.exceptions.ProxyError: HTTPSConnectionPool(host='sit.tikipay.co', port=443): Max retries exceeded with url: /pay/createOrder?amount=10000&currency=IDR&expectPayCodeType=0&merchantId=100119&orderNo=TestOrderNo_1711088367520&payChannel=17&payerName=test&payerPhone=0888888892&productId=2023&subject=TestSubject&version=1.0&sign=15a1ba121b85b6b4812ff5300f8ca432 (Caused by ProxyError('Unable to connect to proxy', SSLError(SSLError(\"bad handshake: SysCallError(-1, 'Unexpected EOF')\"))))",
+      "children" : [ {
+        "name" : "DANA",
+        "uid" : "4d33dd68a3624937",
+        "parentUid" : "64e2c327c33c568d180db63df12aa10b",
+        "status" : "broken",
+        "time" : {
+          "start" : 1711088367520,
+          "stop" : 1711088367523,
+          "duration" : 3
+        },
+        "flaky" : false,
+        "parameters" : [ "{'merchantId': '100119', 'productId': '2023', 'currency': 'IDR', 'amount': '10000', 'payerPhone': '0888888892', 'payChannel': '17', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}", "24", "'97fa79f073c7c5e3c97b00b50b156eaa'", "'DANA'" ]
+      } ],
+      "uid" : "64e2c327c33c568d180db63df12aa10b"
+    }, {
+      "name" : "pymysql.err.OperationalError: (2013, 'Lost connection to MySQL server during query')",
+      "children" : [ {
+        "name" : "test_xendit[data0-akiki29dk39dlove0329djustin-30-15-\\u5546\\u6237\\u6bd4\\u4f8b\\u6536\\u8d39\\u53ca\\u6e20\\u9053\\u6bd4\\u4f8b\\u6536\\u8d39]",
+        "uid" : "99c4efcdfe968377",
+        "parentUid" : "6294d4fa11055cb9b9f959e277bcdf9b",
+        "status" : "broken",
+        "time" : {
+          "start" : 1711093871524,
+          "stop" : 1711093871524,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "parameters" : [ "15", "{'merchantId': '88888', 'productId': '1099', 'currency': 'IDR', 'amount': '1000', 'payerPhone': '0888888881', 'payChannel': '17', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}", "30", "'akiki29dk39dlove0329djustin'", "'商户比例收费及渠道比例收费'" ]
+      }, {
+        "name" : "test_xendit[data1-akiki29dk39dlove0329djustin-1111-1500-\\u5546\\u6237\\u57fa\\u7840\\u8d39\\u7387\\u53ca\\u6e20\\u9053\\u57fa\\u7840\\u8d39\\u7387]",
+        "uid" : "be4a29e5c1fcdc57",
+        "parentUid" : "6294d4fa11055cb9b9f959e277bcdf9b",
+        "status" : "broken",
+        "time" : {
+          "start" : 1711093883179,
+          "stop" : 1711093883179,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "parameters" : [ "1500", "{'merchantId': '88888', 'productId': '1099', 'currency': 'IDR', 'amount': '1000', 'payerPhone': '0888888881', 'payChannel': '4', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}", "1111", "'akiki29dk39dlove0329djustin'", "'商户基础费率及渠道基础费率'" ]
+      } ],
+      "uid" : "6294d4fa11055cb9b9f959e277bcdf9b"
+    }, {
+      "name" : "requests.exceptions.ProxyError: HTTPSConnectionPool(host='sit.tikipay.co', port=443): Max retries exceeded with url: /pay/createOrder?amount=1000&currency=IDR&expectPayCodeType=0&merchantId=100149&orderNo=TestOrderNo_1711598884894&payChannel=18&payerName=test&payerPhone=0888888881&productId=2071&subject=TestSubject&version=1.0&sign=edc7fd3524d7995aadeed0ace17e0f86 (Caused by ProxyError('Unable to connect to proxy', SSLError(SSLError(\"bad handshake: SysCallError(-1, 'Unexpected EOF')\"))))",
+      "children" : [ {
+        "name" : "没有配置费率",
+        "uid" : "7fa0ab26c0ec11e2",
+        "parentUid" : "aab472540d260577684aa46add869202",
+        "status" : "broken",
+        "time" : {
+          "start" : 1711598884894,
+          "stop" : 1711598884911,
+          "duration" : 17
+        },
+        "flaky" : false,
+        "parameters" : [ "0", "{'merchantId': '100149', 'productId': '2071', 'currency': 'IDR', 'amount': '1000', 'payerPhone': '0888888881', 'payChannel': '18', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}", "0", "'8kc8u438cg877uh387fu65ll012tv6bu'", "'没有配置费率'" ]
+      } ],
+      "uid" : "aab472540d260577684aa46add869202"
+    }, {
+      "name" : "requests.exceptions.ProxyError: HTTPSConnectionPool(host='sit.tikipay.co', port=443): Max retries exceeded with url: /pay/createOrder?amount=1000&currency=IDR&expectPayCodeType=0&merchantId=88888&orderNo=TestOrderNo_1711598885076&payChannel=17&payerName=test&payerPhone=0888888881&productId=1099&subject=TestSubject&version=1.0&sign=ccbaf04bcc9313a09739fb4fad1ebed3 (Caused by ProxyError('Unable to connect to proxy', SSLError(SSLError(\"bad handshake: SysCallError(-1, 'Unexpected EOF')\"))))",
+      "children" : [ {
+        "name" : "商户比例收费及渠道比例收费",
+        "uid" : "ba14228b681d8292",
+        "parentUid" : "d7d605d9450755f2be46428fd85c53d4",
+        "status" : "broken",
+        "time" : {
+          "start" : 1711598885076,
+          "stop" : 1711598885079,
+          "duration" : 3
+        },
+        "flaky" : false,
+        "parameters" : [ "15", "{'merchantId': '88888', 'productId': '1099', 'currency': 'IDR', 'amount': '1000', 'payerPhone': '0888888881', 'payChannel': '17', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}", "20", "'akiki29dk39dlove0329djustin'", "'商户比例收费及渠道比例收费'" ]
+      } ],
+      "uid" : "d7d605d9450755f2be46428fd85c53d4"
+    }, {
+      "name" : "requests.exceptions.ProxyError: HTTPSConnectionPool(host='sit.tikipay.co', port=443): Max retries exceeded with url: /pay/createOrder?amount=10000&currency=IDR&expectPayCodeType=0&merchantId=88888&orderNo=TestOrderNo_1711598885123&payChannel=4&payerName=test&payerPhone=0888888881&productId=1099&subject=TestSubject&version=1.0&sign=21c9d83232b3ab727c0dd014c0eab91b (Caused by ProxyError('Unable to connect to proxy', SSLError(SSLError(\"bad handshake: SysCallError(-1, 'Unexpected EOF')\"))))",
+      "children" : [ {
+        "name" : "商户基础费率及渠道基础费率",
+        "uid" : "5a8cd2c8d67f7bd1",
+        "parentUid" : "8bc285de722edb989749f878b17a4a90",
+        "status" : "broken",
+        "time" : {
+          "start" : 1711598885123,
+          "stop" : 1711598885127,
+          "duration" : 4
+        },
+        "flaky" : false,
+        "parameters" : [ "1500", "{'merchantId': '88888', 'productId': '1099', 'currency': 'IDR', 'amount': '10000', 'payerPhone': '0888888881', 'payChannel': '4', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}", "1111", "'akiki29dk39dlove0329djustin'", "'商户基础费率及渠道基础费率'" ]
+      } ],
+      "uid" : "8bc285de722edb989749f878b17a4a90"
+    }, {
+      "name" : "requests.exceptions.ProxyError: HTTPSConnectionPool(host='sit.tikipay.co', port=443): Max retries exceeded with url: /pay/createOrder?amount=10000&currency=IDR&expectPayCodeType=0&merchantId=88888&orderNo=TestOrderNo_1711598885180&payChannel=19&payerName=test&payerPhone=0888888881&productId=1099&subject=TestSubject&version=1.0&sign=703591597359f10773ee475a8ebf804b (Caused by ProxyError('Unable to connect to proxy', SSLError(SSLError(\"bad handshake: SysCallError(-1, 'Unexpected EOF')\"))))",
+      "children" : [ {
+        "name" : "商户比例收费+基础费率 及 渠道比例收费+基础费率",
+        "uid" : "809165836d332575",
+        "parentUid" : "bad5ca4cd48cd24149ca77e99400f6d1",
+        "status" : "broken",
+        "time" : {
+          "start" : 1711598885180,
+          "stop" : 1711598885184,
+          "duration" : 4
+        },
+        "flaky" : false,
+        "parameters" : [ "1150", "{'merchantId': '88888', 'productId': '1099', 'currency': 'IDR', 'amount': '10000', 'payerPhone': '0888888881', 'payChannel': '19', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}", "800", "'akiki29dk39dlove0329djustin'", "'商户比例收费+基础费率 及 渠道比例收费+基础费率'" ]
+      } ],
+      "uid" : "bad5ca4cd48cd24149ca77e99400f6d1"
+    }, {
+      "name" : "requests.exceptions.ProxyError: HTTPSConnectionPool(host='sit.tikipay.co', port=443): Max retries exceeded with url: /pay/payout?accountHolderName=user_xendit&accountNumber=0888888881&amount=10000&bankCode=DANA&currency=IDR&description=test&merchantId=100119&orderNo=TestOrderNo_1711598886076&productId=2023&version=1.0&sign=6df78fdf8320b42558e38b1089ea029c (Caused by ProxyError('Unable to connect to proxy', SSLError(SSLError(\"bad handshake: SysCallError(-1, 'Unexpected EOF')\"))))",
+      "children" : [ {
+        "name" : "xendit",
+        "uid" : "ba042a410a4cd2ad",
+        "parentUid" : "bc6e76b54f0682b499af1b4223076ff0",
+        "status" : "broken",
+        "time" : {
+          "start" : 1711598886076,
+          "stop" : 1711598886079,
+          "duration" : 3
+        },
+        "flaky" : false,
+        "parameters" : [ "{'merchantId': '100119', 'productId': '2023', 'currency': 'IDR', 'amount': '10000', 'accountNumber': '0888888881', 'bankCode': 'DANA', 'version': 1.0, 'description': 'test', 'accountHolderName': 'user_xendit'}", "7", "'97fa79f073c7c5e3c97b00b50b156eaa'", "'xendit'" ]
+      } ],
+      "uid" : "bc6e76b54f0682b499af1b4223076ff0"
+    }, {
+      "name" : "requests.exceptions.ProxyError: HTTPSConnectionPool(host='sit.tikipay.co', port=443): Max retries exceeded with url: /pay/payout?accountHolderName=user_mpi&accountNumber=0888888881&amount=10000&bankCode=DANA&currency=IDR&description=test&merchantId=100119&orderNo=TestOrderNo_1711598886124&productId=2023&version=1.0&sign=1a41546e8d102bbd9ddaf595fbd49f23 (Caused by ProxyError('Unable to connect to proxy', SSLError(SSLError(\"bad handshake: SysCallError(-1, 'Unexpected EOF')\"))))",
+      "children" : [ {
+        "name" : "mpi",
+        "uid" : "13d8ab31c915ca1b",
+        "parentUid" : "a9633b091e9d699d34cb17c330518783",
+        "status" : "broken",
+        "time" : {
+          "start" : 1711598886124,
+          "stop" : 1711598886127,
+          "duration" : 3
+        },
+        "flaky" : false,
+        "parameters" : [ "{'merchantId': '100119', 'productId': '2023', 'currency': 'IDR', 'amount': '10000', 'accountNumber': '0888888881', 'bankCode': 'DANA', 'version': 1.0, 'description': 'test', 'accountHolderName': 'user_mpi'}", "12", "'97fa79f073c7c5e3c97b00b50b156eaa'", "'mpi'" ]
+      } ],
+      "uid" : "a9633b091e9d699d34cb17c330518783"
+    }, {
+      "name" : "requests.exceptions.ProxyError: HTTPSConnectionPool(host='sit.tikipay.co', port=443): Max retries exceeded with url: /pay/payout?accountHolderName=user_gv&accountNumber=0888888881&amount=10000&bankCode=DANA&currency=IDR&description=test&merchantId=100119&orderNo=TestOrderNo_1711598886168&productId=2023&version=1.0&sign=57876cf8acc985daec0098e4d4ff74d0 (Caused by ProxyError('Unable to connect to proxy', SSLError(SSLError(\"bad handshake: SysCallError(-1, 'Unexpected EOF')\"))))",
+      "children" : [ {
+        "name" : "gv",
+        "uid" : "1cde105294ceca15",
+        "parentUid" : "ef2cd03a1609bd13e8606b37f700f8d9",
+        "status" : "broken",
+        "time" : {
+          "start" : 1711598886168,
+          "stop" : 1711598886171,
+          "duration" : 3
+        },
+        "flaky" : false,
+        "parameters" : [ "{'merchantId': '100119', 'productId': '2023', 'currency': 'IDR', 'amount': '10000', 'accountNumber': '0888888881', 'bankCode': 'DANA', 'version': 1.0, 'description': 'test', 'accountHolderName': 'user_gv'}", "15", "'97fa79f073c7c5e3c97b00b50b156eaa'", "'gv'" ]
+      } ],
+      "uid" : "ef2cd03a1609bd13e8606b37f700f8d9"
+    }, {
+      "name" : "requests.exceptions.ProxyError: HTTPSConnectionPool(host='sit.tikipay.co', port=443): Max retries exceeded with url: /pay/payout?accountHolderName=user_faspay&accountNumber=0888888881&amount=10000&bankCode=DANA&currency=IDR&description=test&merchantId=100119&orderNo=TestOrderNo_1711598886214&productId=2023&version=1.0&sign=59ee0936a7ae254d0e77daa59398a5b2 (Caused by ProxyError('Unable to connect to proxy', SSLError(SSLError(\"bad handshake: SysCallError(-1, 'Unexpected EOF')\"))))",
+      "children" : [ {
+        "name" : "faspay",
+        "uid" : "7712909399c7c401",
+        "parentUid" : "abab6f9d9d9218e196b95ca86cd1192f",
+        "status" : "broken",
+        "time" : {
+          "start" : 1711598886214,
+          "stop" : 1711598886217,
+          "duration" : 3
+        },
+        "flaky" : false,
+        "parameters" : [ "{'merchantId': '100119', 'productId': '2023', 'currency': 'IDR', 'amount': '10000', 'accountNumber': '0888888881', 'bankCode': 'DANA', 'version': 1.0, 'description': 'test', 'accountHolderName': 'user_faspay'}", "14", "'97fa79f073c7c5e3c97b00b50b156eaa'", "'faspay'" ]
+      } ],
+      "uid" : "abab6f9d9d9218e196b95ca86cd1192f"
+    }, {
+      "name" : "requests.exceptions.ProxyError: HTTPSConnectionPool(host='sit.tikipay.co', port=443): Max retries exceeded with url: /pay/payout?accountHolderName=user_dana&accountNumber=0888888881&amount=10000&bankCode=DANA&currency=IDR&description=test&merchantId=100119&orderNo=TestOrderNo_1711598886259&productId=2023&version=1.0&sign=50aee87e3d54cd1d56b3c9128be4968f (Caused by ProxyError('Unable to connect to proxy', SSLError(SSLError(\"bad handshake: SysCallError(-1, 'Unexpected EOF')\"))))",
+      "children" : [ {
+        "name" : "dana",
+        "uid" : "f670e9b2df2bb511",
+        "parentUid" : "b4ca4b280523301025725f0f3104e03c",
+        "status" : "broken",
+        "time" : {
+          "start" : 1711598886259,
+          "stop" : 1711598886262,
+          "duration" : 3
+        },
+        "flaky" : false,
+        "parameters" : [ "{'merchantId': '100119', 'productId': '2023', 'currency': 'IDR', 'amount': '10000', 'accountNumber': '0888888881', 'bankCode': 'DANA', 'version': 1.0, 'description': 'test', 'accountHolderName': 'user_dana'}", "24", "'97fa79f073c7c5e3c97b00b50b156eaa'", "'dana'" ]
+      } ],
+      "uid" : "b4ca4b280523301025725f0f3104e03c"
+    }, {
+      "name" : "requests.exceptions.ProxyError: HTTPSConnectionPool(host='sit.tikipay.co', port=443): Max retries exceeded with url: /pay/payout?accountHolderName=user_oy&accountNumber=0888888881&amount=10000&bankCode=DANA&currency=IDR&description=test&merchantId=100119&orderNo=TestOrderNo_1711598886329&productId=2023&version=1.0&sign=4c25b7b2db9d727dab6340af8df9fe38 (Caused by ProxyError('Unable to connect to proxy', SSLError(SSLError(\"bad handshake: SysCallError(-1, 'Unexpected EOF')\"))))",
+      "children" : [ {
+        "name" : "oy",
+        "uid" : "11d3d213b1d81137",
+        "parentUid" : "9927b19d2c65349bbc8e3ff775f94cc8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1711598886329,
+          "stop" : 1711598886332,
+          "duration" : 3
+        },
+        "flaky" : false,
+        "parameters" : [ "{'merchantId': '100119', 'productId': '2023', 'currency': 'IDR', 'amount': '10000', 'accountNumber': '0888888881', 'bankCode': 'DANA', 'version': 1.0, 'description': 'test', 'accountHolderName': 'user_oy'}", "11", "'97fa79f073c7c5e3c97b00b50b156eaa'", "'oy'" ]
+      } ],
+      "uid" : "9927b19d2c65349bbc8e3ff775f94cc8"
+    }, {
+      "name" : "requests.exceptions.ProxyError: HTTPSConnectionPool(host='sit.tikipay.co', port=443): Max retries exceeded with url: /pay/createOrder?amount=1000&currency=IDR&expectPayCodeType=0&merchantId=100149&orderNo=TestOrderNo_1711615053034&payChannel=18&payerName=test&payerPhone=0888888881&productId=2071&subject=TestSubject&version=1.0&sign=d36bb84bb6441a57dfad10ca261b69ff (Caused by ProxyError('Unable to connect to proxy', SSLError(SSLError(\"bad handshake: SysCallError(-1, 'Unexpected EOF')\"))))",
+      "children" : [ {
+        "name" : "没有配置费率",
+        "uid" : "cd02a630727ea61e",
+        "parentUid" : "74b49d68dcd5bd3c0f5d6a16994222b6",
+        "status" : "broken",
+        "time" : {
+          "start" : 1711615053034,
+          "stop" : 1711615053050,
+          "duration" : 16
+        },
+        "flaky" : false,
+        "parameters" : [ "0", "{'merchantId': '100149', 'productId': '2071', 'currency': 'IDR', 'amount': '1000', 'payerPhone': '0888888881', 'payChannel': '18', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}", "0", "'8kc8u438cg877uh387fu65ll012tv6bu'", "'没有配置费率'" ]
+      } ],
+      "uid" : "74b49d68dcd5bd3c0f5d6a16994222b6"
+    }, {
+      "name" : "requests.exceptions.ProxyError: HTTPSConnectionPool(host='sit.tikipay.co', port=443): Max retries exceeded with url: /pay/createOrder?amount=1000&currency=IDR&expectPayCodeType=0&merchantId=88888&orderNo=TestOrderNo_1711615053208&payChannel=17&payerName=test&payerPhone=0888888881&productId=1099&subject=TestSubject&version=1.0&sign=1459b226265bebdb051189592f504055 (Caused by ProxyError('Unable to connect to proxy', SSLError(SSLError(\"bad handshake: SysCallError(-1, 'Unexpected EOF')\"))))",
+      "children" : [ {
+        "name" : "商户比例收费及渠道比例收费",
+        "uid" : "66df8e10a542a92b",
+        "parentUid" : "ccc60ba43c5f04f94189ca0028f3244c",
+        "status" : "broken",
+        "time" : {
+          "start" : 1711615053208,
+          "stop" : 1711615053212,
+          "duration" : 4
+        },
+        "flaky" : false,
+        "parameters" : [ "15", "{'merchantId': '88888', 'productId': '1099', 'currency': 'IDR', 'amount': '1000', 'payerPhone': '0888888881', 'payChannel': '17', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}", "20", "'akiki29dk39dlove0329djustin'", "'商户比例收费及渠道比例收费'" ]
+      } ],
+      "uid" : "ccc60ba43c5f04f94189ca0028f3244c"
+    }, {
+      "name" : "requests.exceptions.ProxyError: HTTPSConnectionPool(host='sit.tikipay.co', port=443): Max retries exceeded with url: /pay/createOrder?amount=10000&currency=IDR&expectPayCodeType=0&merchantId=88888&orderNo=TestOrderNo_1711615053256&payChannel=4&payerName=test&payerPhone=0888888881&productId=1099&subject=TestSubject&version=1.0&sign=0dab9ce954d597f1db69f36b95e188ad (Caused by ProxyError('Unable to connect to proxy', SSLError(SSLError(\"bad handshake: SysCallError(-1, 'Unexpected EOF')\"))))",
+      "children" : [ {
+        "name" : "商户基础费率及渠道基础费率",
+        "uid" : "225145c176828c7",
+        "parentUid" : "aad5f6a4b9b7247c5c1789de99e42521",
+        "status" : "broken",
+        "time" : {
+          "start" : 1711615053256,
+          "stop" : 1711615053260,
+          "duration" : 4
+        },
+        "flaky" : false,
+        "parameters" : [ "1500", "{'merchantId': '88888', 'productId': '1099', 'currency': 'IDR', 'amount': '10000', 'payerPhone': '0888888881', 'payChannel': '4', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}", "1111", "'akiki29dk39dlove0329djustin'", "'商户基础费率及渠道基础费率'" ]
+      } ],
+      "uid" : "aad5f6a4b9b7247c5c1789de99e42521"
+    }, {
+      "name" : "requests.exceptions.ProxyError: HTTPSConnectionPool(host='sit.tikipay.co', port=443): Max retries exceeded with url: /pay/createOrder?amount=10000&currency=IDR&expectPayCodeType=0&merchantId=88888&orderNo=TestOrderNo_1711615053306&payChannel=19&payerName=test&payerPhone=0888888881&productId=1099&subject=TestSubject&version=1.0&sign=83b5b32612b24dc49a38ace2b43d1aa2 (Caused by ProxyError('Unable to connect to proxy', SSLError(SSLError(\"bad handshake: SysCallError(-1, 'Unexpected EOF')\"))))",
+      "children" : [ {
+        "name" : "商户比例收费+基础费率 及 渠道比例收费+基础费率",
+        "uid" : "7c0d004bbccd2b37",
+        "parentUid" : "ec4c2e70fe79469bd9fc709511ef5590",
+        "status" : "broken",
+        "time" : {
+          "start" : 1711615053306,
+          "stop" : 1711615053310,
+          "duration" : 4
+        },
+        "flaky" : false,
+        "parameters" : [ "1150", "{'merchantId': '88888', 'productId': '1099', 'currency': 'IDR', 'amount': '10000', 'payerPhone': '0888888881', 'payChannel': '19', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}", "800", "'akiki29dk39dlove0329djustin'", "'商户比例收费+基础费率 及 渠道比例收费+基础费率'" ]
+      } ],
+      "uid" : "ec4c2e70fe79469bd9fc709511ef5590"
+    }, {
+      "name" : "KeyError: 'merchant_id'",
+      "children" : [ {
+        "name" : "xendit",
+        "uid" : "c7c0f5593d4b4958",
+        "parentUid" : "f29dcbf86a3f268b7bd640d1a476f8bf",
+        "status" : "broken",
+        "time" : {
+          "start" : 1711615055285,
+          "stop" : 1711615055286,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "parameters" : [ "{'merchantId': '100119', 'productId': '2023', 'currency': 'IDR', 'amount': '10000', 'accountNumber': '0888888881', 'bankCode': 'DANA', 'version': 1.0, 'description': 'test', 'accountHolderName': 'user_xendit'}", "7", "'97fa79f073c7c5e3c97b00b50b156eaa'", "'xendit'" ]
+      }, {
+        "name" : "mpi",
+        "uid" : "36dbb49aa650d66b",
+        "parentUid" : "f29dcbf86a3f268b7bd640d1a476f8bf",
+        "status" : "broken",
+        "time" : {
+          "start" : 1711615055293,
+          "stop" : 1711615055293,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "parameters" : [ "{'merchantId': '100119', 'productId': '2023', 'currency': 'IDR', 'amount': '10000', 'accountNumber': '0888888881', 'bankCode': 'DANA', 'version': 1.0, 'description': 'test', 'accountHolderName': 'user_mpi'}", "12", "'97fa79f073c7c5e3c97b00b50b156eaa'", "'mpi'" ]
+      }, {
+        "name" : "gv",
+        "uid" : "ccc32e79ddce27cd",
+        "parentUid" : "f29dcbf86a3f268b7bd640d1a476f8bf",
+        "status" : "broken",
+        "time" : {
+          "start" : 1711615055302,
+          "stop" : 1711615055303,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "parameters" : [ "{'merchantId': '100119', 'productId': '2023', 'currency': 'IDR', 'amount': '10000', 'accountNumber': '0888888881', 'bankCode': 'DANA', 'version': 1.0, 'description': 'test', 'accountHolderName': 'user_gv'}", "15", "'97fa79f073c7c5e3c97b00b50b156eaa'", "'gv'" ]
+      }, {
+        "name" : "faspay",
+        "uid" : "25e6f517e5abcb55",
+        "parentUid" : "f29dcbf86a3f268b7bd640d1a476f8bf",
+        "status" : "broken",
+        "time" : {
+          "start" : 1711615055312,
+          "stop" : 1711615055312,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "parameters" : [ "{'merchantId': '100119', 'productId': '2023', 'currency': 'IDR', 'amount': '10000', 'accountNumber': '0888888881', 'bankCode': 'DANA', 'version': 1.0, 'description': 'test', 'accountHolderName': 'user_faspay'}", "14", "'97fa79f073c7c5e3c97b00b50b156eaa'", "'faspay'" ]
+      }, {
+        "name" : "dana",
+        "uid" : "9b52baa0b7abe380",
+        "parentUid" : "f29dcbf86a3f268b7bd640d1a476f8bf",
+        "status" : "broken",
+        "time" : {
+          "start" : 1711615055321,
+          "stop" : 1711615055322,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "parameters" : [ "{'merchantId': '100119', 'productId': '2023', 'currency': 'IDR', 'amount': '10000', 'accountNumber': '0888888881', 'bankCode': 'DANA', 'version': 1.0, 'description': 'test', 'accountHolderName': 'user_dana'}", "24", "'97fa79f073c7c5e3c97b00b50b156eaa'", "'dana'" ]
+      }, {
+        "name" : "oy",
+        "uid" : "e669dd820e1ab1ac",
+        "parentUid" : "f29dcbf86a3f268b7bd640d1a476f8bf",
+        "status" : "broken",
+        "time" : {
+          "start" : 1711615055349,
+          "stop" : 1711615055349,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "parameters" : [ "{'merchantId': '100119', 'productId': '2023', 'currency': 'IDR', 'amount': '10000', 'accountNumber': '0888888881', 'bankCode': 'DANA', 'version': 1.0, 'description': 'test', 'accountHolderName': 'user_oy'}", "11", "'97fa79f073c7c5e3c97b00b50b156eaa'", "'oy'" ]
+      }, {
+        "name" : "xendit",
+        "uid" : "6cbb9d680907bd7",
+        "parentUid" : "f29dcbf86a3f268b7bd640d1a476f8bf",
+        "status" : "broken",
+        "time" : {
+          "start" : 1711615192907,
+          "stop" : 1711615192907,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "parameters" : [ "{'merchantId': '100119', 'productId': '2023', 'currency': 'IDR', 'amount': '10000', 'accountNumber': '0888888881', 'bankCode': 'DANA', 'version': 1.0, 'description': 'test', 'accountHolderName': 'user_xendit'}", "7", "'97fa79f073c7c5e3c97b00b50b156eaa'", "'xendit'" ]
+      }, {
+        "name" : "mpi",
+        "uid" : "68c05c85bc24736d",
+        "parentUid" : "f29dcbf86a3f268b7bd640d1a476f8bf",
+        "status" : "broken",
+        "time" : {
+          "start" : 1711615192915,
+          "stop" : 1711615192915,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "parameters" : [ "{'merchantId': '100119', 'productId': '2023', 'currency': 'IDR', 'amount': '10000', 'accountNumber': '0888888881', 'bankCode': 'DANA', 'version': 1.0, 'description': 'test', 'accountHolderName': 'user_mpi'}", "12", "'97fa79f073c7c5e3c97b00b50b156eaa'", "'mpi'" ]
+      }, {
+        "name" : "gv",
+        "uid" : "550d47fbc7be99",
+        "parentUid" : "f29dcbf86a3f268b7bd640d1a476f8bf",
+        "status" : "broken",
+        "time" : {
+          "start" : 1711615192923,
+          "stop" : 1711615192924,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "parameters" : [ "{'merchantId': '100119', 'productId': '2023', 'currency': 'IDR', 'amount': '10000', 'accountNumber': '0888888881', 'bankCode': 'DANA', 'version': 1.0, 'description': 'test', 'accountHolderName': 'user_gv'}", "15", "'97fa79f073c7c5e3c97b00b50b156eaa'", "'gv'" ]
+      }, {
+        "name" : "faspay",
+        "uid" : "cc5b68f0e26b99b0",
+        "parentUid" : "f29dcbf86a3f268b7bd640d1a476f8bf",
+        "status" : "broken",
+        "time" : {
+          "start" : 1711615192932,
+          "stop" : 1711615192932,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "parameters" : [ "{'merchantId': '100119', 'productId': '2023', 'currency': 'IDR', 'amount': '10000', 'accountNumber': '0888888881', 'bankCode': 'DANA', 'version': 1.0, 'description': 'test', 'accountHolderName': 'user_faspay'}", "14", "'97fa79f073c7c5e3c97b00b50b156eaa'", "'faspay'" ]
+      }, {
+        "name" : "dana",
+        "uid" : "1dcfcfb1dca440b6",
+        "parentUid" : "f29dcbf86a3f268b7bd640d1a476f8bf",
+        "status" : "broken",
+        "time" : {
+          "start" : 1711615192940,
+          "stop" : 1711615192941,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "parameters" : [ "{'merchantId': '100119', 'productId': '2023', 'currency': 'IDR', 'amount': '10000', 'accountNumber': '0888888881', 'bankCode': 'DANA', 'version': 1.0, 'description': 'test', 'accountHolderName': 'user_dana'}", "24", "'97fa79f073c7c5e3c97b00b50b156eaa'", "'dana'" ]
+      }, {
+        "name" : "oy",
+        "uid" : "2fcba491abc75a56",
+        "parentUid" : "f29dcbf86a3f268b7bd640d1a476f8bf",
+        "status" : "broken",
+        "time" : {
+          "start" : 1711615192969,
+          "stop" : 1711615192969,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "parameters" : [ "{'merchantId': '100119', 'productId': '2023', 'currency': 'IDR', 'amount': '10000', 'accountNumber': '0888888881', 'bankCode': 'DANA', 'version': 1.0, 'description': 'test', 'accountHolderName': 'user_oy'}", "11", "'97fa79f073c7c5e3c97b00b50b156eaa'", "'oy'" ]
+      }, {
+        "name" : "xendit",
+        "uid" : "5d0725cc2aad5237",
+        "parentUid" : "f29dcbf86a3f268b7bd640d1a476f8bf",
+        "status" : "broken",
+        "time" : {
+          "start" : 1711615289247,
+          "stop" : 1711615289247,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "parameters" : [ "{'merchantId': '100119', 'productId': '2023', 'currency': 'IDR', 'amount': '10000', 'accountNumber': '0888888881', 'bankCode': 'DANA', 'version': 1.0, 'description': 'test', 'accountHolderName': 'user_xendit'}", "7", "'97fa79f073c7c5e3c97b00b50b156eaa'", "'xendit'" ]
+      }, {
+        "name" : "mpi",
+        "uid" : "e442da4c10ab1636",
+        "parentUid" : "f29dcbf86a3f268b7bd640d1a476f8bf",
+        "status" : "broken",
+        "time" : {
+          "start" : 1711615289347,
+          "stop" : 1711615289347,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "parameters" : [ "{'merchantId': '100119', 'productId': '2023', 'currency': 'IDR', 'amount': '10000', 'accountNumber': '0888888881', 'bankCode': 'DANA', 'version': 1.0, 'description': 'test', 'accountHolderName': 'user_mpi'}", "12", "'97fa79f073c7c5e3c97b00b50b156eaa'", "'mpi'" ]
+      }, {
+        "name" : "gv",
+        "uid" : "ae37287a22a238d7",
+        "parentUid" : "f29dcbf86a3f268b7bd640d1a476f8bf",
+        "status" : "broken",
+        "time" : {
+          "start" : 1711615289355,
+          "stop" : 1711615289355,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "parameters" : [ "{'merchantId': '100119', 'productId': '2023', 'currency': 'IDR', 'amount': '10000', 'accountNumber': '0888888881', 'bankCode': 'DANA', 'version': 1.0, 'description': 'test', 'accountHolderName': 'user_gv'}", "15", "'97fa79f073c7c5e3c97b00b50b156eaa'", "'gv'" ]
+      }, {
+        "name" : "faspay",
+        "uid" : "1f66786ebdb271a5",
+        "parentUid" : "f29dcbf86a3f268b7bd640d1a476f8bf",
+        "status" : "broken",
+        "time" : {
+          "start" : 1711615289362,
+          "stop" : 1711615289362,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "parameters" : [ "{'merchantId': '100119', 'productId': '2023', 'currency': 'IDR', 'amount': '10000', 'accountNumber': '0888888881', 'bankCode': 'DANA', 'version': 1.0, 'description': 'test', 'accountHolderName': 'user_faspay'}", "14", "'97fa79f073c7c5e3c97b00b50b156eaa'", "'faspay'" ]
+      }, {
+        "name" : "dana",
+        "uid" : "6eeea5e1050c072d",
+        "parentUid" : "f29dcbf86a3f268b7bd640d1a476f8bf",
+        "status" : "broken",
+        "time" : {
+          "start" : 1711615289371,
+          "stop" : 1711615289371,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "parameters" : [ "{'merchantId': '100119', 'productId': '2023', 'currency': 'IDR', 'amount': '10000', 'accountNumber': '0888888881', 'bankCode': 'DANA', 'version': 1.0, 'description': 'test', 'accountHolderName': 'user_dana'}", "24", "'97fa79f073c7c5e3c97b00b50b156eaa'", "'dana'" ]
+      }, {
+        "name" : "oy",
+        "uid" : "52d92683a542f7f9",
+        "parentUid" : "f29dcbf86a3f268b7bd640d1a476f8bf",
+        "status" : "broken",
+        "time" : {
+          "start" : 1711615289379,
+          "stop" : 1711615289379,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "parameters" : [ "{'merchantId': '100119', 'productId': '2023', 'currency': 'IDR', 'amount': '10000', 'accountNumber': '0888888881', 'bankCode': 'DANA', 'version': 1.0, 'description': 'test', 'accountHolderName': 'user_oy'}", "11", "'97fa79f073c7c5e3c97b00b50b156eaa'", "'oy'" ]
+      }, {
+        "name" : "xendit",
+        "uid" : "be8d02ed7d58719f",
+        "parentUid" : "f29dcbf86a3f268b7bd640d1a476f8bf",
+        "status" : "broken",
+        "time" : {
+          "start" : 1711615361745,
+          "stop" : 1711615361745,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "parameters" : [ "{'merchantId': '100119', 'productId': '2023', 'currency': 'IDR', 'amount': '10000', 'accountNumber': '0888888881', 'bankCode': 'DANA', 'version': 1.0, 'description': 'test', 'accountHolderName': 'user_xendit'}", "7", "'97fa79f073c7c5e3c97b00b50b156eaa'", "'xendit'" ]
+      }, {
+        "name" : "mpi",
+        "uid" : "8e065a2c56b6eedc",
+        "parentUid" : "f29dcbf86a3f268b7bd640d1a476f8bf",
+        "status" : "broken",
+        "time" : {
+          "start" : 1711615361846,
+          "stop" : 1711615361846,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "parameters" : [ "{'merchantId': '100119', 'productId': '2023', 'currency': 'IDR', 'amount': '10000', 'accountNumber': '0888888881', 'bankCode': 'DANA', 'version': 1.0, 'description': 'test', 'accountHolderName': 'user_mpi'}", "12", "'97fa79f073c7c5e3c97b00b50b156eaa'", "'mpi'" ]
+      }, {
+        "name" : "gv",
+        "uid" : "f69ff8088bb6410",
+        "parentUid" : "f29dcbf86a3f268b7bd640d1a476f8bf",
+        "status" : "broken",
+        "time" : {
+          "start" : 1711615361854,
+          "stop" : 1711615361854,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "parameters" : [ "{'merchantId': '100119', 'productId': '2023', 'currency': 'IDR', 'amount': '10000', 'accountNumber': '0888888881', 'bankCode': 'DANA', 'version': 1.0, 'description': 'test', 'accountHolderName': 'user_gv'}", "15", "'97fa79f073c7c5e3c97b00b50b156eaa'", "'gv'" ]
+      }, {
+        "name" : "faspay",
+        "uid" : "1462d60890b441f3",
+        "parentUid" : "f29dcbf86a3f268b7bd640d1a476f8bf",
+        "status" : "broken",
+        "time" : {
+          "start" : 1711615361863,
+          "stop" : 1711615361863,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "parameters" : [ "{'merchantId': '100119', 'productId': '2023', 'currency': 'IDR', 'amount': '10000', 'accountNumber': '0888888881', 'bankCode': 'DANA', 'version': 1.0, 'description': 'test', 'accountHolderName': 'user_faspay'}", "14", "'97fa79f073c7c5e3c97b00b50b156eaa'", "'faspay'" ]
+      }, {
+        "name" : "dana",
+        "uid" : "e258f7f80ee6018c",
+        "parentUid" : "f29dcbf86a3f268b7bd640d1a476f8bf",
+        "status" : "broken",
+        "time" : {
+          "start" : 1711615361871,
+          "stop" : 1711615361872,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "parameters" : [ "{'merchantId': '100119', 'productId': '2023', 'currency': 'IDR', 'amount': '10000', 'accountNumber': '0888888881', 'bankCode': 'DANA', 'version': 1.0, 'description': 'test', 'accountHolderName': 'user_dana'}", "24", "'97fa79f073c7c5e3c97b00b50b156eaa'", "'dana'" ]
+      }, {
+        "name" : "oy",
+        "uid" : "13e94178323eb9e4",
+        "parentUid" : "f29dcbf86a3f268b7bd640d1a476f8bf",
+        "status" : "broken",
+        "time" : {
+          "start" : 1711615361880,
+          "stop" : 1711615361880,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "parameters" : [ "{'merchantId': '100119', 'productId': '2023', 'currency': 'IDR', 'amount': '10000', 'accountNumber': '0888888881', 'bankCode': 'DANA', 'version': 1.0, 'description': 'test', 'accountHolderName': 'user_oy'}", "11", "'97fa79f073c7c5e3c97b00b50b156eaa'", "'oy'" ]
+      } ],
+      "uid" : "f29dcbf86a3f268b7bd640d1a476f8bf"
+    }, {
+      "name" : "requests.exceptions.ProxyError: HTTPSConnectionPool(host='sit.tikipay.co', port=443): Max retries exceeded with url: /pay/createOrder?amount=1000&currency=IDR&expectPayCodeType=0&merchantId=100149&orderNo=TestOrderNo_1711615190730&payChannel=18&payerName=test&payerPhone=0888888881&productId=2071&subject=TestSubject&version=1.0&sign=967d4e1a6dfa53ca5d6ced675a281329 (Caused by ProxyError('Unable to connect to proxy', SSLError(SSLError(\"bad handshake: SysCallError(-1, 'Unexpected EOF')\"))))",
+      "children" : [ {
+        "name" : "没有配置费率",
+        "uid" : "cd99f9604d65c534",
+        "parentUid" : "a5a3ee1f94448932d201c66a38d827d1",
+        "status" : "broken",
+        "time" : {
+          "start" : 1711615190730,
+          "stop" : 1711615190738,
+          "duration" : 8
+        },
+        "flaky" : false,
+        "parameters" : [ "0", "{'merchantId': '100149', 'productId': '2071', 'currency': 'IDR', 'amount': '1000', 'payerPhone': '0888888881', 'payChannel': '18', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}", "0", "'8kc8u438cg877uh387fu65ll012tv6bu'", "'没有配置费率'" ]
+      } ],
+      "uid" : "a5a3ee1f94448932d201c66a38d827d1"
+    }, {
+      "name" : "requests.exceptions.ProxyError: HTTPSConnectionPool(host='sit.tikipay.co', port=443): Max retries exceeded with url: /pay/createOrder?amount=1000&currency=IDR&expectPayCodeType=0&merchantId=88888&orderNo=TestOrderNo_1711615190894&payChannel=17&payerName=test&payerPhone=0888888881&productId=1099&subject=TestSubject&version=1.0&sign=4406c6a2182b386e4b50d0af7639e1b8 (Caused by ProxyError('Unable to connect to proxy', SSLError(SSLError(\"bad handshake: SysCallError(-1, 'Unexpected EOF')\"))))",
+      "children" : [ {
+        "name" : "商户比例收费及渠道比例收费",
+        "uid" : "31173f32726d94ca",
+        "parentUid" : "dea44eb9421d9bd6f78eddf5a91488ca",
+        "status" : "broken",
+        "time" : {
+          "start" : 1711615190894,
+          "stop" : 1711615190898,
+          "duration" : 4
+        },
+        "flaky" : false,
+        "parameters" : [ "15", "{'merchantId': '88888', 'productId': '1099', 'currency': 'IDR', 'amount': '1000', 'payerPhone': '0888888881', 'payChannel': '17', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}", "20", "'akiki29dk39dlove0329djustin'", "'商户比例收费及渠道比例收费'" ]
+      } ],
+      "uid" : "dea44eb9421d9bd6f78eddf5a91488ca"
+    }, {
+      "name" : "requests.exceptions.ProxyError: HTTPSConnectionPool(host='sit.tikipay.co', port=443): Max retries exceeded with url: /pay/createOrder?amount=10000&currency=IDR&expectPayCodeType=0&merchantId=88888&orderNo=TestOrderNo_1711615190941&payChannel=4&payerName=test&payerPhone=0888888881&productId=1099&subject=TestSubject&version=1.0&sign=f3ee3c16642ef0f11ba831f99c863ff8 (Caused by ProxyError('Unable to connect to proxy', SSLError(SSLError(\"bad handshake: SysCallError(-1, 'Unexpected EOF')\"))))",
+      "children" : [ {
+        "name" : "商户基础费率及渠道基础费率",
+        "uid" : "152cf6fe6c34f0b1",
+        "parentUid" : "96ac3cf1812ce118b01567bda62acaf9",
+        "status" : "broken",
+        "time" : {
+          "start" : 1711615190941,
+          "stop" : 1711615190944,
+          "duration" : 3
+        },
+        "flaky" : false,
+        "parameters" : [ "1500", "{'merchantId': '88888', 'productId': '1099', 'currency': 'IDR', 'amount': '10000', 'payerPhone': '0888888881', 'payChannel': '4', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}", "1111", "'akiki29dk39dlove0329djustin'", "'商户基础费率及渠道基础费率'" ]
+      } ],
+      "uid" : "96ac3cf1812ce118b01567bda62acaf9"
+    }, {
+      "name" : "requests.exceptions.ProxyError: HTTPSConnectionPool(host='sit.tikipay.co', port=443): Max retries exceeded with url: /pay/createOrder?amount=10000&currency=IDR&expectPayCodeType=0&merchantId=88888&orderNo=TestOrderNo_1711615190988&payChannel=19&payerName=test&payerPhone=0888888881&productId=1099&subject=TestSubject&version=1.0&sign=ede49d7cfd12c7d41de24e344aa81bf7 (Caused by ProxyError('Unable to connect to proxy', SSLError(SSLError(\"bad handshake: SysCallError(-1, 'Unexpected EOF')\"))))",
+      "children" : [ {
+        "name" : "商户比例收费+基础费率 及 渠道比例收费+基础费率",
+        "uid" : "659dba388107ccdd",
+        "parentUid" : "d2ea6794cb670f5144c92cbf44654d90",
+        "status" : "broken",
+        "time" : {
+          "start" : 1711615190988,
+          "stop" : 1711615190994,
+          "duration" : 6
+        },
+        "flaky" : false,
+        "parameters" : [ "1150", "{'merchantId': '88888', 'productId': '1099', 'currency': 'IDR', 'amount': '10000', 'payerPhone': '0888888881', 'payChannel': '19', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}", "800", "'akiki29dk39dlove0329djustin'", "'商户比例收费+基础费率 及 渠道比例收费+基础费率'" ]
+      } ],
+      "uid" : "d2ea6794cb670f5144c92cbf44654d90"
+    }, {
+      "name" : "pymysql.err.ProgrammingError: (1146, \"Table 'trade.account_info' doesn't exist\")",
+      "children" : [ {
+        "name" : "oy",
+        "uid" : "ba29cb63c52311ef",
+        "parentUid" : "ffcfe21797a77b46950eed3908715164",
+        "status" : "broken",
+        "time" : {
+          "start" : 1711615551557,
+          "stop" : 1711615554286,
+          "duration" : 2729
+        },
+        "flaky" : false,
+        "parameters" : [ "{'merchantId': '100119', 'productId': '2023', 'currency': 'IDR', 'amount': '10000', 'accountNumber': '0888888881', 'bankCode': 'DANA', 'version': 1.0, 'description': 'test', 'accountHolderName': 'user_oy'}", "11", "'97fa79f073c7c5e3c97b00b50b156eaa'", "'oy'" ]
+      } ],
+      "uid" : "ffcfe21797a77b46950eed3908715164"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}

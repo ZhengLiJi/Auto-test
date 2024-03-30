@@ -1,0 +1,103 @@
+{
+  "uid" : "b2536f3e8782cf3",
+  "name" : "多个商商户和单个支付方式的金额区间-xendit",
+  "fullName" : "test_create.TestCreate#test_xendit",
+  "historyId" : "93ab1fd691bdbfb9cda39455c44b207c",
+  "time" : {
+    "start" : 1710833402765,
+    "stop" : 1710833405348,
+    "duration" : 2583
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "_xunit_setup_class_fixture_TestCreate",
+    "time" : {
+      "start" : 1710833389230,
+      "stop" : 1710833390084,
+      "duration" : 854
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "_xunit_setup_class_fixture_TestCreate::0",
+    "time" : {
+      "start" : 1710833440770,
+      "stop" : 1710833440770,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "下单接口"
+  }, {
+    "name" : "epic",
+    "value" : "针对trade单元测试"
+  }, {
+    "name" : "story",
+    "value" : "路由金额区间"
+  }, {
+    "name" : "suite",
+    "value" : "test_create"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCreate"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-QH40KOLE"
+  }, {
+    "name" : "thread",
+    "value" : "29588-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_create"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "data",
+    "value" : "{'merchantId': '100119', 'productId': '2023', 'currency': 'IDR', 'amount': '20000', 'payChannel': '8', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}"
+  }, {
+    "name" : "paychannel_code",
+    "value" : "7"
+  }, {
+    "name" : "privateKey",
+    "value" : "'97fa79f073c7c5e3c97b00b50b156eaa'"
+  }, {
+    "name" : "title",
+    "value" : "'多个商商户和单个支付方式的金额区间-xendit'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b2536f3e8782cf3.json",
+  "parameterValues" : [ "{'merchantId': '100119', 'productId': '2023', 'currency': 'IDR', 'amount': '20000', 'payChannel': '8', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}", "7", "'97fa79f073c7c5e3c97b00b50b156eaa'", "'多个商商户和单个支付方式的金额区间-xendit'" ]
+}

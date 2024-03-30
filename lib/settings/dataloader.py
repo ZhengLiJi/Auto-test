@@ -22,7 +22,7 @@ class DataLoader:
     def load_yaml_file(file_path):
         """Load data from a YAML file"""
         with open(file_path, 'r', encoding='utf-8') as file:  # 修改编码方式
-            yaml_data = yaml.safe_load(file)
+            yaml_data = yaml.safe_load_all(file)
             print("Loaded YAML data:", yaml_data)  # 添加调试语句
             return yaml_data
 

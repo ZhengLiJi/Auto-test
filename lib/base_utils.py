@@ -18,6 +18,7 @@ class BaseUtils:
             self._have['time'] = GetTime()
         return self._have['time']
 
+
     @property
     def random(self):
         if self._have.get("random") is None:

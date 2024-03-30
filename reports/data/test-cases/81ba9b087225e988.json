@@ -1,0 +1,191 @@
+{
+  "uid" : "81ba9b087225e988",
+  "name" : "创建支付中订单",
+  "fullName" : "testcase.scenario_trade_test.test_order_pending_query.TestOrderTPendingQurest#test_create_and_query_success_order",
+  "historyId" : "674641afff00036f42ca264d7b6497d3",
+  "time" : {
+    "start" : 1710834060649,
+    "stop" : 1710834066523,
+    "duration" : 5874
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "_xunit_setup_class_fixture_TestOrderTPendingQurest",
+    "time" : {
+      "start" : 1710834060648,
+      "stop" : 1710834060648,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "步骤1: 查询订单前余额",
+      "time" : {
+        "start" : 1710834060649,
+        "stop" : 1710834062087,
+        "duration" : 1438
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "1256f4cd3ee9c363",
+        "name" : "下单前余额",
+        "source" : "1256f4cd3ee9c363.attach",
+        "type" : "text/plain",
+        "size" : 296
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "步骤2: 创建成功订单",
+      "time" : {
+        "start" : 1710834062087,
+        "stop" : 1710834063594,
+        "duration" : 1507
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "9cd4a74b25b37ecd",
+        "name" : "创建订单响应",
+        "source" : "9cd4a74b25b37ecd.attach",
+        "type" : "text/plain",
+        "size" : 433
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "步骤3: 查询订单状态是否为成功",
+      "time" : {
+        "start" : 1710834063594,
+        "stop" : 1710834065060,
+        "duration" : 1466
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "533f80c6bbf58c09",
+        "name" : "查询订单状态响应",
+        "source" : "533f80c6bbf58c09.attach",
+        "type" : "text/plain",
+        "size" : 676
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "步骤4: 查询支付中订单后余额是否变化",
+      "time" : {
+        "start" : 1710834065060,
+        "stop" : 1710834066523,
+        "duration" : 1463
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "c8589b70f7c47b83",
+        "name" : "下单后余额",
+        "source" : "c8589b70f7c47b83.attach",
+        "type" : "text/plain",
+        "size" : 296
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "hasContent" : true,
+    "attachmentsCount" : 4,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "_xunit_setup_class_fixture_TestOrderTPendingQurest::0",
+    "time" : {
+      "start" : 1710834066524,
+      "stop" : 1710834066524,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "针对收款业务场景的测试"
+  }, {
+    "name" : "story",
+    "value" : "用例--下单成功/支付中/查询状态为11--预期成功"
+  }, {
+    "name" : "feature",
+    "value" : "下单成功，订单支付中或等待回调场景"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase.scenario_trade_test"
+  }, {
+    "name" : "suite",
+    "value" : "test_order_pending_query"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestOrderTPendingQurest"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-QH40KOLE"
+  }, {
+    "name" : "thread",
+    "value" : "18772-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.scenario_trade_test.test_order_pending_query"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "order_true_qurest_data",
+    "value" : "({'merchantId': '100119', 'productId': '2023', 'currency': 'IDR'}, {'merchantId': '100119', 'productId': '2023', 'currency': 'IDR', 'amount': '10000', 'payChannel': '17', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}, {'merchantId': '100119', 'productId': '2023', 'currency': 'IDR', 'version': '1.0', 'orderType': '0'}, {'merchantId': '100119', 'productId': '2023', 'currency': 'IDR'}, '97fa79f073c7c5e3c97b00b50b156eaa')"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "81ba9b087225e988.json",
+  "parameterValues" : [ "({'merchantId': '100119', 'productId': '2023', 'currency': 'IDR'}, {'merchantId': '100119', 'productId': '2023', 'currency': 'IDR', 'amount': '10000', 'payChannel': '17', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}, {'merchantId': '100119', 'productId': '2023', 'currency': 'IDR', 'version': '1.0', 'orderType': '0'}, {'merchantId': '100119', 'productId': '2023', 'currency': 'IDR'}, '97fa79f073c7c5e3c97b00b50b156eaa')" ]
+}

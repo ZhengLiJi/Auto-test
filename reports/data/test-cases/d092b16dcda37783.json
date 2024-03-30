@@ -1,0 +1,109 @@
+{
+  "uid" : "d092b16dcda37783",
+  "name" : "单个商户的金额区间-xendit2",
+  "fullName" : "test_create.TestCreate#test_xendit",
+  "historyId" : "1be373da6cb601450c6e45b2e52f65b7",
+  "time" : {
+    "start" : 1710833394196,
+    "stop" : 1710833395589,
+    "duration" : 1393
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: 预期状态码为 200，实际状态码为 88011\nassert '88011' == '200'\n  - 200\n  + 88011",
+  "statusTrace" : "self = <test_create.TestCreate object at 0x000002C2EB8EAEE0>\ndata = {'amount': '20008', 'currency': 'IDR', 'expectPayCodeType': 0, 'merchantId': '100119', ...}\nprivateKey = '97fa79f073c7c5e3c97b00b50b156eaa', expected_code = None\nexpected_msg = None, expected_type = None, orderNo = None, fee_rate = None\npay_channel = 10\n\n    def perform_order_test(self, data, privateKey, expected_code=None, expected_msg=None, expected_type=None, orderNo=None,\n                           fee_rate=None, pay_channel=None,):\n        if orderNo is not None and 'orderNo' not in data:\n            # 如果 orderNo 存在且 data 中没有 orderNo 字段，则将 orderNo 添加到 data 中\n            data['orderNo'] = orderNo\n        elif 'orderNo' not in data:\n            data['orderNo'] = 'TestOrderNo_' + self.time.get_timestamp()\n    \n        self.log.info(f\"{self.time.date_time_s()} *************** 开始执行用例 ***************\")\n        result = self.xxx.create(data, privateKey)\n    \n        if pay_channel is not None or fee_rate is not None:\n            # 如果传入了 pay_channel 或 fee_rate，则要断言是否返回 200\n            try:\n>               assert result.get('code') == '200', \"预期状态码为 200，实际状态码为 {}\".format(result.get('code'))\nE               AssertionError: 预期状态码为 200，实际状态码为 88011\nE               assert '88011' == '200'\nE                 - 200\nE                 + 88011\n\ntest_create.py:36: AssertionError\n\nDuring handling of the above exception, another exception occurred:\n\nself = <test_create.TestCreate object at 0x000002C2EB8EAEE0>\ndata = {'amount': '20008', 'currency': 'IDR', 'expectPayCodeType': 0, 'merchantId': '100119', ...}\nprivateKey = '97fa79f073c7c5e3c97b00b50b156eaa', paychannel_code = 10\ntitle = '单个商户的金额区间-xendit2'\n\n    @allure.story('路由金额区间')\n    @pytest.mark.parametrize(\"data, privateKey,paychannel_code, title\", amount_routing)\n    def test_xendit(self, data, privateKey, paychannel_code, title):\n        allure.dynamic.title(f\"{title}\")\n>       self.perform_order_test(data, privateKey, pay_channel=paychannel_code)\n\ntest_create.py:89: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <test_create.TestCreate object at 0x000002C2EB8EAEE0>\ndata = {'amount': '20008', 'currency': 'IDR', 'expectPayCodeType': 0, 'merchantId': '100119', ...}\nprivateKey = '97fa79f073c7c5e3c97b00b50b156eaa', expected_code = None\nexpected_msg = None, expected_type = None, orderNo = None, fee_rate = None\npay_channel = 10\n\n    def perform_order_test(self, data, privateKey, expected_code=None, expected_msg=None, expected_type=None, orderNo=None,\n                           fee_rate=None, pay_channel=None,):\n        if orderNo is not None and 'orderNo' not in data:\n            # 如果 orderNo 存在且 data 中没有 orderNo 字段，则将 orderNo 添加到 data 中\n            data['orderNo'] = orderNo\n        elif 'orderNo' not in data:\n            data['orderNo'] = 'TestOrderNo_' + self.time.get_timestamp()\n    \n        self.log.info(f\"{self.time.date_time_s()} *************** 开始执行用例 ***************\")\n        result = self.xxx.create(data, privateKey)\n    \n        if pay_channel is not None or fee_rate is not None:\n            # 如果传入了 pay_channel 或 fee_rate，则要断言是否返回 200\n            try:\n                assert result.get('code') == '200', \"预期状态码为 200，实际状态码为 {}\".format(result.get('code'))\n            except AssertionError as e:\n>               raise AssertionError(f\"{e}\")\nE               AssertionError: 预期状态码为 200，实际状态码为 88011\nE               assert '88011' == '200'\nE                 - 200\nE                 + 88011\n\ntest_create.py:38: AssertionError",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "_xunit_setup_class_fixture_TestCreate",
+    "time" : {
+      "start" : 1710833389230,
+      "stop" : 1710833390084,
+      "duration" : 854
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "_xunit_setup_class_fixture_TestCreate::0",
+    "time" : {
+      "start" : 1710833440770,
+      "stop" : 1710833440770,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "下单接口"
+  }, {
+    "name" : "epic",
+    "value" : "针对trade单元测试"
+  }, {
+    "name" : "story",
+    "value" : "路由金额区间"
+  }, {
+    "name" : "suite",
+    "value" : "test_create"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCreate"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-QH40KOLE"
+  }, {
+    "name" : "thread",
+    "value" : "29588-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_create"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "data",
+    "value" : "{'merchantId': '100119', 'productId': '2023', 'currency': 'IDR', 'amount': '20008', 'payChannel': '16', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}"
+  }, {
+    "name" : "paychannel_code",
+    "value" : "10"
+  }, {
+    "name" : "privateKey",
+    "value" : "'97fa79f073c7c5e3c97b00b50b156eaa'"
+  }, {
+    "name" : "title",
+    "value" : "'单个商户的金额区间-xendit2'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "d092b16dcda37783.json",
+  "parameterValues" : [ "{'merchantId': '100119', 'productId': '2023', 'currency': 'IDR', 'amount': '20008', 'payChannel': '16', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}", "10", "'97fa79f073c7c5e3c97b00b50b156eaa'", "'单个商户的金额区间-xendit2'" ]
+}
