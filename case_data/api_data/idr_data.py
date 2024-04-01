@@ -1,7 +1,4 @@
 # -*- coding: utf-8 -*-
-import time
-
-from   lib.base_utils import BaseUtils as bb
 
 
 idr_data = (100119, 2023, "IDR", 10000, "97fa79f073c7c5e3c97b00b50b156eaa", 1.0, )

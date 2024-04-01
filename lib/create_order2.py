@@ -3,15 +3,13 @@ import hashlib
 import allure
 import requests
 
-from lib.base_utils import BaseUtils
+from lib.utils.base_utils import BaseUtils
 from lib.config.sit import sit_config
 from lib.config.pg import pg_config
 from lib.config.la import la_config
 from lib.config.ph import ph_config
 from lib.config.id import id_config
 from lib.config.th import th_config
-from functools import lru_cache
-import pytest
 
 
 # 两边的类名取反了。 这里才是api了。

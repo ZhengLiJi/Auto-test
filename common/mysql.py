@@ -5,7 +5,7 @@
 # @File    : mysql.py
 # @Software: PyCharm
 import pymysql
-from lib.base_utils import log
+from lib.utils.base_utils import log
 
 
 class MysqlDb:

@@ -7,12 +7,17 @@
 import allure
 
 from lib.create_payout import Payout
+from lib.utils.requests import Requests
 
-class Trade(Payout):
 
-    def payout(self,data,private_key):
-        self.setup(data, private_key)
-        resp = self.post_sit(url="/pay/payout", desc='付款接口')
+class Trade(Requests):
+
+    def payout(self, base_url="", data=""):
+        json = {
+            "userid": data['userid'],
+            "priveteKey": 16
+        }
+        resp = self.post(url="/pay/payout", desc='付款接口', base_url=base_url, data=data)
         return resp
         # assert result(resp), "Assertion failed for payout request"
 
@@ -21,11 +26,6 @@ class Trade(Payout):
         resp = self.post_sit(url="/pay/refund", desc='退款接口')
         return resp
 
-    def queryaccountbalance(self, data, privateKey):
-        # data['orderNo'] = 'TestOrderNo_' + self.time.get_timestamp()
-        self.setup(data, privateKey)
-        resp = self.post_sit(url="/accountInfo/queryAccountBalance", desc='余额查寻接口')
-        return resp
 
     def create(self, data, privateKey):
 
@@ -46,21 +46,6 @@ class Trade(Payout):
     def query_award_list(self, data, privateKey):
         self.setup(data, privateKey)
         resp = self.post_sit(url="/pay/queryAwardList", desc='查询奖励发放产品列表')
-        return resp
-
-    def recurring(self, data, privateKey):
-        self.setup(data, privateKey)
-        resp = self.post_sit(url="/recurring/createRecurring", desc='订阅接口')
-        return resp
-
-    def query_recurring(self, data, privateKey):
-        self.setup(data, privateKey)
-        resp = self.post_sit(url="/recurring/queryRecurring", desc='查询订阅接口')
-        return resp
-
-    def stop_recurring(self, data, privateKey):
-        self.setup(data, privateKey)
-        resp = self.post_sit(url="/recurring/stopRecurring", desc='取消订阅接口')
         return resp
 
 

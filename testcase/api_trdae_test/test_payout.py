@@ -12,12 +12,14 @@ import allure
 import os
 from api.trade import Trade
 from common.mysql import MysqlDb
+from lib.create_payout import Payout
 from lib.settings.logger import log
 from lib.settings.get_time import GetTime
 from case_data.api_data.idr_data import *
 from case_data.api_data.payout_data import *
 import ast
 import pytest
+
 # from create_order_file import CreateOrder
 
 @allure.epic("针对trade单元测试")
@@ -133,6 +135,11 @@ class TestCreate:
     #         allure.dynamic.title(f"{title}")
     #         response = self.perform_order_test(data, privateKey, expected_code=expected_code, expected_msg=expected_msg)
     #         print(response)
+
+    @allure.epic()
+    @pytest.mark.parametrize("base_url, data, ")
+    def test_payout_payout(self,):
+        Payout().send_post_request()
 
 
 if __name__ == '__main__':
