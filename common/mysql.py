@@ -11,48 +11,47 @@ from lib.base_utils import log
 class MysqlDb:
 
     def __init__(self, db):
-        # 通过字典拆包传递配置信息，建立数据库连接
         self.db = db
-        self.conn = pymysql.connect(host='149.129.247.24', user='root', password='#Love1992', db=db, autocommit=True)
+        self.conn = None
+        self.cur = None
+
+    def __enter__(self):
+        self.conn = pymysql.connect(host='149.129.247.24', user='root', password='#Love1992', db=self.db, autocommit=True)
         self.cur = self.conn.cursor(cursor=pymysql.cursors.DictCursor)
+        return self
 
-    def close(self):
-        self.cur.close()
-        self.conn.close()
-
-    def __del__(self):  # 对象资源被释放时触发，在对象即将被删除时的最后操作
-        self.close()
+    def __exit__(self, exc_type, exc_val, exc_tb):
+        if self.cur:
+            self.cur.close()
+        if self.conn:
+            self.conn.close()
 
     def select_db(self, sql):
         """查询"""
-        # 检查连接是否断开，如果断开就进行重连
-        self.conn.ping(reconnect=True)
-        # 使用 execute() 执行sql
-        self.cur.execute(sql)
-        # 使用 fetchall() 获取查询结果
-        data = self.cur.fetchall()
-        self.close()
-        return data
+        try:
+            self.__enter__()  # 打开数据库连接
+            self.conn.ping(reconnect=True)
+            self.cur.execute(sql)
+            return self.cur.fetchall()
+        except Exception as e:
+            log.error("操作MySQL出现错误，错误原因：{}".format(e))
+            raise  # 抛出异常，让调用者处理
 
     def execute_db(self, sql):
         """更新/新增/删除"""
         try:
-            # 检查连接是否断开，如果断开就进行重连
+            self.__enter__()  # 打开数据库连接
             self.conn.ping(reconnect=True)
-            # 使用 execute() 执行sql
             self.cur.execute(sql)
-            # 提交事务
             self.conn.commit()
-            self.close()
         except Exception as e:
-            log.info("操作MySQL出现错误，错误原因：{}".format(e))
-            # 回滚所有更改
+            log.error("操作MySQL出现错误，错误原因：{}".format(e))
             self.conn.rollback()
-            self.close()
+            raise
+        finally:
+            self.__exit__(None, None, None)  # 关闭数据库连接
 
 
 if __name__ == '__main__':
     order = MysqlDb("trade").select_db('select * from order_bill where trade_no = "10012024031511045516800007"')
-    order_str = str(order)
-    print(order_str[{'channel_fee'}])
-    print(order_str.encode('utf-8'))
+    print(order)

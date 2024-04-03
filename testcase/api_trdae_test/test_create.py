@@ -92,45 +92,44 @@ class TestCreate:
 
     @allure.story('费率场景')
     @pytest.mark.parametrize("data, privateKey,merchant_fee,channel_fee, title", rate_case)
-    def test_xendit(self, data, privateKey, merchant_fee, channel_fee, title):
+    def test_rate_case(self, data, privateKey, merchant_fee, channel_fee, title):
         allure.dynamic.title(f"{title}")
         self.perform_order_test(data, privateKey, merchant_fee=merchant_fee, channel_fee=channel_fee)
 
+    @allure.story('路由用户标识')
+    @pytest.mark.parametrize("data, privateKey, paychannel_code, title", user_routing)
+    def test_user_routing(self, data, privateKey, paychannel_code, title):
+        allure.dynamic.title(f"{title}")
+        self.perform_order_test(data, privateKey, pay_channel=paychannel_code)
 
-    # @allure.story('路由用户标识')
-    # @pytest.mark.parametrize("data, privateKey, paychannel_code, title", user_routing)
-    # def test_xendit(self, data, privateKey, paychannel_code, title):
-    #     allure.dynamic.title(f"{title}")
-    #     self.perform_order_test(data, privateKey, pay_channel=paychannel_code)
+    @allure.story('路由金额区间')
+    @pytest.mark.parametrize("data, privateKey,paychannel_code, title", amount_routing)
+    def test_amount_routing(self, data, privateKey, paychannel_code, title):
+        allure.dynamic.title(f"{title}")
+        self.perform_order_test(data, privateKey, pay_channel=paychannel_code)
 
-    # @allure.story('路由金额区间')
-    # @pytest.mark.parametrize("data, privateKey,paychannel_code, title", amount_routing)
-    # def test_xendit(self, data, privateKey, paychannel_code, title):
-    #     allure.dynamic.title(f"{title}")
-    #     self.perform_order_test(data, privateKey, pay_channel=paychannel_code)
-
-    # @allure.story('普通路由场景')
-    # @pytest.mark.parametrize("data, privateKey, paychannel_code, title", xendit1_data)
-    # def ordinary_route(self, data, privateKey, paychannel_code, title):
-    #     allure.dynamic.title(f"{title}")
-    #     self.perform_order_test(data, privateKey, pay_channel=paychannel_code)
+    @allure.story('普通路由场景')
+    @pytest.mark.parametrize("data, privateKey, paychannel_code, title", normal_routing)
+    def test_normal_routing(self, data, privateKey, paychannel_code, title):
+        allure.dynamic.title(f"{title}")
+        self.perform_order_test(data, privateKey, pay_channel=paychannel_code)
 
 
-    # @allure.story("下单接口异常case合计")
-    # @pytest.mark.parametrize("data, privateKey, expected_code, expected_msg, title", create_order_data)
-    # @pytest.mark.xfail     #断言失败则跳过
-    # def test_createorder_error(self,data, privateKey, expected_code, expected_msg, title):
-    #         allure.dynamic.title(f"{title}")
-    #         response = self.perform_order_test(data, privateKey, expected_code=expected_code, expected_msg=expected_msg)
-    #         print(response)
+    @allure.story("下单接口异常case合计")
+    @pytest.mark.parametrize("data, privateKey, expected_code, expected_msg, title", create_order_data)
+    @pytest.mark.xfail     #断言失败则跳过
+    def test_createorder_error(self,data, privateKey, expected_code, expected_msg, title):
+            allure.dynamic.title(f"{title}")
+            response = self.perform_order_test(data, privateKey, expected_code=expected_code, expected_msg=expected_msg)
+            print(response)
 
-    # @allure.story("限额场景")
-    # @pytest.mark.parametrize("data, privateKey, expected_code, expected_msg, title", amount_lmiti)
-    # @pytest.mark.xfail     #断言失败则跳过
-    # def test_createorder_error(self,data, privateKey, expected_code, expected_msg, title):
-    #         allure.dynamic.title(f"{title}")
-    #         response = self.perform_order_test(data, privateKey, expected_code=expected_code, expected_msg=expected_msg)
-    #         print(response)
+    @allure.story("限额场景")
+    @pytest.mark.parametrize("data, privateKey, expected_code, expected_msg, title", amount_lmiti)
+    @pytest.mark.xfail     #断言失败则跳过
+    def test_amount_lmiti(self,data, privateKey, expected_code, expected_msg, title):
+            allure.dynamic.title(f"{title}")
+            response = self.perform_order_test(data, privateKey, expected_code=expected_code, expected_msg=expected_msg)
+            print(response)
 
 
 if __name__ == '__main__':

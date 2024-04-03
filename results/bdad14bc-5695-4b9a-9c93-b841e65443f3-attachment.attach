@@ -1,1 +1,0 @@
-下单前余额: {'code': '200', 'msg': 'SUCCESS', 'sign': '41d9ba4ee30279852a6a64a85e587821', 'traceId': '9d8d8ec029844282b0cc1c94f9172aed', 'accountInfoList': [{'accountType': 2, 'balance': 99562546272.02, 'type': '余额户'}, {'accountType': 5, 'balance': 200660544.79, 'type': '收款户'}]}

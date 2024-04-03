@@ -1,1881 +1,621 @@
 [ {
-  "uid" : "9ff3280494b7213f",
-  "name" : "xendit",
+  "uid" : "a3a7dccd5101b557",
+  "name" : "多个商户及单个类型的普通路由",
   "time" : {
-    "start" : 1710930815340,
-    "stop" : 1710930817484,
-    "duration" : 2144
+    "start" : 1712114272995,
+    "stop" : 1712114274304,
+    "duration" : 1309
   },
   "status" : "failed",
   "severity" : "normal"
 }, {
-  "uid" : "fd428aa7d1f36213",
-  "name" : "便利店支付金额最少不可以低于10000",
-  "time" : {
-    "start" : 1710833418169,
-    "stop" : 1710833419557,
-    "duration" : 1388
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "d7ca363d7d9954a",
-  "name" : "MPI",
-  "time" : {
-    "start" : 1710833557826,
-    "stop" : 1710833559780,
-    "duration" : 1954
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "ac0ee776f575994f",
-  "name" : "信用卡支付金额最少不可以低于10000",
-  "time" : {
-    "start" : 1710833419562,
-    "stop" : 1710833421043,
-    "duration" : 1481
-  },
-  "status" : "skipped",
-  "severity" : "normal"
-}, {
-  "uid" : "550d47fbc7be99",
-  "name" : "gv",
-  "time" : {
-    "start" : 1711615192923,
-    "stop" : 1711615192924,
-    "duration" : 1
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "1a88582429d92f14",
-  "name" : "xendit",
-  "time" : {
-    "start" : 1710930727296,
-    "stop" : 1710930729555,
-    "duration" : 2259
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "be9dd16098d1ea27",
-  "name" : "xendit",
-  "time" : {
-    "start" : 1711088115708,
-    "stop" : 1711088118022,
-    "duration" : 2314
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "ba29cb63c52311ef",
-  "name" : "oy",
-  "time" : {
-    "start" : 1711615551557,
-    "stop" : 1711615554286,
-    "duration" : 2729
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "930b597335f045ca",
-  "name" : "指定商户的支付方式DANA类型最小限额为100000",
-  "time" : {
-    "start" : 1710844690666,
-    "stop" : 1710844692098,
-    "duration" : 1432
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "1fe9f4735fe7ccc9",
-  "name" : "默认商户的钱包类型最大限额为100000000",
-  "time" : {
-    "start" : 1710844695034,
-    "stop" : 1710844696485,
-    "duration" : 1451
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "cdb9e8f57e098ad7",
-  "name" : "产品id不存在",
-  "time" : {
-    "start" : 1710833411500,
-    "stop" : 1710833412942,
-    "duration" : 1442
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "7d8bfa760af168d6",
-  "name" : "xendit",
-  "time" : {
-    "start" : 1710930182369,
-    "stop" : 1710930182392,
-    "duration" : 23
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "81ba9b087225e988",
-  "name" : "创建支付中订单",
-  "time" : {
-    "start" : 1710834060649,
-    "stop" : 1710834066523,
-    "duration" : 5874
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "4ddad7bfcf41560b",
-  "name" : "faspay",
-  "time" : {
-    "start" : 1711088367182,
-    "stop" : 1711088367189,
-    "duration" : 7
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "345c9e7e362a6a34",
-  "name" : "没有配置费率",
-  "time" : {
-    "start" : 1711615278823,
-    "stop" : 1711615280853,
-    "duration" : 2030
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "52b1e27d1b4ed33c",
-  "name" : "多个支付方式的金额区间-路由为xendit",
-  "time" : {
-    "start" : 1710833392323,
-    "stop" : 1710833394191,
-    "duration" : 1868
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "6eeea5e1050c072d",
-  "name" : "dana",
-  "time" : {
-    "start" : 1711615289371,
-    "stop" : 1711615289371,
-    "duration" : 0
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "7cf35a6019192149",
-  "name" : "金额字段为必填",
-  "time" : {
-    "start" : 1710833424854,
-    "stop" : 1710833425721,
-    "duration" : 867
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "a357dae3e026f8c6",
-  "name" : "商户比例收费+基础费率 及 渠道比例收费+基础费率",
-  "time" : {
-    "start" : 1711615537251,
-    "stop" : 1711615539432,
-    "duration" : 2181
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "ba14228b681d8292",
-  "name" : "商户比例收费及渠道比例收费",
-  "time" : {
-    "start" : 1711598885076,
-    "stop" : 1711598885079,
-    "duration" : 3
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "ec12ce8179176750",
-  "name" : "支付方式字段为必填",
-  "time" : {
-    "start" : 1710833430870,
-    "stop" : 1710833432298,
-    "duration" : 1428
-  },
-  "status" : "skipped",
-  "severity" : "normal"
-}, {
-  "uid" : "e442da4c10ab1636",
-  "name" : "mpi",
-  "time" : {
-    "start" : 1711615289347,
-    "stop" : 1711615289347,
-    "duration" : 0
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "b2536f3e8782cf3",
-  "name" : "多个商商户和单个支付方式的金额区间-xendit",
-  "time" : {
-    "start" : 1710833402765,
-    "stop" : 1710833405348,
-    "duration" : 2583
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "411e2ca9b95e8288",
-  "name" : "xendit",
-  "time" : {
-    "start" : 1710931342812,
-    "stop" : 1710931345173,
-    "duration" : 2361
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "a553700167e1f905",
-  "name" : "oy",
-  "time" : {
-    "start" : 1711088367240,
-    "stop" : 1711088367243,
-    "duration" : 3
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "7712909399c7c401",
-  "name" : "faspay",
-  "time" : {
-    "start" : 1711598886214,
-    "stop" : 1711598886217,
-    "duration" : 3
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "6357028fcb55abfa",
-  "name" : "mcpay",
-  "time" : {
-    "start" : 1710929081895,
-    "stop" : 1710929083513,
-    "duration" : 1618
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "ba042a410a4cd2ad",
-  "name" : "xendit",
-  "time" : {
-    "start" : 1711598886076,
-    "stop" : 1711598886079,
-    "duration" : 3
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "c571522b6aa67641",
-  "name" : "xendit",
-  "time" : {
-    "start" : 1710930542782,
-    "stop" : 1710930544722,
-    "duration" : 1940
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "a1afcbe195533e5b",
-  "name" : "xendit",
-  "time" : {
-    "start" : 1710929066043,
-    "stop" : 1710929066066,
-    "duration" : 23
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "cd02a630727ea61e",
-  "name" : "没有配置费率",
-  "time" : {
-    "start" : 1711615053034,
-    "stop" : 1711615053050,
-    "duration" : 16
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "58798877152aec",
-  "name" : "指定商户的支付方式DANA类型最小限额为100000",
-  "time" : {
-    "start" : 1710843533014,
-    "stop" : 1710843534420,
-    "duration" : 1406
-  },
-  "status" : "skipped",
-  "severity" : "normal"
-}, {
-  "uid" : "225145c176828c7",
-  "name" : "商户基础费率及渠道基础费率",
-  "time" : {
-    "start" : 1711615053256,
-    "stop" : 1711615053260,
-    "duration" : 4
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "a13930a50b5d4f59",
-  "name" : "单个商商户和单个支付方式的金额区间-MPI",
-  "time" : {
-    "start" : 1710833398462,
-    "stop" : 1710833400449,
-    "duration" : 1987
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "4712f7d67cf26ce2",
-  "name" : "xendit2",
-  "time" : {
-    "start" : 1711088118125,
-    "stop" : 1711088120254,
-    "duration" : 2129
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "7930cf34e46b973c",
-  "name" : "VA支付金额最少不可以低于10000",
-  "time" : {
-    "start" : 1710833416694,
-    "stop" : 1710833418162,
-    "duration" : 1468
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "63f1a921fd6e398d",
-  "name" : "多个商户的金额区间-faspay",
-  "time" : {
-    "start" : 1710833395604,
-    "stop" : 1710833398457,
-    "duration" : 2853
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "7fa0ab26c0ec11e2",
-  "name" : "没有配置费率",
-  "time" : {
-    "start" : 1711598884894,
-    "stop" : 1711598884911,
-    "duration" : 17
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "be8d02ed7d58719f",
-  "name" : "xendit",
-  "time" : {
-    "start" : 1711615361745,
-    "stop" : 1711615361745,
-    "duration" : 0
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "5df803f2d7ab432",
-  "name" : "商户比例收费及渠道比例收费",
-  "time" : {
-    "start" : 1711093933507,
-    "stop" : 1711093935944,
-    "duration" : 2437
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "ff6fdbb0c08e166a",
-  "name" : "xendit",
-  "time" : {
-    "start" : 1710928727400,
-    "stop" : 1710928729473,
-    "duration" : 2073
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "b0f22bf87d4c8688",
-  "name" : "mcpay",
-  "time" : {
-    "start" : 1710929807783,
-    "stop" : 1710929807796,
-    "duration" : 13
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "6bb3fe30cfa63d71",
-  "name" : "mcpay",
-  "time" : {
-    "start" : 1710929136975,
-    "stop" : 1710929138518,
-    "duration" : 1543
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "b42fe540fb83a16",
-  "name" : "mcpay",
-  "time" : {
-    "start" : 1710930097014,
-    "stop" : 1710930097027,
-    "duration" : 13
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "6cbb9d680907bd7",
-  "name" : "xendit",
-  "time" : {
-    "start" : 1711615192907,
-    "stop" : 1711615192907,
-    "duration" : 0
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "528190cdd04907ef",
-  "name" : "mcpay",
-  "time" : {
-    "start" : 1710930817662,
-    "stop" : 1710930819195,
-    "duration" : 1533
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "11acece6658c40e6",
-  "name" : "默认商户的钱包类型最大限额为99999",
-  "time" : {
-    "start" : 1710843537411,
-    "stop" : 1710843539104,
-    "duration" : 1693
-  },
-  "status" : "skipped",
-  "severity" : "normal"
-}, {
-  "uid" : "352032eb2c594593",
-  "name" : "商户基础费率及渠道基础费率",
-  "time" : {
-    "start" : 1711615283083,
-    "stop" : 1711615285372,
-    "duration" : 2289
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "12911de309c6ca5d",
-  "name" : "单个商商户和多个支付方式的金额区间-oy",
-  "time" : {
-    "start" : 1710833400456,
-    "stop" : 1710833402759,
-    "duration" : 2303
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "68c05c85bc24736d",
-  "name" : "mpi",
-  "time" : {
-    "start" : 1711615192915,
-    "stop" : 1711615192915,
-    "duration" : 0
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "2ab50c7266c8aed3",
-  "name" : "mcpay",
-  "time" : {
-    "start" : 1710930914956,
-    "stop" : 1710930916690,
-    "duration" : 1734
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "d6ef27c65de51c9c",
-  "name" : "请输入有效的paychannel",
-  "time" : {
-    "start" : 1710833429992,
-    "stop" : 1710833430852,
-    "duration" : 860
-  },
-  "status" : "skipped",
-  "severity" : "normal"
-}, {
-  "uid" : "8e9bd71fb5310cf2",
-  "name" : "商户字段为必填",
-  "time" : {
-    "start" : 1710833408645,
-    "stop" : 1710833410053,
-    "duration" : 1408
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "cc5b68f0e26b99b0",
-  "name" : "faspay",
-  "time" : {
-    "start" : 1711615192932,
-    "stop" : 1711615192932,
-    "duration" : 0
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "8592af7428f86f8",
-  "name" : "mcpay",
-  "time" : {
-    "start" : 1710930729737,
-    "stop" : 1710930731292,
-    "duration" : 1555
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "71d7c8f489fa36de",
-  "name" : "创建失败订单",
-  "time" : {
-    "start" : 1710834053875,
-    "stop" : 1710834060642,
-    "duration" : 6767
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "e715d7019a18deb1",
-  "name" : "多商户和多支付方式的金额区间场景-xendit",
-  "time" : {
-    "start" : 1710833405353,
-    "stop" : 1710833407223,
-    "duration" : 1870
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "e258f7f80ee6018c",
-  "name" : "dana",
-  "time" : {
-    "start" : 1711615361871,
-    "stop" : 1711615361872,
-    "duration" : 1
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "24852ccb071388f5",
-  "name" : "默认商户的钱包类型最小限额为1000",
-  "time" : {
-    "start" : 1710844693533,
-    "stop" : 1710844695027,
-    "duration" : 1494
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "1fa4ffde381492e0",
-  "name" : "mcpay",
-  "time" : {
-    "start" : 1710930718014,
-    "stop" : 1710930718021,
-    "duration" : 7
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "a50f060fa494721b",
-  "name" : "xendit",
-  "time" : {
-    "start" : 1710930096330,
-    "stop" : 1710930096351,
-    "duration" : 21
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "62d8e6f9460c35c0",
-  "name" : "mcpay",
-  "time" : {
-    "start" : 1710929203380,
-    "stop" : 1710929204922,
-    "duration" : 1542
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "470e165351a111b6",
-  "name" : "请传入orderNo字段",
-  "time" : {
-    "start" : 1710833439802,
-    "stop" : 1710833440754,
-    "duration" : 952
-  },
-  "status" : "skipped",
-  "severity" : "normal"
-}, {
-  "uid" : "13c5188ecd864255",
-  "name" : "币种不存在",
-  "time" : {
-    "start" : 1710833414357,
-    "stop" : 1710833415232,
-    "duration" : 875
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "1afbcce959d3d3e0",
-  "name" : "mcpay",
-  "time" : {
-    "start" : 1711088367408,
-    "stop" : 1711088367412,
-    "duration" : 4
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "479e991ddbc0152e",
-  "name" : "金额不支持小数",
-  "time" : {
-    "start" : 1710833422537,
-    "stop" : 1710833423403,
-    "duration" : 866
-  },
-  "status" : "skipped",
-  "severity" : "normal"
-}, {
-  "uid" : "756f2a6558fee23f",
-  "name" : "xendit",
-  "time" : {
-    "start" : 1710930912808,
-    "stop" : 1710930914780,
-    "duration" : 1972
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "27ac58c93411768",
-  "name" : "faspay",
-  "time" : {
-    "start" : 1711088122416,
-    "stop" : 1711088124694,
-    "duration" : 2278
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "ae37287a22a238d7",
-  "name" : "gv",
-  "time" : {
-    "start" : 1711615289355,
-    "stop" : 1711615289355,
-    "duration" : 0
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "ccc32e79ddce27cd",
-  "name" : "gv",
-  "time" : {
-    "start" : 1711615055302,
-    "stop" : 1711615055303,
-    "duration" : 1
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "d5d44f32c8bcebe5",
-  "name" : "默认商户的钱包类型最小限额为9999",
-  "time" : {
-    "start" : 1710843535878,
-    "stop" : 1710843537394,
-    "duration" : 1516
-  },
-  "status" : "skipped",
-  "severity" : "normal"
-}, {
-  "uid" : "565741d2c7b6ff7d",
-  "name" : "商户基础费率及渠道基础费率",
-  "time" : {
-    "start" : 1711093936050,
-    "stop" : 1711093939904,
-    "duration" : 3854
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "7b33cbf331c1fa62",
-  "name" : "订单号不为空",
-  "time" : {
-    "start" : 1710833438904,
-    "stop" : 1710833439796,
-    "duration" : 892
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "28aefdb8251d2da0",
-  "name" : "xendit",
-  "time" : {
-    "start" : 1710929201283,
-    "stop" : 1710929203197,
-    "duration" : 1914
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "434da1e62212fdb2",
-  "name" : "mcpay",
-  "time" : {
-    "start" : 1710930183044,
-    "stop" : 1710930183056,
-    "duration" : 12
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "36f988b3222badd8",
+  "uid" : "6a039edb4c562d94",
   "name" : "xendit5",
   "time" : {
-    "start" : 1711088367354,
-    "stop" : 1711088367357,
-    "duration" : 3
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "f670e9b2df2bb511",
-  "name" : "dana",
-  "time" : {
-    "start" : 1711598886259,
-    "stop" : 1711598886262,
-    "duration" : 3
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "7c0d004bbccd2b37",
-  "name" : "商户比例收费+基础费率 及 渠道比例收费+基础费率",
-  "time" : {
-    "start" : 1711615053306,
-    "stop" : 1711615053310,
-    "duration" : 4
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "d97b5684c4aca307",
-  "name" : "faspay",
-  "time" : {
-    "start" : 1711615547690,
-    "stop" : 1711615549947,
-    "duration" : 2257
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "1f66786ebdb271a5",
-  "name" : "faspay",
-  "time" : {
-    "start" : 1711615289362,
-    "stop" : 1711615289362,
-    "duration" : 0
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "e35da76108eab9da",
-  "name" : "版本信息不为空",
-  "time" : {
-    "start" : 1710833432317,
-    "stop" : 1710833433731,
-    "duration" : 1414
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "8b54af99f0dccae0",
-  "name" : "xendit3",
-  "time" : {
-    "start" : 1710833547002,
-    "stop" : 1710833548437,
-    "duration" : 1435
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "ef687dd357088fc2",
-  "name" : "默认商户的支付方式最大限额为100000000",
-  "time" : {
-    "start" : 1710843540029,
-    "stop" : 1710843541429,
-    "duration" : 1400
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "82e1ca3f62cceefa",
-  "name" : "xendit",
-  "time" : {
-    "start" : 1710929384266,
-    "stop" : 1710929386022,
-    "duration" : 1756
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "d092b16dcda37783",
-  "name" : "单个商户的金额区间-xendit2",
-  "time" : {
-    "start" : 1710833394196,
-    "stop" : 1710833395589,
-    "duration" : 1393
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "25e6f517e5abcb55",
-  "name" : "faspay",
-  "time" : {
-    "start" : 1711615055312,
-    "stop" : 1711615055312,
-    "duration" : 0
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "4e8b5f7bfc700318",
-  "name" : "dana",
-  "time" : {
-    "start" : 1711615549959,
-    "stop" : 1711615551547,
-    "duration" : 1588
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "13e94178323eb9e4",
-  "name" : "oy",
-  "time" : {
-    "start" : 1711615361880,
-    "stop" : 1711615361880,
-    "duration" : 0
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "2274b367938febd9",
-  "name" : "版本信息只支持五位字符串",
-  "time" : {
-    "start" : 1710833435194,
-    "stop" : 1710833436636,
-    "duration" : 1442
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "9fbdc6e2f816a5c9",
-  "name" : "商户比例收费+基础费率 及 渠道比例收费+基础费率",
-  "time" : {
-    "start" : 1711615357851,
-    "stop" : 1711615359937,
-    "duration" : 2086
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "97b6c190b70d2ec3",
-  "name" : "xendit5",
-  "time" : {
-    "start" : 1710833554807,
-    "stop" : 1710833556250,
-    "duration" : 1443
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "1dcfcfb1dca440b6",
-  "name" : "dana",
-  "time" : {
-    "start" : 1711615192940,
-    "stop" : 1711615192941,
-    "duration" : 1
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "cc0806134b3c7e94",
-  "name" : "mcpay",
-  "time" : {
-    "start" : 1710833556265,
-    "stop" : 1710833557810,
-    "duration" : 1545
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "c889b7a01bc9f09e",
-  "name" : "mcpay",
-  "time" : {
-    "start" : 1711088129746,
-    "stop" : 1711088131304,
-    "duration" : 1558
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "3ac1574b877e20c4",
-  "name" : "产品字段为必填参数",
-  "time" : {
-    "start" : 1710833410058,
-    "stop" : 1710833411494,
-    "duration" : 1436
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "8c91fc69983f767f",
-  "name" : "xendit2",
-  "time" : {
-    "start" : 1710833545409,
-    "stop" : 1710833546834,
-    "duration" : 1425
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "8e8710d8dbe3d966",
-  "name" : "xendit",
-  "time" : {
-    "start" : 1710929807102,
-    "stop" : 1710929807123,
-    "duration" : 21
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "13d8ab31c915ca1b",
-  "name" : "mpi",
-  "time" : {
-    "start" : 1711598886124,
-    "stop" : 1711598886127,
-    "duration" : 3
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "466ed9bed1ba7db3",
-  "name" : "xendit",
-  "time" : {
-    "start" : 1710929079723,
-    "stop" : 1710929081502,
-    "duration" : 1779
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "9d273f5c0ccb410a",
-  "name" : "xendit",
-  "time" : {
-    "start" : 1710929613096,
-    "stop" : 1710929613115,
-    "duration" : 19
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "88cb2da222700afc",
-  "name" : "商户基础费率及渠道基础费率",
-  "time" : {
-    "start" : 1711094053503,
-    "stop" : 1711094056893,
-    "duration" : 3390
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "5dd928d4d5546ba0",
-  "name" : "mcpay",
-  "time" : {
-    "start" : 1710929639607,
-    "stop" : 1710929639617,
-    "duration" : 10
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "659dba388107ccdd",
-  "name" : "商户比例收费+基础费率 及 渠道比例收费+基础费率",
-  "time" : {
-    "start" : 1711615190988,
-    "stop" : 1711615190994,
-    "duration" : 6
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "83467aea0a2b8a0d",
-  "name" : "默认商户的支付方式最小限额为9999",
-  "time" : {
-    "start" : 1710843539120,
-    "stop" : 1710843540023,
-    "duration" : 903
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "5747fa9b203b6e87",
-  "name" : "指定商户钱包类型最小限额为10000",
-  "time" : {
-    "start" : 1710843529719,
-    "stop" : 1710843531391,
-    "duration" : 1672
-  },
-  "status" : "skipped",
-  "severity" : "normal"
-}, {
-  "uid" : "caaea55fdea0e4f6",
-  "name" : "指定商户钱包类型最小限额为10000",
-  "time" : {
-    "start" : 1710844687521,
-    "stop" : 1710844689177,
-    "duration" : 1656
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "e0be34f8f3ef49bc",
-  "name" : "支付方式不存在",
-  "time" : {
-    "start" : 1710833428497,
-    "stop" : 1710833429975,
-    "duration" : 1478
-  },
-  "status" : "skipped",
-  "severity" : "normal"
-}, {
-  "uid" : "2d62a3504c508fe1",
-  "name" : "DANA",
-  "time" : {
-    "start" : 1711088132674,
-    "stop" : 1711088134525,
-    "duration" : 1851
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "11d3d213b1d81137",
-  "name" : "oy",
-  "time" : {
-    "start" : 1711598886329,
-    "stop" : 1711598886332,
-    "duration" : 3
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "b355fe11224a9116",
-  "name" : "DANA",
-  "time" : {
-    "start" : 1710833559785,
-    "stop" : 1710833561715,
-    "duration" : 1930
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "eb2fa2a170389248",
-  "name" : "默认商户的支付方式最小限额为9999",
-  "time" : {
-    "start" : 1710844696491,
-    "stop" : 1710844697963,
-    "duration" : 1472
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "1462d60890b441f3",
-  "name" : "faspay",
-  "time" : {
-    "start" : 1711615361863,
-    "stop" : 1711615361863,
-    "duration" : 0
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "ecfd8e596daad640",
-  "name" : "mcpay",
-  "time" : {
-    "start" : 1710929386193,
-    "stop" : 1710929387891,
-    "duration" : 1698
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "af42cdfc582c1d2",
-  "name" : "xendit",
-  "time" : {
-    "start" : 1710833543522,
-    "stop" : 1710833545403,
-    "duration" : 1881
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "19637293b5ac83ee",
-  "name" : "oy",
-  "time" : {
-    "start" : 1710833550703,
-    "stop" : 1710833553360,
-    "duration" : 2657
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "d609e833afed3144",
-  "name" : "指定商户钱包类型最大限额为100000",
-  "time" : {
-    "start" : 1710843531570,
-    "stop" : 1710843532996,
-    "duration" : 1426
-  },
-  "status" : "skipped",
-  "severity" : "normal"
-}, {
-  "uid" : "8ba6dcc31a81c540",
-  "name" : "oy",
-  "time" : {
-    "start" : 1711088124705,
-    "stop" : 1711088126888,
-    "duration" : 2183
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "e51dc9126d4cc16c",
-  "name" : "版本信息为必填字段",
-  "time" : {
-    "start" : 1710833433736,
-    "stop" : 1710833435188,
-    "duration" : 1452
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "f382eb858c8cb0c6",
-  "name" : "金额字段只接受纯数字传参",
-  "time" : {
-    "start" : 1710833423423,
-    "stop" : 1710833424837,
-    "duration" : 1414
-  },
-  "status" : "skipped",
-  "severity" : "normal"
-}, {
-  "uid" : "1f0441778a09bd94",
-  "name" : "xendit",
-  "time" : {
-    "start" : 1710929134878,
-    "stop" : 1710929136608,
-    "duration" : 1730
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "4cdb5208041a5daa",
-  "name" : "mcpay",
-  "time" : {
-    "start" : 1710929613723,
-    "stop" : 1710929613735,
-    "duration" : 12
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "1e7dd1cdb5d6a0ca",
-  "name" : "mcpay",
-  "time" : {
-    "start" : 1710931345182,
-    "stop" : 1710931346788,
-    "duration" : 1606
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "5a8cd2c8d67f7bd1",
-  "name" : "商户基础费率及渠道基础费率",
-  "time" : {
-    "start" : 1711598885123,
-    "stop" : 1711598885127,
-    "duration" : 4
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "12c8be33af2e69a6",
-  "name" : "订单号超过65个字符串",
-  "time" : {
-    "start" : 1710833437474,
-    "stop" : 1710833438895,
+    "start" : 1712114233656,
+    "stop" : 1712114235077,
     "duration" : 1421
   },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "36dbb49aa650d66b",
-  "name" : "mpi",
-  "time" : {
-    "start" : 1711615055293,
-    "stop" : 1711615055293,
-    "duration" : 0
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "809165836d332575",
-  "name" : "商户比例收费+基础费率 及 渠道比例收费+基础费率",
-  "time" : {
-    "start" : 1711598885180,
-    "stop" : 1711598885184,
-    "duration" : 4
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "5d0725cc2aad5237",
-  "name" : "xendit",
-  "time" : {
-    "start" : 1711615289247,
-    "stop" : 1711615289247,
-    "duration" : 0
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "c63bf3dc7e82c095",
-  "name" : "MPI",
-  "time" : {
-    "start" : 1711088131315,
-    "stop" : 1711088132663,
-    "duration" : 1348
-  },
   "status" : "failed",
   "severity" : "normal"
 }, {
-  "uid" : "bfc65f6ec0eb7895",
-  "name" : "订单已存在",
+  "uid" : "66ae659fd4299a74",
+  "name" : "单个商户及多个支付方式的普通路由",
   "time" : {
-    "start" : 1710833436642,
-    "stop" : 1710833437467,
-    "duration" : 825
+    "start" : 1712114276503,
+    "stop" : 1712114279392,
+    "duration" : 2889
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "1ac7ba4977b048a4",
-  "name" : "商户比例收费及渠道比例收费",
+  "uid" : "89692c8160b940fb",
+  "name" : "默认商户的支付方式最小限额为9999",
   "time" : {
-    "start" : 1711094050632,
-    "stop" : 1711094053393,
-    "duration" : 2761
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "e4bb778c32abda28",
-  "name" : "创建支付成功订单",
-  "time" : {
-    "start" : 1710834066528,
-    "stop" : 1710834070992,
-    "duration" : 4464
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "c81269c5f20a5fb0",
-  "name" : "没有配置费率",
-  "time" : {
-    "start" : 1711615351609,
-    "stop" : 1711615353453,
-    "duration" : 1844
+    "start" : 1712114317801,
+    "stop" : 1712114319194,
+    "duration" : 1393
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "99c4efcdfe968377",
-  "name" : "test_xendit[data0-akiki29dk39dlove0329djustin-30-15-\\u5546\\u6237\\u6bd4\\u4f8b\\u6536\\u8d39\\u53ca\\u6e20\\u9053\\u6bd4\\u4f8b\\u6536\\u8d39]",
+  "uid" : "88604f036081062f",
+  "name" : "xendit2",
   "time" : {
-    "start" : 1711093871524,
-    "stop" : 1711093871524,
-    "duration" : 0
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "66df8e10a542a92b",
-  "name" : "商户比例收费及渠道比例收费",
-  "time" : {
-    "start" : 1711615053208,
-    "stop" : 1711615053212,
-    "duration" : 4
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "c7c0f5593d4b4958",
-  "name" : "xendit",
-  "time" : {
-    "start" : 1711615055285,
-    "stop" : 1711615055286,
-    "duration" : 1
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "9a8ec5a847f235dc",
-  "name" : "xendit",
-  "time" : {
-    "start" : 1711088404576,
-    "stop" : 1711088407363,
-    "duration" : 2787
+    "start" : 1712114220396,
+    "stop" : 1712114223352,
+    "duration" : 2956
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "10df3958942f119e",
-  "name" : "商户基础费率及渠道基础费率",
+  "uid" : "46a235f2e17b0f8d",
+  "name" : "单个支付方式的普通路由",
   "time" : {
-    "start" : 1711615355588,
-    "stop" : 1711615357846,
-    "duration" : 2258
+    "start" : 1712114264175,
+    "stop" : 1712114266913,
+    "duration" : 2738
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "c23670bd7943876e",
-  "name" : "没有配置费率",
+  "uid" : "292654154de276a5",
+  "name" : "多个商商户和单个支付方式的金额区间-xendit",
   "time" : {
-    "start" : 1711615530572,
-    "stop" : 1711615532595,
-    "duration" : 2023
+    "start" : 1712114255033,
+    "stop" : 1712114258329,
+    "duration" : 3296
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "c156de3936047b93",
-  "name" : "商户比例收费+基础费率 及 渠道比例收费+基础费率",
+  "uid" : "7185a8bdae6657cb",
+  "name" : "多个商户及多个支付方式的普通路由",
   "time" : {
-    "start" : 1711615285376,
-    "stop" : 1711615287493,
-    "duration" : 2117
+    "start" : 1712114281834,
+    "stop" : 1712114284866,
+    "duration" : 3032
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "e6663b8f2a4532d4",
-  "name" : "金额过大",
+  "uid" : "ac20a1bc8b90382c",
+  "name" : "版本信息为必填字段",
   "time" : {
-    "start" : 1710833421061,
-    "stop" : 1710833422529,
-    "duration" : 1468
+    "start" : 1712114304092,
+    "stop" : 1712114304963,
+    "duration" : 871
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "8fa805fb6e66fd7",
+  "uid" : "f8be7c9d015b6239",
+  "name" : "单个支付方式的金额区间-路由为oy",
+  "time" : {
+    "start" : 1712114241681,
+    "stop" : 1712114244641,
+    "duration" : 2960
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4b8645a1c56b5093",
   "name" : "商户Id错误",
   "time" : {
-    "start" : 1710833407229,
-    "stop" : 1710833408623,
-    "duration" : 1394
+    "start" : 1712114284869,
+    "stop" : 1712114286273,
+    "duration" : 1404
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "408ca58c8bbe0058",
+  "name" : "DANA",
+  "time" : {
+    "start" : 1712114239465,
+    "stop" : 1712114241664,
+    "duration" : 2199
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "7e0662d90a8e0da0",
+  "name" : "订单已存在",
+  "time" : {
+    "start" : 1712114306398,
+    "stop" : 1712114307254,
+    "duration" : 856
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9e17a7b4952b7516",
+  "name" : "指定商户的支付方式DANA类型最小限额为100000",
+  "time" : {
+    "start" : 1712114313235,
+    "stop" : 1712114314058,
+    "duration" : 823
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "55eecea548bf8f40",
+  "name" : "指定商户的支付方式DANA最大限额为1000000",
+  "time" : {
+    "start" : 1712114314061,
+    "stop" : 1712114314899,
+    "duration" : 838
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6b80d0255d5e5874",
+  "name" : "请传入orderNo字段",
+  "time" : {
+    "start" : 1712114309482,
+    "stop" : 1712114310379,
+    "duration" : 897
   },
   "status" : "skipped",
   "severity" : "normal"
 }, {
-  "uid" : "cd99f9604d65c534",
-  "name" : "没有配置费率",
-  "time" : {
-    "start" : 1711615190730,
-    "stop" : 1711615190738,
-    "duration" : 8
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "c156d7b4b1b68596",
-  "name" : "支付方式不为空",
-  "time" : {
-    "start" : 1710833427100,
-    "stop" : 1710833428491,
-    "duration" : 1391
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "e0d0db531d679627",
-  "name" : "商户比例收费及渠道比例收费",
-  "time" : {
-    "start" : 1711615280858,
-    "stop" : 1711615283079,
-    "duration" : 2221
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "3be709efeb31ea72",
-  "name" : "gv",
-  "time" : {
-    "start" : 1711615545650,
-    "stop" : 1711615547680,
-    "duration" : 2030
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "edf2a9f9795ef6f9",
+  "uid" : "fe6bfead7c519cec",
   "name" : "商户基础费率及渠道基础费率",
   "time" : {
-    "start" : 1711615534836,
-    "stop" : 1711615537246,
-    "duration" : 2410
+    "start" : 1712114211215,
+    "stop" : 1712114214453,
+    "duration" : 3238
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "152cf6fe6c34f0b1",
-  "name" : "商户基础费率及渠道基础费率",
+  "uid" : "d8bf3c5b0f7912bd",
+  "name" : "支付方式字段为必填",
   "time" : {
-    "start" : 1711615190941,
-    "stop" : 1711615190944,
-    "duration" : 3
+    "start" : 1712114301790,
+    "stop" : 1712114302691,
+    "duration" : 901
   },
-  "status" : "broken",
+  "status" : "skipped",
   "severity" : "normal"
 }, {
-  "uid" : "3062ba48e764d2a1",
-  "name" : "mcpay",
+  "uid" : "842fd4337562f1eb",
+  "name" : "支付方式不存在",
   "time" : {
-    "start" : 1710928729649,
-    "stop" : 1710928731214,
-    "duration" : 1565
+    "start" : 1712114300087,
+    "stop" : 1712114300909,
+    "duration" : 822
   },
-  "status" : "failed",
+  "status" : "skipped",
   "severity" : "normal"
 }, {
-  "uid" : "3117a3995b5a4518",
-  "name" : "mcpay",
+  "uid" : "2b3d0d6947d8303a",
+  "name" : "MPI",
   "time" : {
-    "start" : 1710930339189,
-    "stop" : 1710930339203,
-    "duration" : 14
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "85340096bfff2ddc",
-  "name" : "商户比例收费及渠道比例收费",
-  "time" : {
-    "start" : 1711615353458,
-    "stop" : 1711615355583,
-    "duration" : 2125
+    "start" : 1712114236631,
+    "stop" : 1712114239457,
+    "duration" : 2826
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "8aefe46baa410a03",
-  "name" : "xendit3",
+  "uid" : "729025891d4a6d14",
+  "name" : "默认商户的支付方式最大限额为99999",
   "time" : {
-    "start" : 1711088120266,
-    "stop" : 1711088122400,
-    "duration" : 2134
+    "start" : 1712114319197,
+    "stop" : 1712114320615,
+    "duration" : 1418
   },
-  "status" : "failed",
+  "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "d188f2ac66c73bb",
+  "uid" : "34c8bcd33db91ab8",
   "name" : "xendit",
   "time" : {
-    "start" : 1710930338550,
-    "stop" : 1710930338570,
-    "duration" : 20
+    "start" : 1712114217341,
+    "stop" : 1712114220393,
+    "duration" : 3052
   },
-  "status" : "broken",
+  "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "295294650d5ebf9f",
-  "name" : "xendit",
+  "uid" : "8ef3f8f1c6878a81",
+  "name" : "金额不支持小数",
   "time" : {
-    "start" : 1710929638926,
-    "stop" : 1710929638947,
-    "duration" : 21
+    "start" : 1712114294605,
+    "stop" : 1712114296020,
+    "duration" : 1415
   },
-  "status" : "broken",
+  "status" : "skipped",
   "severity" : "normal"
 }, {
-  "uid" : "efb6fc317af6e56c",
-  "name" : "xendit2",
+  "uid" : "40455696b811ceed",
+  "name" : "指定商户钱包类型最小限额为10000",
   "time" : {
-    "start" : 1711088367081,
-    "stop" : 1711088367085,
-    "duration" : 4
+    "start" : 1712114310392,
+    "stop" : 1712114311854,
+    "duration" : 1462
   },
-  "status" : "broken",
+  "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "9b52baa0b7abe380",
-  "name" : "dana",
-  "time" : {
-    "start" : 1711615055321,
-    "stop" : 1711615055322,
-    "duration" : 1
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "bb1fdb724dfdabca",
-  "name" : "xendit",
-  "time" : {
-    "start" : 1711615541265,
-    "stop" : 1711615543619,
-    "duration" : 2354
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "5bb486da509ee59d",
+  "uid" : "e6c363e957f69fbe",
   "name" : "指定商户钱包类型最大限额为100000",
   "time" : {
-    "start" : 1710844689188,
-    "stop" : 1710844690660,
-    "duration" : 1472
+    "start" : 1712114311860,
+    "stop" : 1712114313231,
+    "duration" : 1371
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "31173f32726d94ca",
-  "name" : "商户比例收费及渠道比例收费",
+  "uid" : "e7d9dd09ff893229",
+  "name" : "单个商商户和单个支付方式的金额区间-MPI",
   "time" : {
-    "start" : 1711615190894,
-    "stop" : 1711615190898,
-    "duration" : 4
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "e2d3a4c4f05c4ca7",
-  "name" : "xendit5",
-  "time" : {
-    "start" : 1711088128351,
-    "stop" : 1711088129733,
-    "duration" : 1382
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "83ec09a98c27e46b",
-  "name" : "币种为必填字段",
-  "time" : {
-    "start" : 1710833412948,
-    "stop" : 1710833414351,
-    "duration" : 1403
+    "start" : 1712114249709,
+    "stop" : 1712114252531,
+    "duration" : 2822
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "e2b56a4b45d4bc62",
-  "name" : "gv",
+  "uid" : "296cc3a368b75dd3",
+  "name" : "单个商户及单个支付方式的普通路由",
   "time" : {
-    "start" : 1711088367306,
-    "stop" : 1711088367310,
-    "duration" : 4
+    "start" : 1712114274317,
+    "stop" : 1712114276497,
+    "duration" : 2180
   },
-  "status" : "broken",
+  "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "d560bc00fe97096b",
-  "name" : "指定商户的支付方式DANA最大限额为1000000",
+  "uid" : "5658bb47f89b2131",
+  "name" : "单个类型的普通路由",
   "time" : {
-    "start" : 1710843534437,
-    "stop" : 1710843535859,
+    "start" : 1712114261065,
+    "stop" : 1712114264169,
+    "duration" : 3104
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f806d840f39e2bb",
+  "name" : "多个商户及单个支付方式的普通路由",
+  "time" : {
+    "start" : 1712114279401,
+    "stop" : 1712114281822,
+    "duration" : 2421
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9f2f5d2197ddc936",
+  "name" : "金额字段只接受纯数字传参",
+  "time" : {
+    "start" : 1712114296037,
+    "stop" : 1712114297459,
     "duration" : 1422
   },
   "status" : "skipped",
   "severity" : "normal"
 }, {
-  "uid" : "f7c3e2f249338ad8",
-  "name" : "单个支付方式的金额区间-路由为oy",
+  "uid" : "9e52a23cf2c9e129",
+  "name" : "版本信息不为空",
   "time" : {
-    "start" : 1710833390085,
-    "stop" : 1710833392141,
-    "duration" : 2056
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "26e4da84b2f87086",
-  "name" : "金额为空",
-  "time" : {
-    "start" : 1710833425726,
-    "stop" : 1710833427094,
-    "duration" : 1368
+    "start" : 1712114302708,
+    "stop" : 1712114304086,
+    "duration" : 1378
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "fc80c9e82ab86e5d",
-  "name" : "商户比例收费及渠道比例收费",
-  "time" : {
-    "start" : 1711094187784,
-    "stop" : 1711094189926,
-    "duration" : 2142
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "be4a29e5c1fcdc57",
-  "name" : "test_xendit[data1-akiki29dk39dlove0329djustin-1111-1500-\\u5546\\u6237\\u57fa\\u7840\\u8d39\\u7387\\u53ca\\u6e20\\u9053\\u57fa\\u7840\\u8d39\\u7387]",
-  "time" : {
-    "start" : 1711093883179,
-    "stop" : 1711093883179,
-    "duration" : 0
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "1cde105294ceca15",
-  "name" : "gv",
-  "time" : {
-    "start" : 1711598886168,
-    "stop" : 1711598886171,
-    "duration" : 3
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "e669dd820e1ab1ac",
+  "uid" : "b186b988005fde48",
   "name" : "oy",
   "time" : {
-    "start" : 1711615055349,
-    "stop" : 1711615055349,
-    "duration" : 0
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "6bb1d8a43d29a8f7",
-  "name" : "默认商户的支付方式最大限额为99999",
-  "time" : {
-    "start" : 1710844697970,
-    "stop" : 1710844699434,
-    "duration" : 1464
+    "start" : 1712114228852,
+    "stop" : 1712114232062,
+    "duration" : 3210
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "a47f3c2056423130",
-  "name" : "gv",
+  "uid" : "8bef8c269ecdfea3",
+  "name" : "多个支付方式的普通路由",
   "time" : {
-    "start" : 1711088126899,
-    "stop" : 1711088128335,
-    "duration" : 1436
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "49e5f2e0ad9c7990",
-  "name" : "钱包支付金额最少不可以低于1000",
-  "time" : {
-    "start" : 1710833415240,
-    "stop" : 1710833416686,
-    "duration" : 1446
+    "start" : 1712114266919,
+    "stop" : 1712114269927,
+    "duration" : 3008
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "52d92683a542f7f9",
-  "name" : "oy",
+  "uid" : "2c1aeaadd4ea51ee",
+  "name" : "商户字段为必填",
   "time" : {
-    "start" : 1711615289379,
-    "stop" : 1711615289379,
-    "duration" : 0
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "baad400cd24167f",
-  "name" : "xendit3",
-  "time" : {
-    "start" : 1711088367132,
-    "stop" : 1711088367135,
-    "duration" : 3
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "2fcba491abc75a56",
-  "name" : "oy",
-  "time" : {
-    "start" : 1711615192969,
-    "stop" : 1711615192969,
-    "duration" : 0
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "a065d37e5c1337cf",
-  "name" : "mcpay",
-  "time" : {
-    "start" : 1710929066719,
-    "stop" : 1710929066731,
-    "duration" : 12
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "af4a6f6bdb38b20a",
-  "name" : "mcpay",
-  "time" : {
-    "start" : 1710930544909,
-    "stop" : 1710930546693,
-    "duration" : 1784
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "f80f559341c3695b",
-  "name" : "商户比例收费及渠道比例收费",
-  "time" : {
-    "start" : 1711615532599,
-    "stop" : 1711615534832,
-    "duration" : 2233
+    "start" : 1712114286278,
+    "stop" : 1712114287125,
+    "duration" : 847
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "29aaa4aeb40b97df",
-  "name" : "指定商户的支付方式DANA最大限额为1000000",
+  "uid" : "7fc9b264082a60be",
+  "name" : "单个商户及单个类型的普通路由",
   "time" : {
-    "start" : 1710844692104,
-    "stop" : 1710844693528,
-    "duration" : 1424
+    "start" : 1712114269936,
+    "stop" : 1712114272991,
+    "duration" : 3055
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "4d33dd68a3624937",
-  "name" : "DANA",
+  "uid" : "b189c999989bdce1",
+  "name" : "金额字段为必填",
   "time" : {
-    "start" : 1711088367520,
-    "stop" : 1711088367523,
-    "duration" : 3
+    "start" : 1712114297487,
+    "stop" : 1712114298346,
+    "duration" : 859
   },
-  "status" : "broken",
+  "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "24450198fc76a590",
-  "name" : "mpi",
+  "uid" : "a8c4d3f180a3cc19",
+  "name" : "商户id不为空",
   "time" : {
-    "start" : 1711615543724,
-    "stop" : 1711615545635,
-    "duration" : 1911
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "f69ff8088bb6410",
-  "name" : "gv",
-  "time" : {
-    "start" : 1711615361854,
-    "stop" : 1711615361854,
-    "duration" : 0
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "29bb545bb9c2e1bb",
-  "name" : "gv",
-  "time" : {
-    "start" : 1710833553366,
-    "stop" : 1710833554792,
+    "start" : 1712114287130,
+    "stop" : 1712114288556,
     "duration" : 1426
   },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "2429c514397abaf7",
+  "name" : "默认商户的钱包类型最大限额为100000000",
+  "time" : {
+    "start" : 1712114316368,
+    "stop" : 1712114317797,
+    "duration" : 1429
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9527706a5c2e79db",
+  "name" : "币种为必填字段",
+  "time" : {
+    "start" : 1712114291720,
+    "stop" : 1712114293151,
+    "duration" : 1431
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "57de220a3592aec6",
+  "name" : "请输入有效的paychannel",
+  "time" : {
+    "start" : 1712114300929,
+    "stop" : 1712114301775,
+    "duration" : 846
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "a8f9f30ac006b142",
+  "name" : "mcpay",
+  "time" : {
+    "start" : 1712114235095,
+    "stop" : 1712114236614,
+    "duration" : 1519
+  },
   "status" : "failed",
   "severity" : "normal"
 }, {
-  "uid" : "c16514c0b1dee258",
-  "name" : "xendit",
+  "uid" : "8392bc6a742b6903",
+  "name" : "没有配置费率",
   "time" : {
-    "start" : 1711088366931,
-    "stop" : 1711088366941,
-    "duration" : 10
+    "start" : 1712114205305,
+    "stop" : 1712114208239,
+    "duration" : 2934
   },
-  "status" : "broken",
+  "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "7f5e4ba5356e9319",
+  "uid" : "e51af9fc3c8296b9",
+  "name" : "产品id不为空",
+  "time" : {
+    "start" : 1712114290280,
+    "stop" : 1712114291715,
+    "duration" : 1435
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ac7b289d20964efa",
+  "name" : "商户比例收费及渠道比例收费",
+  "time" : {
+    "start" : 1712114208247,
+    "stop" : 1712114211211,
+    "duration" : 2964
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5c1d61c2d7533672",
+  "name" : "多商户和多支付方式的金额区间场景-xendit",
+  "time" : {
+    "start" : 1712114258334,
+    "stop" : 1712114261057,
+    "duration" : 2723
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5f85db297c084e07",
+  "name" : "多个商户的金额区间-faspay",
+  "time" : {
+    "start" : 1712114247731,
+    "stop" : 1712114249698,
+    "duration" : 1967
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "31204a41503bdc80",
+  "name" : "默认商户的钱包类型最小限额为1000",
+  "time" : {
+    "start" : 1712114314904,
+    "stop" : 1712114316364,
+    "duration" : 1460
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d56e59d81a7d2e3a",
+  "name" : "产品id不存在",
+  "time" : {
+    "start" : 1712114289411,
+    "stop" : 1712114290269,
+    "duration" : 858
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e362539f62ba9688",
+  "name" : "商户比例收费+基础费率 及 渠道比例收费+基础费率",
+  "time" : {
+    "start" : 1712114214460,
+    "stop" : 1712114217335,
+    "duration" : 2875
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "db1c1db6f99cff2f",
+  "name" : "多个支付方式的金额区间-路由为xendit",
+  "time" : {
+    "start" : 1712114244647,
+    "stop" : 1712114246043,
+    "duration" : 1396
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "87d92619fc6ebf9",
+  "name" : "订单号超过65个字符串",
+  "time" : {
+    "start" : 1712114307258,
+    "stop" : 1712114308653,
+    "duration" : 1395
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ace19e1b22478d41",
+  "name" : "单个商商户和多个支付方式的金额区间-oy",
+  "time" : {
+    "start" : 1712114252535,
+    "stop" : 1712114255030,
+    "duration" : 2495
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "dd8ad7b2c1952e3",
   "name" : "faspay",
   "time" : {
-    "start" : 1710833548453,
-    "stop" : 1710833550695,
-    "duration" : 2242
+    "start" : 1712114226361,
+    "stop" : 1712114228848,
+    "duration" : 2487
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "fc111e7d46739b0",
-  "name" : "MPI",
+  "uid" : "f20b024fc4ece649",
+  "name" : "xendit3",
   "time" : {
-    "start" : 1711088367469,
-    "stop" : 1711088367473,
-    "duration" : 4
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "cec014d4c3a481cf",
-  "name" : "商户基础费率及渠道基础费率",
-  "time" : {
-    "start" : 1711094189934,
-    "stop" : 1711094192243,
-    "duration" : 2309
+    "start" : 1712114223356,
+    "stop" : 1712114226357,
+    "duration" : 3001
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "8e065a2c56b6eedc",
-  "name" : "mpi",
+  "uid" : "9e0ffacfc12a844b",
+  "name" : "产品字段为必填参数",
   "time" : {
-    "start" : 1711615361846,
-    "stop" : 1711615361846,
-    "duration" : 0
+    "start" : 1712114288575,
+    "stop" : 1712114289407,
+    "duration" : 832
   },
-  "status" : "broken",
+  "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "accddff5c211d6cb",
-  "name" : "xendit",
+  "uid" : "3a260f3003a6ccbf",
+  "name" : "gv",
   "time" : {
-    "start" : 1710930717740,
-    "stop" : 1710930717751,
-    "duration" : 11
+    "start" : 1712114232066,
+    "stop" : 1712114233498,
+    "duration" : 1432
   },
-  "status" : "broken",
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "e8b93a60fe49d430",
+  "name" : "单个商户的金额区间-xendit2",
+  "time" : {
+    "start" : 1712114246064,
+    "stop" : 1712114247721,
+    "duration" : 1657
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "f84f06d2b2913bbe",
+  "name" : "版本信息只支持五位字符串",
+  "time" : {
+    "start" : 1712114304969,
+    "stop" : 1712114306394,
+    "duration" : 1425
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7628b4e96933fe1f",
+  "name" : "金额为空",
+  "time" : {
+    "start" : 1712114298351,
+    "stop" : 1712114299206,
+    "duration" : 855
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "dd9cdfdbb610d315",
+  "name" : "订单号不为空",
+  "time" : {
+    "start" : 1712114308658,
+    "stop" : 1712114309479,
+    "duration" : 821
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e2bb85111949a038",
+  "name" : "支付方式不为空",
+  "time" : {
+    "start" : 1712114299217,
+    "stop" : 1712114300083,
+    "duration" : 866
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1de3f6880003c53c",
+  "name" : "请输入有效的币种",
+  "time" : {
+    "start" : 1712114293156,
+    "stop" : 1712114294601,
+    "duration" : 1445
+  },
+  "status" : "passed",
   "severity" : "normal"
 } ]

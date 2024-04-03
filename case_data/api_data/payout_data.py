@@ -88,7 +88,7 @@ user_routing_payout = [
       key_119, oy, "oy"),
 
 
-]
+] #用户标识路由
 
 payout_error_case = [
     ({
@@ -230,4 +230,288 @@ payout_error_case = [
          'accountHolderName': 'user_xendit'
      },
      key_119, '88001', '', "currency为必传参数"),
-]
+
+    ({
+         'merchantId': merchantId_119,
+         'productId': productId_119,
+         'currency': currency_IDR,
+         'amount': '10000.11',
+         'accountNumber': '0888888881',
+         'bankCode': 'DANA',
+         'version': 1.0,
+         'description': 'test',
+         'accountHolderName': 'user_xendit'
+     },
+     key_119, '88001', '', "amout金额不接受小数点"),
+
+    ({
+         'merchantId': merchantId_119,
+         'productId': productId_119,
+         'currency': currency_IDR,
+         'amount': '10000zxa',
+         'accountNumber': '0888888881',
+         'bankCode': 'DANA',
+         'version': 1.0,
+         'description': 'test',
+         'accountHolderName': 'user_xendit'
+     },
+     key_119, '88001', '', "amout金额只接受数字"),
+
+    ({
+         'merchantId': merchantId_119,
+         'productId': productId_119,
+         'currency': currency_IDR,
+         'amount': '',
+         'accountNumber': '0888888881',
+         'bankCode': 'DANA',
+         'version': 1.0,
+         'description': 'test',
+         'accountHolderName': 'user_xendit'
+     },
+     key_119, '88001', '', "amout金额不为空"),
+
+    ({
+         'merchantId': merchantId_119,
+         'productId': productId_119,
+         'currency': currency_IDR,
+         'accountNumber': '0888888881',
+         'bankCode': 'DANA',
+         'version': 1.0,
+         'description': 'test',
+         'accountHolderName': 'user_xendit'
+     },
+     key_119, '88001', '', "amout是必传参数"),
+
+    ({
+         'merchantId': merchantId_119,
+         'productId': productId_119,
+         'currency': currency_IDR,
+         'amount': '10000',
+         'accountNumber': '0888888881',
+         'bankCode': 'DANAz',
+         'version': 1.0,
+         'description': 'test',
+         'accountHolderName': 'user_xendit'
+     },
+     key_119, '88001', '', "bankCode不存在"),
+
+    ({
+         'merchantId': merchantId_119,
+         'productId': productId_119,
+         'currency': currency_IDR,
+         'amount': '10000',
+         'accountNumber': '0888888881',
+         'bankCode': '',
+         'version': 1.0,
+         'description': 'test',
+         'accountHolderName': 'user_xendit'
+     },
+     key_119, '88001', '', "bankCode为空"),
+
+    ({
+         'merchantId': merchantId_119,
+         'productId': productId_119,
+         'currency': currency_IDR,
+         'amount': '10000',
+         'accountNumber': '0888888881',
+         'version': 1.0,
+         'description': 'test',
+         'accountHolderName': 'user_xendit'
+     },
+     key_119, '88001', '', "bankCode是必传参数"),
+
+    ({
+         'merchantId': merchantId_119,
+         'productId': productId_119,
+         'currency': currency_IDR,
+         'amount': '10000',
+         'accountNumber': '0888888881',
+         'bankCode': 'DANA',
+         'version': 1.0,
+         'description': '',
+         'accountHolderName': 'user_xendit'
+     },
+     key_119, '88001', '', "description不为空"),
+
+    ({
+         'merchantId': merchantId_119,
+         'productId': productId_119,
+         'currency': currency_IDR,
+         'amount': '10000',
+         'accountNumber': '0888888881',
+         'bankCode': 'DANA',
+         'version': 1.0,
+         'accountHolderName': 'user_xendit'
+     },
+     key_119, '88001', '', "description为必填参数"),
+
+    ({
+         'merchantId': merchantId_119,
+         'productId': productId_119,
+         'currency': currency_IDR,
+         'amount': '10000',
+         'accountNumber': '888888881',
+         'bankCode': 'DANA',
+         'version': 1.0,
+         'description': 'test',
+         'accountHolderName': 'user_xendit'
+     },
+     key_119, '88001', '', "支付方式为钱包的必须为08开头"),
+
+    ({
+         'merchantId': merchantId_119,
+         'productId': productId_119,
+         'currency': currency_IDR,
+         'amount': '10000',
+         'accountNumber': '',
+         'bankCode': 'BNI',
+         'version': 1.0,
+         'description': 'test',
+         'accountHolderName': 'user_xendit'
+     },
+     key_119, '88001', '', "accountNumber不为空"),
+
+    ({
+         'merchantId': merchantId_119,
+         'productId': productId_119,
+         'currency': currency_IDR,
+         'amount': '10000',
+         'bankCode': 'BNI',
+         'version': 1.0,
+         'description': 'test',
+         'accountHolderName': 'user_xendit'
+     },
+     key_119, '88001', '', "accountNumber为必传参数"),
+
+    ({
+         'merchantId': merchantId_119,
+         'productId': productId_119,
+         'currency': currency_IDR,
+         'amount': '10000',
+         'accountNumber': '0888888881',
+         'bankCode': 'DANA',
+         'version': 1.0,
+         'description': 'test',
+         'accountHolderName': ''
+     },
+     key_119, '88001', '', "accountHolderName不为空"),
+
+    ({
+         'merchantId': merchantId_119,
+         'productId': productId_119,
+         'currency': currency_IDR,
+         'amount': '10000',
+         'accountNumber': '0888888881',
+         'bankCode': 'DANA',
+         'version': 1.0,
+         'description': 'test'
+     },
+     key_119, '88001', '', "accountHolderName为必填参数"),
+
+    ({
+         'merchantId': merchantId_119,
+         'productId': productId_119,
+         'currency': currency_IDR,
+         'amount': '10000',
+         'accountNumber': '0888888881',
+         'bankCode': 'DANA',
+         'version': 1.0,
+         'description': 'test',
+         'accountHolderName': ''
+     },
+     key_119, '88001', '', "accountHolderName不为空"),
+
+    ({
+         'merchantId': merchantId_119,
+         'productId': productId_119,
+         'currency': currency_IDR,
+         'amount': '10000',
+         'accountNumber': '0888888881',
+         'bankCode': 'DANA',
+         'version': 1.0,
+         'description': 'test',
+         'accountHolderName': ''
+     },
+     key_119, '88001', '', "accountHolderName不为空"),
+
+    ({
+         'merchantId': merchantId_119,
+         'productId': productId_119,
+         'currency': currency_IDR,
+         'amount': '10000',
+         'accountNumber': '0888888881',
+         'bankCode': 'DANA',
+         'version': 1.0,
+         'description': 'test',
+         'accountHolderName': 'test',
+         'sign': 'sign'
+
+     },
+     key_119, '88001', '', "sign未校验"),
+
+    ({
+         'merchantId': merchantId_119,
+         'productId': productId_119,
+         'currency': currency_IDR,
+         'amount': '10000',
+         'accountNumber': '0888888881',
+         'bankCode': 'DANA',
+         'version': 1.0,
+         'description': 'test',
+         'accountHolderName': 'test',
+         'sign': ''
+
+     },
+     key_119, '88001', '', "sign为空"),
+
+] #异常case
+
+amount_limit_payout = [
+    ({
+         'merchantId': merchantId_119,
+         'productId': productId_119,
+         'currency': currency_IDR,
+         'amount': '9',
+         'accountNumber': '0888888881',
+         'bankCode': 'DANA',
+         'version': 1.0,
+         'description': 'test',
+         'accountHolderName': 'tets'
+     },
+     key_119, '88026', "the order amount is too small",
+     "指定商户钱包类型最小限额为10000"),
+
+    ({
+         'merchantId': merchantId_119,
+         'productId': productId_119,
+         'currency': currency_IDR,
+         'amount': '5000001',
+         'accountNumber': '0888888881',
+         'bankCode': 'DANA',
+         'version': 1.0,
+         'description': 'test',
+         'accountHolderName': 'test'
+     },
+     key_119, '88036', "the order amount is too small",
+     "指定商户钱包类型最小限额为10000"),
+
+] #商户限额场景
+
+idempotence_payout = [
+    ({
+         'merchantId': merchantId_119,
+         'productId': productId_119,
+         'currency': currency_IDR,
+         'amount': '5000001',
+         'accountNumber': '0888888881',
+         'bankCode': 'DANA',
+         'version': 1.0,
+         'description': 'test',
+         'accountHolderName': 'test'
+     },
+     key_119, '88003', "the order amount is too small",
+     "幂等性")
+] #幂等性问题
+
+
+

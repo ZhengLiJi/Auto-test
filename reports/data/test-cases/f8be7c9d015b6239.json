@@ -1,0 +1,103 @@
+{
+  "uid" : "f8be7c9d015b6239",
+  "name" : "单个支付方式的金额区间-路由为oy",
+  "fullName" : "test_create.TestCreate#test_amount_routing",
+  "historyId" : "7753e8470e267f4e37ceb9af3a8193c0",
+  "time" : {
+    "start" : 1712114241681,
+    "stop" : 1712114244641,
+    "duration" : 2960
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "_xunit_setup_class_fixture_TestCreate",
+    "time" : {
+      "start" : 1712114205304,
+      "stop" : 1712114205304,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "_xunit_setup_class_fixture_TestCreate::0",
+    "time" : {
+      "start" : 1712114320617,
+      "stop" : 1712114320617,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "下单接口"
+  }, {
+    "name" : "story",
+    "value" : "路由金额区间"
+  }, {
+    "name" : "epic",
+    "value" : "针对trade单元测试"
+  }, {
+    "name" : "suite",
+    "value" : "test_create"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCreate"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-QH40KOLE"
+  }, {
+    "name" : "thread",
+    "value" : "21936-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_create"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "data",
+    "value" : "{'merchantId': '100149', 'productId': '2071', 'currency': 'IDR', 'amount': '5000', 'payChannel': '18', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}"
+  }, {
+    "name" : "paychannel_code",
+    "value" : "11"
+  }, {
+    "name" : "privateKey",
+    "value" : "'8kc8u438cg877uh387fu65ll012tv6bu'"
+  }, {
+    "name" : "title",
+    "value" : "'单个支付方式的金额区间-路由为oy'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f8be7c9d015b6239.json",
+  "parameterValues" : [ "{'merchantId': '100149', 'productId': '2071', 'currency': 'IDR', 'amount': '5000', 'payChannel': '18', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}", "11", "'8kc8u438cg877uh387fu65ll012tv6bu'", "'单个支付方式的金额区间-路由为oy'" ]
+}
