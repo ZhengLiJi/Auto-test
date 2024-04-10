@@ -7,7 +7,7 @@
       "name" : "TestCreate",
       "children" : [ {
         "name" : "没有配置费率",
-        "uid" : "8392bc6a742b6903",
+        "uid" : "2318a2d341758f05",
         "parentUid" : "6fa054d09da5e5750fb58013254daf0e",
         "status" : "passed",
         "time" : {
@@ -19,7 +19,7 @@
         "parameters" : [ "0", "{'merchantId': '100149', 'productId': '2071', 'currency': 'IDR', 'amount': '1000', 'payerPhone': '0888888881', 'payChannel': '18', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}", "0", "'8kc8u438cg877uh387fu65ll012tv6bu'", "'没有配置费率'" ]
       }, {
         "name" : "商户比例收费及渠道比例收费",
-        "uid" : "ac7b289d20964efa",
+        "uid" : "6381566c465f91c1",
         "parentUid" : "6fa054d09da5e5750fb58013254daf0e",
         "status" : "passed",
         "time" : {
@@ -31,7 +31,7 @@
         "parameters" : [ "15", "{'merchantId': '88888', 'productId': '1099', 'currency': 'IDR', 'amount': '1000', 'payerPhone': '0888888881', 'payChannel': '17', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}", "20", "'akiki29dk39dlove0329djustin'", "'商户比例收费及渠道比例收费'" ]
       }, {
         "name" : "商户基础费率及渠道基础费率",
-        "uid" : "fe6bfead7c519cec",
+        "uid" : "745e09a8db1bcf17",
         "parentUid" : "6fa054d09da5e5750fb58013254daf0e",
         "status" : "passed",
         "time" : {
@@ -43,7 +43,7 @@
         "parameters" : [ "1500", "{'merchantId': '88888', 'productId': '1099', 'currency': 'IDR', 'amount': '10000', 'payerPhone': '0888888881', 'payChannel': '4', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}", "1111", "'akiki29dk39dlove0329djustin'", "'商户基础费率及渠道基础费率'" ]
       }, {
         "name" : "商户比例收费+基础费率 及 渠道比例收费+基础费率",
-        "uid" : "e362539f62ba9688",
+        "uid" : "b926f7e3b9f0c83d",
         "parentUid" : "6fa054d09da5e5750fb58013254daf0e",
         "status" : "passed",
         "time" : {
@@ -55,7 +55,7 @@
         "parameters" : [ "1150", "{'merchantId': '88888', 'productId': '1099', 'currency': 'IDR', 'amount': '10000', 'payerPhone': '0888888881', 'payChannel': '19', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}", "800", "'akiki29dk39dlove0329djustin'", "'商户比例收费+基础费率 及 渠道比例收费+基础费率'" ]
       }, {
         "name" : "xendit",
-        "uid" : "34c8bcd33db91ab8",
+        "uid" : "3f7f47b3aaf2a724",
         "parentUid" : "6fa054d09da5e5750fb58013254daf0e",
         "status" : "passed",
         "time" : {
@@ -67,7 +67,7 @@
         "parameters" : [ "{'merchantId': '100119', 'productId': '2023', 'currency': 'IDR', 'amount': '10000', 'payerPhone': '0888888881', 'payChannel': '17', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}", "7", "'97fa79f073c7c5e3c97b00b50b156eaa'", "'xendit'" ]
       }, {
         "name" : "xendit2",
-        "uid" : "88604f036081062f",
+        "uid" : "2d1fc9bd6c9793cc",
         "parentUid" : "6fa054d09da5e5750fb58013254daf0e",
         "status" : "passed",
         "time" : {
@@ -79,7 +79,7 @@
         "parameters" : [ "{'merchantId': '100119', 'productId': '2023', 'currency': 'IDR', 'amount': '10000', 'payerPhone': '0888888882', 'payChannel': '17', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}", "10", "'97fa79f073c7c5e3c97b00b50b156eaa'", "'xendit2'" ]
       }, {
         "name" : "xendit3",
-        "uid" : "f20b024fc4ece649",
+        "uid" : "521b4626608c39d0",
         "parentUid" : "6fa054d09da5e5750fb58013254daf0e",
         "status" : "passed",
         "time" : {
@@ -91,7 +91,7 @@
         "parameters" : [ "{'merchantId': '100119', 'productId': '2023', 'currency': 'IDR', 'amount': '10000', 'payerPhone': '0888888883', 'payChannel': '17', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}", "13", "'97fa79f073c7c5e3c97b00b50b156eaa'", "'xendit3'" ]
       }, {
         "name" : "faspay",
-        "uid" : "dd8ad7b2c1952e3",
+        "uid" : "5cc54cdd1161be12",
         "parentUid" : "6fa054d09da5e5750fb58013254daf0e",
         "status" : "passed",
         "time" : {
@@ -103,7 +103,7 @@
         "parameters" : [ "{'merchantId': '100119', 'productId': '2023', 'currency': 'IDR', 'amount': '10000', 'payerPhone': '0888888885', 'payChannel': '3', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}", "14", "'97fa79f073c7c5e3c97b00b50b156eaa'", "'faspay'" ]
       }, {
         "name" : "oy",
-        "uid" : "b186b988005fde48",
+        "uid" : "e33660f834df9c2e",
         "parentUid" : "6fa054d09da5e5750fb58013254daf0e",
         "status" : "passed",
         "time" : {
@@ -115,7 +115,7 @@
         "parameters" : [ "{'merchantId': '100119', 'productId': '2023', 'currency': 'IDR', 'amount': '10000', 'payerPhone': '0888888886', 'payChannel': '17', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}", "11", "'97fa79f073c7c5e3c97b00b50b156eaa'", "'oy'" ]
       }, {
         "name" : "gv",
-        "uid" : "3a260f3003a6ccbf",
+        "uid" : "decf1790b12685b",
         "parentUid" : "6fa054d09da5e5750fb58013254daf0e",
         "status" : "failed",
         "time" : {
@@ -127,7 +127,7 @@
         "parameters" : [ "{'merchantId': '100119', 'productId': '2023', 'currency': 'IDR', 'amount': '10000', 'payerPhone': '0888888888', 'payChannel': '15', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}", "15", "'97fa79f073c7c5e3c97b00b50b156eaa'", "'gv'" ]
       }, {
         "name" : "xendit5",
-        "uid" : "6a039edb4c562d94",
+        "uid" : "a745a095f3cb4d0",
         "parentUid" : "6fa054d09da5e5750fb58013254daf0e",
         "status" : "failed",
         "time" : {
@@ -139,7 +139,7 @@
         "parameters" : [ "{'merchantId': '100119', 'productId': '2023', 'currency': 'IDR', 'amount': '10000', 'payerPhone': '0888888889', 'payChannel': '17', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}", "22", "'97fa79f073c7c5e3c97b00b50b156eaa'", "'xendit5'" ]
       }, {
         "name" : "mcpay",
-        "uid" : "a8f9f30ac006b142",
+        "uid" : "7f8b724011578439",
         "parentUid" : "6fa054d09da5e5750fb58013254daf0e",
         "status" : "failed",
         "time" : {
@@ -151,7 +151,7 @@
         "parameters" : [ "{'merchantId': '100119', 'productId': '2023', 'currency': 'IDR', 'amount': '15000', 'payerPhone': '081806708607', 'payChannel': '4', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}", "3", "'97fa79f073c7c5e3c97b00b50b156eaa'", "'mcpay'" ]
       }, {
         "name" : "MPI",
-        "uid" : "2b3d0d6947d8303a",
+        "uid" : "194881d5697422ae",
         "parentUid" : "6fa054d09da5e5750fb58013254daf0e",
         "status" : "passed",
         "time" : {
@@ -163,7 +163,7 @@
         "parameters" : [ "{'merchantId': '100119', 'productId': '2023', 'currency': 'IDR', 'amount': '10000', 'payerPhone': '0888888892', 'payChannel': '17', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}", "12", "'97fa79f073c7c5e3c97b00b50b156eaa'", "'MPI'" ]
       }, {
         "name" : "DANA",
-        "uid" : "408ca58c8bbe0058",
+        "uid" : "37524dc04f8cdbf",
         "parentUid" : "6fa054d09da5e5750fb58013254daf0e",
         "status" : "failed",
         "time" : {
@@ -175,7 +175,7 @@
         "parameters" : [ "{'merchantId': '100119', 'productId': '2023', 'currency': 'IDR', 'amount': '10000', 'payerPhone': '0888888892', 'payChannel': '17', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}", "24", "'97fa79f073c7c5e3c97b00b50b156eaa'", "'DANA'" ]
       }, {
         "name" : "单个支付方式的金额区间-路由为oy",
-        "uid" : "f8be7c9d015b6239",
+        "uid" : "c32ec89718039d47",
         "parentUid" : "6fa054d09da5e5750fb58013254daf0e",
         "status" : "passed",
         "time" : {
@@ -187,7 +187,7 @@
         "parameters" : [ "{'merchantId': '100149', 'productId': '2071', 'currency': 'IDR', 'amount': '5000', 'payChannel': '18', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}", "11", "'8kc8u438cg877uh387fu65ll012tv6bu'", "'单个支付方式的金额区间-路由为oy'" ]
       }, {
         "name" : "多个支付方式的金额区间-路由为xendit",
-        "uid" : "db1c1db6f99cff2f",
+        "uid" : "884b7fa5b9f60c83",
         "parentUid" : "6fa054d09da5e5750fb58013254daf0e",
         "status" : "failed",
         "time" : {
@@ -199,7 +199,7 @@
         "parameters" : [ "{'merchantId': '88888', 'productId': '1099', 'currency': 'IDR', 'amount': '6000', 'payChannel': '15', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}", "7", "'akiki29dk39dlove0329djustin'", "'多个支付方式的金额区间-路由为xendit'" ]
       }, {
         "name" : "单个商户的金额区间-xendit2",
-        "uid" : "e8b93a60fe49d430",
+        "uid" : "9db18ab2e182d260",
         "parentUid" : "6fa054d09da5e5750fb58013254daf0e",
         "status" : "failed",
         "time" : {
@@ -211,7 +211,7 @@
         "parameters" : [ "{'merchantId': '100119', 'productId': '2023', 'currency': 'IDR', 'amount': '20008', 'payChannel': '19', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}", "10", "'97fa79f073c7c5e3c97b00b50b156eaa'", "'单个商户的金额区间-xendit2'" ]
       }, {
         "name" : "多个商户的金额区间-faspay",
-        "uid" : "5f85db297c084e07",
+        "uid" : "539ebf3dd9ab7a51",
         "parentUid" : "6fa054d09da5e5750fb58013254daf0e",
         "status" : "failed",
         "time" : {
@@ -223,7 +223,7 @@
         "parameters" : [ "{'merchantId': '100119', 'productId': '2023', 'currency': 'IDR', 'amount': '10005', 'payChannel': '19', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}", "14", "'97fa79f073c7c5e3c97b00b50b156eaa'", "'多个商户的金额区间-faspay'" ]
       }, {
         "name" : "单个商商户和单个支付方式的金额区间-MPI",
-        "uid" : "e7d9dd09ff893229",
+        "uid" : "15fa8f6d54de9155",
         "parentUid" : "6fa054d09da5e5750fb58013254daf0e",
         "status" : "passed",
         "time" : {
@@ -235,7 +235,7 @@
         "parameters" : [ "{'merchantId': '100119', 'productId': '2023', 'currency': 'IDR', 'amount': '5000', 'payChannel': '17', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}", "12", "'97fa79f073c7c5e3c97b00b50b156eaa'", "'单个商商户和单个支付方式的金额区间-MPI'" ]
       }, {
         "name" : "单个商商户和多个支付方式的金额区间-oy",
-        "uid" : "ace19e1b22478d41",
+        "uid" : "a60bf7102353ba26",
         "parentUid" : "6fa054d09da5e5750fb58013254daf0e",
         "status" : "passed",
         "time" : {
@@ -247,7 +247,7 @@
         "parameters" : [ "{'merchantId': '100119', 'productId': '2023', 'currency': 'IDR', 'amount': '40000', 'payChannel': '4', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}", "11", "'97fa79f073c7c5e3c97b00b50b156eaa'", "'单个商商户和多个支付方式的金额区间-oy'" ]
       }, {
         "name" : "多个商商户和单个支付方式的金额区间-xendit",
-        "uid" : "292654154de276a5",
+        "uid" : "2e63227cab12a8dd",
         "parentUid" : "6fa054d09da5e5750fb58013254daf0e",
         "status" : "passed",
         "time" : {
@@ -259,7 +259,7 @@
         "parameters" : [ "{'merchantId': '100119', 'productId': '2023', 'currency': 'IDR', 'amount': '20000', 'payChannel': '8', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}", "7", "'97fa79f073c7c5e3c97b00b50b156eaa'", "'多个商商户和单个支付方式的金额区间-xendit'" ]
       }, {
         "name" : "多商户和多支付方式的金额区间场景-xendit",
-        "uid" : "5c1d61c2d7533672",
+        "uid" : "cf20075e73cbacd7",
         "parentUid" : "6fa054d09da5e5750fb58013254daf0e",
         "status" : "passed",
         "time" : {
@@ -271,7 +271,7 @@
         "parameters" : [ "{'merchantId': '100119', 'productId': '2023', 'currency': 'IDR', 'amount': '20005', 'payChannel': '15', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}", "7", "'97fa79f073c7c5e3c97b00b50b156eaa'", "'多商户和多支付方式的金额区间场景-xendit'" ]
       }, {
         "name" : "单个类型的普通路由",
-        "uid" : "5658bb47f89b2131",
+        "uid" : "8cb8332dd02a557a",
         "parentUid" : "6fa054d09da5e5750fb58013254daf0e",
         "status" : "passed",
         "time" : {
@@ -283,7 +283,7 @@
         "parameters" : [ "{'merchantId': '100149', 'productId': '2071', 'currency': 'IDR', 'amount': '100000', 'payChannel': '9', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}", "7", "'8kc8u438cg877uh387fu65ll012tv6bu'", "'单个类型的普通路由'" ]
       }, {
         "name" : "单个支付方式的普通路由",
-        "uid" : "46a235f2e17b0f8d",
+        "uid" : "1b85af0be11335d5",
         "parentUid" : "6fa054d09da5e5750fb58013254daf0e",
         "status" : "passed",
         "time" : {
@@ -295,7 +295,7 @@
         "parameters" : [ "{'merchantId': '100149', 'productId': '2071', 'currency': 'IDR', 'amount': '100000', 'payChannel': '18', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}", "7", "'8kc8u438cg877uh387fu65ll012tv6bu'", "'单个支付方式的普通路由'" ]
       }, {
         "name" : "多个支付方式的普通路由",
-        "uid" : "8bef8c269ecdfea3",
+        "uid" : "ccb68ccb96cd8f5e",
         "parentUid" : "6fa054d09da5e5750fb58013254daf0e",
         "status" : "passed",
         "time" : {
@@ -307,7 +307,7 @@
         "parameters" : [ "{'merchantId': '100149', 'productId': '2071', 'currency': 'IDR', 'amount': '10000', 'payChannel': '6', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}", "11", "'8kc8u438cg877uh387fu65ll012tv6bu'", "'多个支付方式的普通路由'" ]
       }, {
         "name" : "单个商户及单个类型的普通路由",
-        "uid" : "7fc9b264082a60be",
+        "uid" : "b05ad9a85f859cf3",
         "parentUid" : "6fa054d09da5e5750fb58013254daf0e",
         "status" : "passed",
         "time" : {
@@ -319,7 +319,7 @@
         "parameters" : [ "{'merchantId': '100119', 'productId': '2023', 'currency': 'IDR', 'amount': '100000', 'payChannel': '9', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}", "11", "'97fa79f073c7c5e3c97b00b50b156eaa'", "'单个商户及单个类型的普通路由'" ]
       }, {
         "name" : "多个商户及单个类型的普通路由",
-        "uid" : "a3a7dccd5101b557",
+        "uid" : "91f45995154701c9",
         "parentUid" : "6fa054d09da5e5750fb58013254daf0e",
         "status" : "failed",
         "time" : {
@@ -331,7 +331,7 @@
         "parameters" : [ "{'merchantId': '88888', 'productId': '1099', 'currency': 'IDR', 'amount': '100000', 'payChannel': '19', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}", "7", "'akiki29dk39dlove0329djustin'", "'多个商户及单个类型的普通路由'" ]
       }, {
         "name" : "单个商户及单个支付方式的普通路由",
-        "uid" : "296cc3a368b75dd3",
+        "uid" : "f09bfcb86eedd169",
         "parentUid" : "6fa054d09da5e5750fb58013254daf0e",
         "status" : "passed",
         "time" : {
@@ -343,7 +343,7 @@
         "parameters" : [ "{'merchantId': '100119', 'productId': '2023', 'currency': 'IDR', 'amount': '100000', 'payChannel': '17', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}", "12", "'97fa79f073c7c5e3c97b00b50b156eaa'", "'单个商户及单个支付方式的普通路由'" ]
       }, {
         "name" : "单个商户及多个支付方式的普通路由",
-        "uid" : "66ae659fd4299a74",
+        "uid" : "8ba9e6fdd1e8a620",
         "parentUid" : "6fa054d09da5e5750fb58013254daf0e",
         "status" : "passed",
         "time" : {
@@ -355,7 +355,7 @@
         "parameters" : [ "{'merchantId': '100149', 'productId': '2071', 'currency': 'IDR', 'amount': '10000', 'payChannel': '17', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}", "24", "'8kc8u438cg877uh387fu65ll012tv6bu'", "'单个商户及多个支付方式的普通路由'" ]
       }, {
         "name" : "多个商户及单个支付方式的普通路由",
-        "uid" : "f806d840f39e2bb",
+        "uid" : "708327217eb5cbc8",
         "parentUid" : "6fa054d09da5e5750fb58013254daf0e",
         "status" : "passed",
         "time" : {
@@ -367,7 +367,7 @@
         "parameters" : [ "{'merchantId': '88888', 'productId': '1099', 'currency': 'IDR', 'amount': '100000', 'payChannel': '17', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}", "11", "'akiki29dk39dlove0329djustin'", "'多个商户及单个支付方式的普通路由'" ]
       }, {
         "name" : "多个商户及多个支付方式的普通路由",
-        "uid" : "7185a8bdae6657cb",
+        "uid" : "b03898331ab524d1",
         "parentUid" : "6fa054d09da5e5750fb58013254daf0e",
         "status" : "passed",
         "time" : {
@@ -379,7 +379,7 @@
         "parameters" : [ "{'merchantId': '88888', 'productId': '1099', 'currency': 'IDR', 'amount': '100000', 'payChannel': '18', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}", "11", "'akiki29dk39dlove0329djustin'", "'多个商户及多个支付方式的普通路由'" ]
       }, {
         "name" : "商户Id错误",
-        "uid" : "4b8645a1c56b5093",
+        "uid" : "fef81518b2a6b498",
         "parentUid" : "6fa054d09da5e5750fb58013254daf0e",
         "status" : "passed",
         "time" : {
@@ -391,7 +391,7 @@
         "parameters" : [ "{'merchantId': 1001, 'productId': '2023', 'currency': 'IDR', 'amount': '10000', 'payChannel': '17', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}", "'88012'", "'merchant not exist'", "'97fa79f073c7c5e3c97b00b50b156eaa'", "'商户Id错误'" ]
       }, {
         "name" : "商户字段为必填",
-        "uid" : "2c1aeaadd4ea51ee",
+        "uid" : "3e33f60e2345069b",
         "parentUid" : "6fa054d09da5e5750fb58013254daf0e",
         "status" : "passed",
         "time" : {
@@ -403,7 +403,7 @@
         "parameters" : [ "{'productId': '2023', 'currency': 'IDR', 'amount': '10000', 'payChannel': '17', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}", "'88001'", "'merchantId can not be blank'", "'97fa79f073c7c5e3c97b00b50b156eaa'", "'商户字段为必填'" ]
       }, {
         "name" : "商户id不为空",
-        "uid" : "a8c4d3f180a3cc19",
+        "uid" : "f935e1fa88f61f67",
         "parentUid" : "6fa054d09da5e5750fb58013254daf0e",
         "status" : "skipped",
         "time" : {
@@ -415,7 +415,7 @@
         "parameters" : [ "{'merchantId': '', 'productId': '2023', 'currency': 'IDR', 'amount': '10000', 'payChannel': '17', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}", "'88001'", "'merchant not exist'", "'97fa79f073c7c5e3c97b00b50b156eaa'", "'商户id不为空'" ]
       }, {
         "name" : "产品字段为必填参数",
-        "uid" : "9e0ffacfc12a844b",
+        "uid" : "b774b37552d4b6ca",
         "parentUid" : "6fa054d09da5e5750fb58013254daf0e",
         "status" : "passed",
         "time" : {
@@ -427,7 +427,7 @@
         "parameters" : [ "{'merchantId': '100119', 'currency': 'IDR', 'amount': '10000', 'payChannel': '17', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}", "'88001'", "'productId can not be blank'", "'97fa79f073c7c5e3c97b00b50b156eaa'", "'产品字段为必填参数'" ]
       }, {
         "name" : "产品id不存在",
-        "uid" : "d56e59d81a7d2e3a",
+        "uid" : "82f3984d45cf74e8",
         "parentUid" : "6fa054d09da5e5750fb58013254daf0e",
         "status" : "passed",
         "time" : {
@@ -439,7 +439,7 @@
         "parameters" : [ "{'merchantId': '100119', 'productId': '20231', 'currency': 'IDR', 'amount': '10000', 'payChannel': '17', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}", "'88032'", "'productId is not valid'", "'97fa79f073c7c5e3c97b00b50b156eaa'", "'产品id不存在'" ]
       }, {
         "name" : "产品id不为空",
-        "uid" : "e51af9fc3c8296b9",
+        "uid" : "6ee2518e57ff04f7",
         "parentUid" : "6fa054d09da5e5750fb58013254daf0e",
         "status" : "passed",
         "time" : {
@@ -451,7 +451,7 @@
         "parameters" : [ "{'merchantId': '100119', 'productId': '', 'currency': 'IDR', 'amount': '10000', 'payChannel': '17', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}", "'88001'", "'productId can not be blank'", "'97fa79f073c7c5e3c97b00b50b156eaa'", "'产品id不为空'" ]
       }, {
         "name" : "币种为必填字段",
-        "uid" : "9527706a5c2e79db",
+        "uid" : "2f143fbc5c6fb319",
         "parentUid" : "6fa054d09da5e5750fb58013254daf0e",
         "status" : "passed",
         "time" : {
@@ -463,7 +463,7 @@
         "parameters" : [ "{'merchantId': '100119', 'productId': '2023', 'amount': '10000', 'payChannel': '17', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}", "'88001'", "'currency can not be blank'", "'97fa79f073c7c5e3c97b00b50b156eaa'", "'币种为必填字段'" ]
       }, {
         "name" : "请输入有效的币种",
-        "uid" : "1de3f6880003c53c",
+        "uid" : "8c18cca325b72436",
         "parentUid" : "6fa054d09da5e5750fb58013254daf0e",
         "status" : "passed",
         "time" : {
@@ -475,7 +475,7 @@
         "parameters" : [ "{'merchantId': '100119', 'productId': '20231', 'currency': 'ID3', 'amount': '10000', 'payChannel': '17', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}", "'88001'", "'currency can not be blank'", "'97fa79f073c7c5e3c97b00b50b156eaa'", "'请输入有效的币种'" ]
       }, {
         "name" : "金额不支持小数",
-        "uid" : "8ef3f8f1c6878a81",
+        "uid" : "e34521bd76276887",
         "parentUid" : "6fa054d09da5e5750fb58013254daf0e",
         "status" : "skipped",
         "time" : {
@@ -487,7 +487,7 @@
         "parameters" : [ "{'merchantId': '100119', 'productId': '2023', 'currency': 'IDR', 'amount': '1000.11', 'payChannel': '17', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}", "'88001'", "'amount should be integer'", "'97fa79f073c7c5e3c97b00b50b156eaa'", "'金额不支持小数'" ]
       }, {
         "name" : "金额字段只接受纯数字传参",
-        "uid" : "9f2f5d2197ddc936",
+        "uid" : "f58b5f828e84d762",
         "parentUid" : "6fa054d09da5e5750fb58013254daf0e",
         "status" : "skipped",
         "time" : {
@@ -499,7 +499,7 @@
         "parameters" : [ "{'merchantId': '100119', 'productId': '2023', 'currency': 'IDR', 'amount': '1000a', 'payChannel': '17', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}", "'88048'", "'amount should be integer'", "'97fa79f073c7c5e3c97b00b50b156eaa'", "'金额字段只接受纯数字传参'" ]
       }, {
         "name" : "金额字段为必填",
-        "uid" : "b189c999989bdce1",
+        "uid" : "2bb352bc4e3f7a86",
         "parentUid" : "6fa054d09da5e5750fb58013254daf0e",
         "status" : "passed",
         "time" : {
@@ -511,7 +511,7 @@
         "parameters" : [ "{'merchantId': '100119', 'productId': '2023', 'currency': 'IDR', 'payChannel': '17', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}", "'88001'", "'amount can not be blank'", "'97fa79f073c7c5e3c97b00b50b156eaa'", "'金额字段为必填'" ]
       }, {
         "name" : "金额为空",
-        "uid" : "7628b4e96933fe1f",
+        "uid" : "9c17af7430e08c67",
         "parentUid" : "6fa054d09da5e5750fb58013254daf0e",
         "status" : "passed",
         "time" : {
@@ -523,7 +523,7 @@
         "parameters" : [ "{'merchantId': '100119', 'productId': '2023', 'currency': 'IDR', 'amount': '', 'payChannel': '17', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}", "'88001'", "'amount can not be blank'", "'97fa79f073c7c5e3c97b00b50b156eaa'", "'金额为空'" ]
       }, {
         "name" : "支付方式不为空",
-        "uid" : "e2bb85111949a038",
+        "uid" : "b3dafffde8d45eea",
         "parentUid" : "6fa054d09da5e5750fb58013254daf0e",
         "status" : "passed",
         "time" : {
@@ -535,7 +535,7 @@
         "parameters" : [ "{'merchantId': '100119', 'productId': '2023', 'currency': 'IDR', 'amount': '10000', 'payChannel': '', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}", "'88001'", "'payChannel can not be blank'", "'97fa79f073c7c5e3c97b00b50b156eaa'", "'支付方式不为空'" ]
       }, {
         "name" : "支付方式不存在",
-        "uid" : "842fd4337562f1eb",
+        "uid" : "cf26982c20625f7f",
         "parentUid" : "6fa054d09da5e5750fb58013254daf0e",
         "status" : "skipped",
         "time" : {
@@ -547,7 +547,7 @@
         "parameters" : [ "{'merchantId': '100119', 'productId': '2023', 'currency': 'IDR', 'amount': '10000000', 'payChannel': '1000', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}", "'88001'", "'inner system error, please try again'", "'97fa79f073c7c5e3c97b00b50b156eaa'", "'支付方式不存在'" ]
       }, {
         "name" : "请输入有效的paychannel",
-        "uid" : "57de220a3592aec6",
+        "uid" : "2cab8fbf6c3e04fb",
         "parentUid" : "6fa054d09da5e5750fb58013254daf0e",
         "status" : "skipped",
         "time" : {
@@ -559,7 +559,7 @@
         "parameters" : [ "{'merchantId': '100119', 'productId': '2023', 'currency': 'IDR', 'amount': '10000000', 'payChannel': '17A.1', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}", "'88001'", "'inner system error, please try again'", "'97fa79f073c7c5e3c97b00b50b156eaa'", "'请输入有效的paychannel'" ]
       }, {
         "name" : "支付方式字段为必填",
-        "uid" : "d8bf3c5b0f7912bd",
+        "uid" : "23778563ffaa09a1",
         "parentUid" : "6fa054d09da5e5750fb58013254daf0e",
         "status" : "skipped",
         "time" : {
@@ -571,7 +571,7 @@
         "parameters" : [ "{'merchantId': '100119', 'productId': '2023', 'currency': 'IDR', 'amount': '10000000', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}", "'88001'", "'payChannel can not be blank''", "'97fa79f073c7c5e3c97b00b50b156eaa'", "'支付方式字段为必填'" ]
       }, {
         "name" : "版本信息不为空",
-        "uid" : "9e52a23cf2c9e129",
+        "uid" : "9103027ed3d222a6",
         "parentUid" : "6fa054d09da5e5750fb58013254daf0e",
         "status" : "passed",
         "time" : {
@@ -583,7 +583,7 @@
         "parameters" : [ "{'merchantId': '100119', 'productId': '2023', 'currency': 'IDR', 'amount': '10000000', 'payChannel': '17', 'version': '', 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}", "'88001'", "'length of version field is too long'", "'97fa79f073c7c5e3c97b00b50b156eaa'", "'版本信息不为空'" ]
       }, {
         "name" : "版本信息为必填字段",
-        "uid" : "ac20a1bc8b90382c",
+        "uid" : "f2c9222d66517e72",
         "parentUid" : "6fa054d09da5e5750fb58013254daf0e",
         "status" : "passed",
         "time" : {
@@ -595,7 +595,7 @@
         "parameters" : [ "{'merchantId': '100119', 'productId': '2023', 'currency': 'IDR', 'amount': '10000000', 'payChannel': '1000', 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}", "'88001'", "'version can not be blank'", "'97fa79f073c7c5e3c97b00b50b156eaa'", "'版本信息为必填字段'" ]
       }, {
         "name" : "版本信息只支持五位字符串",
-        "uid" : "f84f06d2b2913bbe",
+        "uid" : "7a7c4102a0896845",
         "parentUid" : "6fa054d09da5e5750fb58013254daf0e",
         "status" : "passed",
         "time" : {
@@ -607,7 +607,7 @@
         "parameters" : [ "{'merchantId': '100119', 'productId': '2023', 'currency': 'IDR', 'amount': '10000000', 'payChannel': '1000', 'version': '121212', 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}", "'88001'", "'length of version field is too long'", "'97fa79f073c7c5e3c97b00b50b156eaa'", "'版本信息只支持五位字符串'" ]
       }, {
         "name" : "订单已存在",
-        "uid" : "7e0662d90a8e0da0",
+        "uid" : "8776fa32348e0740",
         "parentUid" : "6fa054d09da5e5750fb58013254daf0e",
         "status" : "passed",
         "time" : {
@@ -619,7 +619,7 @@
         "parameters" : [ "{'merchantId': '100119', 'productId': '2023', 'currency': 'IDR', 'amount': '10000000', 'payChannel': '17', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test', 'orderNo': 'TestOrderNo_1710211808034'}", "'88003'", "'order already exist'", "'97fa79f073c7c5e3c97b00b50b156eaa'", "'订单已存在'" ]
       }, {
         "name" : "订单号超过65个字符串",
-        "uid" : "87d92619fc6ebf9",
+        "uid" : "f9ada947675c6275",
         "parentUid" : "6fa054d09da5e5750fb58013254daf0e",
         "status" : "passed",
         "time" : {
@@ -631,7 +631,7 @@
         "parameters" : [ "{'merchantId': '100119', 'productId': '2023', 'currency': 'IDR', 'amount': '10000000', 'payChannel': '17', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test', 'orderNo': 'TestOrderNo_17102118080342132133333333333213213132121321321312312312321'}", "'88001'", "'length of orderNo field is too long'", "'97fa79f073c7c5e3c97b00b50b156eaa'", "'订单号超过65个字符串'" ]
       }, {
         "name" : "订单号不为空",
-        "uid" : "dd9cdfdbb610d315",
+        "uid" : "29cf75265b0fb3e",
         "parentUid" : "6fa054d09da5e5750fb58013254daf0e",
         "status" : "passed",
         "time" : {
@@ -643,7 +643,7 @@
         "parameters" : [ "{'merchantId': '100119', 'productId': '2023', 'currency': 'IDR', 'amount': '10000000', 'payChannel': '17', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test', 'orderNo': ''}", "'88001'", "'length of orderNo field is too long'", "'97fa79f073c7c5e3c97b00b50b156eaa'", "'订单号不为空'" ]
       }, {
         "name" : "请传入orderNo字段",
-        "uid" : "6b80d0255d5e5874",
+        "uid" : "3e97be2eb01b4d91",
         "parentUid" : "6fa054d09da5e5750fb58013254daf0e",
         "status" : "skipped",
         "time" : {
@@ -655,7 +655,7 @@
         "parameters" : [ "{'merchantId': '100119', 'productId': '2023', 'currency': 'IDR', 'amount': '10000000', 'payChannel': '17', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}", "'88001'", "'rderNo can not be blank'", "'97fa79f073c7c5e3c97b00b50b156eaa'", "'请传入orderNo字段'" ]
       }, {
         "name" : "指定商户钱包类型最小限额为10000",
-        "uid" : "40455696b811ceed",
+        "uid" : "6e5e9f860789251a",
         "parentUid" : "6fa054d09da5e5750fb58013254daf0e",
         "status" : "passed",
         "time" : {
@@ -667,7 +667,7 @@
         "parameters" : [ "{'merchantId': '88888', 'productId': '1099', 'currency': 'IDR', 'amount': '9999', 'payChannel': '19', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}", "'88026'", "'the order amount is too small'", "'akiki29dk39dlove0329djustin'", "'指定商户钱包类型最小限额为10000'" ]
       }, {
         "name" : "指定商户钱包类型最大限额为100000",
-        "uid" : "e6c363e957f69fbe",
+        "uid" : "c96ef01d76a2bd16",
         "parentUid" : "6fa054d09da5e5750fb58013254daf0e",
         "status" : "passed",
         "time" : {
@@ -679,7 +679,7 @@
         "parameters" : [ "{'merchantId': '88888', 'productId': '1099', 'currency': 'IDR', 'amount': '100001', 'payChannel': '19', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}", "'88036'", "'the order amount is too big'", "'akiki29dk39dlove0329djustin'", "'指定商户钱包类型最大限额为100000'" ]
       }, {
         "name" : "指定商户的支付方式DANA类型最小限额为100000",
-        "uid" : "9e17a7b4952b7516",
+        "uid" : "8126abf52dac5b90",
         "parentUid" : "6fa054d09da5e5750fb58013254daf0e",
         "status" : "passed",
         "time" : {
@@ -691,7 +691,7 @@
         "parameters" : [ "{'merchantId': '88888', 'productId': '1099', 'currency': 'IDR', 'amount': '99999', 'payChannel': '17', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}", "'88026'", "'the order amount is too small'", "'akiki29dk39dlove0329djustin'", "'指定商户的支付方式DANA类型最小限额为100000'" ]
       }, {
         "name" : "指定商户的支付方式DANA最大限额为1000000",
-        "uid" : "55eecea548bf8f40",
+        "uid" : "6d420da3a7916953",
         "parentUid" : "6fa054d09da5e5750fb58013254daf0e",
         "status" : "passed",
         "time" : {
@@ -703,7 +703,7 @@
         "parameters" : [ "{'merchantId': '88888', 'productId': '1099', 'currency': 'IDR', 'amount': '1000001', 'payChannel': '17', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}", "'88036'", "'the order amount is too big'", "'akiki29dk39dlove0329djustin'", "'指定商户的支付方式DANA最大限额为1000000'" ]
       }, {
         "name" : "默认商户的钱包类型最小限额为1000",
-        "uid" : "31204a41503bdc80",
+        "uid" : "e9415eb667cfbbe1",
         "parentUid" : "6fa054d09da5e5750fb58013254daf0e",
         "status" : "passed",
         "time" : {
@@ -715,7 +715,7 @@
         "parameters" : [ "{'merchantId': '100119', 'productId': '2023', 'currency': 'IDR', 'amount': '999', 'payChannel': '18', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}", "'88026'", "'the order amount is too small'", "'97fa79f073c7c5e3c97b00b50b156eaa'", "'默认商户的钱包类型最小限额为1000'" ]
       }, {
         "name" : "默认商户的钱包类型最大限额为100000000",
-        "uid" : "2429c514397abaf7",
+        "uid" : "a61c1bd8e9cc0da2",
         "parentUid" : "6fa054d09da5e5750fb58013254daf0e",
         "status" : "passed",
         "time" : {
@@ -727,7 +727,7 @@
         "parameters" : [ "{'merchantId': '100119', 'productId': '2023', 'currency': 'IDR', 'amount': '100000001', 'payChannel': '18', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}", "'88036'", "'the order amount is too big'", "'97fa79f073c7c5e3c97b00b50b156eaa'", "'默认商户的钱包类型最大限额为100000000'" ]
       }, {
         "name" : "默认商户的支付方式最小限额为9999",
-        "uid" : "89692c8160b940fb",
+        "uid" : "6a3c98a277ba165b",
         "parentUid" : "6fa054d09da5e5750fb58013254daf0e",
         "status" : "passed",
         "time" : {
@@ -739,7 +739,7 @@
         "parameters" : [ "{'merchantId': '100119', 'productId': '2023', 'currency': 'IDR', 'amount': '9998', 'payChannel': '38', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}", "'88026'", "'the order amount is too small'", "'97fa79f073c7c5e3c97b00b50b156eaa'", "'默认商户的支付方式最小限额为9999'" ]
       }, {
         "name" : "默认商户的支付方式最大限额为99999",
-        "uid" : "729025891d4a6d14",
+        "uid" : "a098202248bf8545",
         "parentUid" : "6fa054d09da5e5750fb58013254daf0e",
         "status" : "passed",
         "time" : {
@@ -753,5 +753,1889 @@
       "uid" : "6fa054d09da5e5750fb58013254daf0e"
     } ],
     "uid" : "9024654c177ff70c06c95d904ea89bcf"
+  }, {
+    "name" : "testcase.api_trdae_test",
+    "children" : [ {
+      "name" : "test_create",
+      "children" : [ {
+        "name" : "TestCreate",
+        "children" : [ {
+          "name" : "没有配置费率",
+          "uid" : "782862b9a8e8c2c4",
+          "parentUid" : "95f05619baf64c8191c985d982f4764b",
+          "status" : "broken",
+          "time" : {
+            "start" : 1712635615511,
+            "stop" : 1712635615511,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "parameters" : [ "0", "{'merchantId': '100149', 'productId': '2071', 'currency': 'IDR', 'amount': '1000', 'payerPhone': '0888888881', 'payChannel': '18', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}", "0", "'8kc8u438cg877uh387fu65ll012tv6bu'", "'没有配置费率'" ]
+        }, {
+          "name" : "商户比例收费及渠道比例收费",
+          "uid" : "6e846a3f0ea0ee5e",
+          "parentUid" : "95f05619baf64c8191c985d982f4764b",
+          "status" : "broken",
+          "time" : {
+            "start" : 1712635615690,
+            "stop" : 1712635615690,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "parameters" : [ "15", "{'merchantId': '88888', 'productId': '1099', 'currency': 'IDR', 'amount': '1000', 'payerPhone': '0888888881', 'payChannel': '17', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}", "20", "'akiki29dk39dlove0329djustin'", "'商户比例收费及渠道比例收费'" ]
+        }, {
+          "name" : "商户基础费率及渠道基础费率",
+          "uid" : "772f86d4f4617a54",
+          "parentUid" : "95f05619baf64c8191c985d982f4764b",
+          "status" : "broken",
+          "time" : {
+            "start" : 1712635615701,
+            "stop" : 1712635615701,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "parameters" : [ "1500", "{'merchantId': '88888', 'productId': '1099', 'currency': 'IDR', 'amount': '10000', 'payerPhone': '0888888881', 'payChannel': '4', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}", "1111", "'akiki29dk39dlove0329djustin'", "'商户基础费率及渠道基础费率'" ]
+        }, {
+          "name" : "商户比例收费+基础费率 及 渠道比例收费+基础费率",
+          "uid" : "79377bc44825db83",
+          "parentUid" : "95f05619baf64c8191c985d982f4764b",
+          "status" : "broken",
+          "time" : {
+            "start" : 1712635615711,
+            "stop" : 1712635615712,
+            "duration" : 1
+          },
+          "flaky" : false,
+          "parameters" : [ "1150", "{'merchantId': '88888', 'productId': '1099', 'currency': 'IDR', 'amount': '10000', 'payerPhone': '0888888881', 'payChannel': '19', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}", "800", "'akiki29dk39dlove0329djustin'", "'商户比例收费+基础费率 及 渠道比例收费+基础费率'" ]
+        }, {
+          "name" : "xendit",
+          "uid" : "bebd2b260b85a1c4",
+          "parentUid" : "95f05619baf64c8191c985d982f4764b",
+          "status" : "broken",
+          "time" : {
+            "start" : 1712635615721,
+            "stop" : 1712635615721,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "parameters" : [ "{'merchantId': '100119', 'productId': '2023', 'currency': 'IDR', 'amount': '10000', 'payerPhone': '0888888881', 'payChannel': '17', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}", "7", "'97fa79f073c7c5e3c97b00b50b156eaa'", "'xendit'" ]
+        }, {
+          "name" : "xendit2",
+          "uid" : "c9f1f9cd430cf721",
+          "parentUid" : "95f05619baf64c8191c985d982f4764b",
+          "status" : "broken",
+          "time" : {
+            "start" : 1712635615752,
+            "stop" : 1712635615752,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "parameters" : [ "{'merchantId': '100119', 'productId': '2023', 'currency': 'IDR', 'amount': '10000', 'payerPhone': '0888888882', 'payChannel': '17', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}", "10", "'97fa79f073c7c5e3c97b00b50b156eaa'", "'xendit2'" ]
+        }, {
+          "name" : "xendit3",
+          "uid" : "dff840d6376aa808",
+          "parentUid" : "95f05619baf64c8191c985d982f4764b",
+          "status" : "broken",
+          "time" : {
+            "start" : 1712635615763,
+            "stop" : 1712635615763,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "parameters" : [ "{'merchantId': '100119', 'productId': '2023', 'currency': 'IDR', 'amount': '10000', 'payerPhone': '0888888883', 'payChannel': '17', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}", "13", "'97fa79f073c7c5e3c97b00b50b156eaa'", "'xendit3'" ]
+        }, {
+          "name" : "faspay",
+          "uid" : "32bf6dd7beea4a6a",
+          "parentUid" : "95f05619baf64c8191c985d982f4764b",
+          "status" : "broken",
+          "time" : {
+            "start" : 1712635615773,
+            "stop" : 1712635615773,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "parameters" : [ "{'merchantId': '100119', 'productId': '2023', 'currency': 'IDR', 'amount': '10000', 'payerPhone': '0888888885', 'payChannel': '3', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}", "14", "'97fa79f073c7c5e3c97b00b50b156eaa'", "'faspay'" ]
+        }, {
+          "name" : "oy",
+          "uid" : "7313767dbb8db349",
+          "parentUid" : "95f05619baf64c8191c985d982f4764b",
+          "status" : "broken",
+          "time" : {
+            "start" : 1712635615785,
+            "stop" : 1712635615785,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "parameters" : [ "{'merchantId': '100119', 'productId': '2023', 'currency': 'IDR', 'amount': '10000', 'payerPhone': '0888888886', 'payChannel': '17', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}", "11", "'97fa79f073c7c5e3c97b00b50b156eaa'", "'oy'" ]
+        }, {
+          "name" : "gv",
+          "uid" : "1b879837550d3282",
+          "parentUid" : "95f05619baf64c8191c985d982f4764b",
+          "status" : "broken",
+          "time" : {
+            "start" : 1712635615795,
+            "stop" : 1712635615795,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "parameters" : [ "{'merchantId': '100119', 'productId': '2023', 'currency': 'IDR', 'amount': '10000', 'payerPhone': '0888888888', 'payChannel': '15', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}", "15", "'97fa79f073c7c5e3c97b00b50b156eaa'", "'gv'" ]
+        }, {
+          "name" : "xendit5",
+          "uid" : "adb34246bdb8420",
+          "parentUid" : "95f05619baf64c8191c985d982f4764b",
+          "status" : "broken",
+          "time" : {
+            "start" : 1712635615804,
+            "stop" : 1712635615804,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "parameters" : [ "{'merchantId': '100119', 'productId': '2023', 'currency': 'IDR', 'amount': '10000', 'payerPhone': '0888888889', 'payChannel': '17', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}", "22", "'97fa79f073c7c5e3c97b00b50b156eaa'", "'xendit5'" ]
+        }, {
+          "name" : "mcpay",
+          "uid" : "2ab27f8e837d36de",
+          "parentUid" : "95f05619baf64c8191c985d982f4764b",
+          "status" : "broken",
+          "time" : {
+            "start" : 1712635615814,
+            "stop" : 1712635615814,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "parameters" : [ "{'merchantId': '100119', 'productId': '2023', 'currency': 'IDR', 'amount': '15000', 'payerPhone': '081806708607', 'payChannel': '4', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}", "3", "'97fa79f073c7c5e3c97b00b50b156eaa'", "'mcpay'" ]
+        }, {
+          "name" : "MPI",
+          "uid" : "66cb1be619edd2bb",
+          "parentUid" : "95f05619baf64c8191c985d982f4764b",
+          "status" : "broken",
+          "time" : {
+            "start" : 1712635615825,
+            "stop" : 1712635615826,
+            "duration" : 1
+          },
+          "flaky" : false,
+          "parameters" : [ "{'merchantId': '100119', 'productId': '2023', 'currency': 'IDR', 'amount': '10000', 'payerPhone': '0888888892', 'payChannel': '17', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}", "12", "'97fa79f073c7c5e3c97b00b50b156eaa'", "'MPI'" ]
+        }, {
+          "name" : "DANA",
+          "uid" : "e312db321d407d0a",
+          "parentUid" : "95f05619baf64c8191c985d982f4764b",
+          "status" : "broken",
+          "time" : {
+            "start" : 1712635615836,
+            "stop" : 1712635615836,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "parameters" : [ "{'merchantId': '100119', 'productId': '2023', 'currency': 'IDR', 'amount': '10000', 'payerPhone': '0888888892', 'payChannel': '17', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}", "24", "'97fa79f073c7c5e3c97b00b50b156eaa'", "'DANA'" ]
+        }, {
+          "name" : "单个支付方式的金额区间-路由为oy",
+          "uid" : "bc877598fe5378ef",
+          "parentUid" : "95f05619baf64c8191c985d982f4764b",
+          "status" : "broken",
+          "time" : {
+            "start" : 1712635615845,
+            "stop" : 1712635615845,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "parameters" : [ "{'merchantId': '100149', 'productId': '2071', 'currency': 'IDR', 'amount': '5000', 'payChannel': '18', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}", "11", "'8kc8u438cg877uh387fu65ll012tv6bu'", "'单个支付方式的金额区间-路由为oy'" ]
+        }, {
+          "name" : "多个支付方式的金额区间-路由为xendit",
+          "uid" : "be90db35f4eeba7f",
+          "parentUid" : "95f05619baf64c8191c985d982f4764b",
+          "status" : "broken",
+          "time" : {
+            "start" : 1712635615854,
+            "stop" : 1712635615854,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "parameters" : [ "{'merchantId': '88888', 'productId': '1099', 'currency': 'IDR', 'amount': '6000', 'payChannel': '15', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}", "7", "'akiki29dk39dlove0329djustin'", "'多个支付方式的金额区间-路由为xendit'" ]
+        }, {
+          "name" : "单个商户的金额区间-xendit2",
+          "uid" : "24efd710adbfac45",
+          "parentUid" : "95f05619baf64c8191c985d982f4764b",
+          "status" : "broken",
+          "time" : {
+            "start" : 1712635615864,
+            "stop" : 1712635615864,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "parameters" : [ "{'merchantId': '100119', 'productId': '2023', 'currency': 'IDR', 'amount': '20008', 'payChannel': '19', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}", "10", "'97fa79f073c7c5e3c97b00b50b156eaa'", "'单个商户的金额区间-xendit2'" ]
+        }, {
+          "name" : "多个商户的金额区间-faspay",
+          "uid" : "5c425343d4b0f188",
+          "parentUid" : "95f05619baf64c8191c985d982f4764b",
+          "status" : "broken",
+          "time" : {
+            "start" : 1712635615875,
+            "stop" : 1712635615875,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "parameters" : [ "{'merchantId': '100119', 'productId': '2023', 'currency': 'IDR', 'amount': '10005', 'payChannel': '19', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}", "14", "'97fa79f073c7c5e3c97b00b50b156eaa'", "'多个商户的金额区间-faspay'" ]
+        }, {
+          "name" : "单个商商户和单个支付方式的金额区间-MPI",
+          "uid" : "7d116fa3a1a427ae",
+          "parentUid" : "95f05619baf64c8191c985d982f4764b",
+          "status" : "broken",
+          "time" : {
+            "start" : 1712635615885,
+            "stop" : 1712635615885,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "parameters" : [ "{'merchantId': '100119', 'productId': '2023', 'currency': 'IDR', 'amount': '5000', 'payChannel': '17', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}", "12", "'97fa79f073c7c5e3c97b00b50b156eaa'", "'单个商商户和单个支付方式的金额区间-MPI'" ]
+        }, {
+          "name" : "单个商商户和多个支付方式的金额区间-oy",
+          "uid" : "2c67472702c44074",
+          "parentUid" : "95f05619baf64c8191c985d982f4764b",
+          "status" : "broken",
+          "time" : {
+            "start" : 1712635615898,
+            "stop" : 1712635615898,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "parameters" : [ "{'merchantId': '100119', 'productId': '2023', 'currency': 'IDR', 'amount': '40000', 'payChannel': '4', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}", "11", "'97fa79f073c7c5e3c97b00b50b156eaa'", "'单个商商户和多个支付方式的金额区间-oy'" ]
+        }, {
+          "name" : "多个商商户和单个支付方式的金额区间-xendit",
+          "uid" : "c6a581f277f26128",
+          "parentUid" : "95f05619baf64c8191c985d982f4764b",
+          "status" : "broken",
+          "time" : {
+            "start" : 1712635615913,
+            "stop" : 1712635615913,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "parameters" : [ "{'merchantId': '100119', 'productId': '2023', 'currency': 'IDR', 'amount': '20000', 'payChannel': '8', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}", "7", "'97fa79f073c7c5e3c97b00b50b156eaa'", "'多个商商户和单个支付方式的金额区间-xendit'" ]
+        }, {
+          "name" : "多商户和多支付方式的金额区间场景-xendit",
+          "uid" : "ef67cc2f30c58dd2",
+          "parentUid" : "95f05619baf64c8191c985d982f4764b",
+          "status" : "broken",
+          "time" : {
+            "start" : 1712635615928,
+            "stop" : 1712635615928,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "parameters" : [ "{'merchantId': '100119', 'productId': '2023', 'currency': 'IDR', 'amount': '20005', 'payChannel': '15', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}", "7", "'97fa79f073c7c5e3c97b00b50b156eaa'", "'多商户和多支付方式的金额区间场景-xendit'" ]
+        }, {
+          "name" : "单个类型的普通路由",
+          "uid" : "13adf9a8baca311f",
+          "parentUid" : "95f05619baf64c8191c985d982f4764b",
+          "status" : "broken",
+          "time" : {
+            "start" : 1712635615940,
+            "stop" : 1712635615941,
+            "duration" : 1
+          },
+          "flaky" : false,
+          "parameters" : [ "{'merchantId': '100149', 'productId': '2071', 'currency': 'IDR', 'amount': '100000', 'payChannel': '9', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}", "7", "'8kc8u438cg877uh387fu65ll012tv6bu'", "'单个类型的普通路由'" ]
+        }, {
+          "name" : "单个支付方式的普通路由",
+          "uid" : "efb9a5bbefbd987e",
+          "parentUid" : "95f05619baf64c8191c985d982f4764b",
+          "status" : "broken",
+          "time" : {
+            "start" : 1712635615954,
+            "stop" : 1712635615954,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "parameters" : [ "{'merchantId': '100149', 'productId': '2071', 'currency': 'IDR', 'amount': '100000', 'payChannel': '18', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}", "7", "'8kc8u438cg877uh387fu65ll012tv6bu'", "'单个支付方式的普通路由'" ]
+        }, {
+          "name" : "多个支付方式的普通路由",
+          "uid" : "c75472f97f8f8bf3",
+          "parentUid" : "95f05619baf64c8191c985d982f4764b",
+          "status" : "broken",
+          "time" : {
+            "start" : 1712635615966,
+            "stop" : 1712635615966,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "parameters" : [ "{'merchantId': '100149', 'productId': '2071', 'currency': 'IDR', 'amount': '10000', 'payChannel': '6', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}", "11", "'8kc8u438cg877uh387fu65ll012tv6bu'", "'多个支付方式的普通路由'" ]
+        }, {
+          "name" : "单个商户及单个类型的普通路由",
+          "uid" : "40a48413fdc712ff",
+          "parentUid" : "95f05619baf64c8191c985d982f4764b",
+          "status" : "broken",
+          "time" : {
+            "start" : 1712635615978,
+            "stop" : 1712635615978,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "parameters" : [ "{'merchantId': '100119', 'productId': '2023', 'currency': 'IDR', 'amount': '100000', 'payChannel': '9', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}", "11", "'97fa79f073c7c5e3c97b00b50b156eaa'", "'单个商户及单个类型的普通路由'" ]
+        }, {
+          "name" : "多个商户及单个类型的普通路由",
+          "uid" : "afd1787ca50afd83",
+          "parentUid" : "95f05619baf64c8191c985d982f4764b",
+          "status" : "broken",
+          "time" : {
+            "start" : 1712635615994,
+            "stop" : 1712635615994,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "parameters" : [ "{'merchantId': '88888', 'productId': '1099', 'currency': 'IDR', 'amount': '100000', 'payChannel': '19', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}", "7", "'akiki29dk39dlove0329djustin'", "'多个商户及单个类型的普通路由'" ]
+        }, {
+          "name" : "单个商户及单个支付方式的普通路由",
+          "uid" : "998c48521f0b99f7",
+          "parentUid" : "95f05619baf64c8191c985d982f4764b",
+          "status" : "broken",
+          "time" : {
+            "start" : 1712635616007,
+            "stop" : 1712635616007,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "parameters" : [ "{'merchantId': '100119', 'productId': '2023', 'currency': 'IDR', 'amount': '100000', 'payChannel': '17', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}", "12", "'97fa79f073c7c5e3c97b00b50b156eaa'", "'单个商户及单个支付方式的普通路由'" ]
+        }, {
+          "name" : "单个商户及多个支付方式的普通路由",
+          "uid" : "30250b341811858e",
+          "parentUid" : "95f05619baf64c8191c985d982f4764b",
+          "status" : "broken",
+          "time" : {
+            "start" : 1712635616018,
+            "stop" : 1712635616018,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "parameters" : [ "{'merchantId': '100149', 'productId': '2071', 'currency': 'IDR', 'amount': '10000', 'payChannel': '17', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}", "24", "'8kc8u438cg877uh387fu65ll012tv6bu'", "'单个商户及多个支付方式的普通路由'" ]
+        }, {
+          "name" : "多个商户及单个支付方式的普通路由",
+          "uid" : "2b7dfbc9e8906fd8",
+          "parentUid" : "95f05619baf64c8191c985d982f4764b",
+          "status" : "broken",
+          "time" : {
+            "start" : 1712635616029,
+            "stop" : 1712635616029,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "parameters" : [ "{'merchantId': '88888', 'productId': '1099', 'currency': 'IDR', 'amount': '100000', 'payChannel': '17', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}", "11", "'akiki29dk39dlove0329djustin'", "'多个商户及单个支付方式的普通路由'" ]
+        }, {
+          "name" : "多个商户及多个支付方式的普通路由",
+          "uid" : "4e599e5b6f0ad7ed",
+          "parentUid" : "95f05619baf64c8191c985d982f4764b",
+          "status" : "broken",
+          "time" : {
+            "start" : 1712635616040,
+            "stop" : 1712635616040,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "parameters" : [ "{'merchantId': '88888', 'productId': '1099', 'currency': 'IDR', 'amount': '100000', 'payChannel': '18', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}", "11", "'akiki29dk39dlove0329djustin'", "'多个商户及多个支付方式的普通路由'" ]
+        }, {
+          "name" : "商户Id错误",
+          "uid" : "bbc0b380e6f31c2c",
+          "parentUid" : "95f05619baf64c8191c985d982f4764b",
+          "status" : "skipped",
+          "time" : {
+            "start" : 1712635616050,
+            "stop" : 1712635616050,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "parameters" : [ "{'merchantId': 1001, 'productId': '2023', 'currency': 'IDR', 'amount': '10000', 'payChannel': '17', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}", "'88012'", "'merchant not exist'", "'97fa79f073c7c5e3c97b00b50b156eaa'", "'商户Id错误'" ]
+        }, {
+          "name" : "商户字段为必填",
+          "uid" : "3435b3546b6a7031",
+          "parentUid" : "95f05619baf64c8191c985d982f4764b",
+          "status" : "skipped",
+          "time" : {
+            "start" : 1712635616061,
+            "stop" : 1712635616061,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "parameters" : [ "{'productId': '2023', 'currency': 'IDR', 'amount': '10000', 'payChannel': '17', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}", "'88001'", "'merchantId can not be blank'", "'97fa79f073c7c5e3c97b00b50b156eaa'", "'商户字段为必填'" ]
+        }, {
+          "name" : "商户id不为空",
+          "uid" : "52c7e96c130501f1",
+          "parentUid" : "95f05619baf64c8191c985d982f4764b",
+          "status" : "skipped",
+          "time" : {
+            "start" : 1712635616072,
+            "stop" : 1712635616072,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "parameters" : [ "{'merchantId': '', 'productId': '2023', 'currency': 'IDR', 'amount': '10000', 'payChannel': '17', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}", "'88001'", "'merchant not exist'", "'97fa79f073c7c5e3c97b00b50b156eaa'", "'商户id不为空'" ]
+        }, {
+          "name" : "产品字段为必填参数",
+          "uid" : "446d02ace1aea8fb",
+          "parentUid" : "95f05619baf64c8191c985d982f4764b",
+          "status" : "skipped",
+          "time" : {
+            "start" : 1712635616082,
+            "stop" : 1712635616083,
+            "duration" : 1
+          },
+          "flaky" : false,
+          "parameters" : [ "{'merchantId': '100119', 'currency': 'IDR', 'amount': '10000', 'payChannel': '17', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}", "'88001'", "'productId can not be blank'", "'97fa79f073c7c5e3c97b00b50b156eaa'", "'产品字段为必填参数'" ]
+        }, {
+          "name" : "产品id不存在",
+          "uid" : "b67a94b438c804a9",
+          "parentUid" : "95f05619baf64c8191c985d982f4764b",
+          "status" : "skipped",
+          "time" : {
+            "start" : 1712635616094,
+            "stop" : 1712635616094,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "parameters" : [ "{'merchantId': '100119', 'productId': '20231', 'currency': 'IDR', 'amount': '10000', 'payChannel': '17', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}", "'88032'", "'productId is not valid'", "'97fa79f073c7c5e3c97b00b50b156eaa'", "'产品id不存在'" ]
+        }, {
+          "name" : "产品id不为空",
+          "uid" : "82b32640bf8f0871",
+          "parentUid" : "95f05619baf64c8191c985d982f4764b",
+          "status" : "skipped",
+          "time" : {
+            "start" : 1712635616110,
+            "stop" : 1712635616110,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "parameters" : [ "{'merchantId': '100119', 'productId': '', 'currency': 'IDR', 'amount': '10000', 'payChannel': '17', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}", "'88001'", "'productId can not be blank'", "'97fa79f073c7c5e3c97b00b50b156eaa'", "'产品id不为空'" ]
+        }, {
+          "name" : "币种为必填字段",
+          "uid" : "8bee0e4a6ab5bf2b",
+          "parentUid" : "95f05619baf64c8191c985d982f4764b",
+          "status" : "skipped",
+          "time" : {
+            "start" : 1712635616127,
+            "stop" : 1712635616127,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "parameters" : [ "{'merchantId': '100119', 'productId': '2023', 'amount': '10000', 'payChannel': '17', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}", "'88001'", "'currency can not be blank'", "'97fa79f073c7c5e3c97b00b50b156eaa'", "'币种为必填字段'" ]
+        }, {
+          "name" : "请输入有效的币种",
+          "uid" : "e1c5d5e05e5b53da",
+          "parentUid" : "95f05619baf64c8191c985d982f4764b",
+          "status" : "skipped",
+          "time" : {
+            "start" : 1712635616143,
+            "stop" : 1712635616143,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "parameters" : [ "{'merchantId': '100119', 'productId': '20231', 'currency': 'ID3', 'amount': '10000', 'payChannel': '17', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}", "'88001'", "'currency can not be blank'", "'97fa79f073c7c5e3c97b00b50b156eaa'", "'请输入有效的币种'" ]
+        }, {
+          "name" : "金额不支持小数",
+          "uid" : "739960757b25451",
+          "parentUid" : "95f05619baf64c8191c985d982f4764b",
+          "status" : "skipped",
+          "time" : {
+            "start" : 1712635616158,
+            "stop" : 1712635616158,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "parameters" : [ "{'merchantId': '100119', 'productId': '2023', 'currency': 'IDR', 'amount': '1000.11', 'payChannel': '17', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}", "'88001'", "'amount should be integer'", "'97fa79f073c7c5e3c97b00b50b156eaa'", "'金额不支持小数'" ]
+        }, {
+          "name" : "金额字段只接受纯数字传参",
+          "uid" : "bb6fa645a9eedaba",
+          "parentUid" : "95f05619baf64c8191c985d982f4764b",
+          "status" : "skipped",
+          "time" : {
+            "start" : 1712635616174,
+            "stop" : 1712635616174,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "parameters" : [ "{'merchantId': '100119', 'productId': '2023', 'currency': 'IDR', 'amount': '1000a', 'payChannel': '17', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}", "'88048'", "'amount should be integer'", "'97fa79f073c7c5e3c97b00b50b156eaa'", "'金额字段只接受纯数字传参'" ]
+        }, {
+          "name" : "金额字段为必填",
+          "uid" : "1d834d06f34039e7",
+          "parentUid" : "95f05619baf64c8191c985d982f4764b",
+          "status" : "skipped",
+          "time" : {
+            "start" : 1712635616191,
+            "stop" : 1712635616191,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "parameters" : [ "{'merchantId': '100119', 'productId': '2023', 'currency': 'IDR', 'payChannel': '17', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}", "'88001'", "'amount can not be blank'", "'97fa79f073c7c5e3c97b00b50b156eaa'", "'金额字段为必填'" ]
+        }, {
+          "name" : "金额为空",
+          "uid" : "eb085a6ab2a3d5fb",
+          "parentUid" : "95f05619baf64c8191c985d982f4764b",
+          "status" : "skipped",
+          "time" : {
+            "start" : 1712635616206,
+            "stop" : 1712635616206,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "parameters" : [ "{'merchantId': '100119', 'productId': '2023', 'currency': 'IDR', 'amount': '', 'payChannel': '17', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}", "'88001'", "'amount can not be blank'", "'97fa79f073c7c5e3c97b00b50b156eaa'", "'金额为空'" ]
+        }, {
+          "name" : "支付方式不为空",
+          "uid" : "476547ce8ab14f66",
+          "parentUid" : "95f05619baf64c8191c985d982f4764b",
+          "status" : "skipped",
+          "time" : {
+            "start" : 1712635616219,
+            "stop" : 1712635616219,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "parameters" : [ "{'merchantId': '100119', 'productId': '2023', 'currency': 'IDR', 'amount': '10000', 'payChannel': '', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}", "'88001'", "'payChannel can not be blank'", "'97fa79f073c7c5e3c97b00b50b156eaa'", "'支付方式不为空'" ]
+        }, {
+          "name" : "支付方式不存在",
+          "uid" : "e82239c0df0c5c98",
+          "parentUid" : "95f05619baf64c8191c985d982f4764b",
+          "status" : "skipped",
+          "time" : {
+            "start" : 1712635616231,
+            "stop" : 1712635616231,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "parameters" : [ "{'merchantId': '100119', 'productId': '2023', 'currency': 'IDR', 'amount': '10000000', 'payChannel': '1000', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}", "'88001'", "'inner system error, please try again'", "'97fa79f073c7c5e3c97b00b50b156eaa'", "'支付方式不存在'" ]
+        }, {
+          "name" : "请输入有效的paychannel",
+          "uid" : "50f51584a3cbd2cd",
+          "parentUid" : "95f05619baf64c8191c985d982f4764b",
+          "status" : "skipped",
+          "time" : {
+            "start" : 1712635616242,
+            "stop" : 1712635616242,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "parameters" : [ "{'merchantId': '100119', 'productId': '2023', 'currency': 'IDR', 'amount': '10000000', 'payChannel': '17A.1', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}", "'88001'", "'inner system error, please try again'", "'97fa79f073c7c5e3c97b00b50b156eaa'", "'请输入有效的paychannel'" ]
+        }, {
+          "name" : "支付方式字段为必填",
+          "uid" : "2490f5b6c8d8b1f9",
+          "parentUid" : "95f05619baf64c8191c985d982f4764b",
+          "status" : "skipped",
+          "time" : {
+            "start" : 1712635616254,
+            "stop" : 1712635616254,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "parameters" : [ "{'merchantId': '100119', 'productId': '2023', 'currency': 'IDR', 'amount': '10000000', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}", "'88001'", "'payChannel can not be blank''", "'97fa79f073c7c5e3c97b00b50b156eaa'", "'支付方式字段为必填'" ]
+        }, {
+          "name" : "版本信息不为空",
+          "uid" : "f98f53f92f646bfb",
+          "parentUid" : "95f05619baf64c8191c985d982f4764b",
+          "status" : "skipped",
+          "time" : {
+            "start" : 1712635616265,
+            "stop" : 1712635616265,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "parameters" : [ "{'merchantId': '100119', 'productId': '2023', 'currency': 'IDR', 'amount': '10000000', 'payChannel': '17', 'version': '', 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}", "'88001'", "'length of version field is too long'", "'97fa79f073c7c5e3c97b00b50b156eaa'", "'版本信息不为空'" ]
+        }, {
+          "name" : "版本信息为必填字段",
+          "uid" : "f311005936e19642",
+          "parentUid" : "95f05619baf64c8191c985d982f4764b",
+          "status" : "skipped",
+          "time" : {
+            "start" : 1712635616275,
+            "stop" : 1712635616275,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "parameters" : [ "{'merchantId': '100119', 'productId': '2023', 'currency': 'IDR', 'amount': '10000000', 'payChannel': '1000', 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}", "'88001'", "'version can not be blank'", "'97fa79f073c7c5e3c97b00b50b156eaa'", "'版本信息为必填字段'" ]
+        }, {
+          "name" : "版本信息只支持五位字符串",
+          "uid" : "333bd2e27d6f4c7d",
+          "parentUid" : "95f05619baf64c8191c985d982f4764b",
+          "status" : "skipped",
+          "time" : {
+            "start" : 1712635616284,
+            "stop" : 1712635616285,
+            "duration" : 1
+          },
+          "flaky" : false,
+          "parameters" : [ "{'merchantId': '100119', 'productId': '2023', 'currency': 'IDR', 'amount': '10000000', 'payChannel': '1000', 'version': '121212', 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}", "'88001'", "'length of version field is too long'", "'97fa79f073c7c5e3c97b00b50b156eaa'", "'版本信息只支持五位字符串'" ]
+        }, {
+          "name" : "订单已存在",
+          "uid" : "8d1dbb9eaed61bcc",
+          "parentUid" : "95f05619baf64c8191c985d982f4764b",
+          "status" : "skipped",
+          "time" : {
+            "start" : 1712635616296,
+            "stop" : 1712635616296,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "parameters" : [ "{'merchantId': '100119', 'productId': '2023', 'currency': 'IDR', 'amount': '10000000', 'payChannel': '17', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test', 'orderNo': 'TestOrderNo_1710211808034'}", "'88003'", "'order already exist'", "'97fa79f073c7c5e3c97b00b50b156eaa'", "'订单已存在'" ]
+        }, {
+          "name" : "订单号超过65个字符串",
+          "uid" : "92eacfd79d1c5993",
+          "parentUid" : "95f05619baf64c8191c985d982f4764b",
+          "status" : "skipped",
+          "time" : {
+            "start" : 1712635616313,
+            "stop" : 1712635616313,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "parameters" : [ "{'merchantId': '100119', 'productId': '2023', 'currency': 'IDR', 'amount': '10000000', 'payChannel': '17', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test', 'orderNo': 'TestOrderNo_17102118080342132133333333333213213132121321321312312312321'}", "'88001'", "'length of orderNo field is too long'", "'97fa79f073c7c5e3c97b00b50b156eaa'", "'订单号超过65个字符串'" ]
+        }, {
+          "name" : "订单号不为空",
+          "uid" : "1cd5a36e12d9e7c4",
+          "parentUid" : "95f05619baf64c8191c985d982f4764b",
+          "status" : "skipped",
+          "time" : {
+            "start" : 1712635616330,
+            "stop" : 1712635616330,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "parameters" : [ "{'merchantId': '100119', 'productId': '2023', 'currency': 'IDR', 'amount': '10000000', 'payChannel': '17', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test', 'orderNo': ''}", "'88001'", "'length of orderNo field is too long'", "'97fa79f073c7c5e3c97b00b50b156eaa'", "'订单号不为空'" ]
+        }, {
+          "name" : "请传入orderNo字段",
+          "uid" : "3660968d6ae7722",
+          "parentUid" : "95f05619baf64c8191c985d982f4764b",
+          "status" : "skipped",
+          "time" : {
+            "start" : 1712635616347,
+            "stop" : 1712635616347,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "parameters" : [ "{'merchantId': '100119', 'productId': '2023', 'currency': 'IDR', 'amount': '10000000', 'payChannel': '17', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}", "'88001'", "'rderNo can not be blank'", "'97fa79f073c7c5e3c97b00b50b156eaa'", "'请传入orderNo字段'" ]
+        }, {
+          "name" : "指定商户钱包类型最小限额为10000",
+          "uid" : "6cb57d46e469fe48",
+          "parentUid" : "95f05619baf64c8191c985d982f4764b",
+          "status" : "skipped",
+          "time" : {
+            "start" : 1712635616361,
+            "stop" : 1712635616361,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "parameters" : [ "{'merchantId': '88888', 'productId': '1099', 'currency': 'IDR', 'amount': '9999', 'payChannel': '19', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}", "'88026'", "'the order amount is too small'", "'akiki29dk39dlove0329djustin'", "'指定商户钱包类型最小限额为10000'" ]
+        }, {
+          "name" : "指定商户钱包类型最大限额为100000",
+          "uid" : "b6e89868adf00774",
+          "parentUid" : "95f05619baf64c8191c985d982f4764b",
+          "status" : "skipped",
+          "time" : {
+            "start" : 1712635616377,
+            "stop" : 1712635616377,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "parameters" : [ "{'merchantId': '88888', 'productId': '1099', 'currency': 'IDR', 'amount': '100001', 'payChannel': '19', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}", "'88036'", "'the order amount is too big'", "'akiki29dk39dlove0329djustin'", "'指定商户钱包类型最大限额为100000'" ]
+        }, {
+          "name" : "指定商户的支付方式DANA类型最小限额为100000",
+          "uid" : "7a8fe47cee6a823a",
+          "parentUid" : "95f05619baf64c8191c985d982f4764b",
+          "status" : "skipped",
+          "time" : {
+            "start" : 1712635616395,
+            "stop" : 1712635616395,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "parameters" : [ "{'merchantId': '88888', 'productId': '1099', 'currency': 'IDR', 'amount': '99999', 'payChannel': '17', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}", "'88026'", "'the order amount is too small'", "'akiki29dk39dlove0329djustin'", "'指定商户的支付方式DANA类型最小限额为100000'" ]
+        }, {
+          "name" : "指定商户的支付方式DANA最大限额为1000000",
+          "uid" : "7ad8cd0473a9fd0b",
+          "parentUid" : "95f05619baf64c8191c985d982f4764b",
+          "status" : "skipped",
+          "time" : {
+            "start" : 1712635616411,
+            "stop" : 1712635616411,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "parameters" : [ "{'merchantId': '88888', 'productId': '1099', 'currency': 'IDR', 'amount': '1000001', 'payChannel': '17', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}", "'88036'", "'the order amount is too big'", "'akiki29dk39dlove0329djustin'", "'指定商户的支付方式DANA最大限额为1000000'" ]
+        }, {
+          "name" : "默认商户的钱包类型最小限额为1000",
+          "uid" : "9e102ecbb7a54a78",
+          "parentUid" : "95f05619baf64c8191c985d982f4764b",
+          "status" : "skipped",
+          "time" : {
+            "start" : 1712635616422,
+            "stop" : 1712635616422,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "parameters" : [ "{'merchantId': '100119', 'productId': '2023', 'currency': 'IDR', 'amount': '999', 'payChannel': '18', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}", "'88026'", "'the order amount is too small'", "'97fa79f073c7c5e3c97b00b50b156eaa'", "'默认商户的钱包类型最小限额为1000'" ]
+        }, {
+          "name" : "默认商户的钱包类型最大限额为100000000",
+          "uid" : "96dbd15bb3fd077",
+          "parentUid" : "95f05619baf64c8191c985d982f4764b",
+          "status" : "skipped",
+          "time" : {
+            "start" : 1712635616433,
+            "stop" : 1712635616433,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "parameters" : [ "{'merchantId': '100119', 'productId': '2023', 'currency': 'IDR', 'amount': '100000001', 'payChannel': '18', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}", "'88036'", "'the order amount is too big'", "'97fa79f073c7c5e3c97b00b50b156eaa'", "'默认商户的钱包类型最大限额为100000000'" ]
+        }, {
+          "name" : "默认商户的支付方式最小限额为9999",
+          "uid" : "c6522f8a4d43c046",
+          "parentUid" : "95f05619baf64c8191c985d982f4764b",
+          "status" : "skipped",
+          "time" : {
+            "start" : 1712635616445,
+            "stop" : 1712635616445,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "parameters" : [ "{'merchantId': '100119', 'productId': '2023', 'currency': 'IDR', 'amount': '9998', 'payChannel': '38', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}", "'88026'", "'the order amount is too small'", "'97fa79f073c7c5e3c97b00b50b156eaa'", "'默认商户的支付方式最小限额为9999'" ]
+        }, {
+          "name" : "默认商户的支付方式最大限额为99999",
+          "uid" : "1e5faf4566068982",
+          "parentUid" : "95f05619baf64c8191c985d982f4764b",
+          "status" : "skipped",
+          "time" : {
+            "start" : 1712635616456,
+            "stop" : 1712635616456,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "parameters" : [ "{'merchantId': '100119', 'productId': '2023', 'currency': 'IDR', 'amount': '100000', 'payChannel': '38', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}", "'88036'", "'the order amount is too big'", "'97fa79f073c7c5e3c97b00b50b156eaa'", "'默认商户的支付方式最大限额为99999'" ]
+        }, {
+          "name" : "没有配置费率",
+          "uid" : "3f080fd165f8bc7e",
+          "parentUid" : "95f05619baf64c8191c985d982f4764b",
+          "status" : "broken",
+          "time" : {
+            "start" : 1712635807904,
+            "stop" : 1712635807904,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "parameters" : [ "0", "{'merchantId': '100149', 'productId': '2071', 'currency': 'IDR', 'amount': '1000', 'payerPhone': '0888888881', 'payChannel': '18', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}", "0", "'8kc8u438cg877uh387fu65ll012tv6bu'", "'没有配置费率'" ]
+        }, {
+          "name" : "商户比例收费及渠道比例收费",
+          "uid" : "ab3e0ab1e32413ef",
+          "parentUid" : "95f05619baf64c8191c985d982f4764b",
+          "status" : "broken",
+          "time" : {
+            "start" : 1712635808064,
+            "stop" : 1712635808064,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "parameters" : [ "15", "{'merchantId': '88888', 'productId': '1099', 'currency': 'IDR', 'amount': '1000', 'payerPhone': '0888888881', 'payChannel': '17', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}", "20", "'akiki29dk39dlove0329djustin'", "'商户比例收费及渠道比例收费'" ]
+        }, {
+          "name" : "商户基础费率及渠道基础费率",
+          "uid" : "f7cb4843aa9346a4",
+          "parentUid" : "95f05619baf64c8191c985d982f4764b",
+          "status" : "broken",
+          "time" : {
+            "start" : 1712635808073,
+            "stop" : 1712635808073,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "parameters" : [ "1500", "{'merchantId': '88888', 'productId': '1099', 'currency': 'IDR', 'amount': '10000', 'payerPhone': '0888888881', 'payChannel': '4', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}", "1111", "'akiki29dk39dlove0329djustin'", "'商户基础费率及渠道基础费率'" ]
+        }, {
+          "name" : "商户比例收费+基础费率 及 渠道比例收费+基础费率",
+          "uid" : "7d66c248f168f14b",
+          "parentUid" : "95f05619baf64c8191c985d982f4764b",
+          "status" : "broken",
+          "time" : {
+            "start" : 1712635808083,
+            "stop" : 1712635808083,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "parameters" : [ "1150", "{'merchantId': '88888', 'productId': '1099', 'currency': 'IDR', 'amount': '10000', 'payerPhone': '0888888881', 'payChannel': '19', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}", "800", "'akiki29dk39dlove0329djustin'", "'商户比例收费+基础费率 及 渠道比例收费+基础费率'" ]
+        }, {
+          "name" : "没有配置费率",
+          "uid" : "3a0ddcbef118a02a",
+          "parentUid" : "95f05619baf64c8191c985d982f4764b",
+          "status" : "broken",
+          "time" : {
+            "start" : 1712635907592,
+            "stop" : 1712635907592,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "parameters" : [ "0", "{'merchantId': '100149', 'productId': '2071', 'currency': 'IDR', 'amount': '1000', 'payerPhone': '0888888881', 'payChannel': '18', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}", "0", "'8kc8u438cg877uh387fu65ll012tv6bu'", "'没有配置费率'" ]
+        }, {
+          "name" : "商户比例收费及渠道比例收费",
+          "uid" : "bdcc055c27f9fa69",
+          "parentUid" : "95f05619baf64c8191c985d982f4764b",
+          "status" : "broken",
+          "time" : {
+            "start" : 1712635907749,
+            "stop" : 1712635907749,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "parameters" : [ "15", "{'merchantId': '88888', 'productId': '1099', 'currency': 'IDR', 'amount': '1000', 'payerPhone': '0888888881', 'payChannel': '17', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}", "20", "'akiki29dk39dlove0329djustin'", "'商户比例收费及渠道比例收费'" ]
+        }, {
+          "name" : "商户基础费率及渠道基础费率",
+          "uid" : "41f01916d48793e0",
+          "parentUid" : "95f05619baf64c8191c985d982f4764b",
+          "status" : "broken",
+          "time" : {
+            "start" : 1712635907761,
+            "stop" : 1712635907761,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "parameters" : [ "1500", "{'merchantId': '88888', 'productId': '1099', 'currency': 'IDR', 'amount': '10000', 'payerPhone': '0888888881', 'payChannel': '4', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}", "1111", "'akiki29dk39dlove0329djustin'", "'商户基础费率及渠道基础费率'" ]
+        }, {
+          "name" : "商户比例收费+基础费率 及 渠道比例收费+基础费率",
+          "uid" : "ab4bb3ed056c225b",
+          "parentUid" : "95f05619baf64c8191c985d982f4764b",
+          "status" : "broken",
+          "time" : {
+            "start" : 1712635907773,
+            "stop" : 1712635907773,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "parameters" : [ "1150", "{'merchantId': '88888', 'productId': '1099', 'currency': 'IDR', 'amount': '10000', 'payerPhone': '0888888881', 'payChannel': '19', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}", "800", "'akiki29dk39dlove0329djustin'", "'商户比例收费+基础费率 及 渠道比例收费+基础费率'" ]
+        }, {
+          "name" : "没有配置费率",
+          "uid" : "45c78a0a38fe61e2",
+          "parentUid" : "95f05619baf64c8191c985d982f4764b",
+          "status" : "broken",
+          "time" : {
+            "start" : 1712635948383,
+            "stop" : 1712635948383,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "parameters" : [ "0", "{'merchantId': '100149', 'productId': '2071', 'currency': 'IDR', 'amount': '1000', 'payerPhone': '0888888881', 'payChannel': '18', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}", "0", "'8kc8u438cg877uh387fu65ll012tv6bu'", "'没有配置费率'" ]
+        }, {
+          "name" : "商户比例收费及渠道比例收费",
+          "uid" : "522328563a9889b3",
+          "parentUid" : "95f05619baf64c8191c985d982f4764b",
+          "status" : "broken",
+          "time" : {
+            "start" : 1712635948550,
+            "stop" : 1712635948550,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "parameters" : [ "15", "{'merchantId': '88888', 'productId': '1099', 'currency': 'IDR', 'amount': '1000', 'payerPhone': '0888888881', 'payChannel': '17', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}", "20", "'akiki29dk39dlove0329djustin'", "'商户比例收费及渠道比例收费'" ]
+        }, {
+          "name" : "商户基础费率及渠道基础费率",
+          "uid" : "4519d7c2881c7fbf",
+          "parentUid" : "95f05619baf64c8191c985d982f4764b",
+          "status" : "broken",
+          "time" : {
+            "start" : 1712635948561,
+            "stop" : 1712635948561,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "parameters" : [ "1500", "{'merchantId': '88888', 'productId': '1099', 'currency': 'IDR', 'amount': '10000', 'payerPhone': '0888888881', 'payChannel': '4', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}", "1111", "'akiki29dk39dlove0329djustin'", "'商户基础费率及渠道基础费率'" ]
+        }, {
+          "name" : "商户比例收费+基础费率 及 渠道比例收费+基础费率",
+          "uid" : "13aa90f9ed8e91f0",
+          "parentUid" : "95f05619baf64c8191c985d982f4764b",
+          "status" : "broken",
+          "time" : {
+            "start" : 1712635948574,
+            "stop" : 1712635948574,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "parameters" : [ "1150", "{'merchantId': '88888', 'productId': '1099', 'currency': 'IDR', 'amount': '10000', 'payerPhone': '0888888881', 'payChannel': '19', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}", "800", "'akiki29dk39dlove0329djustin'", "'商户比例收费+基础费率 及 渠道比例收费+基础费率'" ]
+        }, {
+          "name" : "没有配置费率",
+          "uid" : "47a964ec28ceb5d7",
+          "parentUid" : "95f05619baf64c8191c985d982f4764b",
+          "status" : "broken",
+          "time" : {
+            "start" : 1712635974358,
+            "stop" : 1712635974358,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "parameters" : [ "0", "{'merchantId': '100149', 'productId': '2071', 'currency': 'IDR', 'amount': '1000', 'payerPhone': '0888888881', 'payChannel': '18', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}", "0", "'8kc8u438cg877uh387fu65ll012tv6bu'", "'没有配置费率'" ]
+        }, {
+          "name" : "商户比例收费及渠道比例收费",
+          "uid" : "be48a0681b8f3d8",
+          "parentUid" : "95f05619baf64c8191c985d982f4764b",
+          "status" : "broken",
+          "time" : {
+            "start" : 1712635974526,
+            "stop" : 1712635974526,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "parameters" : [ "15", "{'merchantId': '88888', 'productId': '1099', 'currency': 'IDR', 'amount': '1000', 'payerPhone': '0888888881', 'payChannel': '17', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}", "20", "'akiki29dk39dlove0329djustin'", "'商户比例收费及渠道比例收费'" ]
+        }, {
+          "name" : "商户基础费率及渠道基础费率",
+          "uid" : "eef5aca4db31aa27",
+          "parentUid" : "95f05619baf64c8191c985d982f4764b",
+          "status" : "broken",
+          "time" : {
+            "start" : 1712635974536,
+            "stop" : 1712635974536,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "parameters" : [ "1500", "{'merchantId': '88888', 'productId': '1099', 'currency': 'IDR', 'amount': '10000', 'payerPhone': '0888888881', 'payChannel': '4', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}", "1111", "'akiki29dk39dlove0329djustin'", "'商户基础费率及渠道基础费率'" ]
+        }, {
+          "name" : "商户比例收费+基础费率 及 渠道比例收费+基础费率",
+          "uid" : "e9180f6db41dbce7",
+          "parentUid" : "95f05619baf64c8191c985d982f4764b",
+          "status" : "broken",
+          "time" : {
+            "start" : 1712635974547,
+            "stop" : 1712635974547,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "parameters" : [ "1150", "{'merchantId': '88888', 'productId': '1099', 'currency': 'IDR', 'amount': '10000', 'payerPhone': '0888888881', 'payChannel': '19', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}", "800", "'akiki29dk39dlove0329djustin'", "'商户比例收费+基础费率 及 渠道比例收费+基础费率'" ]
+        }, {
+          "name" : "没有配置费率",
+          "uid" : "ccd0acb27645e18e",
+          "parentUid" : "95f05619baf64c8191c985d982f4764b",
+          "status" : "broken",
+          "time" : {
+            "start" : 1712636012509,
+            "stop" : 1712636016064,
+            "duration" : 3555
+          },
+          "flaky" : false,
+          "parameters" : [ "0", "{'merchantId': '100149', 'productId': '2071', 'currency': 'IDR', 'amount': '1000', 'payerPhone': '0888888881', 'payChannel': '18', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}", "0", "'8kc8u438cg877uh387fu65ll012tv6bu'", "'没有配置费率'" ]
+        }, {
+          "name" : "商户比例收费及渠道比例收费",
+          "uid" : "e1faa14d20e3e8c0",
+          "parentUid" : "95f05619baf64c8191c985d982f4764b",
+          "status" : "broken",
+          "time" : {
+            "start" : 1712636016309,
+            "stop" : 1712636018525,
+            "duration" : 2216
+          },
+          "flaky" : false,
+          "parameters" : [ "15", "{'merchantId': '88888', 'productId': '1099', 'currency': 'IDR', 'amount': '1000', 'payerPhone': '0888888881', 'payChannel': '17', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}", "20", "'akiki29dk39dlove0329djustin'", "'商户比例收费及渠道比例收费'" ]
+        }, {
+          "name" : "商户基础费率及渠道基础费率",
+          "uid" : "a0c9b1baf5561f6f",
+          "parentUid" : "95f05619baf64c8191c985d982f4764b",
+          "status" : "broken",
+          "time" : {
+            "start" : 1712636018642,
+            "stop" : 1712636020981,
+            "duration" : 2339
+          },
+          "flaky" : false,
+          "parameters" : [ "1500", "{'merchantId': '88888', 'productId': '1099', 'currency': 'IDR', 'amount': '10000', 'payerPhone': '0888888881', 'payChannel': '4', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}", "1111", "'akiki29dk39dlove0329djustin'", "'商户基础费率及渠道基础费率'" ]
+        }, {
+          "name" : "商户比例收费+基础费率 及 渠道比例收费+基础费率",
+          "uid" : "a6ee8f829e32b48c",
+          "parentUid" : "95f05619baf64c8191c985d982f4764b",
+          "status" : "broken",
+          "time" : {
+            "start" : 1712636021078,
+            "stop" : 1712636023207,
+            "duration" : 2129
+          },
+          "flaky" : false,
+          "parameters" : [ "1150", "{'merchantId': '88888', 'productId': '1099', 'currency': 'IDR', 'amount': '10000', 'payerPhone': '0888888881', 'payChannel': '19', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}", "800", "'akiki29dk39dlove0329djustin'", "'商户比例收费+基础费率 及 渠道比例收费+基础费率'" ]
+        }, {
+          "name" : "没有配置费率",
+          "uid" : "187892df9ffc921f",
+          "parentUid" : "95f05619baf64c8191c985d982f4764b",
+          "status" : "broken",
+          "time" : {
+            "start" : 1712636247114,
+            "stop" : 1712636252977,
+            "duration" : 5863
+          },
+          "flaky" : false,
+          "parameters" : [ "0", "{'merchantId': '100149', 'productId': '2071', 'currency': 'IDR', 'amount': '1000', 'payerPhone': '0888888881', 'payChannel': '18', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}", "0", "'8kc8u438cg877uh387fu65ll012tv6bu'", "'没有配置费率'" ]
+        }, {
+          "name" : "商户比例收费及渠道比例收费",
+          "uid" : "82cfaa0c9acf9bbe",
+          "parentUid" : "95f05619baf64c8191c985d982f4764b",
+          "status" : "broken",
+          "time" : {
+            "start" : 1712636253229,
+            "stop" : 1712636255792,
+            "duration" : 2563
+          },
+          "flaky" : false,
+          "parameters" : [ "15", "{'merchantId': '88888', 'productId': '1099', 'currency': 'IDR', 'amount': '1000', 'payerPhone': '0888888881', 'payChannel': '17', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}", "20", "'akiki29dk39dlove0329djustin'", "'商户比例收费及渠道比例收费'" ]
+        }, {
+          "name" : "商户基础费率及渠道基础费率",
+          "uid" : "57f078e069210b64",
+          "parentUid" : "95f05619baf64c8191c985d982f4764b",
+          "status" : "broken",
+          "time" : {
+            "start" : 1712636255901,
+            "stop" : 1712636258882,
+            "duration" : 2981
+          },
+          "flaky" : false,
+          "parameters" : [ "1500", "{'merchantId': '88888', 'productId': '1099', 'currency': 'IDR', 'amount': '10000', 'payerPhone': '0888888881', 'payChannel': '4', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}", "1111", "'akiki29dk39dlove0329djustin'", "'商户基础费率及渠道基础费率'" ]
+        }, {
+          "name" : "商户比例收费+基础费率 及 渠道比例收费+基础费率",
+          "uid" : "ce30df820a8646ae",
+          "parentUid" : "95f05619baf64c8191c985d982f4764b",
+          "status" : "broken",
+          "time" : {
+            "start" : 1712636258965,
+            "stop" : 1712636261948,
+            "duration" : 2983
+          },
+          "flaky" : false,
+          "parameters" : [ "1150", "{'merchantId': '88888', 'productId': '1099', 'currency': 'IDR', 'amount': '10000', 'payerPhone': '0888888881', 'payChannel': '19', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}", "800", "'akiki29dk39dlove0329djustin'", "'商户比例收费+基础费率 及 渠道比例收费+基础费率'" ]
+        }, {
+          "name" : "没有配置费率",
+          "uid" : "8fd21b410005f8af",
+          "parentUid" : "95f05619baf64c8191c985d982f4764b",
+          "status" : "broken",
+          "time" : {
+            "start" : 1712636582565,
+            "stop" : 1712636582586,
+            "duration" : 21
+          },
+          "flaky" : false,
+          "parameters" : [ "0", "{'merchantId': '100149', 'productId': '2071', 'currency': 'IDR', 'amount': '1000', 'payerPhone': '0888888881', 'payChannel': '18', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}", "0", "'8kc8u438cg877uh387fu65ll012tv6bu'", "'没有配置费率'" ]
+        }, {
+          "name" : "商户比例收费及渠道比例收费",
+          "uid" : "630256e44d8ebc6d",
+          "parentUid" : "95f05619baf64c8191c985d982f4764b",
+          "status" : "broken",
+          "time" : {
+            "start" : 1712636582889,
+            "stop" : 1712636582904,
+            "duration" : 15
+          },
+          "flaky" : false,
+          "parameters" : [ "15", "{'merchantId': '88888', 'productId': '1099', 'currency': 'IDR', 'amount': '1000', 'payerPhone': '0888888881', 'payChannel': '17', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}", "20", "'akiki29dk39dlove0329djustin'", "'商户比例收费及渠道比例收费'" ]
+        }, {
+          "name" : "商户基础费率及渠道基础费率",
+          "uid" : "566bf4bc0fb5e417",
+          "parentUid" : "95f05619baf64c8191c985d982f4764b",
+          "status" : "broken",
+          "time" : {
+            "start" : 1712636583000,
+            "stop" : 1712636583015,
+            "duration" : 15
+          },
+          "flaky" : false,
+          "parameters" : [ "1500", "{'merchantId': '88888', 'productId': '1099', 'currency': 'IDR', 'amount': '10000', 'payerPhone': '0888888881', 'payChannel': '4', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}", "1111", "'akiki29dk39dlove0329djustin'", "'商户基础费率及渠道基础费率'" ]
+        }, {
+          "name" : "商户比例收费+基础费率 及 渠道比例收费+基础费率",
+          "uid" : "7257a4c769e5a8ac",
+          "parentUid" : "95f05619baf64c8191c985d982f4764b",
+          "status" : "broken",
+          "time" : {
+            "start" : 1712636583152,
+            "stop" : 1712636583169,
+            "duration" : 17
+          },
+          "flaky" : false,
+          "parameters" : [ "1150", "{'merchantId': '88888', 'productId': '1099', 'currency': 'IDR', 'amount': '10000', 'payerPhone': '0888888881', 'payChannel': '19', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}", "800", "'akiki29dk39dlove0329djustin'", "'商户比例收费+基础费率 及 渠道比例收费+基础费率'" ]
+        }, {
+          "name" : "没有配置费率",
+          "uid" : "7d0349ba72f304eb",
+          "parentUid" : "95f05619baf64c8191c985d982f4764b",
+          "status" : "broken",
+          "time" : {
+            "start" : 1712636589169,
+            "stop" : 1712636592454,
+            "duration" : 3285
+          },
+          "flaky" : false,
+          "parameters" : [ "0", "{'merchantId': '100149', 'productId': '2071', 'currency': 'IDR', 'amount': '1000', 'payerPhone': '0888888881', 'payChannel': '18', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}", "0", "'8kc8u438cg877uh387fu65ll012tv6bu'", "'没有配置费率'" ]
+        }, {
+          "name" : "商户比例收费及渠道比例收费",
+          "uid" : "cf6eec75190c3cf9",
+          "parentUid" : "95f05619baf64c8191c985d982f4764b",
+          "status" : "broken",
+          "time" : {
+            "start" : 1712636592704,
+            "stop" : 1712636596359,
+            "duration" : 3655
+          },
+          "flaky" : false,
+          "parameters" : [ "15", "{'merchantId': '88888', 'productId': '1099', 'currency': 'IDR', 'amount': '1000', 'payerPhone': '0888888881', 'payChannel': '17', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}", "20", "'akiki29dk39dlove0329djustin'", "'商户比例收费及渠道比例收费'" ]
+        }, {
+          "name" : "商户基础费率及渠道基础费率",
+          "uid" : "7e9f4d8f3a79a2ca",
+          "parentUid" : "95f05619baf64c8191c985d982f4764b",
+          "status" : "broken",
+          "time" : {
+            "start" : 1712636596467,
+            "stop" : 1712636599763,
+            "duration" : 3296
+          },
+          "flaky" : false,
+          "parameters" : [ "1500", "{'merchantId': '88888', 'productId': '1099', 'currency': 'IDR', 'amount': '10000', 'payerPhone': '0888888881', 'payChannel': '4', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}", "1111", "'akiki29dk39dlove0329djustin'", "'商户基础费率及渠道基础费率'" ]
+        }, {
+          "name" : "商户比例收费+基础费率 及 渠道比例收费+基础费率",
+          "uid" : "519c012209ccd94f",
+          "parentUid" : "95f05619baf64c8191c985d982f4764b",
+          "status" : "broken",
+          "time" : {
+            "start" : 1712636599865,
+            "stop" : 1712636617506,
+            "duration" : 17641
+          },
+          "flaky" : false,
+          "parameters" : [ "1150", "{'merchantId': '88888', 'productId': '1099', 'currency': 'IDR', 'amount': '10000', 'payerPhone': '0888888881', 'payChannel': '19', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}", "800", "'akiki29dk39dlove0329djustin'", "'商户比例收费+基础费率 及 渠道比例收费+基础费率'" ]
+        }, {
+          "name" : "没有配置费率",
+          "uid" : "6100cc7f2e178ac0",
+          "parentUid" : "95f05619baf64c8191c985d982f4764b",
+          "status" : "broken",
+          "time" : {
+            "start" : 1712636783194,
+            "stop" : 1712636783211,
+            "duration" : 17
+          },
+          "flaky" : false,
+          "parameters" : [ "0", "{'merchantId': '100149', 'productId': '2071', 'currency': 'IDR', 'amount': '1000', 'payerPhone': '0888888881', 'payChannel': '18', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}", "0", "'8kc8u438cg877uh387fu65ll012tv6bu'", "'没有配置费率'" ]
+        }, {
+          "name" : "商户比例收费及渠道比例收费",
+          "uid" : "10a392ea48332a5e",
+          "parentUid" : "95f05619baf64c8191c985d982f4764b",
+          "status" : "broken",
+          "time" : {
+            "start" : 1712636783521,
+            "stop" : 1712636783536,
+            "duration" : 15
+          },
+          "flaky" : false,
+          "parameters" : [ "15", "{'merchantId': '88888', 'productId': '1099', 'currency': 'IDR', 'amount': '1000', 'payerPhone': '0888888881', 'payChannel': '17', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}", "20", "'akiki29dk39dlove0329djustin'", "'商户比例收费及渠道比例收费'" ]
+        }, {
+          "name" : "商户基础费率及渠道基础费率",
+          "uid" : "d21158b962844b43",
+          "parentUid" : "95f05619baf64c8191c985d982f4764b",
+          "status" : "broken",
+          "time" : {
+            "start" : 1712636783636,
+            "stop" : 1712636783650,
+            "duration" : 14
+          },
+          "flaky" : false,
+          "parameters" : [ "1500", "{'merchantId': '88888', 'productId': '1099', 'currency': 'IDR', 'amount': '10000', 'payerPhone': '0888888881', 'payChannel': '4', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}", "1111", "'akiki29dk39dlove0329djustin'", "'商户基础费率及渠道基础费率'" ]
+        }, {
+          "name" : "商户比例收费+基础费率 及 渠道比例收费+基础费率",
+          "uid" : "60f1c78d2a4bcfcd",
+          "parentUid" : "95f05619baf64c8191c985d982f4764b",
+          "status" : "broken",
+          "time" : {
+            "start" : 1712636783782,
+            "stop" : 1712636783800,
+            "duration" : 18
+          },
+          "flaky" : false,
+          "parameters" : [ "1150", "{'merchantId': '88888', 'productId': '1099', 'currency': 'IDR', 'amount': '10000', 'payerPhone': '0888888881', 'payChannel': '19', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}", "800", "'akiki29dk39dlove0329djustin'", "'商户比例收费+基础费率 及 渠道比例收费+基础费率'" ]
+        }, {
+          "name" : "没有配置费率",
+          "uid" : "cea26d6a8904ff5b",
+          "parentUid" : "95f05619baf64c8191c985d982f4764b",
+          "status" : "failed",
+          "time" : {
+            "start" : 1712636858348,
+            "stop" : 1712636872926,
+            "duration" : 14578
+          },
+          "flaky" : false,
+          "parameters" : [ "0", "{'merchantId': '100149', 'productId': '2071', 'currency': 'IDR', 'amount': '1000', 'payerPhone': '0888888881', 'payChannel': '18', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}", "0", "'8kc8u438cg877uh387fu65ll012tv6bu'", "'没有配置费率'" ]
+        }, {
+          "name" : "商户比例收费及渠道比例收费",
+          "uid" : "12b369f5038966f",
+          "parentUid" : "95f05619baf64c8191c985d982f4764b",
+          "status" : "broken",
+          "time" : {
+            "start" : 1712636873082,
+            "stop" : 1712636876341,
+            "duration" : 3259
+          },
+          "flaky" : false,
+          "parameters" : [ "15", "{'merchantId': '88888', 'productId': '1099', 'currency': 'IDR', 'amount': '1000', 'payerPhone': '0888888881', 'payChannel': '17', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}", "20", "'akiki29dk39dlove0329djustin'", "'商户比例收费及渠道比例收费'" ]
+        }, {
+          "name" : "商户基础费率及渠道基础费率",
+          "uid" : "88ff9f9e4d5c93ca",
+          "parentUid" : "95f05619baf64c8191c985d982f4764b",
+          "status" : "broken",
+          "time" : {
+            "start" : 1712636876427,
+            "stop" : 1712636878710,
+            "duration" : 2283
+          },
+          "flaky" : false,
+          "parameters" : [ "1500", "{'merchantId': '88888', 'productId': '1099', 'currency': 'IDR', 'amount': '10000', 'payerPhone': '0888888881', 'payChannel': '4', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}", "1111", "'akiki29dk39dlove0329djustin'", "'商户基础费率及渠道基础费率'" ]
+        }, {
+          "name" : "商户比例收费+基础费率 及 渠道比例收费+基础费率",
+          "uid" : "5c93ca89cff0a5ff",
+          "parentUid" : "95f05619baf64c8191c985d982f4764b",
+          "status" : "broken",
+          "time" : {
+            "start" : 1712636878827,
+            "stop" : 1712636881974,
+            "duration" : 3147
+          },
+          "flaky" : false,
+          "parameters" : [ "1150", "{'merchantId': '88888', 'productId': '1099', 'currency': 'IDR', 'amount': '10000', 'payerPhone': '0888888881', 'payChannel': '19', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}", "800", "'akiki29dk39dlove0329djustin'", "'商户比例收费+基础费率 及 渠道比例收费+基础费率'" ]
+        }, {
+          "name" : "没有配置费率",
+          "uid" : "fbaafdb0765fa975",
+          "parentUid" : "95f05619baf64c8191c985d982f4764b",
+          "status" : "broken",
+          "time" : {
+            "start" : 1712637006610,
+            "stop" : 1712637009909,
+            "duration" : 3299
+          },
+          "flaky" : false,
+          "parameters" : [ "0", "{'merchantId': '100149', 'productId': '2071', 'currency': 'IDR', 'amount': '1000', 'payerPhone': '0888888881', 'payChannel': '18', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}", "0", "'8kc8u438cg877uh387fu65ll012tv6bu'", "'没有配置费率'" ]
+        }, {
+          "name" : "商户比例收费及渠道比例收费",
+          "uid" : "5b30487d7c05d953",
+          "parentUid" : "95f05619baf64c8191c985d982f4764b",
+          "status" : "broken",
+          "time" : {
+            "start" : 1712637010152,
+            "stop" : 1712637012358,
+            "duration" : 2206
+          },
+          "flaky" : false,
+          "parameters" : [ "15", "{'merchantId': '88888', 'productId': '1099', 'currency': 'IDR', 'amount': '1000', 'payerPhone': '0888888881', 'payChannel': '17', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}", "20", "'akiki29dk39dlove0329djustin'", "'商户比例收费及渠道比例收费'" ]
+        }, {
+          "name" : "商户基础费率及渠道基础费率",
+          "uid" : "503bb25686e576f2",
+          "parentUid" : "95f05619baf64c8191c985d982f4764b",
+          "status" : "broken",
+          "time" : {
+            "start" : 1712637012470,
+            "stop" : 1712637014788,
+            "duration" : 2318
+          },
+          "flaky" : false,
+          "parameters" : [ "1500", "{'merchantId': '88888', 'productId': '1099', 'currency': 'IDR', 'amount': '10000', 'payerPhone': '0888888881', 'payChannel': '4', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}", "1111", "'akiki29dk39dlove0329djustin'", "'商户基础费率及渠道基础费率'" ]
+        }, {
+          "name" : "商户比例收费+基础费率 及 渠道比例收费+基础费率",
+          "uid" : "59df7684161a37f9",
+          "parentUid" : "95f05619baf64c8191c985d982f4764b",
+          "status" : "broken",
+          "time" : {
+            "start" : 1712637014877,
+            "stop" : 1712637017048,
+            "duration" : 2171
+          },
+          "flaky" : false,
+          "parameters" : [ "1150", "{'merchantId': '88888', 'productId': '1099', 'currency': 'IDR', 'amount': '10000', 'payerPhone': '0888888881', 'payChannel': '19', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}", "800", "'akiki29dk39dlove0329djustin'", "'商户比例收费+基础费率 及 渠道比例收费+基础费率'" ]
+        }, {
+          "name" : "没有配置费率",
+          "uid" : "48151db9d413a8f5",
+          "parentUid" : "95f05619baf64c8191c985d982f4764b",
+          "status" : "broken",
+          "time" : {
+            "start" : 1712643450443,
+            "stop" : 1712643450491,
+            "duration" : 48
+          },
+          "flaky" : false,
+          "parameters" : [ "0", "{'merchantId': '100149', 'productId': '2071', 'currency': 'IDR', 'amount': '1000', 'payerPhone': '0888888881', 'payChannel': '18', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}", "0", "'8kc8u438cg877uh387fu65ll012tv6bu'", "'没有配置费率'" ]
+        }, {
+          "name" : "商户比例收费及渠道比例收费",
+          "uid" : "d52ef2cc29410a88",
+          "parentUid" : "95f05619baf64c8191c985d982f4764b",
+          "status" : "broken",
+          "time" : {
+            "start" : 1712643450842,
+            "stop" : 1712643450856,
+            "duration" : 14
+          },
+          "flaky" : false,
+          "parameters" : [ "15", "{'merchantId': '88888', 'productId': '1099', 'currency': 'IDR', 'amount': '1000', 'payerPhone': '0888888881', 'payChannel': '17', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}", "20", "'akiki29dk39dlove0329djustin'", "'商户比例收费及渠道比例收费'" ]
+        }, {
+          "name" : "商户基础费率及渠道基础费率",
+          "uid" : "5f053512df52af14",
+          "parentUid" : "95f05619baf64c8191c985d982f4764b",
+          "status" : "broken",
+          "time" : {
+            "start" : 1712643450977,
+            "stop" : 1712643450993,
+            "duration" : 16
+          },
+          "flaky" : false,
+          "parameters" : [ "1500", "{'merchantId': '88888', 'productId': '1099', 'currency': 'IDR', 'amount': '10000', 'payerPhone': '0888888881', 'payChannel': '4', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}", "1111", "'akiki29dk39dlove0329djustin'", "'商户基础费率及渠道基础费率'" ]
+        }, {
+          "name" : "商户比例收费+基础费率 及 渠道比例收费+基础费率",
+          "uid" : "1fd4a9f7bce4c087",
+          "parentUid" : "95f05619baf64c8191c985d982f4764b",
+          "status" : "broken",
+          "time" : {
+            "start" : 1712643451189,
+            "stop" : 1712643451205,
+            "duration" : 16
+          },
+          "flaky" : false,
+          "parameters" : [ "1150", "{'merchantId': '88888', 'productId': '1099', 'currency': 'IDR', 'amount': '10000', 'payerPhone': '0888888881', 'payChannel': '19', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}", "800", "'akiki29dk39dlove0329djustin'", "'商户比例收费+基础费率 及 渠道比例收费+基础费率'" ]
+        }, {
+          "name" : "没有配置费率",
+          "uid" : "499ec3f4fafb3c71",
+          "parentUid" : "95f05619baf64c8191c985d982f4764b",
+          "status" : "broken",
+          "time" : {
+            "start" : 1712643458174,
+            "stop" : 1712643464396,
+            "duration" : 6222
+          },
+          "flaky" : false,
+          "parameters" : [ "0", "{'merchantId': '100149', 'productId': '2071', 'currency': 'IDR', 'amount': '1000', 'payerPhone': '0888888881', 'payChannel': '18', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}", "0", "'8kc8u438cg877uh387fu65ll012tv6bu'", "'没有配置费率'" ]
+        }, {
+          "name" : "商户比例收费及渠道比例收费",
+          "uid" : "c2755b02df3bd8f2",
+          "parentUid" : "95f05619baf64c8191c985d982f4764b",
+          "status" : "broken",
+          "time" : {
+            "start" : 1712643464710,
+            "stop" : 1712643467151,
+            "duration" : 2441
+          },
+          "flaky" : false,
+          "parameters" : [ "15", "{'merchantId': '88888', 'productId': '1099', 'currency': 'IDR', 'amount': '1000', 'payerPhone': '0888888881', 'payChannel': '17', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}", "20", "'akiki29dk39dlove0329djustin'", "'商户比例收费及渠道比例收费'" ]
+        }, {
+          "name" : "商户基础费率及渠道基础费率",
+          "uid" : "e6ec6c5c6b48d6f1",
+          "parentUid" : "95f05619baf64c8191c985d982f4764b",
+          "status" : "broken",
+          "time" : {
+            "start" : 1712643467285,
+            "stop" : 1712643470019,
+            "duration" : 2734
+          },
+          "flaky" : false,
+          "parameters" : [ "1500", "{'merchantId': '88888', 'productId': '1099', 'currency': 'IDR', 'amount': '10000', 'payerPhone': '0888888881', 'payChannel': '4', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}", "1111", "'akiki29dk39dlove0329djustin'", "'商户基础费率及渠道基础费率'" ]
+        }, {
+          "name" : "商户比例收费+基础费率 及 渠道比例收费+基础费率",
+          "uid" : "77e6a12c3864f508",
+          "parentUid" : "95f05619baf64c8191c985d982f4764b",
+          "status" : "broken",
+          "time" : {
+            "start" : 1712643470128,
+            "stop" : 1712643472363,
+            "duration" : 2235
+          },
+          "flaky" : false,
+          "parameters" : [ "1150", "{'merchantId': '88888', 'productId': '1099', 'currency': 'IDR', 'amount': '10000', 'payerPhone': '0888888881', 'payChannel': '19', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}", "800", "'akiki29dk39dlove0329djustin'", "'商户比例收费+基础费率 及 渠道比例收费+基础费率'" ]
+        }, {
+          "name" : "没有配置费率",
+          "uid" : "57d227ecd89fce",
+          "parentUid" : "95f05619baf64c8191c985d982f4764b",
+          "status" : "broken",
+          "time" : {
+            "start" : 1712644625053,
+            "stop" : 1712644628776,
+            "duration" : 3723
+          },
+          "flaky" : false,
+          "parameters" : [ "0", "{'merchantId': '100149', 'productId': '2071', 'currency': 'IDR', 'amount': '1000', 'payerPhone': '0888888881', 'payChannel': '18', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}", "0", "'8kc8u438cg877uh387fu65ll012tv6bu'", "'没有配置费率'" ]
+        }, {
+          "name" : "商户比例收费及渠道比例收费",
+          "uid" : "4f8041f29de3437f",
+          "parentUid" : "95f05619baf64c8191c985d982f4764b",
+          "status" : "broken",
+          "time" : {
+            "start" : 1712644628957,
+            "stop" : 1712644631371,
+            "duration" : 2414
+          },
+          "flaky" : false,
+          "parameters" : [ "15", "{'merchantId': '88888', 'productId': '1099', 'currency': 'IDR', 'amount': '1000', 'payerPhone': '0888888881', 'payChannel': '17', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}", "20", "'akiki29dk39dlove0329djustin'", "'商户比例收费及渠道比例收费'" ]
+        }, {
+          "name" : "商户基础费率及渠道基础费率",
+          "uid" : "10c8ef76ddbfc3e0",
+          "parentUid" : "95f05619baf64c8191c985d982f4764b",
+          "status" : "broken",
+          "time" : {
+            "start" : 1712644631395,
+            "stop" : 1712644633993,
+            "duration" : 2598
+          },
+          "flaky" : false,
+          "parameters" : [ "1500", "{'merchantId': '88888', 'productId': '1099', 'currency': 'IDR', 'amount': '10000', 'payerPhone': '0888888881', 'payChannel': '4', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}", "1111", "'akiki29dk39dlove0329djustin'", "'商户基础费率及渠道基础费率'" ]
+        }, {
+          "name" : "商户比例收费+基础费率 及 渠道比例收费+基础费率",
+          "uid" : "401624ba2678c99f",
+          "parentUid" : "95f05619baf64c8191c985d982f4764b",
+          "status" : "broken",
+          "time" : {
+            "start" : 1712644634007,
+            "stop" : 1712644636348,
+            "duration" : 2341
+          },
+          "flaky" : false,
+          "parameters" : [ "1150", "{'merchantId': '88888', 'productId': '1099', 'currency': 'IDR', 'amount': '10000', 'payerPhone': '0888888881', 'payChannel': '19', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}", "800", "'akiki29dk39dlove0329djustin'", "'商户比例收费+基础费率 及 渠道比例收费+基础费率'" ]
+        }, {
+          "name" : "没有配置费率",
+          "uid" : "e69897e7e5c91a64",
+          "parentUid" : "95f05619baf64c8191c985d982f4764b",
+          "status" : "broken",
+          "time" : {
+            "start" : 1712650870973,
+            "stop" : 1712650871032,
+            "duration" : 59
+          },
+          "flaky" : false,
+          "parameters" : [ "0", "{'merchantId': '100149', 'productId': '2071', 'currency': 'IDR', 'amount': '1000', 'payerPhone': '0888888881', 'payChannel': '18', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}", "0", "'8kc8u438cg877uh387fu65ll012tv6bu'", "'没有配置费率'" ]
+        }, {
+          "name" : "商户比例收费及渠道比例收费",
+          "uid" : "8ab47cdac9ed86db",
+          "parentUid" : "95f05619baf64c8191c985d982f4764b",
+          "status" : "broken",
+          "time" : {
+            "start" : 1712650871349,
+            "stop" : 1712650871369,
+            "duration" : 20
+          },
+          "flaky" : false,
+          "parameters" : [ "15", "{'merchantId': '88888', 'productId': '1099', 'currency': 'IDR', 'amount': '1000', 'payerPhone': '0888888881', 'payChannel': '17', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}", "20", "'akiki29dk39dlove0329djustin'", "'商户比例收费及渠道比例收费'" ]
+        }, {
+          "name" : "商户基础费率及渠道基础费率",
+          "uid" : "f9367be39d2da0b3",
+          "parentUid" : "95f05619baf64c8191c985d982f4764b",
+          "status" : "broken",
+          "time" : {
+            "start" : 1712650871475,
+            "stop" : 1712650871490,
+            "duration" : 15
+          },
+          "flaky" : false,
+          "parameters" : [ "1500", "{'merchantId': '88888', 'productId': '1099', 'currency': 'IDR', 'amount': '10000', 'payerPhone': '0888888881', 'payChannel': '4', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}", "1111", "'akiki29dk39dlove0329djustin'", "'商户基础费率及渠道基础费率'" ]
+        }, {
+          "name" : "商户比例收费+基础费率 及 渠道比例收费+基础费率",
+          "uid" : "21722ae2ef9dce37",
+          "parentUid" : "95f05619baf64c8191c985d982f4764b",
+          "status" : "broken",
+          "time" : {
+            "start" : 1712650871662,
+            "stop" : 1712650871680,
+            "duration" : 18
+          },
+          "flaky" : false,
+          "parameters" : [ "1150", "{'merchantId': '88888', 'productId': '1099', 'currency': 'IDR', 'amount': '10000', 'payerPhone': '0888888881', 'payChannel': '19', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}", "800", "'akiki29dk39dlove0329djustin'", "'商户比例收费+基础费率 及 渠道比例收费+基础费率'" ]
+        }, {
+          "name" : "没有配置费率",
+          "uid" : "8e14c6311cbdd08",
+          "parentUid" : "95f05619baf64c8191c985d982f4764b",
+          "status" : "broken",
+          "time" : {
+            "start" : 1712650882513,
+            "stop" : 1712650885663,
+            "duration" : 3150
+          },
+          "flaky" : false,
+          "parameters" : [ "0", "{'merchantId': '100149', 'productId': '2071', 'currency': 'IDR', 'amount': '1000', 'payerPhone': '0888888881', 'payChannel': '18', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}", "0", "'8kc8u438cg877uh387fu65ll012tv6bu'", "'没有配置费率'" ]
+        }, {
+          "name" : "商户比例收费及渠道比例收费",
+          "uid" : "c78a7442fae719cf",
+          "parentUid" : "95f05619baf64c8191c985d982f4764b",
+          "status" : "broken",
+          "time" : {
+            "start" : 1712650885819,
+            "stop" : 1712650888079,
+            "duration" : 2260
+          },
+          "flaky" : false,
+          "parameters" : [ "15", "{'merchantId': '88888', 'productId': '1099', 'currency': 'IDR', 'amount': '1000', 'payerPhone': '0888888881', 'payChannel': '17', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}", "20", "'akiki29dk39dlove0329djustin'", "'商户比例收费及渠道比例收费'" ]
+        }, {
+          "name" : "商户基础费率及渠道基础费率",
+          "uid" : "5b05ecd69fa8ca99",
+          "parentUid" : "95f05619baf64c8191c985d982f4764b",
+          "status" : "broken",
+          "time" : {
+            "start" : 1712650888151,
+            "stop" : 1712650890572,
+            "duration" : 2421
+          },
+          "flaky" : false,
+          "parameters" : [ "1500", "{'merchantId': '88888', 'productId': '1099', 'currency': 'IDR', 'amount': '10000', 'payerPhone': '0888888881', 'payChannel': '4', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}", "1111", "'akiki29dk39dlove0329djustin'", "'商户基础费率及渠道基础费率'" ]
+        }, {
+          "name" : "商户比例收费+基础费率 及 渠道比例收费+基础费率",
+          "uid" : "904799efed31671f",
+          "parentUid" : "95f05619baf64c8191c985d982f4764b",
+          "status" : "broken",
+          "time" : {
+            "start" : 1712650890585,
+            "stop" : 1712650892726,
+            "duration" : 2141
+          },
+          "flaky" : false,
+          "parameters" : [ "1150", "{'merchantId': '88888', 'productId': '1099', 'currency': 'IDR', 'amount': '10000', 'payerPhone': '0888888881', 'payChannel': '19', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}", "800", "'akiki29dk39dlove0329djustin'", "'商户比例收费+基础费率 及 渠道比例收费+基础费率'" ]
+        }, {
+          "name" : "没有配置费率",
+          "uid" : "b959a1bef2e70d62",
+          "parentUid" : "95f05619baf64c8191c985d982f4764b",
+          "status" : "broken",
+          "time" : {
+            "start" : 1712650956465,
+            "stop" : 1712650959618,
+            "duration" : 3153
+          },
+          "flaky" : false,
+          "parameters" : [ "0", "{'merchantId': '100149', 'productId': '2071', 'currency': 'IDR', 'amount': '1000', 'payerPhone': '0888888881', 'payChannel': '18', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}", "0", "'8kc8u438cg877uh387fu65ll012tv6bu'", "'没有配置费率'" ]
+        }, {
+          "name" : "商户比例收费及渠道比例收费",
+          "uid" : "55f8c22b98567bfa",
+          "parentUid" : "95f05619baf64c8191c985d982f4764b",
+          "status" : "broken",
+          "time" : {
+            "start" : 1712650959900,
+            "stop" : 1712650962129,
+            "duration" : 2229
+          },
+          "flaky" : false,
+          "parameters" : [ "15", "{'merchantId': '88888', 'productId': '1099', 'currency': 'IDR', 'amount': '1000', 'payerPhone': '0888888881', 'payChannel': '17', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}", "20", "'akiki29dk39dlove0329djustin'", "'商户比例收费及渠道比例收费'" ]
+        }, {
+          "name" : "商户基础费率及渠道基础费率",
+          "uid" : "2acaeb24816ed937",
+          "parentUid" : "95f05619baf64c8191c985d982f4764b",
+          "status" : "broken",
+          "time" : {
+            "start" : 1712650962160,
+            "stop" : 1712650964586,
+            "duration" : 2426
+          },
+          "flaky" : false,
+          "parameters" : [ "1500", "{'merchantId': '88888', 'productId': '1099', 'currency': 'IDR', 'amount': '10000', 'payerPhone': '0888888881', 'payChannel': '4', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}", "1111", "'akiki29dk39dlove0329djustin'", "'商户基础费率及渠道基础费率'" ]
+        }, {
+          "name" : "商户比例收费+基础费率 及 渠道比例收费+基础费率",
+          "uid" : "df0648ff7744a52",
+          "parentUid" : "95f05619baf64c8191c985d982f4764b",
+          "status" : "broken",
+          "time" : {
+            "start" : 1712650964618,
+            "stop" : 1712650966776,
+            "duration" : 2158
+          },
+          "flaky" : false,
+          "parameters" : [ "1150", "{'merchantId': '88888', 'productId': '1099', 'currency': 'IDR', 'amount': '10000', 'payerPhone': '0888888881', 'payChannel': '19', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}", "800", "'akiki29dk39dlove0329djustin'", "'商户比例收费+基础费率 及 渠道比例收费+基础费率'" ]
+        }, {
+          "name" : "没有配置费率",
+          "uid" : "7d455a22f9b0fb8e",
+          "parentUid" : "95f05619baf64c8191c985d982f4764b",
+          "status" : "broken",
+          "time" : {
+            "start" : 1712651014867,
+            "stop" : 1712651017931,
+            "duration" : 3064
+          },
+          "flaky" : false,
+          "parameters" : [ "0", "{'merchantId': '100149', 'productId': '2071', 'currency': 'IDR', 'amount': '1000', 'payerPhone': '0888888881', 'payChannel': '18', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}", "0", "'8kc8u438cg877uh387fu65ll012tv6bu'", "'没有配置费率'" ]
+        }, {
+          "name" : "商户比例收费及渠道比例收费",
+          "uid" : "6246e8302a8e013a",
+          "parentUid" : "95f05619baf64c8191c985d982f4764b",
+          "status" : "broken",
+          "time" : {
+            "start" : 1712651018118,
+            "stop" : 1712651020251,
+            "duration" : 2133
+          },
+          "flaky" : false,
+          "parameters" : [ "15", "{'merchantId': '88888', 'productId': '1099', 'currency': 'IDR', 'amount': '1000', 'payerPhone': '0888888881', 'payChannel': '17', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}", "20", "'akiki29dk39dlove0329djustin'", "'商户比例收费及渠道比例收费'" ]
+        }, {
+          "name" : "商户基础费率及渠道基础费率",
+          "uid" : "9112d0f13440d2cb",
+          "parentUid" : "95f05619baf64c8191c985d982f4764b",
+          "status" : "broken",
+          "time" : {
+            "start" : 1712651020265,
+            "stop" : 1712651022601,
+            "duration" : 2336
+          },
+          "flaky" : false,
+          "parameters" : [ "1500", "{'merchantId': '88888', 'productId': '1099', 'currency': 'IDR', 'amount': '10000', 'payerPhone': '0888888881', 'payChannel': '4', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}", "1111", "'akiki29dk39dlove0329djustin'", "'商户基础费率及渠道基础费率'" ]
+        }, {
+          "name" : "商户比例收费+基础费率 及 渠道比例收费+基础费率",
+          "uid" : "9b5077dce6bf3691",
+          "parentUid" : "95f05619baf64c8191c985d982f4764b",
+          "status" : "broken",
+          "time" : {
+            "start" : 1712651022618,
+            "stop" : 1712651024710,
+            "duration" : 2092
+          },
+          "flaky" : false,
+          "parameters" : [ "1150", "{'merchantId': '88888', 'productId': '1099', 'currency': 'IDR', 'amount': '10000', 'payerPhone': '0888888881', 'payChannel': '19', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}", "800", "'akiki29dk39dlove0329djustin'", "'商户比例收费+基础费率 及 渠道比例收费+基础费率'" ]
+        }, {
+          "name" : "没有配置费率",
+          "uid" : "c8eea7349b453870",
+          "parentUid" : "95f05619baf64c8191c985d982f4764b",
+          "status" : "broken",
+          "time" : {
+            "start" : 1712651111150,
+            "stop" : 1712651111170,
+            "duration" : 20
+          },
+          "flaky" : false,
+          "parameters" : [ "0", "{'merchantId': '100149', 'productId': '2071', 'currency': 'IDR', 'amount': '1000', 'payerPhone': '0888888881', 'payChannel': '18', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}", "0", "'8kc8u438cg877uh387fu65ll012tv6bu'", "'没有配置费率'" ]
+        }, {
+          "name" : "商户比例收费及渠道比例收费",
+          "uid" : "8bb19054137e2747",
+          "parentUid" : "95f05619baf64c8191c985d982f4764b",
+          "status" : "broken",
+          "time" : {
+            "start" : 1712651111507,
+            "stop" : 1712651111526,
+            "duration" : 19
+          },
+          "flaky" : false,
+          "parameters" : [ "15", "{'merchantId': '88888', 'productId': '1099', 'currency': 'IDR', 'amount': '1000', 'payerPhone': '0888888881', 'payChannel': '17', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}", "20", "'akiki29dk39dlove0329djustin'", "'商户比例收费及渠道比例收费'" ]
+        }, {
+          "name" : "商户基础费率及渠道基础费率",
+          "uid" : "cc7502385eef304c",
+          "parentUid" : "95f05619baf64c8191c985d982f4764b",
+          "status" : "broken",
+          "time" : {
+            "start" : 1712651111645,
+            "stop" : 1712651111660,
+            "duration" : 15
+          },
+          "flaky" : false,
+          "parameters" : [ "1500", "{'merchantId': '88888', 'productId': '1099', 'currency': 'IDR', 'amount': '10000', 'payerPhone': '0888888881', 'payChannel': '4', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}", "1111", "'akiki29dk39dlove0329djustin'", "'商户基础费率及渠道基础费率'" ]
+        }, {
+          "name" : "商户比例收费+基础费率 及 渠道比例收费+基础费率",
+          "uid" : "f0d604f2e1709d3b",
+          "parentUid" : "95f05619baf64c8191c985d982f4764b",
+          "status" : "broken",
+          "time" : {
+            "start" : 1712651111821,
+            "stop" : 1712651111842,
+            "duration" : 21
+          },
+          "flaky" : false,
+          "parameters" : [ "1150", "{'merchantId': '88888', 'productId': '1099', 'currency': 'IDR', 'amount': '10000', 'payerPhone': '0888888881', 'payChannel': '19', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}", "800", "'akiki29dk39dlove0329djustin'", "'商户比例收费+基础费率 及 渠道比例收费+基础费率'" ]
+        }, {
+          "name" : "没有配置费率",
+          "uid" : "53e67a7b71ba87fa",
+          "parentUid" : "95f05619baf64c8191c985d982f4764b",
+          "status" : "passed",
+          "time" : {
+            "start" : 1712651118917,
+            "stop" : 1712651122042,
+            "duration" : 3125
+          },
+          "flaky" : false,
+          "parameters" : [ "0", "{'merchantId': '100149', 'productId': '2071', 'currency': 'IDR', 'amount': '1000', 'payerPhone': '0888888881', 'payChannel': '18', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}", "0", "'8kc8u438cg877uh387fu65ll012tv6bu'", "'没有配置费率'" ]
+        }, {
+          "name" : "商户比例收费及渠道比例收费",
+          "uid" : "95110e59b3e41a3",
+          "parentUid" : "95f05619baf64c8191c985d982f4764b",
+          "status" : "passed",
+          "time" : {
+            "start" : 1712651122050,
+            "stop" : 1712651124233,
+            "duration" : 2183
+          },
+          "flaky" : false,
+          "parameters" : [ "15", "{'merchantId': '88888', 'productId': '1099', 'currency': 'IDR', 'amount': '1000', 'payerPhone': '0888888881', 'payChannel': '17', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}", "20", "'akiki29dk39dlove0329djustin'", "'商户比例收费及渠道比例收费'" ]
+        }, {
+          "name" : "商户基础费率及渠道基础费率",
+          "uid" : "e33e03c8b51ec915",
+          "parentUid" : "95f05619baf64c8191c985d982f4764b",
+          "status" : "passed",
+          "time" : {
+            "start" : 1712651124239,
+            "stop" : 1712651126679,
+            "duration" : 2440
+          },
+          "flaky" : false,
+          "parameters" : [ "1500", "{'merchantId': '88888', 'productId': '1099', 'currency': 'IDR', 'amount': '10000', 'payerPhone': '0888888881', 'payChannel': '4', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}", "1111", "'akiki29dk39dlove0329djustin'", "'商户基础费率及渠道基础费率'" ]
+        }, {
+          "name" : "商户比例收费+基础费率 及 渠道比例收费+基础费率",
+          "uid" : "6b64885213144ff5",
+          "parentUid" : "95f05619baf64c8191c985d982f4764b",
+          "status" : "passed",
+          "time" : {
+            "start" : 1712651126684,
+            "stop" : 1712651128284,
+            "duration" : 1600
+          },
+          "flaky" : false,
+          "parameters" : [ "1150", "{'merchantId': '88888', 'productId': '1099', 'currency': 'IDR', 'amount': '10000', 'payerPhone': '0888888881', 'payChannel': '19', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}", "800", "'akiki29dk39dlove0329djustin'", "'商户比例收费+基础费率 及 渠道比例收费+基础费率'" ]
+        }, {
+          "name" : "没有配置费率",
+          "uid" : "4beda5b9d6a6a78d",
+          "parentUid" : "95f05619baf64c8191c985d982f4764b",
+          "status" : "broken",
+          "time" : {
+            "start" : 1712654082135,
+            "stop" : 1712654082135,
+            "duration" : 0
+          },
+          "flaky" : true,
+          "parameters" : [ "0", "{'merchantId': '100149', 'productId': '2071', 'currency': 'IDR', 'amount': '1000', 'payerPhone': '0888888881', 'payChannel': '18', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}", "0", "'8kc8u438cg877uh387fu65ll012tv6bu'", "'没有配置费率'" ]
+        }, {
+          "name" : "商户比例收费及渠道比例收费",
+          "uid" : "a8f87f54687681b1",
+          "parentUid" : "95f05619baf64c8191c985d982f4764b",
+          "status" : "broken",
+          "time" : {
+            "start" : 1712654082425,
+            "stop" : 1712654082425,
+            "duration" : 0
+          },
+          "flaky" : true,
+          "parameters" : [ "15", "{'merchantId': '88888', 'productId': '1099', 'currency': 'IDR', 'amount': '1000', 'payerPhone': '0888888881', 'payChannel': '17', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}", "20", "'akiki29dk39dlove0329djustin'", "'商户比例收费及渠道比例收费'" ]
+        }, {
+          "name" : "商户基础费率及渠道基础费率",
+          "uid" : "a068d87120bab3b0",
+          "parentUid" : "95f05619baf64c8191c985d982f4764b",
+          "status" : "broken",
+          "time" : {
+            "start" : 1712654082451,
+            "stop" : 1712654082452,
+            "duration" : 1
+          },
+          "flaky" : true,
+          "parameters" : [ "1500", "{'merchantId': '88888', 'productId': '1099', 'currency': 'IDR', 'amount': '10000', 'payerPhone': '0888888881', 'payChannel': '4', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}", "1111", "'akiki29dk39dlove0329djustin'", "'商户基础费率及渠道基础费率'" ]
+        }, {
+          "name" : "商户比例收费+基础费率 及 渠道比例收费+基础费率",
+          "uid" : "72f1bcbed525c360",
+          "parentUid" : "95f05619baf64c8191c985d982f4764b",
+          "status" : "broken",
+          "time" : {
+            "start" : 1712654082473,
+            "stop" : 1712654082473,
+            "duration" : 0
+          },
+          "flaky" : true,
+          "parameters" : [ "1150", "{'merchantId': '88888', 'productId': '1099', 'currency': 'IDR', 'amount': '10000', 'payerPhone': '0888888881', 'payChannel': '19', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}", "800", "'akiki29dk39dlove0329djustin'", "'商户比例收费+基础费率 及 渠道比例收费+基础费率'" ]
+        }, {
+          "name" : "没有配置费率",
+          "uid" : "b667baffdb6e83f1",
+          "parentUid" : "95f05619baf64c8191c985d982f4764b",
+          "status" : "broken",
+          "time" : {
+            "start" : 1712654149441,
+            "stop" : 1712654149494,
+            "duration" : 53
+          },
+          "flaky" : false,
+          "parameters" : [ "0", "{'merchantId': '100149', 'productId': '2071', 'currency': 'IDR', 'amount': '1000', 'payerPhone': '0888888881', 'payChannel': '18', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}", "0", "'8kc8u438cg877uh387fu65ll012tv6bu'", "'没有配置费率'" ]
+        }, {
+          "name" : "商户比例收费及渠道比例收费",
+          "uid" : "adc1810cc679f5b6",
+          "parentUid" : "95f05619baf64c8191c985d982f4764b",
+          "status" : "broken",
+          "time" : {
+            "start" : 1712654149823,
+            "stop" : 1712654149839,
+            "duration" : 16
+          },
+          "flaky" : false,
+          "parameters" : [ "15", "{'merchantId': '88888', 'productId': '1099', 'currency': 'IDR', 'amount': '1000', 'payerPhone': '0888888881', 'payChannel': '17', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}", "20", "'akiki29dk39dlove0329djustin'", "'商户比例收费及渠道比例收费'" ]
+        }, {
+          "name" : "商户基础费率及渠道基础费率",
+          "uid" : "b846c788ff523945",
+          "parentUid" : "95f05619baf64c8191c985d982f4764b",
+          "status" : "broken",
+          "time" : {
+            "start" : 1712654149937,
+            "stop" : 1712654149953,
+            "duration" : 16
+          },
+          "flaky" : false,
+          "parameters" : [ "1500", "{'merchantId': '88888', 'productId': '1099', 'currency': 'IDR', 'amount': '10000', 'payerPhone': '0888888881', 'payChannel': '4', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}", "1111", "'akiki29dk39dlove0329djustin'", "'商户基础费率及渠道基础费率'" ]
+        }, {
+          "name" : "商户比例收费+基础费率 及 渠道比例收费+基础费率",
+          "uid" : "5b9a907f78008865",
+          "parentUid" : "95f05619baf64c8191c985d982f4764b",
+          "status" : "broken",
+          "time" : {
+            "start" : 1712654150107,
+            "stop" : 1712654150125,
+            "duration" : 18
+          },
+          "flaky" : false,
+          "parameters" : [ "1150", "{'merchantId': '88888', 'productId': '1099', 'currency': 'IDR', 'amount': '10000', 'payerPhone': '0888888881', 'payChannel': '19', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}", "800", "'akiki29dk39dlove0329djustin'", "'商户比例收费+基础费率 及 渠道比例收费+基础费率'" ]
+        }, {
+          "name" : "没有配置费率",
+          "uid" : "3f2b0be1f4df0eb2",
+          "parentUid" : "95f05619baf64c8191c985d982f4764b",
+          "status" : "passed",
+          "time" : {
+            "start" : 1712655728218,
+            "stop" : 1712655731807,
+            "duration" : 3589
+          },
+          "flaky" : false,
+          "parameters" : [ "0", "{'merchantId': '100149', 'productId': '2071', 'currency': 'IDR', 'amount': '1000', 'payerPhone': '0888888881', 'payChannel': '18', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}", "0", "'8kc8u438cg877uh387fu65ll012tv6bu'", "'没有配置费率'" ]
+        }, {
+          "name" : "商户比例收费及渠道比例收费",
+          "uid" : "5c178003278337f3",
+          "parentUid" : "95f05619baf64c8191c985d982f4764b",
+          "status" : "passed",
+          "time" : {
+            "start" : 1712655731813,
+            "stop" : 1712655734063,
+            "duration" : 2250
+          },
+          "flaky" : false,
+          "parameters" : [ "15", "{'merchantId': '88888', 'productId': '1099', 'currency': 'IDR', 'amount': '1000', 'payerPhone': '0888888881', 'payChannel': '17', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}", "20", "'akiki29dk39dlove0329djustin'", "'商户比例收费及渠道比例收费'" ]
+        }, {
+          "name" : "商户基础费率及渠道基础费率",
+          "uid" : "d7e05ab338b591b2",
+          "parentUid" : "95f05619baf64c8191c985d982f4764b",
+          "status" : "passed",
+          "time" : {
+            "start" : 1712655734073,
+            "stop" : 1712655736527,
+            "duration" : 2454
+          },
+          "flaky" : false,
+          "parameters" : [ "1500", "{'merchantId': '88888', 'productId': '1099', 'currency': 'IDR', 'amount': '10000', 'payerPhone': '0888888881', 'payChannel': '4', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}", "1111", "'akiki29dk39dlove0329djustin'", "'商户基础费率及渠道基础费率'" ]
+        }, {
+          "name" : "商户比例收费+基础费率 及 渠道比例收费+基础费率",
+          "uid" : "bd7b5e26bcfc9896",
+          "parentUid" : "95f05619baf64c8191c985d982f4764b",
+          "status" : "passed",
+          "time" : {
+            "start" : 1712655736537,
+            "stop" : 1712655738660,
+            "duration" : 2123
+          },
+          "flaky" : false,
+          "parameters" : [ "1150", "{'merchantId': '88888', 'productId': '1099', 'currency': 'IDR', 'amount': '10000', 'payerPhone': '0888888881', 'payChannel': '19', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}", "800", "'akiki29dk39dlove0329djustin'", "'商户比例收费+基础费率 及 渠道比例收费+基础费率'" ]
+        } ],
+        "uid" : "95f05619baf64c8191c985d982f4764b"
+      } ],
+      "uid" : "dc320f686fe2f35157ed1d8644d25e48"
+    } ],
+    "uid" : "4c291875ee80a8a8efe65bc99712fb75"
+  }, {
+    "name" : "没有配置费率",
+    "uid" : "1e610f05ebb25144",
+    "parentUid" : "98d3104e051c652961429bf95fa0b5d6",
+    "status" : "passed",
+    "time" : {
+      "start" : 1712643491160,
+      "stop" : 1712643492896,
+      "duration" : 1736
+    },
+    "flaky" : false,
+    "parameters" : [ "0", "{'merchantId': '100149', 'productId': '2071', 'currency': 'IDR', 'amount': '1000', 'payerPhone': '0888888881', 'payChannel': '18', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}", "0", "'8kc8u438cg877uh387fu65ll012tv6bu'", "'没有配置费率'" ]
+  }, {
+    "name" : "没有配置费率",
+    "uid" : "d35234dd1d025a35",
+    "parentUid" : "98d3104e051c652961429bf95fa0b5d6",
+    "status" : "passed",
+    "time" : {
+      "start" : 1712643498527,
+      "stop" : 1712644620268,
+      "duration" : 1121741
+    },
+    "flaky" : false,
+    "parameters" : [ "0", "{'merchantId': '100149', 'productId': '2071', 'currency': 'IDR', 'amount': '1000', 'payerPhone': '0888888881', 'payChannel': '18', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}", "0", "'8kc8u438cg877uh387fu65ll012tv6bu'", "'没有配置费率'" ]
   } ]
 }

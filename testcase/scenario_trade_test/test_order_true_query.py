@@ -8,7 +8,7 @@ import pytest
 import allure
 from api.trade import Trade
 from case_data.scenario_data.scenario import *
-from lib.settings.get_time import GetTime
+from lib.utils.settings.get_time import GetTime
 import os
 @allure.epic("针对收款业务场景的测试")
 @allure.feature("下单成功，支付成功，回调成功，记账成功，插入结算账单")

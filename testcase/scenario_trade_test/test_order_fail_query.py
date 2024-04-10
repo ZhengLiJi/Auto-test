@@ -8,9 +8,9 @@ import pytest
 import allure
 from api.trade import Trade
 from case_data.scenario_data.scenario import *
-from lib.settings.get_time import GetTime
-from lib.settings.logger import log
-from common.mysql import MysqlDb
+from lib.utils.settings.get_time import GetTime
+from lib.utils.settings.logger import log
+
 
 @allure.epic("针对trade业务场景的测试")
 @allure.feature("收款业务")

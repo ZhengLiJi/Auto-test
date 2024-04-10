@@ -14,20 +14,20 @@ import pytest
 import allure
 from api.trade import Trade
 from case_data.scenario_data.scenario import *
-from lib.settings.get_time import GetTime
+
+
 
 @allure.epic("针对收款业务场景的测试")
 @allure.feature("下单成功，订单支付中或等待回调场景")
-class TestOrderTPendingQurest:
+class TestOrderTPendingQurest():
         def setup_class(self):
             self.trade = Trade()
-            self.time = GetTime()
+
 
         @allure.story("用例--下单成功/支付中/查询状态为11--预期成功")
         @allure.title("创建支付中订单")
         @pytest.mark.parametrize('order_true_qurest_data', order_true_qurest_data)
         def test_create_and_query_success_order(self, order_true_qurest_data):
-
 
             query_balance, create_order_data, query_order_data, query_balance2, privateKey = order_true_qurest_data
 

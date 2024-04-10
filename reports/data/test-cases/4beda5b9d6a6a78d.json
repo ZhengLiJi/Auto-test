@@ -1,0 +1,121 @@
+{
+  "uid" : "4beda5b9d6a6a78d",
+  "name" : "没有配置费率",
+  "fullName" : "testcase.api_trdae_test.test_create.TestCreate#test_rate_case",
+  "historyId" : "42ec4f3804784841be2f61b06db17c0a",
+  "time" : {
+    "start" : 1712654082135,
+    "stop" : 1712654082135,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "statusMessage" : "AttributeError: 'Create' object has no attribute 'xxx'",
+  "statusTrace" : "self = <test_create.TestCreate object at 0x000001891C1820D0>\ndata = {'amount': '1000', 'currency': 'IDR', 'expectPayCodeType': 0, 'merchantId': '100149', ...}\nprivateKey = '8kc8u438cg877uh387fu65ll012tv6bu', merchant_fee = 0\nchannel_fee = 0, title = '没有配置费率'\n\n    @allure.story('费率场景')\n    @pytest.mark.parametrize(\"data, privateKey,merchant_fee,channel_fee, title\", rate_case)\n    def test_rate_case(self, data, privateKey, merchant_fee, channel_fee, title):\n        allure.dynamic.title(f\"{title}\")\n>       Create().perform_order_test(data, privateKey, merchant_fee=merchant_fee, channel_fee=channel_fee)\n\ntest_create.py:94: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <testcase.payout.create.Create object at 0x000001891C182C10>\ndata = {'amount': '1000', 'currency': 'IDR', 'expectPayCodeType': 0, 'merchantId': '100149', ...}\nprivateKey = '8kc8u438cg877uh387fu65ll012tv6bu', expected_code = None\nexpected_msg = None, expected_type = None, orderNo = None, merchant_fee = 0\nchannel_fee = 0, pay_channel = None\n\n    def perform_order_test(self, data, privateKey, expected_code=None, expected_msg=None, expected_type=None, orderNo=None,\n                           merchant_fee=None, channel_fee=None, pay_channel=None):\n        if orderNo is not None and 'orderNo' not in data:\n            # 如果 orderNo 存在且 data 中没有 orderNo 字段，则将 orderNo 添加到 data 中\n            data['orderNo'] = orderNo\n        elif 'orderNo' not in data:\n>           data['orderNo'] = 'TestOrderNo_' + self.xxx.time.get_timestamp()\nE           AttributeError: 'Create' object has no attribute 'xxx'\n\n..\\payout\\create.py:29: AttributeError",
+  "flaky" : true,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "针对trade单元测试"
+  }, {
+    "name" : "feature",
+    "value" : "下单接口"
+  }, {
+    "name" : "story",
+    "value" : "费率场景"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase.api_trdae_test"
+  }, {
+    "name" : "suite",
+    "value" : "test_create"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCreate"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-QH40KOLE"
+  }, {
+    "name" : "thread",
+    "value" : "22888-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.api_trdae_test.test_create"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "channel_fee",
+    "value" : "0"
+  }, {
+    "name" : "data",
+    "value" : "{'merchantId': '100149', 'productId': '2071', 'currency': 'IDR', 'amount': '1000', 'payerPhone': '0888888881', 'payChannel': '18', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}"
+  }, {
+    "name" : "merchant_fee",
+    "value" : "0"
+  }, {
+    "name" : "privateKey",
+    "value" : "'8kc8u438cg877uh387fu65ll012tv6bu'"
+  }, {
+    "name" : "title",
+    "value" : "'没有配置费率'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "c5d9eed89abe0a2f",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'Create' object has no attribute 'xxx'",
+      "time" : {
+        "start" : 1712654074541,
+        "stop" : 1712654074541,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "3da2555dfc3b0a95",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'Create' object has no attribute 'xxx'",
+      "time" : {
+        "start" : 1712654067410,
+        "stop" : 1712654067410,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "ba0c02d70fe87f5c",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'Create' object has no attribute 'xxx'",
+      "time" : {
+        "start" : 1712653942158,
+        "stop" : 1712653942158,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "f5029847d3be1be9",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'Create' object has no attribute 'xxx'",
+      "time" : {
+        "start" : 1712653795465,
+        "stop" : 1712653795465,
+        "duration" : 0
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "4beda5b9d6a6a78d.json",
+  "parameterValues" : [ "0", "{'merchantId': '100149', 'productId': '2071', 'currency': 'IDR', 'amount': '1000', 'payerPhone': '0888888881', 'payChannel': '18', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}", "0", "'8kc8u438cg877uh387fu65ll012tv6bu'", "'没有配置费率'" ]
+}

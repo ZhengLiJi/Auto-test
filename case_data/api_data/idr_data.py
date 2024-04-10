@@ -60,7 +60,7 @@ def generate_data(channel, payer_phone, data, privateKey,code, paychannel_code, 
                'payerName': 'test',
            }, privateKey, paychannel_code, title
     # xendit1_data = [generate_data(channel, pay_channels['xendit']['phone'], idr_data) for channel in pay_channels['xendit']['channels']]
-    #
+
 
 
 

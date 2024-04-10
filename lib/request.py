@@ -7,9 +7,7 @@ import os
 import json
 import time
 import requests
-import time
-import requests
-from lib.settings.get_time import GetTime
+from lib.utils.settings.get_time import GetTime
 
 class Auto_Login(GetTime):
     def __init__(self):

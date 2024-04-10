@@ -19,7 +19,6 @@ cimb = '6'
 mandiri = '8'
 bri = '9'
 
-
 #各渠道编码
 doku = 1
 midtrans = 2

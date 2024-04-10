@@ -90,6 +90,117 @@ user_routing_payout = [
 
 ] #用户标识路由
 
+normal_routing = [
+    ({
+        'merchantId': merchantId_149,
+        'productId': productId_149,
+        'currency': 'IDR',
+        'amount': '100000',
+        'payChannel': bri,
+        'version': 1.0,
+        'expectPayCodeType': 0,
+        'subject': 'TestSubject',
+        'payerName': 'test'},
+    key_149, xendit, "单个类型的普通路由"),
+
+    ({
+        'merchantId': merchantId_149,
+        'productId': productId_149,
+        'currency': 'IDR',
+        'amount': '100000',
+        'payChannel': linkaja,
+        'version': 1.0,
+        'expectPayCodeType': 0,
+        'subject': 'TestSubject',
+        'payerName': 'test'},
+    key_149, xendit, "单个支付方式的普通路由"),
+
+    ({
+         'merchantId': merchantId_149,
+         'productId': productId_149,
+         'currency': 'IDR',
+         'amount': '10000',
+         'payChannel': cimb,
+         'version': 1.0,
+         'expectPayCodeType': 0,
+         'subject': 'TestSubject',
+         'payerName': 'test'},
+     key_149, oy, "多个支付方式的普通路由"),
+
+    ({
+         'merchantId': merchantId_119,
+         'productId': productId_119,
+         'currency': 'IDR',
+         'amount': '100000',
+         'payChannel': bri,
+         'version': 1.0,
+         'expectPayCodeType': 0,
+         'subject': 'TestSubject',
+         'payerName': 'test'},
+     key_119, oy, "单个商户及单个类型的普通路由"),
+
+    ({
+         'merchantId': merchantId_888,
+         'productId': productId_888,
+         'currency': 'IDR',
+         'amount': '100000',
+         'payChannel': shopeepay,
+         'version': 1.0,
+         'expectPayCodeType': 0,
+         'subject': 'TestSubject',
+         'payerName': 'test'},
+     key_888, xendit, "多个商户及单个类型的普通路由"),
+
+    ({
+        'merchantId': merchantId_119,
+        'productId': productId_119,
+        'currency': 'IDR',
+        'amount': '100000',
+        'payChannel': dana,
+        'version': 1.0,
+        'expectPayCodeType': 0,
+        'subject': 'TestSubject',
+        'payerName': 'test'},
+    key_119, mpi, "单个商户及单个支付方式的普通路由"),
+
+    ({
+         'merchantId': merchantId_149,
+         'productId': productId_149,
+         'currency': 'IDR',
+         'amount': '10000',
+         'payChannel': dana,
+         'version': 1.0,
+         'expectPayCodeType': 0,
+         'subject': 'TestSubject',
+         'payerName': 'test'},
+     key_149, dana_channel, "单个商户及多个支付方式的普通路由"),
+
+    ({
+         'merchantId': merchantId_888,
+         'productId': productId_888,
+         'currency': 'IDR',
+         'amount': '100000',
+         'payChannel': dana,
+         'version': 1.0,
+         'expectPayCodeType': 0,
+         'subject': 'TestSubject',
+         'payerName': 'test'},
+     key_888, oy, "多个商户及单个支付方式的普通路由"),
+
+    ({
+         'merchantId': merchantId_888,
+         'productId': productId_888,
+         'currency': 'IDR',
+         'amount': '100000',
+         'payChannel': linkaja,
+         'version': 1.0,
+         'expectPayCodeType': 0,
+         'subject': 'TestSubject',
+         'payerName': 'test'},
+     key_888, oy, "多个商户及多个支付方式的普通路由"),
+
+] #普通路由
+
 payout_error_case = [
     ({
          'merchantId': 119,
@@ -513,5 +624,21 @@ idempotence_payout = [
      "幂等性")
 ] #幂等性问题
 
+rate_case_payout = [
+    ({
+          'merchantId': merchantId_119,
+          'productId': productId_119,
+          'currency': currency_IDR,
+          'amount': '10000',
+          'accountNumber': '0888888881',
+          'bankCode': 'DANA',
+          'version': 1.0,
+          'description': 'test',
+          'accountHolderName': 'user_xendit'
+     },
+     key_119, xendit, "xendit"),
+
+
+]
 
 

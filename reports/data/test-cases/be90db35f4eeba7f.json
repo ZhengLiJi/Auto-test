@@ -1,0 +1,112 @@
+{
+  "uid" : "be90db35f4eeba7f",
+  "name" : "多个支付方式的金额区间-路由为xendit",
+  "fullName" : "testcase.api_trdae_test.test_create.TestCreate#test_amount_routing",
+  "historyId" : "96aa327fafb6728318242ebdd2d12a7e",
+  "time" : {
+    "start" : 1712635615854,
+    "stop" : 1712635615854,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "statusMessage" : "AttributeError: 'TestCreate' object has no attribute 'log'",
+  "statusTrace" : "self = <test_create.TestCreate object at 0x000001A136D762E0>\ndata = {'amount': '6000', 'currency': 'IDR', 'expectPayCodeType': 0, 'merchantId': '88888', ...}\nprivateKey = 'akiki29dk39dlove0329djustin', paychannel_code = 7\ntitle = '多个支付方式的金额区间-路由为xendit'\n\n    @allure.story('路由金额区间')\n    @pytest.mark.parametrize(\"data, privateKey,paychannel_code, title\", amount_routing)\n    def test_amount_routing(self, data, privateKey, paychannel_code, title):\n        allure.dynamic.title(f\"{title}\")\n>       self.perform_order_test(data, privateKey, pay_channel=paychannel_code)\n\ntest_create.py:105: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <test_create.TestCreate object at 0x000001A136D762E0>\ndata = {'amount': '6000', 'currency': 'IDR', 'expectPayCodeType': 0, 'merchantId': '88888', ...}\nprivateKey = 'akiki29dk39dlove0329djustin', expected_code = None\nexpected_msg = None, expected_type = None, orderNo = None, merchant_fee = None\nchannel_fee = None, pay_channel = 7\n\n    def perform_order_test(self, data, privateKey, expected_code=None, expected_msg=None, expected_type=None, orderNo=None,\n                           merchant_fee=None,channel_fee=None, pay_channel=None):\n        if orderNo is not None and 'orderNo' not in data:\n            # 如果 orderNo 存在且 data 中没有 orderNo 字段，则将 orderNo 添加到 data 中\n            data['orderNo'] = orderNo\n        elif 'orderNo' not in data:\n            data['orderNo'] = 'TestOrderNo_' + self.xxx.time.get_timestamp()\n    \n>       self.log.info(f\"{self.time.date_time_s()} *************** 开始执行用例 ***************\")\nE       AttributeError: 'TestCreate' object has no attribute 'log'\n\ntest_create.py:26: AttributeError",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "_xunit_setup_class_fixture_TestCreate",
+    "time" : {
+      "start" : 1712635615510,
+      "stop" : 1712635615510,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "_xunit_setup_class_fixture_TestCreate::0",
+    "time" : {
+      "start" : 1712635616466,
+      "stop" : 1712635616466,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "针对trade单元测试"
+  }, {
+    "name" : "feature",
+    "value" : "下单接口"
+  }, {
+    "name" : "story",
+    "value" : "路由金额区间"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase.api_trdae_test"
+  }, {
+    "name" : "suite",
+    "value" : "test_create"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCreate"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-QH40KOLE"
+  }, {
+    "name" : "thread",
+    "value" : "24688-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.api_trdae_test.test_create"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "data",
+    "value" : "{'merchantId': '88888', 'productId': '1099', 'currency': 'IDR', 'amount': '6000', 'payChannel': '15', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}"
+  }, {
+    "name" : "paychannel_code",
+    "value" : "7"
+  }, {
+    "name" : "privateKey",
+    "value" : "'akiki29dk39dlove0329djustin'"
+  }, {
+    "name" : "title",
+    "value" : "'多个支付方式的金额区间-路由为xendit'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "be90db35f4eeba7f.json",
+  "parameterValues" : [ "{'merchantId': '88888', 'productId': '1099', 'currency': 'IDR', 'amount': '6000', 'payChannel': '15', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}", "7", "'akiki29dk39dlove0329djustin'", "'多个支付方式的金额区间-路由为xendit'" ]
+}

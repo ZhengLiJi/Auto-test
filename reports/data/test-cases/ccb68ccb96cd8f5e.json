@@ -1,0 +1,103 @@
+{
+  "uid" : "ccb68ccb96cd8f5e",
+  "name" : "多个支付方式的普通路由",
+  "fullName" : "test_create.TestCreate#test_normal_routing",
+  "historyId" : "cec89e0636571ada68e66979a07ea6a3",
+  "time" : {
+    "start" : 1712114266919,
+    "stop" : 1712114269927,
+    "duration" : 3008
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "_xunit_setup_class_fixture_TestCreate",
+    "time" : {
+      "start" : 1712114205304,
+      "stop" : 1712114205304,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "_xunit_setup_class_fixture_TestCreate::0",
+    "time" : {
+      "start" : 1712114320617,
+      "stop" : 1712114320617,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "下单接口"
+  }, {
+    "name" : "epic",
+    "value" : "针对trade单元测试"
+  }, {
+    "name" : "story",
+    "value" : "普通路由场景"
+  }, {
+    "name" : "suite",
+    "value" : "test_create"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCreate"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-QH40KOLE"
+  }, {
+    "name" : "thread",
+    "value" : "21936-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_create"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "data",
+    "value" : "{'merchantId': '100149', 'productId': '2071', 'currency': 'IDR', 'amount': '10000', 'payChannel': '6', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}"
+  }, {
+    "name" : "paychannel_code",
+    "value" : "11"
+  }, {
+    "name" : "privateKey",
+    "value" : "'8kc8u438cg877uh387fu65ll012tv6bu'"
+  }, {
+    "name" : "title",
+    "value" : "'多个支付方式的普通路由'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ccb68ccb96cd8f5e.json",
+  "parameterValues" : [ "{'merchantId': '100149', 'productId': '2071', 'currency': 'IDR', 'amount': '10000', 'payChannel': '6', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}", "11", "'8kc8u438cg877uh387fu65ll012tv6bu'", "'多个支付方式的普通路由'" ]
+}
