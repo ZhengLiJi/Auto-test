@@ -1,0 +1,110 @@
+{
+  "uid" : "e9415eb667cfbbe1",
+  "name" : "默认商户的钱包类型最小限额为1000",
+  "fullName" : "test_create.TestCreate#test_amount_lmiti",
+  "historyId" : "328775b08dd6ce98e74cf9537a2e7a4f",
+  "time" : {
+    "start" : 1712114314904,
+    "stop" : 1712114316364,
+    "duration" : 1460
+  },
+  "status" : "passed",
+  "statusMessage" : "XPASS",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "_xunit_setup_class_fixture_TestCreate",
+    "time" : {
+      "start" : 1712114205304,
+      "stop" : 1712114205304,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "_xunit_setup_class_fixture_TestCreate::0",
+    "time" : {
+      "start" : 1712114320617,
+      "stop" : 1712114320617,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "限额场景"
+  }, {
+    "name" : "feature",
+    "value" : "下单接口"
+  }, {
+    "name" : "epic",
+    "value" : "针对trade单元测试"
+  }, {
+    "name" : "tag",
+    "value" : "@pytest.mark.xfail"
+  }, {
+    "name" : "suite",
+    "value" : "test_create"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCreate"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-QH40KOLE"
+  }, {
+    "name" : "thread",
+    "value" : "21936-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_create"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "data",
+    "value" : "{'merchantId': '100119', 'productId': '2023', 'currency': 'IDR', 'amount': '999', 'payChannel': '18', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}"
+  }, {
+    "name" : "expected_code",
+    "value" : "'88026'"
+  }, {
+    "name" : "expected_msg",
+    "value" : "'the order amount is too small'"
+  }, {
+    "name" : "privateKey",
+    "value" : "'97fa79f073c7c5e3c97b00b50b156eaa'"
+  }, {
+    "name" : "title",
+    "value" : "'默认商户的钱包类型最小限额为1000'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "@pytest.mark.xfail" ]
+  },
+  "source" : "e9415eb667cfbbe1.json",
+  "parameterValues" : [ "{'merchantId': '100119', 'productId': '2023', 'currency': 'IDR', 'amount': '999', 'payChannel': '18', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}", "'88026'", "'the order amount is too small'", "'97fa79f073c7c5e3c97b00b50b156eaa'", "'默认商户的钱包类型最小限额为1000'" ]
+}

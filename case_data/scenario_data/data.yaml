@@ -1,0 +1,24 @@
+
+
+
+  - ( currency: IDR
+    merchantId: '100119'
+    productId: '2023'
+  - amount: '10000'
+    currency: IDR
+    expectPayCodeType: 0
+    merchantId: '100119'
+    payChannel: '17'
+    payerName: test
+    productId: '2023'
+    subject: TestSubject
+    version: 1.0
+  - currency: IDR
+    merchantId: '100119'
+    orderType: '0'
+    productId: '2023'
+    version: '1.0'
+  - currency: IDR
+    merchantId: '100119'
+    productId: '2023'
+  - 97fa79f073c7c5e3c97b00b50b156eaa)

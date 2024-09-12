@@ -1,0 +1,114 @@
+{
+  "uid" : "e82239c0df0c5c98",
+  "name" : "支付方式不存在",
+  "fullName" : "testcase.api_trdae_test.test_create.TestCreate#test_createorder_error",
+  "historyId" : "1552fd68671bcecebb102b0daa0dd3c9",
+  "time" : {
+    "start" : 1712635616231,
+    "stop" : 1712635616231,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "statusMessage" : "XFAIL\n\nAttributeError: 'TestCreate' object has no attribute 'log'",
+  "statusTrace" : "self = <test_create.TestCreate object at 0x000001A136D67FA0>\ndata = {'amount': '10000000', 'currency': 'IDR', 'expectPayCodeType': 0, 'merchantId': '100119', ...}\nprivateKey = '97fa79f073c7c5e3c97b00b50b156eaa', expected_code = '88001'\nexpected_msg = 'inner system error, please try again', title = '支付方式不存在'\n\n    @allure.story(\"下单接口异常case合计\")\n    @pytest.mark.parametrize(\"data, privateKey, expected_code, expected_msg, title\", create_order_data)\n    @pytest.mark.xfail     #断言失败则跳过\n    def test_createorder_error(self,data, privateKey, expected_code, expected_msg, title):\n            allure.dynamic.title(f\"{title}\")\n>           response = self.perform_order_test(data, privateKey, expected_code=expected_code, expected_msg=expected_msg)\n\ntest_create.py:119: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <test_create.TestCreate object at 0x000001A136D67FA0>\ndata = {'amount': '10000000', 'currency': 'IDR', 'expectPayCodeType': 0, 'merchantId': '100119', ...}\nprivateKey = '97fa79f073c7c5e3c97b00b50b156eaa', expected_code = '88001'\nexpected_msg = 'inner system error, please try again', expected_type = None\norderNo = None, merchant_fee = None, channel_fee = None, pay_channel = None\n\n    def perform_order_test(self, data, privateKey, expected_code=None, expected_msg=None, expected_type=None, orderNo=None,\n                           merchant_fee=None,channel_fee=None, pay_channel=None):\n        if orderNo is not None and 'orderNo' not in data:\n            # 如果 orderNo 存在且 data 中没有 orderNo 字段，则将 orderNo 添加到 data 中\n            data['orderNo'] = orderNo\n        elif 'orderNo' not in data:\n            data['orderNo'] = 'TestOrderNo_' + self.xxx.time.get_timestamp()\n    \n>       self.log.info(f\"{self.time.date_time_s()} *************** 开始执行用例 ***************\")\nE       AttributeError: 'TestCreate' object has no attribute 'log'\n\ntest_create.py:26: AttributeError",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "_xunit_setup_class_fixture_TestCreate",
+    "time" : {
+      "start" : 1712635615510,
+      "stop" : 1712635615510,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "_xunit_setup_class_fixture_TestCreate::0",
+    "time" : {
+      "start" : 1712635616466,
+      "stop" : 1712635616466,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "下单接口异常case合计"
+  }, {
+    "name" : "feature",
+    "value" : "下单接口"
+  }, {
+    "name" : "epic",
+    "value" : "针对trade单元测试"
+  }, {
+    "name" : "tag",
+    "value" : "@pytest.mark.xfail"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase.api_trdae_test"
+  }, {
+    "name" : "suite",
+    "value" : "test_create"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCreate"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-QH40KOLE"
+  }, {
+    "name" : "thread",
+    "value" : "24688-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.api_trdae_test.test_create"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "data",
+    "value" : "{'merchantId': '100119', 'productId': '2023', 'currency': 'IDR', 'amount': '10000000', 'payChannel': '1000', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}"
+  }, {
+    "name" : "expected_code",
+    "value" : "'88001'"
+  }, {
+    "name" : "expected_msg",
+    "value" : "'inner system error, please try again'"
+  }, {
+    "name" : "privateKey",
+    "value" : "'97fa79f073c7c5e3c97b00b50b156eaa'"
+  }, {
+    "name" : "title",
+    "value" : "'支付方式不存在'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "@pytest.mark.xfail" ]
+  },
+  "source" : "e82239c0df0c5c98.json",
+  "parameterValues" : [ "{'merchantId': '100119', 'productId': '2023', 'currency': 'IDR', 'amount': '10000000', 'payChannel': '1000', 'version': 1.0, 'expectPayCodeType': 0, 'subject': 'TestSubject', 'payerName': 'test'}", "'88001'", "'inner system error, please try again'", "'97fa79f073c7c5e3c97b00b50b156eaa'", "'支付方式不存在'" ]
+}
