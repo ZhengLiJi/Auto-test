@@ -4,7 +4,7 @@ th = __import__("lib.utils.config.api_th_env", fromlist=[model])
 
 
 class Th:
-    base_url = th.Base.base_url  # 项目域名 比如 https://www.baidu.com/
+    base_url = th.Base.base_url
     # host = th.Base.host
     # mysql_port = th.MySQLConfig.port
 

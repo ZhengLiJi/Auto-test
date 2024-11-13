@@ -8,8 +8,7 @@ import pytest
 import allure
 from api.trade import Trade
 from case_data.scenario_data.scenario import *
-from lib.utils.settings.get_time import GetTime
-from lib.utils.settings.logger import log
+
 
 
 @allure.epic("针对trade业务场景的测试")
@@ -17,8 +16,6 @@ from lib.utils.settings.logger import log
 class TestOrderFailQurest:
     def setup_class(self):
         self.trade = Trade()
-        self.time = GetTime()
-        self.log = log
 
     @allure.story("用例--下单成功/支付失败/查询状态为99--预期成功")
     @allure.title("创建失败订单")

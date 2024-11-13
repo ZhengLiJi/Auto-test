@@ -10,6 +10,7 @@ from api.trade import Trade
 from lib.utils.database.mysql.sql_warp import *
 from case_data.api_data.order_data import *
 import pytest
+from lib.core.client.client_base import ClientBase
 # from create_order_file import CreateOrder
 
 
@@ -19,9 +20,10 @@ class Create:
         self.database_trdae = Dbtrade()
         self.database_usercenter = Dbusercenter()
         self.xxx = Trade()
+        self.client = ClientBase()
 
     """下单接口方法"""
-    def perform_order(self, data, privateKey, expected_code=None, expected_msg=None, expected_type=None, orderNo=None,
+    def perform_order(self, env, data, privateKey, expected_code=None, expected_msg=None, expected_type=None, orderNo=None,
                            merchant_fee=None, channel_fee=None, pay_channel=None):
         if orderNo is not None and 'orderNo' not in data:
             # 如果 orderNo 存在且 data 中没有 orderNo 字段，则将 orderNo 添加到 data 中
@@ -41,20 +43,10 @@ class Create:
                 raise AssertionError(f"{e}")
 
             if pay_channel is not None:
-                if data["payChannel"] == dana:
-                    # 断言链接是否包含"dana"
-                    assert dana_link in result.get('payCode') or \
-                           dana_link2 in result.get('payCode') or \
-                           test_link in result.get('payCode'), "没有返回dana支付方式的链接"
-                elif data["payChannel"] == shopeepay:
-                    assert shopeepay_link in result.get('payCode'), "没有返回shopeepay支付方式的链接"
+                """断言返回的支付payCode是否为预期"""
+                payment_link = self.client.order_method.assert_payment_link_present(str(data["payChannel"]), result.get("payCode"))
 
-                # elif pay_code == qris:
-                #     pass
-
-                elif data["payChannel"] in [bni, permata, bca, cimb, mandiri, bri]:
-                    # 断言支付代码是否全为数字
-                    assert result.get('payCode').isdigit(), "支付代码不全为数字"
+                assert payment_link, "支付介质错误"
 
             # 查询订单数据
             order_data = self.database_trdae.search(f"select * from order_bill where order_no = '{result.get('orderNo')}'")
@@ -64,8 +56,6 @@ class Create:
             if pay_channel is not None:
                 assert order_data[0]['pay_channel'] == pay_channel, f"支付渠道不符合预期，实际值为 {order_data[0]['pay_channel']}"
                 # 如果传入了 pay_channel，则断言支付渠道,路由场景。
-
-
             if merchant_fee is not None:
                 # 如果传入了 merchant_fee，则断言费率，费率场景，查看商户费率是否正常扣除
                 try:
@@ -77,7 +67,6 @@ class Create:
                 if channel_fee is not None:
                     assert order_data[0][
                                'channel_fee'] == channel_fee, f"费率不符合预期，实际值为 {order_data[0]['channel_fee']}"  #渠道费率
-
 
         else:
             # 如果 pay_channel 和 merchant_fee 都没有传入，则默认执行状态码和消息类型的断言
@@ -115,29 +104,24 @@ class Create:
             except AssertionError as e:
                 raise AssertionError(f"{e}")
 
-            if pay_channel is not None:
-                if data["payChannel"] == dana:
-                    # 断言链接是否包含"dana"
-                    assert dana_link in result.get('payCode') or \
-                           dana_link2 in result.get('payCode') or \
-                           test_link in result.get('payCode'), "没有返回dana支付方式的链接"
-                elif data["payChannel"] == shopeepay:
-                    assert shopeepay_link in result.get('payCode'), "没有返回shopeepay支付方式的链接"
-
-                # elif pay_code == qris:
-                #     pass
-
-                elif data["payChannel"] in [bni, permata, bca, cimb, mandiri, bri]:
-                    # 断言支付代码是否全为数字
-                    assert result.get('payCode').isdigit(), "支付代码不全为数字"
-
             # 查询订单数据
-            order_data = self.database_trdae.search(f"select * from order_bill where order_no = '{result.get('orderNo')}'")
+            order_data = self.database_trdae.search(f"select * from payout_bill where order_no = '{result.get('orderNo')}'")
             assert order_data, f"数据库中未找到订单号为 {result.get('orderNo')} 的记录"
             # print(order_data)
 
             if pay_channel is not None:
                 assert order_data[0]['pay_channel'] == pay_channel, f"支付渠道不符合预期，实际值为 {order_data[0]['pay_channel']}"
+
+                #account_keep_log根据年份和季度分表，对应的查询到哪个account_keep_log表
+
+                month = order_data[0]["create_time"].month
+                table_name = "account_keep_log_" + str(order_data[0]["create_time"].year) + self.client.payout_method.choose_quarter(month)
+
+                query = self.database_usercenter.search(f"select * from {table_name} where trade_no = '{order_data[0]['trade_no']}' and action_type = 4")    #查询商户付款记录是否生成 4= 付款"
+                assert query
+                # except:
+                #     query2 = b.search(f"select * from account_keep_log where trade_no = '{order_data[0]['trade_no']}' and action_type = 4")
+
                 # 如果传入了 pay_channel，则断言支付渠道,路由场景。
 
 
@@ -248,7 +232,6 @@ class Create:
             data['refundOrderNo'] = orderNo
         elif 'refundOrderNo' not in data:
             data['refundOrderNo'] = 'TestRefundOrderNo_' + self.xxx.time.get_timestamp()
-            print(data)
 
         self.xxx.log.info(f"{self.xxx.time.date_time_s()} *************** 开始执行用例 ***************")
         result = self.xxx.payout(data, privateKey)
@@ -319,3 +302,4 @@ class Create:
 
     def perform_queryamount(self):
         pass
+

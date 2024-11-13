@@ -4,70 +4,64 @@
 # @Author  : zheng
 # @File    : trade.py
 # @Software: PyCharm
-import allure
 
+import allure
 from lib.create_payout import Payout
 
+
 class Trade(Payout):
+    def __init__(self, env="sit"):
+        self.env = env
 
-    def payout(self,data,private_key):
+    def request(self, data, private_key, endpoint, desc):
         self.setup(data, private_key)
-        resp = self.post_sit(url="/pay/payout", desc='付款接口')
-        return resp
-        # assert result(resp), "Assertion failed for payout request"
+        return self.post(self.env, url=endpoint, desc=desc)
 
-    def refund(self, data, private_key,):
-        self.setup(data, private_key)
-        resp = self.post_sit(url="/pay/refund", desc='退款接口')
-        return resp
+    def payout(self, data, private_key):
+        return self.request(data, private_key, "/pay/payout", '付款接口')
 
-    def queryaccountbalance(self, data, privateKey):
-        # data['orderNo'] = 'TestOrderNo_' + self.time.get_timestamp()
-        self.setup(data, privateKey)
-        resp = self.post_sit(url="/accountInfo/queryAccountBalance", desc='余额查寻接口')
-        return resp
+    def refund(self, data, private_key):
+        return self.request(data, private_key, "/pay/refund", '退款接口')
 
-    def create(self, data, privateKey):
+    def query_account_balance(self, data, private_key):
+        return self.request(data, private_key, "/accountInfo/queryAccountBalance", '余额查询接口')
 
-        self.setup(data, privateKey)
-        resp = self.post_sit(url="/pay/createOrder", desc='支付接口')
-        return resp
-    #
-    def query(self,data,private_key):
-        self.setup(data,private_key)
-        resp = self.post_sit(url="/pay/queryOrder", desc= "订单查询接口")
-        return resp
+    def create(self, data, private_key):
+        return self.request(data, private_key, "/pay/createOrder", '支付接口')
 
-    def award(self, data, privateKey):
-        self.setup(data, privateKey)
-        resp = self.post_sit(url="/pay/award", desc='奖励发放接口')
-        return resp
+    def query(self, data, private_key):
+        return self.request(data, private_key, "/pay/queryOrder", '订单查询接口')
 
-    def query_award_list(self, data, privateKey):
-        self.setup(data, privateKey)
-        resp = self.post_sit(url="/pay/queryAwardList", desc='查询奖励发放产品列表')
-        return resp
+    def award(self, data, private_key):
+        return self.request(data, private_key, "/pay/award", '奖励发放接口')
 
-    def recurring(self, data, privateKey):
-        self.setup(data, privateKey)
-        resp = self.post_sit(url="/recurring/createRecurring", desc='订阅接口')
-        return resp
+    def query_award_list(self, data, private_key):
+        return self.request(data, private_key, "/pay/queryAwardList", '查询奖励发放产品列表')
 
-    def query_recurring(self, data, privateKey):
-        self.setup(data, privateKey)
-        resp = self.post_sit(url="/recurring/queryRecurring", desc='查询订阅接口')
-        return resp
+    def recurring(self, data, private_key):
+        return self.request(data, private_key, "/recurring/createRecurring", '订阅接口')
 
-    def stop_recurring(self, data, privateKey):
-        self.setup(data, privateKey)
-        resp = self.post_sit(url="/recurring/stopRecurring", desc='取消订阅接口')
-        return resp
+    def query_recurring(self, data, private_key):
+        return self.request(data, private_key, "/recurring/queryRecurring", '查询订阅接口')
+
+    def stop_recurring(self, data, private_key):
+        return self.request(data, private_key, "/recurring/stopRecurring", '取消订阅接口')
 
 
+    def encryptCoinPay_createOrder(self, data, private_key):
+        return self.request(data, private_key, "/encryptCoinPay/createOrder", '虚拟币下单接口')
 
+    def encryptCoinPay_payout(self, data, private_key):
+        return self.request(data, private_key, "/encryptCoinPay/payout", '虚拟币付款接口')
 
-            # 返回响应
+    def encryptCoinPay_queryOrder(self, data, private_key):
+        return self.request(data, private_key, "/encryptCoinPay/queryOrder", '查询接口')
 
-    # def quest(self):
 if __name__ == '__main__':
-    pass
+    trade = Trade(env='sit')  # 可选择不同的环境，例如'sit', 'pg', 'la', 等
+    response = trade.create(data={'example_key': 'example_value'}, private_key='your_private_key')
+    print(response)
+
+
+
+

@@ -10,6 +10,7 @@ class Sit:
     mysql_port = sit.MySQLConfig.port
     mysql_user = sit.MySQLConfig.user
     mysql_password = sit.MySQLConfig.password
+    print(mysql_user)
     #
     # redis_port = dev.Base.redis_port
     # pg_port = dev.PGSQLConfig.port

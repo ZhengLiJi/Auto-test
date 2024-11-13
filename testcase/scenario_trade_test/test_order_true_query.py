@@ -8,14 +8,14 @@ import pytest
 import allure
 from api.trade import Trade
 from case_data.scenario_data.scenario import *
-from lib.utils.settings.get_time import GetTime
+from lib.core.client.client_base import ClientBase
 import os
 @allure.epic("针对收款业务场景的测试")
 @allure.feature("下单成功，支付成功，回调成功，记账成功，插入结算账单")
 class TestOrderTrueQurest:
         def setup_class(self):
             self.trade = Trade()
-            self.time = GetTime()
+            self.client = ClientBase()
 
         @allure.story("用例--查询余额/下单成功/回调成功/查询余额，余额增加/结算--预期成功")
         @allure.title("创建支付成功订单")
@@ -30,7 +30,7 @@ class TestOrderTrueQurest:
                 allure.attach(f"下单前余额: {balance_before_order}", name="下单前余额")
 
             with allure.step("步骤2: 创建成功订单"):
-                create_order_data['orderNo'] = 'TestOrderNo_' + self.time.get_timestamp()
+                create_order_data['orderNo'] = 'TestOrderNo_' + self.trade.time.get_timestamp()
                 order_resp = self.trade.create(create_order_data, privateKey)
                 allure.attach(f"订单响应: {order_resp}", name="创建订单响应")
 
@@ -48,6 +48,9 @@ class TestOrderTrueQurest:
                        balance_after_order['accountInfoList'][1]['balance'] == \
                        balance_before_order['accountInfoList'][1]['balance']
 
+            with allure.step("步骤五: 结算记录是否插入成功插入成功"):
+                query_settlement = self.client.sql.settlement_select('order_no', create_order_data)
+                assert query_settlement is not None and query_settlement != [], "查询结果为空或为 None"
 
 
 if __name__ == '__main__':

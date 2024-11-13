@@ -1,4 +1,3 @@
-
 import requests
 from lib.base_utils import BaseUtils
 from lib.utils.config.sit import sit_config
@@ -34,25 +33,21 @@ class Payout(BaseUtils):
             self.log.error(f"请求异常: {e}")
             raise
 
-    def post_sit(self, url, desc):
-        return self.send_post_request(sit_config.base_url, url, desc)
-
-    def post_pg(self, url, desc):
-        return self.send_post_request(pg_config.base_url, url, desc)
-
-    def post_la(self, url, desc):
-        return self.send_post_request(la_config.base_url, url, desc)
-
-    def post_id(self, url, desc):
-        return self.send_post_request(id_config.base_url, url, desc)
-
-    def post_th(self, url, desc):
-        return self.send_post_request(th_config.base_url, url, desc)
-
-    def post_ph(self, url, desc):
-        return self.send_post_request(ph_config.base_url, url, desc)
-
+    def post(self, env, url, desc):
+        config = {
+            "sit": sit_config.base_url,
+            "pg": pg_config.base_url,
+            "la": la_config.base_url,
+            "id": id_config.base_url,
+            "th": th_config.base_url,
+            "ph": ph_config.base_url
+        }
+        base_url = config.get(env)
+        if base_url is None:
+            raise ValueError(f"未知的环境: {env}")
+        return self.send_post_request(base_url, url, desc)
 
 
 if __name__ == '__main__':
+    # 示例用法
     pass

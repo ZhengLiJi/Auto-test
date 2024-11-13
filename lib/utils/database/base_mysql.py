@@ -3,7 +3,7 @@ from abc import abstractmethod
 import pandas as pd
 
 from lib.utils.settings.logger import log
-
+# from lib.utils.database.mysql.sql_warp import *
 
 class BaseSQL(object):
     __instance = {}
@@ -142,3 +142,6 @@ class BaseSQL(object):
 
 if __name__ == '__main__':
     pass
+    # a = Dbtrade()
+    # b = a.search("select * from order_bill order by id desc limit 1")
+    # print(b('utf-8'))

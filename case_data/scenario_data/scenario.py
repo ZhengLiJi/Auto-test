@@ -69,5 +69,40 @@ order_fail_qurest_data= [
     'currency': 'IDR'
           },'97fa79f073c7c5e3c97b00b50b156eaa')
 ]
+order_pending_qurest_data= [
+# 商户id, 产品id, 币种，金额，支付方式，版本信息，， except_code, except_msg
 
+        ( {
+         'merchantId': '100119',
+         'productId': '2023',
+         'currency': 'IDR'
+          },
+        {
+        'merchantId': '100119',
+        'productId': '2023',
+        'currency': 'IDR',
+        'amount': '10110',
+        'payChannel': '17',
+        'version': 1.0,
+        'expectPayCodeType': 0,
+        'subject': 'TestSubject',
+        'payerName': 'test'
+          },
+         {'merchantId': '100119',
+         'productId': '2023',
+         'currency': 'IDR',
+         'version' : '1.0',
+         'orderType' : '0'
+          },
+          {
+    'merchantId': '100119',
+    'productId': '2023',
+    'currency': 'IDR'
+          },'97fa79f073c7c5e3c97b00b50b156eaa')
+]
 
+payout_fail_qurest_data = []
+
+payout_true_qurest_data = []
+
+payout_pending_qurest_data = []

@@ -17,6 +17,7 @@ class BaseUtils:
         if self._have.get("time") is None:
             self._have['time'] = GetTime()
         return self._have['time']
+
     @property
     def random(self):
         if self._have.get("random") is None:
@@ -37,3 +38,5 @@ if __name__ == '__main__':
     a = BaseUtils()
     a.log.info("abc")
     a.log.info("def")
+    b = a.time.get_timestamp()
+    print(b)

@@ -1,57 +1,108 @@
 import allure
 import os
-from api.trade import Trade
-from lib.utils.database.mysql.sql_warp import *
 from case_data.api_data.order_data import *
 import pytest
 # from create_order_file import CreateOrder
 from testcase.payout.create import Create
+import time
 @allure.epic("针对trade单元测试")
 @allure.feature("下单接口")
 class TestCreate:
-    @allure.story('费率场景')
-    @pytest.mark.parametrize("data, privateKey,merchant_fee,channel_fee, title", rate_case)
-    def test_rate_case(self, data, privateKey, merchant_fee, channel_fee, title):
-        allure.dynamic.title(f"{title}")
-        Create().perform_order(data, privateKey, merchant_fee=merchant_fee, channel_fee=channel_fee)
+    class TestCreate:
 
-    @allure.story('路由用户标识')
-    @pytest.mark.parametrize("data, privateKey, paychannel_code, title", user_routing)
-    def test_user_routing(self, data, privateKey, paychannel_code, title):
-        allure.dynamic.title(f"{title}")
-        Create().perform_order(data, privateKey, pay_channel=paychannel_code)
+        def get_current_env(self):
+            return os.environ.get('env')
 
-    @allure.story('路由金额区间')
-    @pytest.mark.parametrize("data, privateKey,paychannel_code, title", amount_routing)
-    def test_amount_routing(self, data, privateKey, paychannel_code, title):
-        allure.dynamic.title(f"{title}")
-        Create().perform_order(data, privateKey, pay_channel=paychannel_code)
+        def skip_if_env_not_match(self, test_env):
+            current_env = self.get_current_env()
+            if test_env != current_env:
+                pytest.skip(
+                    f"Skipping test because current environment '{current_env}' does not match test environment '"
+                    f"{test_env}'"
+                )
 
-    @allure.story('普通路由场景')
-    @pytest.mark.parametrize("data, privateKey, paychannel_code, title", normal_routing)
-    def test_normal_routing(self, data, privateKey, paychannel_code, title):
-        allure.dynamic.title(f"{title}")
-        Create().perform_order(data, privateKey, pay_channel=paychannel_code)
+        # @allure.story('费率场景')
+        # @pytest.mark.parametrize("data, env, privateKey, merchant_fee, channel_fee, title", rate_case)
+        # def test_rate_case(self, data, env, privateKey, merchant_fee, channel_fee, title):
+        #     allure.dynamic.title(f"{title}")
+        #     self.skip_if_env_not_match(env)
+        #     # 打印参数化数据的值
+        #     print(
+        #         f"Running test with data: {data}, env: {env}, privateKey: {privateKey}, merchant_fee: {merchant_fee}, "
+        #         f"channel_fee: {channel_fee}, title: {title}")
+        #     # 调用 perform_order() 方法
+        #     Create().perform_order(env, data, privateKey, merchant_fee=merchant_fee, channel_fee=channel_fee)
+        #
+        # @allure.story('路由用户标识')
+        # @pytest.mark.parametrize("data, env, privateKey, paychannel_code, title", user_routing)
+        # def test_user_routing(self, data, env, privateKey, paychannel_code, title):
+        #     allure.dynamic.title(f"{title}")
+        #     self.skip_if_env_not_match(env)
+        #     # 打印参数化数据的值
+        #     print(
+        #         f"Running test with data: {data}, env: {env}, privateKey: {privateKey}, paychannel_code: "
+        #         f"{paychannel_code}, title: {title}")
+        #     # 调用 perform_order() 方法
+        #     Create().perform_order(env, data, privateKey, pay_channel=paychannel_code)
 
-
-    @allure.story("下单接口异常case合计")
-    @pytest.mark.parametrize("data, privateKey, expected_code, expected_msg, title", create_order_data)
-    @pytest.mark.xfail     #断言失败则跳过
-    def test_createorder_error(self,data, privateKey, expected_code, expected_msg, title):
+        @allure.story('路由金额区间')
+        @pytest.mark.parametrize("data, env, privateKey, paychannel_code, title", amount_routing)
+        def test_amount_routing(self, data, env, privateKey, paychannel_code, title):
             allure.dynamic.title(f"{title}")
-            response = Create().perform_order(data, privateKey, expected_code=expected_code, expected_msg=expected_msg)
-            print(response)
+            self.skip_if_env_not_match(env)
+            # 打印参数化数据的值
+            print(
+                f"Running test with data: {data}, env: {env}, privateKey: {privateKey}, paychannel_code: "
+                f"{paychannel_code}, title: {title}")
+            # 调用 perform_order() 方法
+            Create().perform_order(env, data, privateKey, pay_channel=paychannel_code)
+            start_time = time.time()  # 记录开始时间
+            duration = 5  # 设置循环持续的时间，单位为秒
 
-    @allure.story("限额场景")
-    @pytest.mark.parametrize("data, privateKey, expected_code, expected_msg, title", amount_lmiti)
-    @pytest.mark.xfail     #断言失败则跳过
-    def test_amount_lmiti(self,data, privateKey, expected_code, expected_msg, title):
-            allure.dynamic.title(f"{title}")
-            response = Create().perform_order(data, privateKey, expected_code=expected_code, expected_msg=expected_msg)
-            print(response)
+            while time.time() - start_time < duration:
+                print(f"Running with data: {data}, env: {env}, privateKey: {privateKey}, "
+                      f"paychannel_code: {paychannel_code}, title: {title}")
+
+                # 调用 perform_order() 方法
+                Create().perform_order(env, data, privateKey, pay_channel=paychannel_code)
+
+                time.sleep(1)
+        # @allure.story('普通路由场景')
+        # @pytest.mark.parametrize("data, env, privateKey, paychannel_code, title", normal_routing)
+        # def test_normal_routing(self, data, env, privateKey, paychannel_code, title):
+        #     allure.dynamic.title(f"{title}")
+        #     self.skip_if_env_not_match(env)
+        #     # 打印参数化数据的值
+        #     print(
+        #         f"Running test with data: {data}, env: {env}, privateKey: {privateKey}, paychannel_code: "
+        #         f"{paychannel_code}, title: {title}")
+        #     # 调用 perform_order() 方法
+        #     Create().perform_order(env, data, privateKey, pay_channel=paychannel_code)
+        #
+        # # 为了避免过快循环，延迟 1 秒
+
+
+
+    # @allure.story("下单接口异常case合计")
+    # @pytest.mark.parametrize("data, privateKey, expected_code, expected_msg, title", create_order_data)
+    # @pytest.mark.xfail     #断言失败则跳过
+    # def test_create_order_error(self,data, privateKey, expected_code, expected_msg, title):
+    #         allure.dynamic.title(f"{title}")
+    #         response = Create().perform_order(data, privateKey, expected_code=expected_code, expected_msg=expected_msg)
+    # #         print(response)
+    #
+    # @allure.story("限额场景")
+    # @pytest.mark.parametrize("data, privateKey, expected_code, expected_msg, title", amount_lmiti)
+    # @pytest.mark.xfail     #断言失败则跳过
+    # def test_amount_lmiti(self, env, data, privateKey, expected_code, expected_msg, title):
+    #         allure.dynamic.title(f"{title}")
+    #         response = Create().perform_order(data, privateKey, expected_code=expected_code, expected_msg=expected_msg)
+    #         print(response)
+
 
 
 if __name__ == '__main__':
+    pass
     if os.path.exists("D:/Tiki/results"):
         os.system("rm -r D:/Tiki/results")
 

@@ -12,9 +12,7 @@ from lib.utils.config.id import id_config
 from lib.utils.config.th import th_config
 
 
-# 两边的类名取反了。 这里才是api了。
-# 你另外一边继承的class， 才是TestCase了。 命名规则你需要修改
-# 文件名也错了， 用例文件名需要test_开头或者_test结尾
+
 @allure.epic("trade")
 class CreateOrder(BaseUtils):
     # class CreateOrder(BaseUtils):

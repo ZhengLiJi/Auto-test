@@ -213,7 +213,7 @@ payout_error_case = [
          'description': 'test',
          'accountHolderName': 'user_xendit'
      },
-     key_119, '88001', '', "merchantid不存在"),
+     key_119, '88070', 'merchant permission is not supported', "merchantid不存在"),
 
     ({
          'merchantId': "",
@@ -226,7 +226,7 @@ payout_error_case = [
          'description': 'test',
          'accountHolderName': 'user_xendit'
      },
-     key_119, '88001', '', "merchantid不为空"),
+     key_119, '88070', 'merchant permission is not supported', "merchantid不为空"),
 
     ({
          'merchantId': "sad1231",
@@ -239,7 +239,7 @@ payout_error_case = [
          'description': 'test',
          'accountHolderName': 'user_xendit'
      },
-     key_119, '88001', '', "merchantid只接受纯数字"),
+     key_119, '88070', 'merchant permission is not supported', "merchantid只接受纯数字"),
 
     ({
          'productId': productId_119,
@@ -251,7 +251,7 @@ payout_error_case = [
          'description': 'test',
          'accountHolderName': 'user_xendit'
      },
-     key_119, '88001', '',  "merchantid为必传参数"),
+     key_119, '88070', 'merchant permission is not supported',  "merchantid为必传参数"),
 
     ({
          'merchantId': merchantId_119,
@@ -264,7 +264,7 @@ payout_error_case = [
          'description': 'test',
          'accountHolderName': 'user_xendit'
      },
-     key_119, '88001', '', "productId不存在"),
+     key_119, '88032', 'productId is not valid', "productId不存在"),
 
     ({
          'merchantId': merchantId_119,
@@ -277,7 +277,7 @@ payout_error_case = [
          'description': 'test',
          'accountHolderName': 'user_xendit'
      },
-     key_119, '88001', '', "productId不为空"),
+     key_119, '88001', ' ', "productId不为空"),
 
     ({
          'merchantId': merchantId_119,
@@ -328,7 +328,7 @@ payout_error_case = [
          'description': 'test',
          'accountHolderName': 'user_xendit'
      },
-     key_119, '88001', '', "currency不为空"),
+     key_119, '88001', 'length of currency field is too long', "currency不为空"),
 
     ({
          'merchantId': merchantId_119,
@@ -340,7 +340,7 @@ payout_error_case = [
          'description': 'test',
          'accountHolderName': 'user_xendit'
      },
-     key_119, '88001', '', "currency为必传参数"),
+     key_119, '88001', 'currency can not be blank', "currency为必传参数"),
 
     ({
          'merchantId': merchantId_119,
@@ -353,7 +353,7 @@ payout_error_case = [
          'description': 'test',
          'accountHolderName': 'user_xendit'
      },
-     key_119, '88001', '', "amout金额不接受小数点"),
+     key_119, '88048', 'amount should be integer', "amount金额不接受小数点"),
 
     ({
          'merchantId': merchantId_119,
@@ -379,7 +379,7 @@ payout_error_case = [
          'description': 'test',
          'accountHolderName': 'user_xendit'
      },
-     key_119, '88001', '', "amout金额不为空"),
+     key_119, '88001', 'amount can not be blank', "amout金额不为空"),
 
     ({
          'merchantId': merchantId_119,
@@ -391,7 +391,7 @@ payout_error_case = [
          'description': 'test',
          'accountHolderName': 'user_xendit'
      },
-     key_119, '88001', '', "amout是必传参数"),
+     key_119, '88001', 'amount can not be blank', "amout是必传参数"),
 
     ({
          'merchantId': merchantId_119,
@@ -404,7 +404,7 @@ payout_error_case = [
          'description': 'test',
          'accountHolderName': 'user_xendit'
      },
-     key_119, '88001', '', "bankCode不存在"),
+     key_119, '88011', 'this channel is not supported yet', "bankCode不存在"),
 
     ({
          'merchantId': merchantId_119,
@@ -417,7 +417,7 @@ payout_error_case = [
          'description': 'test',
          'accountHolderName': 'user_xendit'
      },
-     key_119, '88001', '', "bankCode为空"),
+     key_119, '88001', 'length of bankCode field is too long', "bankCode为空"),
 
     ({
          'merchantId': merchantId_119,
@@ -429,7 +429,7 @@ payout_error_case = [
          'description': 'test',
          'accountHolderName': 'user_xendit'
      },
-     key_119, '88001', '', "bankCode是必传参数"),
+     key_119, '88001', 'bankCode can not be blank ', "bankCode是必传参数"),
 
     ({
          'merchantId': merchantId_119,
@@ -442,7 +442,7 @@ payout_error_case = [
          'description': '',
          'accountHolderName': 'user_xendit'
      },
-     key_119, '88001', '', "description不为空"),
+     key_119, '88001', 'length of description field is too long', "description不为空"),
 
     ({
          'merchantId': merchantId_119,
@@ -454,7 +454,7 @@ payout_error_case = [
          'version': 1.0,
          'accountHolderName': 'user_xendit'
      },
-     key_119, '88001', '', "description为必填参数"),
+     key_119, '88001', 'description can not be blank', "description为必填参数"),
 
     ({
          'merchantId': merchantId_119,
@@ -467,7 +467,7 @@ payout_error_case = [
          'description': 'test',
          'accountHolderName': 'user_xendit'
      },
-     key_119, '88001', '', "支付方式为钱包的必须为08开头"),
+     key_119, '88040', 'phone of ewallet payout must start with 08', "支付方式为钱包的必须为08开头"),
 
     ({
          'merchantId': merchantId_119,
@@ -480,7 +480,7 @@ payout_error_case = [
          'description': 'test',
          'accountHolderName': 'user_xendit'
      },
-     key_119, '88001', '', "accountNumber不为空"),
+     key_119, '88001', 'length of accountNumber field is too long', "accountNumber不为空"),
 
     ({
          'merchantId': merchantId_119,
@@ -492,7 +492,7 @@ payout_error_case = [
          'description': 'test',
          'accountHolderName': 'user_xendit'
      },
-     key_119, '88001', '', "accountNumber为必传参数"),
+     key_119, '88001', 'accountNumber can not be blank', "accountNumber为必传参数"),
 
     ({
          'merchantId': merchantId_119,
@@ -505,75 +505,8 @@ payout_error_case = [
          'description': 'test',
          'accountHolderName': ''
      },
-     key_119, '88001', '', "accountHolderName不为空"),
+     key_119, '88001', 'length of accountHolderName field is too long', "accountHolderName不为空"),
 
-    ({
-         'merchantId': merchantId_119,
-         'productId': productId_119,
-         'currency': currency_IDR,
-         'amount': '10000',
-         'accountNumber': '0888888881',
-         'bankCode': 'DANA',
-         'version': 1.0,
-         'description': 'test'
-     },
-     key_119, '88001', '', "accountHolderName为必填参数"),
-
-    ({
-         'merchantId': merchantId_119,
-         'productId': productId_119,
-         'currency': currency_IDR,
-         'amount': '10000',
-         'accountNumber': '0888888881',
-         'bankCode': 'DANA',
-         'version': 1.0,
-         'description': 'test',
-         'accountHolderName': ''
-     },
-     key_119, '88001', '', "accountHolderName不为空"),
-
-    ({
-         'merchantId': merchantId_119,
-         'productId': productId_119,
-         'currency': currency_IDR,
-         'amount': '10000',
-         'accountNumber': '0888888881',
-         'bankCode': 'DANA',
-         'version': 1.0,
-         'description': 'test',
-         'accountHolderName': ''
-     },
-     key_119, '88001', '', "accountHolderName不为空"),
-
-    ({
-         'merchantId': merchantId_119,
-         'productId': productId_119,
-         'currency': currency_IDR,
-         'amount': '10000',
-         'accountNumber': '0888888881',
-         'bankCode': 'DANA',
-         'version': 1.0,
-         'description': 'test',
-         'accountHolderName': 'test',
-         'sign': 'sign'
-
-     },
-     key_119, '88001', '', "sign未校验"),
-
-    ({
-         'merchantId': merchantId_119,
-         'productId': productId_119,
-         'currency': currency_IDR,
-         'amount': '10000',
-         'accountNumber': '0888888881',
-         'bankCode': 'DANA',
-         'version': 1.0,
-         'description': 'test',
-         'accountHolderName': 'test',
-         'sign': ''
-
-     },
-     key_119, '88001', '', "sign为空"),
 
 ] #异常case
 
@@ -603,7 +536,7 @@ amount_limit_payout = [
          'description': 'test',
          'accountHolderName': 'test'
      },
-     key_119, '88036', "the order amount is too small",
+     key_119, '88036', "the order amount is too big",
      "指定商户钱包类型最小限额为10000"),
 
 ] #商户限额场景
@@ -636,9 +569,20 @@ rate_case_payout = [
           'description': 'test',
           'accountHolderName': 'user_xendit'
      },
-     key_119, xendit, "xendit"),
+     key_119, 5000, 6000, "商户和渠道的基础费率"),
 
-
-]
+    ({
+         'merchantId': merchantId_119,
+         'productId': productId_119,
+         'currency': currency_IDR,
+         'amount': '10000',
+         'accountNumber': '0888888881',
+         'bankCode': 'BNI',
+         'version': 1.0,
+         'description': 'test',
+         'accountHolderName': 'user_xendit'
+     },
+     key_119, 201, 3100, "商户和渠道的基础费率+比例费率"),
+] #费率场景
 
 

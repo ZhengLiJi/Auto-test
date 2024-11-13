@@ -12,6 +12,8 @@ def mysql_wrap(cls):
 class Dbtrade:
     database = "trade"
 
+
+@mysql_wrap
 class Dbusercenter:
     database = "usercenter"
 
@@ -21,7 +23,13 @@ class Store:
 
 
 if __name__ == '__main__':
+
     a = Dbtrade()
-    rsp = a.search("select * from order_bill where id = 1")
+    # b = Dbusercenter()
+    rsp = a.search("select * from order_bill order by id desc limit 1")
+    # s = rsp[0]["create_time"].year
+    # c = rsp[0]["create_time"].month
     print(rsp)
-    pass
+
+
+

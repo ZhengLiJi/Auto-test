@@ -35,6 +35,11 @@ if __name__ == '__main__':
     #     "email": "guanxinran@tikipay.co",
     #     'orderNo': 'TestOrderNo_1709804705258'
     # }
+
+
+    data = {'"amount"=2785.25&"callbackUrl"=https://middlepay.abilitylkcat.com/api_server/v2/finance/abroad/quartet/callback/order/IJ227522338901825882075835454676/dlabroad&currency=PHP&expectPayCodeType=1&goodsDetail=Extra coins 2499 + Extra VIP 30 days&merchantId=89058&orderNo=IJ227522338901825882075835454676&payChannel=33&payerEmail=fausto.schaden@elc.com&payerName=Fletcher Hayes&payerPhone=63965205743&productId=3057&returnUrl=https://h5.maverickmeki.com/middle-bill/xamrep/&sign=67d26c018a3e511ca07bbd2c950c0d68&subject=Coins 49990&version=1.0'}
+
+
     #
     # private_key = '97fa79f073c7c5e3c97b00b50b156eaa'
     #
