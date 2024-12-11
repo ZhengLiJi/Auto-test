@@ -49,4 +49,4 @@ def main():
     run_tests_for_envs(envs, test_file)
 
 if __name__ == "__main__":
-        main()
+    main()
